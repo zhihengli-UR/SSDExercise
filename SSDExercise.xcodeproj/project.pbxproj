@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D61AAF3689007C8436 /* AppDelegate.swift */; };
-		B45BC3D91AAF3689007C8436 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D81AAF3689007C8436 /* FirstViewController.swift */; };
-		B45BC3DB1AAF3689007C8436 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3DA1AAF3689007C8436 /* SecondViewController.swift */; };
 		B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DC1AAF3689007C8436 /* Main.storyboard */; };
 		B45BC3E01AAF3689007C8436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DF1AAF3689007C8436 /* Images.xcassets */; };
 		B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */; };
 		B45BC3EF1AAF3689007C8436 /* SSDExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */; };
+		B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +29,13 @@
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3D51AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3D61AAF3689007C8436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B45BC3D81AAF3689007C8436 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B45BC3DA1AAF3689007C8436 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B45BC3DD1AAF3689007C8436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B45BC3DF1AAF3689007C8436 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B45BC3E21AAF3689007C8436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B45BC3E81AAF3689007C8436 /* SSDExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSDExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3ED1AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDExerciseTests.swift; sourceTree = "<group>"; };
+		B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBookCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4337D1C1AAF435600B3A927 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		B45BC3C81AAF3689007C8436 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +85,8 @@
 		B45BC3D31AAF3689007C8436 /* SSDExercise */ = {
 			isa = PBXGroup;
 			children = (
+				B4337D1C1AAF435600B3A927 /* Controller */,
 				B45BC3D61AAF3689007C8436 /* AppDelegate.swift */,
-				B45BC3D81AAF3689007C8436 /* FirstViewController.swift */,
-				B45BC3DA1AAF3689007C8436 /* SecondViewController.swift */,
 				B45BC3DC1AAF3689007C8436 /* Main.storyboard */,
 				B45BC3DF1AAF3689007C8436 /* Images.xcassets */,
 				B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */,
@@ -215,9 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45BC3DB1AAF3689007C8436 /* SecondViewController.swift in Sources */,
 				B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */,
-				B45BC3D91AAF3689007C8436 /* FirstViewController.swift in Sources */,
+				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SSDExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +356,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SSDExercise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +417,7 @@
 				B45BC3F41AAF3689007C8436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45BC3F51AAF3689007C8436 /* Build configuration list for PBXNativeTarget "SSDExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				B45BC3F71AAF3689007C8436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
