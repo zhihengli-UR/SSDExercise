@@ -1,0 +1,3073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>1</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> I only
+</string>
+		<key>question</key>
+		<string>1. Which of the following is (are) true about publishing a Web page? 
+The WWW committee must certify that all information is accurate. 
+The WWW committee must certify that all information is up-to-date.
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>2</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A collection of commercial sites that offer free disk space but sell advertising space
+ </string>
+		<key>optionB</key>
+		<string> The portion of computers on the Internet that communicate via FTP
+ </string>
+		<key>optionC</key>
+		<string> The portion of computers on the Internet that communicate via HTTP
+ </string>
+		<key>optionD</key>
+		<string> A collection of commercial sites that sell products and services  
+</string>
+		<key>question</key>
+		<string>2. Of the following, which is the most accurate characterization of the World Wide Web ? 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>3</string>
+		<key>identifier</key>
+		<string>3</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> person who collects and manipulates Web pages
+ </string>
+		<key>optionB</key>
+		<string> program that provides information requested by a Web client
+ </string>
+		<key>optionC</key>
+		<string> special computer used to run powerful Web browsers
+ </string>
+		<key>optionD</key>
+		<string> Web browser used on a client computer </string>
+		<key>question</key>
+		<string>3. The term Web server refers to a 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>4</string>
+		<key>identifier</key>
+		<string>4</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It allows Web sites to trace the geographical location of a client.
+ </string>
+		<key>optionB</key>
+		<string> It specifies the location of a Web page.
+ </string>
+		<key>optionC</key>
+		<string> It describes how text in a Web page is to be formatted.
+ </string>
+		<key>optionD</key>
+		<string> It sells customers connections to the Internet.  
+</string>
+		<key>question</key>
+		<string>4. In the context of the World Wide Web, which of the following is true about a Uniform Resource Locator ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>5</string>
+		<key>identifier</key>
+		<string>5</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Information on the Web might not be accurate.
+ </string>
+		<key>optionB</key>
+		<string> Web organizations ensure that information on the Web is accurate.
+ </string>
+		<key>optionC</key>
+		<string> Web server programs ensure that information on the Web is accurate.
+ </string>
+		<key>optionD</key>
+		<string> Web administrators ensure that information on the Web is accurate.  </string>
+		<key>question</key>
+		<string> 5.  Which of the following is true about the accuracy of information on the Web ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>6</string>
+		<key>identifier</key>
+		<string>6</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II and III only </string>
+		<key>question</key>
+		<string> 6. Which of the following statements is (are) true about the Internet ? 
+The Internet is a computer network. 
+The Internet is a synonym for the World Wide Web. 
+The Internet is a service offered by the World Wide Web.
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>7</string>
+		<key>identifier</key>
+		<string>7</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string> 7. Which of the following can be inferred from the URL of a file ? 
+Location of the file 
+Communication protocol used to transfer the file
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>8</string>
+		<key>identifier</key>
+		<string>8</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is a service that runs on the Internet.
+ </string>
+		<key>optionB</key>
+		<string> It is a collection of all the data accessible over the Internet.
+ </string>
+		<key>optionC</key>
+		<string> It consists of all the computers around the world.
+ </string>
+		<key>optionD</key>
+		<string> It is a network of computers that provide multimedia information.  </string>
+		<key>question</key>
+		<string> 8. What is the World Wide Web? 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>9</string>
+		<key>identifier</key>
+		<string>9</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> FTP
+ </string>
+		<key>optionB</key>
+		<string> URL
+ </string>
+		<key>optionC</key>
+		<string> HTTP
+ </string>
+		<key>optionD</key>
+		<string> HTML  </string>
+		<key>question</key>
+		<string> 9. A Web server and a Web client communicate using the _____ protocol . 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>10</string>
+		<key>identifier</key>
+		<string>10</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II only
+</string>
+		<key>question</key>
+		<string> 10. Which of the following must be obtained in order to publish information in the Web ? 
+Authorization to publish Web pages from the WWW organization 
+Certificate of accuracy of contents from ARPA
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>11</string>
+		<key>identifier</key>
+		<string>11</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> prefix every line of the enclosed text with its line number
+ </string>
+		<key>optionB</key>
+		<string> instruct the browser to ignore line feeds in the enclosed text
+ </string>
+		<key>optionC</key>
+		<string> instruct the browser to ignore the space in the enclosed text
+ </string>
+		<key>optionD</key>
+		<string> enclose preformatted  text  
+</string>
+		<key>question</key>
+		<string>11. The &lt;PRE&gt; tag is used to 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>12</string>
+		<key>identifier</key>
+		<string>12</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> an unordered list
+ </string>
+		<key>optionB</key>
+		<string> separating text into paragraphs
+ </string>
+		<key>optionC</key>
+		<string> generating a numbered list
+ </string>
+		<key>optionD</key>
+		<string> underlining text  
+</string>
+		<key>question</key>
+		<string>12. The tags &lt;UL &gt;&lt;/UL&gt; are used for  
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>13</string>
+		<key>identifier</key>
+		<string>13</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> required and must be the URL of an image file
+ </string>
+		<key>optionB</key>
+		<string> optional and when used must be the size of an image file
+ </string>
+		<key>optionC</key>
+		<string> optional and when used must be the URL of an image file
+ </string>
+		<key>optionD</key>
+		<string> required and must be the size of an image file  
+</string>
+		<key>question</key>
+		<string>13. In a functional &lt;IMG&gt; tag, the SRC attribute is 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>14</string>
+		<key>identifier</key>
+		<string>14</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III </string>
+		<key>question</key>
+		<string>14. Which of the following determine(s) how an HTML page is displayed? 
+Physical style tags 
+Logical style tags 
+HTML comments
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>15</string>
+		<key>identifier</key>
+		<string>15</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> &lt;font color="#00ff00"&gt;Green &lt;/font&gt;
+&lt;font color="#000000"&gt;Black &lt;/font&gt;
+&lt;font color="#ff00ff"&gt;Pink &lt;/font&gt;
+</string>
+		<key>optionB</key>
+		<string> &lt;font color="gg0000"&gt;Green &lt;/font&gt;
+&lt;font color="00bb00"&gt;Black &lt;/font&gt;
+&lt;font color="0000pp"&gt;Pink &lt;/font&gt;
+</string>
+		<key>optionC</key>
+		<string> &lt;color font=green&gt;Green &lt;/font&gt;
+&lt;color font=black&gt;Black &lt;/font&gt;
+&lt;color font=pink&gt;Pink &lt;/font&gt;
+</string>
+		<key>optionD</key>
+		<string> &lt;color&gt;Green &lt;/color&gt;
+&lt;color&gt;Black &lt;/color&gt;</string>
+		<key>question</key>
+		<string>15. Which of these HTML segments can be used to display the following line ?
+Green Black Pink 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>16</string>
+		<key>identifier</key>
+		<string>16</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> &lt;b&gt;Welcome&lt;/b&gt;
+ </string>
+		<key>optionB</key>
+		<string> &lt;b Welcome /b&gt;
+ </string>
+		<key>optionC</key>
+		<string> Welcome &lt;b&gt;&lt;/b&gt;
+ </string>
+		<key>optionD</key>
+		<string> &lt;b&gt;&lt;/b&gt;Welcome  </string>
+		<key>question</key>
+		<string>16. Which of the following HTML elements displays the word "Welcome" in bold?  
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>17</string>
+		<key>identifier</key>
+		<string>17</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> java tags
+ </string>
+		<key>optionB</key>
+		<string> HTML tags
+ </string>
+		<key>optionC</key>
+		<string> java comments
+ </string>
+		<key>optionD</key>
+		<string> HTML comments  
+</string>
+		<key>question</key>
+		<string>17. A browser uses these in deciding how to display text 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>18</string>
+		<key>identifier</key>
+		<string>18</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> &lt;a href="#bottom"&gt;Scroll down&lt;/a&gt;
+ </string>
+		<key>optionB</key>
+		<string> &lt;a href="/bottom"&gt;Scroll down&lt;/a&gt;
+ </string>
+		<key>optionC</key>
+		<string> &lt;a href="bottom"&gt;Scroll down&lt;/a&gt;
+ </string>
+		<key>optionD</key>
+		<string> &lt;a href=":bottom"&gt;Scroll down&lt;/a&gt;</string>
+		<key>question</key>
+		<string>18. Which of the following HTML hyperlinks references a section of the same page in which the hyperlink appears ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>19</string>
+		<key>identifier</key>
+		<string>19</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>19. Which of the following HTML tags is (are) typically found within tags &lt;table&gt; and &lt;/table&gt;?  
+&lt;tr&gt;
+&lt;body&gt;
+&lt;td&gt;
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>20</string>
+		<key>identifier</key>
+		<string>20</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 
+&lt;table&gt;
+&lt;th&gt;&lt;tr&gt;+&lt;/tr&gt;&lt;tr&gt;0&lt;/tr&gt;&lt;tr&gt;1&lt;/tr&gt;&lt;/th&gt;
+&lt;th&gt;&lt;tr&gt;0&lt;/tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/th&gt;
+&lt;th&gt;&lt;tr&gt;1&lt;/tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/th&gt;
+&lt;/table&gt;
+
+ </string>
+		<key>optionB</key>
+		<string> 
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;+&lt;/th&gt;&lt;th&gt;0&lt;/th&gt;&lt;th&gt;1&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;0&lt;/th&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;1&lt;/th&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+ </string>
+		<key>optionC</key>
+		<string> 
+&lt;table&gt;
+&lt;td&gt;&lt;th&gt;+&lt;/th&gt;&lt;th&gt;0&lt;/th&gt;&lt;th&gt;1&lt;/th&gt;&lt;/td&gt;
+&lt;td&gt;&lt;th&gt;0&lt;/th&gt;&lt;tr&gt;0&lt;/tr&gt;&lt;tr&gt;1&lt;/tr&gt;&lt;/td&gt;
+&lt;td&gt;&lt;th&gt;1&lt;/th&gt;&lt;tr&gt;1&lt;/tr&gt;&lt;tr&gt;0&lt;/tr&gt;&lt;/td&gt;
+&lt;/table&gt;
+
+ </string>
+		<key>optionD</key>
+		<string> 
+&lt;table&gt;
+&lt;td&gt;&lt;tr&gt;+&lt;/tr&gt;&lt;tr&gt;0&lt;/tr&gt;&lt;tr&gt;1&lt;/tr&gt;&lt;/td&gt;
+&lt;td&gt;&lt;tr&gt;0&lt;/tr&gt;&lt;th&gt;0&lt;/th&gt;&lt;th&gt;1&lt;/th&gt;&lt;/td&gt;
+&lt;td&gt;&lt;tr&gt;1&lt;/tr&gt;&lt;th&gt;1&lt;/th&gt;&lt;th&gt;0&lt;/th&gt;&lt;/td&gt;
+&lt;/table&gt;
+</string>
+		<key>question</key>
+		<string>20. Consider the following table.
+Which of the following HTML sequences can be used to lay out the preceding table ?
+
+
+
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>21</string>
+		<key>identifier</key>
+		<string>21</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> HTML
+ </string>
+		<key>optionB</key>
+		<string> URL
+ </string>
+		<key>optionC</key>
+		<string> WWW
+ </string>
+		<key>optionD</key>
+		<string> HTTP  </string>
+		<key>question</key>
+		<string>21. Which of the following is a language used to design Web pages ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>22</string>
+		<key>identifier</key>
+		<string>22</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> block of text that a user can click
+ </string>
+		<key>optionB</key>
+		<string> server on which a Web page resides
+ </string>
+		<key>optionC</key>
+		<string> piece of symbolism used to specify structure or format
+ </string>
+		<key>optionD</key>
+		<string> certain kind of Web page  
+
+</string>
+		<key>question</key>
+		<string> 22. In the context of HTML, the term tag refers to a 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>23</string>
+		<key>identifier</key>
+		<string>23</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> annotation of text to specify structure and formatting
+ </string>
+		<key>optionB</key>
+		<string> errors in a Web document
+ </string>
+		<key>optionC</key>
+		<string> an increase in the price charged to access the Web
+ </string>
+		<key>optionD</key>
+		<string> the process of publishing a document to a server  
+</string>
+		<key>question</key>
+		<string>23. In the context of HTML, the term markup refers to 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>24</string>
+		<key>identifier</key>
+		<string>24</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> causing the Web page to be slow to download
+</string>
+		<key>optionB</key>
+		<string> causing the browser to crash 
+ </string>
+		<key>optionC</key>
+		<string> making the page visually unattractive
+ </string>
+		<key>optionD</key>
+		<string> making the Web page hard to read  
+</string>
+		<key>question</key>
+		<string>24. Which of the following is least likely to be an effect of including too many graphics in a Web page? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>25</string>
+		<key>identifier</key>
+		<string>25</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> High Tech Manager and Linker
+ </string>
+		<key>optionB</key>
+		<string> High Tech Manuscript Locator
+ </string>
+		<key>optionC</key>
+		<string> Hypertext Markup Language 
+ </string>
+		<key>optionD</key>
+		<string> Hidden Tele-text Modeling Language</string>
+		<key>question</key>
+		<string>25. HTML is an acronym for 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>26</string>
+		<key>identifier</key>
+		<string>26</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a picture
+ </string>
+		<key>optionB</key>
+		<string> the scroll bar
+ </string>
+		<key>optionC</key>
+		<string> a button icon
+ </string>
+		<key>optionD</key>
+		<string> a piece of text  
+</string>
+		<key>question</key>
+		<string>26.Which of the following could not be a clickable link in a Web page ?
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>27</string>
+		<key>identifier</key>
+		<string>27</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>27. Which of the following path formats can be used to specify the value of the href attribute of the &lt;a&gt; tag? 
+An absolute path 
+A relative path
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>28</string>
+		<key>identifier</key>
+		<string>28</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> to avoid copyright violation
+ </string>
+		<key>optionB</key>
+		<string> because a reader of one page may wish to refer to the other
+ </string>
+		<key>optionC</key>
+		<string> to avoid using excessive graphics
+ </string>
+		<key>optionD</key>
+		<string> so you don't lose any pages  
+</string>
+		<key>question</key>
+		<string> 28. The main reason to connect two pages in a large Web site via a hyperlink is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>29</string>
+		<key>identifier</key>
+		<string>29</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I and II only  </string>
+		<key>question</key>
+		<string>29. Which of the following are tags for changing the logical style of text ?
+&lt;EM&gt; and &lt;CITE&gt;
+&lt;STRONG&gt; and &lt;SAMP&gt;
+&lt;B&gt; and &lt;I&gt;
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>30</string>
+		<key>identifier</key>
+		<string>30</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Logical styles are intended to specify the look of content, whereas physical styles are used to specify the meaning of content.
+ </string>
+		<key>optionB</key>
+		<string> Logical styles are intended to be used for text, whereas physical styles are intended to be used for graphics.
+ </string>
+		<key>optionC</key>
+		<string> Logical styles are intended to be used for graphics, whereas physical styles are intended to be used for text.
+ </string>
+		<key>optionD</key>
+		<string> Logical styles are intended to specify the meaning of content, whereas physical styles are used to specify the look of content.
+</string>
+		<key>question</key>
+		<string>30. What is the conceptual difference between logical and physical styles ? 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>31</string>
+		<key>identifier</key>
+		<string>31</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> XML-encoded data
+ </string>
+		<key>optionB</key>
+		<string> comma-separated lists
+ </string>
+		<key>optionC</key>
+		<string> encoded name-value pairs
+ </string>
+		<key>optionD</key>
+		<string> ASN.1-encoded data  
+</string>
+		<key>question</key>
+		<string>31. When a Web browser submits an HTML form to a Web server, the browser sends 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>32</string>
+		<key>identifier</key>
+		<string>32</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II and III only  </string>
+		<key>question</key>
+		<string>32. Which of the following is (are) necessary for a radio button or checkbox control in an HTML form to be considered successful?  
+It must be checked or selected. 
+The HTML FORM element in which it appears must contain at least one INPUT element with a type of hidden. 
+The HTML element that defines it must set a value for the attribute named value. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>33</string>
+		<key>identifier</key>
+		<string>33</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the encoding standard used to encode the data of the form
+ </string>
+		<key>optionB</key>
+		<string> the processing agent to which the data of the form is submitted
+ </string>
+		<key>optionC</key>
+		<string> the network protocol used to submit the data of the form
+ </string>
+		<key>optionD</key>
+		<string> a list of form controls to submit  </string>
+		<key>question</key>
+		<string>33. The action attribute of an HTML FORM element determines 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>34</string>
+		<key>identifier</key>
+		<string>34</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A, C, D, B
+ </string>
+		<key>optionB</key>
+		<string> D, B, A, C
+ </string>
+		<key>optionC</key>
+		<string> D, A, C, B
+ </string>
+		<key>optionD</key>
+		<string> D, A, B, C  </string>
+		<key>question</key>
+		<string>34. Consider the following events, which occur during the processing of a Java servlet . 
+The servlet generates HTML on the fly 
+The server sends a response to client 
+The servlet sends a response to server 
+The client sends a request to server 
+Which of the following indicates the order in which these events typically occur? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>35</string>
+		<key>identifier</key>
+		<string>35</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>35. Which of the following HTML INPUT elements will result in a check box that appears initially in a checked state?  
+&lt;input name='chkbox' type='checkbox'&gt;
+&lt;input name='chkbox' type='checkbox' value='checked'&gt;
+&lt;input name='chkbox' type='checkbox' value='checkbox' checked='checked' &gt;
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>36</string>
+		<key>identifier</key>
+		<string>36</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II  </string>
+		<key>question</key>
+		<string>36. For a given Java servlet, which of the following events typically result(s) in the termination  of the servlet?  
+The servlet completes a request and forwards its response to the server. 
+The server sends a servlet's response to a client. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>37</string>
+		<key>identifier</key>
+		<string>37</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ensure the servlet is loaded and initialized 
+ </string>
+		<key>optionB</key>
+		<string> restart any running instance of the servlet
+ </string>
+		<key>optionC</key>
+		<string> forward the request to the client browser
+ </string>
+		<key>optionD</key>
+		<string> formulate a response to be sent to the client browser  
+</string>
+		<key>question</key>
+		<string>37. Before a Java servlet can process a request, the Web server must first 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>38</string>
+		<key>identifier</key>
+		<string>38</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> request header
+ </string>
+		<key>optionB</key>
+		<string> Web server
+ </string>
+		<key>optionC</key>
+		<string> response header
+ </string>
+		<key>optionD</key>
+		<string> cookie  
+</string>
+		<key>question</key>
+		<string>38. Typically, a request from a client browser is forwarded to a servlet by a 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>39</string>
+		<key>identifier</key>
+		<string>39</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Web server, indirectly
+ </string>
+		<key>optionB</key>
+		<string> server-push mechanism, indirectly
+ </string>
+		<key>optionC</key>
+		<string> server-push mechanism, directly
+ </string>
+		<key>optionD</key>
+		<string> Web server, directly  
+</string>
+		<key>question</key>
+		<string>39. Through a _____, Java servlets respond _____ to requests from clients . 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>40</string>
+		<key>identifier</key>
+		<string>40</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> HTML, byte code
+ </string>
+		<key>optionB</key>
+		<string> source, HTML
+ </string>
+		<key>optionC</key>
+		<string> source, byte code
+ </string>
+		<key>optionD</key>
+		<string> byte code, source  
+</string>
+		<key>question</key>
+		<string>41. In Java programming, a programmer creates _____ files, and then a compiler translates them to _____ files.  
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>41</string>
+		<key>identifier</key>
+		<string>41</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Any filename with the extension ".java"
+ </string>
+		<key>optionB</key>
+		<string> AppletClass.applet
+ </string>
+		<key>optionC</key>
+		<string> Applet.java
+ </string>
+		<key>optionD</key>
+		<string> AppletClass.java  
+</string>
+		<key>question</key>
+		<string>42. Consider the following class.  
+
+public  class AppletClass extends java.applet.Applet {
+
+     public void paint(java.awt.Graphics g)
+
+         g.drawString("Welcome to Java!", 30, 30);
+
+     }
+
+}
+Before compiling this class, the Java compiler requires that it be stored with which of the following names? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>42</string>
+		<key>identifier</key>
+		<string>42</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> MyClass.class, MyClass.exe
+ </string>
+		<key>optionB</key>
+		<string> MyClass.java, MyClass.exe
+ </string>
+		<key>optionC</key>
+		<string> MyClass.class, MyClass.java
+ </string>
+		<key>optionD</key>
+		<string> MyClass.java, MyClass.class  
+</string>
+		<key>question</key>
+		<string>43. Upon compilation, the source code of a Java class MyClass will be stored in the file _____, and the corresponding byte code will be stored in the file _____.  
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>43</string>
+		<key>identifier</key>
+		<string>43</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ignore the syntax errors and create a compiled program without the lines containing errors
+ </string>
+		<key>optionB</key>
+		<string> fail to complete the compilation and report a guess of what and where the errors are
+ </string>
+		<key>optionC</key>
+		<string> fail to complete the compilation and report the exact location of each error
+ </string>
+		<key>optionD</key>
+		<string> fix the syntax errors and complete the compilation  
+</string>
+		<key>question</key>
+		<string>44. When compiling a Java program that contains syntax errors , the compiler will always 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>44</string>
+		<key>identifier</key>
+		<string>44</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> At most one
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> At least one
+ </string>
+		<key>optionD</key>
+		<string> Exactly one  
+</string>
+		<key>question</key>
+		<string>45. How many ".class" files will be generated after a successful compilation of any ".java" file? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>45</string>
+		<key>identifier</key>
+		<string>45</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> write better comments in the program solution
+ </string>
+		<key>optionB</key>
+		<string> rewrite the problem using fewer words
+ </string>
+		<key>optionC</key>
+		<string> reduce syntax errors in the program solution
+ </string>
+		<key>optionD</key>
+		<string> understand the problem better  
+</string>
+		<key>question</key>
+		<string>46. Redefining a problem is often done so the programmer can 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>46</string>
+		<key>identifier</key>
+		<string>46</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The best way to program is to begin coding immediately, and then to follow up by testing.
+ </string>
+		<key>optionB</key>
+		<string> Programming can be made easier by dividing a larger problem into smaller pieces.
+ </string>
+		<key>optionC</key>
+		<string> Programming is synonymous  with coding.
+ </string>
+		<key>optionD</key>
+		<string> Most of the time spent in programming is usually spent planning the solution to a problem. 
+</string>
+		<key>question</key>
+		<string>47. Which of the following statements is true of the process of programming ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>47</string>
+		<key>identifier</key>
+		<string>47</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and III
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II and III </string>
+		<key>question</key>
+		<string>48. When a Java class is designed, which of the following is a part (are parts) of the planning stage?  
+Deciding how to display the results 
+Writing a problem definition 
+Identifying the data needed to solve the problem
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>48</string>
+		<key>identifier</key>
+		<string>48</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>49. In addition to coding, the process of programming model involves which of the following?  
+Evaluation and testing 
+Defining and redefining a problem 
+Planning a solution to a problem
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>49</string>
+		<key>identifier</key>
+		<string>49</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 20
+ </string>
+		<key>optionB</key>
+		<string> 10
+ </string>
+		<key>optionC</key>
+		<string> This will not compile. This is an error because the parameter "a" was never declared and never given a value.
+ </string>
+		<key>optionD</key>
+		<string> 0  
+</string>
+		<key>question</key>
+		<string>50. The following is a Java program segment: 
+public void paint (Graphics g)
+{
+    int x = 10;
+    int y = 20;
+    paintPicture( g, x, y);
+}
+public void paintPicture(Graphics g, int a, int b)
+{
+    g.setColor(Color.red);
+    // more code follows
+}
+
+What will be the value of the parameter "a", in the method paintPicture when this code is executed?
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>50</string>
+		<key>identifier</key>
+		<string>50</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Greeting
+ </string>
+		<key>optionB</key>
+		<string> Greeting.Hello
+ </string>
+		<key>optionC</key>
+		<string> Hello.Greeting
+ </string>
+		<key>optionD</key>
+		<string> Hello</string>
+		<key>question</key>
+		<string>51. What is the name of the class whose definition is begun by the following line? 
+
+public class Hello extends Greeting
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>51</string>
+		<key>identifier</key>
+		<string>51</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> import java.sql.*;
+ </string>
+		<key>optionB</key>
+		<string> import java.sql.all;
+ </string>
+		<key>optionC</key>
+		<string> import all java.sql;
+ </string>
+		<key>optionD</key>
+		<string> import java.sql;  
+</string>
+		<key>question</key>
+		<string>52. Which of the following is a Java statement that imports classes in the package java.sql ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>52</string>
+		<key>identifier</key>
+		<string>52</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>53. Valid Java comments include which of the following ? 
+/* this is an /* embedded */ comment */ 
+/* this is an // embedded // comment */ 
+// this is a comment */ 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>53</string>
+		<key>identifier</key>
+		<string>53</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Java Virtual Machine (JVM)
+ </string>
+		<key>optionB</key>
+		<string> Graphical User Interface (GUI)
+ </string>
+		<key>optionC</key>
+		<string> Application Programming Interface (API)
+ </string>
+		<key>optionD</key>
+		<string> Java Runtime Environment (JRE)  
+</string>
+		<key>question</key>
+		<string>54. Which of the following is a term for a set of classes and methods that provide a reusable foundation for a programmer ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>54</string>
+		<key>identifier</key>
+		<string>54</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> PrintWriter
+ </string>
+		<key>optionB</key>
+		<string> String
+ </string>
+		<key>optionC</key>
+		<string> Parameter
+ </string>
+		<key>optionD</key>
+		<string> HttpRequest  
+</string>
+		<key>question</key>
+		<string>55. In Java, the method HttpRequest.getParameter returns an object of which of the following classes ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>55</string>
+		<key>identifier</key>
+		<string>55</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only 
+</string>
+		<key>question</key>
+		<string>56. Valid  comments in Java include which of the following?  
+
+/* Comment 1 */ 
+// Comment 2 
+/**
+ * Comment 3
+ */ 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>56</string>
+		<key>identifier</key>
+		<string>56</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II and III only </string>
+		<key>question</key>
+		<string>57. Which of the following is (are) true regarding the Java API documentation ? 
+The list of classes can be filtered by package. 
+Typically, only the most important methods of a class are listed. 
+The documentation for one class often refers to other classes. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>57</string>
+		<key>identifier</key>
+		<string>57</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Constructors cannot return a value.
+ </string>
+		<key>optionB</key>
+		<string> Constructors can only accept primitive  Java types as parameters .
+ </string>
+		<key>optionC</key>
+		<string> Constructors can only return 0 or a negative integer.
+ </string>
+		<key>optionD</key>
+		<string> Constructors must be declared for every class.  </string>
+		<key>question</key>
+		<string>58. In Java, which of the following is true about constructors ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>58</string>
+		<key>identifier</key>
+		<string>58</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only the class Hello
+ </string>
+		<key>optionB</key>
+		<string> any class
+ </string>
+		<key>optionC</key>
+		<string> only the classes in the same package as Hello
+ </string>
+		<key>optionD</key>
+		<string> only the class Hello and the subclasses of Hello  
+</string>
+		<key>question</key>
+		<string>59. In a Java class Hello, a method declared to be public can be called by 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>59</string>
+		<key>identifier</key>
+		<string>59</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and III only </string>
+		<key>question</key>
+		<string>60. Which of the following is (are) consistent with Java naming conventions regarding capitalization ? 
+
+int numPeople; 
+int Counter; 
+class serviceElevator{}
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>60</string>
+		<key>identifier</key>
+		<string>60</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> AmountOfFuelRemainingInTheTank
+ </string>
+		<key>optionB</key>
+		<string> fuel_remaining
+ </string>
+		<key>optionC</key>
+		<string> fuelRemaining
+ </string>
+		<key>optionD</key>
+		<string> FuelRemaining  
+</string>
+		<key>question</key>
+		<string>61. Which of the following variable  names conforms to Java naming conventions  ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>61</string>
+		<key>identifier</key>
+		<string>61</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> changeStatus.newStatus;
+ </string>
+		<key>optionB</key>
+		<string> changeStatus(TrafficLight, newStatus);
+ </string>
+		<key>optionC</key>
+		<string> changeStatus(newStatus);
+ </string>
+		<key>optionD</key>
+		<string> TrafficLight.changeStatus(newStatus);  
+</string>
+		<key>question</key>
+		<string>62. Consider the following Java code fragment . 
+
+public class TrafficLight{
+    int status;    
+    public void changeStatus(int newStatus) {
+        status = newStatus;
+    }
+
+    public void turnOn(int newStatus) {
+        // . . .
+    }
+}
+In the method turnOn, which of the following statements should be used to call method changeStatus? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>62</string>
+		<key>identifier</key>
+		<string>62</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> print(List);
+ </string>
+		<key>optionB</key>
+		<string> myList.print();
+ </string>
+		<key>optionC</key>
+		<string> print.myList();
+ </string>
+		<key>optionD</key>
+		<string> myList.print;  
+</string>
+		<key>question</key>
+		<string>63. Suppose you are given a class called List which has print as one of its methods and a correctly instantiated object called myList. Which of the following could be a valid call to the print method? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>63</string>
+		<key>identifier</key>
+		<string>63</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> isEmpty
+ </string>
+		<key>optionB</key>
+		<string> is_empty
+ </string>
+		<key>optionC</key>
+		<string> is-empty
+ </string>
+		<key>optionD</key>
+		<string> IsEmpty  
+</string>
+		<key>question</key>
+		<string>64. Which of the following method names adheres to the Java naming convention standards ? 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>64</string>
+		<key>identifier</key>
+		<string>64</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> none of them  
+</string>
+		<key>question</key>
+		<string>65. Which of the following statements is true about methods in Java ?
+
+Every method must be declared public. 
+Every method must accept at least one parameter . 
+Every method must return a value. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>65</string>
+		<key>identifier</key>
+		<string>65</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> readLine(br);
+ </string>
+		<key>optionB</key>
+		<string> br(readLine);
+ </string>
+		<key>optionC</key>
+		<string> br.readLine;
+ </string>
+		<key>optionD</key>
+		<string> br.readLine();  
+</string>
+		<key>question</key>
+		<string>66. If variable br references an instance of the class java.io.BufferedReader, which of the following statements is a legal call to the method readLine of the class?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>66</string>
+		<key>identifier</key>
+		<string>66</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> String s = IQ.getIQ(p);
+ </string>
+		<key>optionB</key>
+		<string> getIQ.p("bob");
+ </string>
+		<key>optionC</key>
+		<string> IQ x = getIQ("chuck");
+ </string>
+		<key>optionD</key>
+		<string> int c = p.getIQ("alex");  
+</string>
+		<key>question</key>
+		<string>67. Consider the following Java code segment . 
+
+   public class IQ
+   {
+        public int  getIQ(String s)
+        {
+             return 50;
+        }
+   }
+If object p is an instance of class IQ, which of the following is a Java statements that will not generate a compilation error? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>67</string>
+		<key>identifier</key>
+		<string>67</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> instance
+ </string>
+		<key>optionB</key>
+		<string> constructor
+ </string>
+		<key>optionC</key>
+		<string> argument
+ </string>
+		<key>optionD</key>
+		<string> local  
+</string>
+		<key>question</key>
+		<string>68. In Java, a variable that can be accessed by all methods of any given class is a(n) _____ variable . 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>68</string>
+		<key>identifier</key>
+		<string>68</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> constructor
+ </string>
+		<key>optionB</key>
+		<string> synonym
+ </string>
+		<key>optionC</key>
+		<string> default behavior
+ </string>
+		<key>optionD</key>
+		<string> clone  
+</string>
+		<key>question</key>
+		<string>69. In Java, a method with the same name as its class is known as a 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>69</string>
+		<key>identifier</key>
+		<string>69</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> "less than 10"
+ </string>
+		<key>optionB</key>
+		<string> "greater than 10"
+ </string>
+		<key>optionC</key>
+		<string> null
+ </string>
+		<key>optionD</key>
+		<string> "less than 5"
+</string>
+		<key>question</key>
+		<string>70. Consider the following program segment . 
+
+public String assignString(int x) {
+    String s=null;
+    if (x&lt;5) s = "less than 5";
+    if (x&lt;10) s = "less than 10";
+    else s = "greater than 10";
+    return s;
+}
+If the method assignString is called with the value 4 as its argument, what String value will be returned? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>70</string>
+		<key>identifier</key>
+		<string>70</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> "Jack"
+ </string>
+		<key>optionB</key>
+		<string> "John"
+ </string>
+		<key>optionC</key>
+		<string> "Joe"
+ </string>
+		<key>optionD</key>
+		<string> null  
+</string>
+		<key>question</key>
+		<string>71. Consider the following program segment.  
+
+public String nameOfEmployee (int salary) {
+if (salary &lt; 50000) {
+if (salary &gt; 45000) 
+             return "Joe";
+    }
+    else if (salary &lt; 60000) return "John";
+    else return "Jack";
+    return null;
+}
+If the method nameOfEmployee is called with the value 55000 as its argument, what String value will be returned? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>71</string>
+		<key>identifier</key>
+		<string>71</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> byte 		</string>
+		<key>optionB</key>
+		<string> short 		</string>
+		<key>optionC</key>
+		<string> Boolean		</string>
+		<key>optionD</key>
+		<string> char 
+</string>
+		<key>question</key>
+		<string>72. Java provides eight types for storing and using simple data: byte, short, int, long, float, double, char, and boolean. Which of these types are used to store the logical values true and false? 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>72</string>
+		<key>identifier</key>
+		<string>72</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I, II and III only  </string>
+		<key>question</key>
+		<string>73. Which of the following are primitive  Java types ?
+
+int 
+Integer 
+Double 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>73</string>
+		<key>identifier</key>
+		<string>73</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> package
+ </string>
+		<key>optionB</key>
+		<string> function
+ </string>
+		<key>optionC</key>
+		<string> class
+ </string>
+		<key>optionD</key>
+		<string> method
+</string>
+		<key>question</key>
+		<string>74.An object is an instance of a 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>74</string>
+		<key>identifier</key>
+		<string>74</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>75. Which of the following is (are) true about Java ? 
+Java is portable . 
+Java is object-oriented . 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>75</string>
+		<key>identifier</key>
+		<string>75</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> i &gt; 3
+ </string>
+		<key>optionB</key>
+		<string> i &gt;= 3
+ </string>
+		<key>optionC</key>
+		<string> i == 3
+ </string>
+		<key>optionD</key>
+		<string> i &lt; 3  </string>
+		<key>question</key>
+		<string>76. Consider the following outline of a code segment that includes a for-loop with a blank . 
+
+int total = 0;
+for (int i = 10 ; _____ ; i--)
+   total = total + i;
+System.out.print(total);
+Which of the following expressions should be used to fill in the blank so that the value 49 will be output when the resulting code segment is executed? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>76</string>
+		<key>identifier</key>
+		<string>76</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> opposite
+ </string>
+		<key>optionB</key>
+		<string> sequential
+ </string>
+		<key>optionC</key>
+		<string> infinite
+ </string>
+		<key>optionD</key>
+		<string> nested  
+</string>
+		<key>question</key>
+		<string>77. Consider the following code segment   . 
+	
+for (int j = 0; j &lt; 10; j++)
+   for (int k = 10; k &gt; 0; k--)
+      System.out.print("Hello");
+The code segment shows an example of _____ loops. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>77</string>
+		<key>identifier</key>
+		<string>77</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 0
+ </string>
+		<key>optionB</key>
+		<string> 4
+ </string>
+		<key>optionC</key>
+		<string> 6
+ </string>
+		<key>optionD</key>
+		<string> 2  
+</string>
+		<key>question</key>
+		<string>78. int i = 1, sum = 0;
+while (i &lt; 3){
+    int j = 0;
+    while ( j &lt; 2){
+        sum = sum + j;
+        j = j + 1;
+    }
+    i = i + 1;
+}
+
+What is the value of sum after the loop? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>78</string>
+		<key>identifier</key>
+		<string>78</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>79. Which of the following Java while-loops is (are) infinite  ? 
+
+while (true) i = 0; 
+while (false) i = 1; 
+while (! false) i = 0;
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>79</string>
+		<key>identifier</key>
+		<string>79</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> =, ==
+ </string>
+		<key>optionB</key>
+		<string> =, equals()
+ </string>
+		<key>optionC</key>
+		<string> :=, =
+ </string>
+		<key>optionD</key>
+		<string> ==, =  
+</string>
+		<key>question</key>
+		<string>80. In Java, for primitives, the assignment operator is the symbol _____ and the equality operator is the symbol _____. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>80</string>
+		<key>identifier</key>
+		<string>80</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 6
+ </string>
+		<key>optionB</key>
+		<string> 9
+ </string>
+		<key>optionC</key>
+		<string> 10
+ </string>
+		<key>optionD</key>
+		<string> 0  
+</string>
+		<key>question</key>
+		<string>81. What will be output upon execution of the following Java statement ? 
+
+System.out.println((int)(3.6%1.5*10));
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>81</string>
+		<key>identifier</key>
+		<string>81</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and III
+ </string>
+		<key>optionC</key>
+		<string> II and III
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>82. The following code segment is intended to sum together all of the even numbers  in the range 1 through 40 and to store the final result in the variable sum . 
+
+int sum = 0;
+for (int j = 1; j &lt; 40; j+=2)
+   sum = sum + j;
+Which of the following is an error (are errors) in the code segment that will prevent the intended result? 
+
+The loop counter is not initialized correctly. 
+The loop increments by the wrong amount. 
+The loop guard causes the loop to terminate at the wrong place. 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>82</string>
+		<key>identifier</key>
+		<string>82</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>83. Which of the following Boolean expressions involving the int variable i will always evaluate to true, regardless of the value of i ? 
+
+(i &lt; 10) != (i &gt;= 10) 
+(i == 0) == (!(i != 0)) 
+(i &lt; 0) || (i &gt; 0) 
+
+
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>83</string>
+		<key>identifier</key>
+		<string>83</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> including a line like "declare counter int;" in a class definition outside of any method definitions
+ </string>
+		<key>optionB</key>
+		<string> including them as formal arguments to class methods
+ </string>
+		<key>optionC</key>
+		<string> using them in assignment statements
+ </string>
+		<key>optionD</key>
+		<string> including a line like "int counter;" in a class definition outside of any method definitions</string>
+		<key>question</key>
+		<string>84. Instance variables in a Java class are declared by 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>84</string>
+		<key>identifier</key>
+		<string>84</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> age is an instance variable and counter is a local variable
+ </string>
+		<key>optionB</key>
+		<string> age is a local variable and counter is an instance variable
+ </string>
+		<key>optionC</key>
+		<string> both age and counter are instance variables
+ </string>
+		<key>optionD</key>
+		<string> both age and counter are local variables
+</string>
+		<key>question</key>
+		<string>85. In the class defined below 
+
+class MyClass {
+    int age = 19;
+    void myMethod()
+    {
+        int counter;
+    }
+}
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>85</string>
+		<key>identifier</key>
+		<string>85</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> one greater than
+ </string>
+		<key>optionB</key>
+		<string> one less than
+ </string>
+		<key>optionC</key>
+		<string> equal to
+ </string>
+		<key>optionD</key>
+		<string> half of  
+</string>
+		<key>question</key>
+		<string>86. The value of the largest index of an instance of class java.util.Vector is always _____ the size of the vector . 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>86</string>
+		<key>identifier</key>
+		<string>86</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Vector v = new Vector(v);
+ </string>
+		<key>optionB</key>
+		<string> Vector v = new Vector();
+ </string>
+		<key>optionC</key>
+		<string> Vector v = Vector();
+ </string>
+		<key>optionD</key>
+		<string> v = new Vector();
+</string>
+		<key>question</key>
+		<string>87. Which of the following Java statements correctly declares and instantiates a Vector v ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>87</string>
+		<key>identifier</key>
+		<string>87</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Class A is a subclass  of class B.
+ </string>
+		<key>optionB</key>
+		<string> Class A must also extend class Applet.
+ </string>
+		<key>optionC</key>
+		<string> Class B must also extend at least one other class.
+ </string>
+		<key>optionD</key>
+		<string> Class B is a subclass of class A.  
+</string>
+		<key>question</key>
+		<string>88. Consider the following Java code fragment  where B is a Java class. 
+
+Public class A extends B {}
+Which of the following is indicated by the code fragment?  
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>88</string>
+		<key>identifier</key>
+		<string>88</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> uses-a
+ </string>
+		<key>optionB</key>
+		<string> is-a-kind-of
+ </string>
+		<key>optionC</key>
+		<string> has-a
+ </string>
+		<key>optionD</key>
+		<string> produces-a  
+</string>
+		<key>question</key>
+		<string>89. Which of the following kinds of relationships between classes does inheritance describe ? 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>89</string>
+		<key>identifier</key>
+		<string>89</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> public class Animal imports Dog
+ </string>
+		<key>optionB</key>
+		<string> public class Dog imports Animal
+ </string>
+		<key>optionC</key>
+		<string> public class Dog extends Animal
+ </string>
+		<key>optionD</key>
+		<string> public class Animal extends Dog  
+</string>
+		<key>question</key>
+		<string>90. Which of the following indicates that class Dog is a subclass of class Animal ? 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>90</string>
+		<key>identifier</key>
+		<string>90</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> II only  </string>
+		<key>question</key>
+		<string>91. Which of the following is true concerning the following example class definition ?
+
+public class Hello extends Applet  { ...
+}
+
+Hello is a superclass  of Applet 
+Hello inherits  from Applet 
+Hello is a subclass of Applet 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>91</string>
+		<key>identifier</key>
+		<string>91</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Font
+ </string>
+		<key>optionB</key>
+		<string> ActionListener
+ </string>
+		<key>optionC</key>
+		<string> MyWindow
+ </string>
+		<key>optionD</key>
+		<string> CustomWindow  
+</string>
+		<key>question</key>
+		<string>92. In the following program segment, the call super(len,wid) invokes the constructor for which class?  
+
+public class CustomWindow extends MyWindow implements  ActionListener
+{
+   public CustomWindow(int len, int wid, Font ft)
+   {
+      super(len, wid);
+   }
+}
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>92</string>
+		<key>identifier</key>
+		<string>92</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Applet is a subclass of Hello
+ </string>
+		<key>optionB</key>
+		<string> Hello is a subclass of Applet
+ </string>
+		<key>optionC</key>
+		<string> Applet is an instance  of Hello
+ </string>
+		<key>optionD</key>
+		<string> Hello is an instance of Applet  </string>
+		<key>question</key>
+		<string>93. Consider the following Java program fragment . 
+
+import java.applet.Applet;
+public class Hello extends Applet {
+      ...
+}
+The fragment indicates that 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>93</string>
+		<key>identifier</key>
+		<string>93</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>94. If class A is a subclass of class B, which of the following statements is (are) true ? 
+
+All public data and methods of class B are available to class A. 
+All public data and methods of class A are available to class B.
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>94</string>
+		<key>identifier</key>
+		<string>94</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Applet, subclass, Game
+ </string>
+		<key>optionB</key>
+		<string> Game, superclass, Applet
+ </string>
+		<key>optionC</key>
+		<string> Applet, superclass, Game
+ </string>
+		<key>optionD</key>
+		<string> Game, subclass, Applet  
+</string>
+		<key>question</key>
+		<string>95. If the following line of code is the beginning of a class definition, then class _____ is being defined, and it is a _____ of class _____.  
+public class Game extends Applet
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>95</string>
+		<key>identifier</key>
+		<string>95</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> String
+ </string>
+		<key>optionB</key>
+		<string> Null
+ </string>
+		<key>optionC</key>
+		<string> A
+ </string>
+		<key>optionD</key>
+		<string> Object  
+
+</string>
+		<key>question</key>
+		<string>96. Consider the following definition of a Java class . 
+
+class A { }
+Based on this definition, the superclass of the class A is 
+
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

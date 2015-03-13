@@ -1,0 +1,3051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>1</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Nine
+ </string>
+		<key>optionB</key>
+		<string> One
+ </string>
+		<key>optionC</key>
+		<string> Five
+ </string>
+		<key>optionD</key>
+		<string> Three 
+</string>
+		<key>question</key>
+		<string> 1.  How many chunks of information can working memory hold at one time?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>2</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The time it takes to point to a target is a constant: it takes the same amount of time to point to one target as it does to any other target.
+ </string>
+		<key>optionB</key>
+		<string> The time it takes to point to a target is directly related to the distance to that target.
+ </string>
+		<key>optionC</key>
+		<string> The action of clicking a button takes 200 msec.
+ </string>
+		<key>optionD</key>
+		<string> When calculating the time it takes to point to a target, the size of the target is not important. 
+</string>
+		<key>question</key>
+		<string> 2. Which of the following is a description of Fitts's Law?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>3</string>
+		<key>identifier</key>
+		<string>3</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is important to design around the eye's blind spot, which makes it difficult to see parts of the screen.
+ </string>
+		<key>optionB</key>
+		<string> Be careful when using blinking text or animations because they naturally draw the user's attention.
+ </string>
+		<key>optionC</key>
+		<string> Because the fovea encompasses only 2 degrees of visual angle, all text should be concentrated in a small area of the screen.
+ </string>
+		<key>optionD</key>
+		<string> There are no design implications.
+</string>
+		<key>question</key>
+		<string>3.  Which of the following is an implication that the characteristics of the human fovea have for the design of visual interfaces?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>4</string>
+		<key>identifier</key>
+		<string>4</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The cognitive processor determines that an action needs to be taken.
+ </string>
+		<key>optionB</key>
+		<string> The motor processor completes an action based on the information.
+ </string>
+		<key>optionC</key>
+		<string> It is deposited into working memory.
+ </string>
+		<key>optionD</key>
+		<string> It is deposited into long-term memory.  
+</string>
+		<key>question</key>
+		<string> 4.According to the information processing model of human cognitive activity, which of the following happens to information from the outside world immediately after it is perceived by the perceptual processor?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>5</string>
+		<key>identifier</key>
+		<string>5</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> pleases users by showing that we are interested in their opinion.
+ </string>
+		<key>optionB</key>
+		<string> helps us select the best of our users.
+ </string>
+		<key>optionC</key>
+		<string> helps us assign blame among the programmers in our team.
+ </string>
+		<key>optionD</key>
+		<string> is the only way to discover unforeseen shortcomings of our software.
+</string>
+		<key>question</key>
+		<string>5. Feedback from users of the software systems we build is useful, and even necessary. This is because such feedback  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>6</string>
+		<key>identifier</key>
+		<string>6</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> iterative design.
+ </string>
+		<key>optionB</key>
+		<string> leverage of affordance.
+ </string>
+		<key>optionC</key>
+		<string> word-of-mouth advertising.
+ </string>
+		<key>optionD</key>
+		<string> aggressive marketing.
+</string>
+		<key>question</key>
+		<string> 6. Software companies often release so-called "beta" versions of software. A beta version of a program is usually given away to a selected group of users who agree to test and comment on the program before it is released to the wider market. A company that releases beta versions is thus engaging in  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>7</string>
+		<key>identifier</key>
+		<string>7</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> an affordance commonly found in drawing programs.
+ </string>
+		<key>optionB</key>
+		<string> a programming construct used in redrawing event objects on the screen (e.g., a meeting in a scheduling program).
+ </string>
+		<key>optionC</key>
+		<string> a built-in Java method invoked when you throw an exception for a visible icon.
+ </string>
+		<key>optionD</key>
+		<string> the main programming construct of interactive programs.
+</string>
+		<key>question</key>
+		<string>7. The event-redraw loop is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>8</string>
+		<key>identifier</key>
+		<string>8</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only.
+ </string>
+		<key>optionB</key>
+		<string> II and III only.
+ </string>
+		<key>optionC</key>
+		<string> II only.
+ </string>
+		<key>optionD</key>
+		<string> I only.
+</string>
+		<key>question</key>
+		<string> 8.  When, on your computer screen, you drag the image of a folder to a different window, you are 
+I.directly manipulating the bits of the disk file.
+II.manipulating an image that represents the bits of the disk file.
+III.generating mouse events that cause the windows interface program to redraw the image of the folder continuously, in different locations, as it appears to move.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>9</string>
+		<key>identifier</key>
+		<string>9</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only.
+ </string>
+		<key>optionB</key>
+		<string> I and II only.
+ </string>
+		<key>optionC</key>
+		<string> II only.
+ </string>
+		<key>optionD</key>
+		<string> II and III only.  
+</string>
+		<key>question</key>
+		<string> 9.Your supervisor has requested that you use a toolkit to build a fancy new user interface, and she has given you the following reasons to do so (besides enticing you with a promise of a pay raise): 
+I.Toolkits have widgets that allow you to generate prototypes rapidly.
+II.If you use the same toolkits, all of the programs you write will have interfaces with a similar look and feel.
+III.The Internet requires that we use the prescribed open-standard UI toolkits.
+Which of the reasons are sound? (Again, besides the pay raise!)
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>10</string>
+		<key>identifier</key>
+		<string>10</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>10.Valid Visual Basic data types include which of the following? 
+I.Boolean
+II.String
+III.VariantType
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>11</string>
+		<key>identifier</key>
+		<string>11</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string> 11. Which of the following lines contains only valid Visual Basic equation operators? 
+I.- + * /
+II.\ ^ Mod
+III.- + * / \ ^ &gt;&gt;
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>12</string>
+		<key>identifier</key>
+		<string>12</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>12.In Visual Basic, what types of variables should you use when storing numbers with decimal fractions? 
+I.variant, string, or object
+II.single, double, or decimal
+III.integer, long, or Boolean
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>13</string>
+		<key>identifier</key>
+		<string>13</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> cmdExit.FlatStyle.frmInput = FlatStyle.Flat
+ </string>
+		<key>optionB</key>
+		<string> cmdExit.FlatStyle = FlatStyle.Flat
+ </string>
+		<key>optionC</key>
+		<string> cmdExit.FlatStyle("Flat")
+ </string>
+		<key>optionD</key>
+		<string> cmdExit.FlatStyle = Flat 
+</string>
+		<key>question</key>
+		<string>13. At run time, you want to change the appearance of a Visual Basic control named "cmdExit" so that it appears "flat." "cmdExit" belongs to the form named "frmInput." Which of the following statements would you use?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>14</string>
+		<key>identifier</key>
+		<string>14</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> to assign a string data type to all undeclared variables.
+ </string>
+		<key>optionB</key>
+		<string> to require that Dim and Public statements have As data type clauses.
+ </string>
+		<key>optionC</key>
+		<string> to initialize string variables with zero-length strings.
+ </string>
+		<key>optionD</key>
+		<string> to flag undeclared variables as errors at compile time.
+</string>
+		<key>question</key>
+		<string>14.An Option Explicit On statement in a form's General Declarations section causes Visual Basic  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>15</string>
+		<key>identifier</key>
+		<string>15</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> clicking the right mouse button.
+ </string>
+		<key>optionB</key>
+		<string> double-clicking the left mouse button.
+ </string>
+		<key>optionC</key>
+		<string> pressing Ctrl-F1.
+ </string>
+		<key>optionD</key>
+		<string> pressing F12. 
+</string>
+		<key>question</key>
+		<string>15.The Code window of a Visual Basic object can be opened by selecting the object and  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>16</string>
+		<key>identifier</key>
+		<string>16</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>16.Which of the following are valid Visual Basic variable names? 
+I.curAccounts Receivable
+II.3ndPlaceEntrystr
+III.Month_To_Datedbl
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>17</string>
+		<key>identifier</key>
+		<string>17</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II and III only  
+</string>
+		<key>question</key>
+		<string>17. In Visual Basic, which of the following Val function statements will return a value equal to or less than 32? 
+I.Val("32,543,987")
+II.Val(".98")
+III.Val("thirty-seven")
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>18</string>
+		<key>identifier</key>
+		<string>18</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a grid used to correlate the names of local, form-level, and global variables with their properties.
+ </string>
+		<key>optionB</key>
+		<string> the verbal equivalent of a flowchart.
+ </string>
+		<key>optionC</key>
+		<string> a technique for planning object-oriented, event-driven applications by creating a table that correlates proposed tasks with corresponding objects and events.
+ </string>
+		<key>optionD</key>
+		<string> a rough sketch of a planned interface.  
+</string>
+		<key>question</key>
+		<string>18.  A TOE chart is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>19</string>
+		<key>identifier</key>
+		<string>19</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Caption
+ </string>
+		<key>optionB</key>
+		<string> Index
+ </string>
+		<key>optionC</key>
+		<string> Tag
+ </string>
+		<key>optionD</key>
+		<string> (Name)
+</string>
+		<key>question</key>
+		<string>19.Which of the Visual Basic control properties listed below holds the value you will use when setting other properties of the same control from an event handler?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>20</string>
+		<key>identifier</key>
+		<string>20</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> TOE tables
+ </string>
+		<key>optionB</key>
+		<string> flowcharts
+ </string>
+		<key>optionC</key>
+		<string> behavior properties
+ </string>
+		<key>optionD</key>
+		<string> code  
+</string>
+		<key>question</key>
+		<string>20.With which of the following do developers specify the task or tasks a Visual Basic control is to perform when a user manipulates it?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>21</string>
+		<key>identifier</key>
+		<string>21</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>21.The Visual Basic Properties window allows the developer to 
+I.change a Visual Basic object's appearance.
+II.change a Visual Basic object's behavior.
+III.change a Visual Basic object's name.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>22</string>
+		<key>identifier</key>
+		<string>22</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> There is no similarity.
+ </string>
+		<key>optionB</key>
+		<string> Both advocate ignoring the users' experiences with other software.
+ </string>
+		<key>optionC</key>
+		<string> Both draw upon the users' prior knowledge and experience.
+ </string>
+		<key>optionD</key>
+		<string> Both recognize the tendency of users to make errors.  
+</string>
+		<key>question</key>
+		<string>22.Which of the following is a similarity between the heuristics Consistency and Standards and Match Between the System and the Real World?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>23</string>
+		<key>identifier</key>
+		<string>23</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Visibility of System Status
+ </string>
+		<key>optionB</key>
+		<string> Recognition Rather Than Recall
+ </string>
+		<key>optionC</key>
+		<string> Aesthetics and Minimalist Design
+ </string>
+		<key>optionD</key>
+		<string> Match Between System and the Real World 
+</string>
+		<key>question</key>
+		<string>23.While reading email, a user encounters the following message just before his email program crashes: 
+The exception Integer division by zero (0x00000094) 
+occurred in the application at location 0x69591070. 
+Click OK to terminate the application.
+
+Which of the following heuristics are violated by the behavior of this email program?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>24</string>
+		<key>identifier</key>
+		<string>24</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Evaluating the usability of a design in its final stages
+ </string>
+		<key>optionB</key>
+		<string> Critiquing the designer of a system
+ </string>
+		<key>optionC</key>
+		<string> Evaluating the usability of a design in its early stages
+ </string>
+		<key>optionD</key>
+		<string> Advising people during a therapy session 
+</string>
+		<key>question</key>
+		<string>24.Which of the following describes the most appropriate use of the technique heuristic evaluation?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>25</string>
+		<key>identifier</key>
+		<string>25</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Experience with the system being tested.
+ </string>
+		<key>optionB</key>
+		<string> Experience with the development process.
+ </string>
+		<key>optionC</key>
+		<string> Similarity in experience to the people who are expected to use the final version of the system.
+ </string>
+		<key>optionD</key>
+		<string> Availability at the time of the test (to avoid stress in the participants).
+</string>
+		<key>question</key>
+		<string>25. By which of the following criteria should we select the participants in a think-aloud usability test?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>26</string>
+		<key>identifier</key>
+		<string>26</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II
+ </string>
+		<key>optionB</key>
+		<string> I and III
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III
+</string>
+		<key>question</key>
+		<string>26.Which of the following are differences between the techniques of heuristic evaluation (HE) and think-aloud usability testing (TA)? 
+I.A heuristic evaluation can be carried out on a paper prototype, whereas a TA requires a functioning prototype.
+II.A heuristic evaluation can be conducted by an expert analyst working alone, whereas a TA requires the participation of people who are like the application's intended users.
+III.TAs require the developer to 'think like a user,' whereas HEs do not.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>27</string>
+		<key>identifier</key>
+		<string>27</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only.
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III.
+ </string>
+		<key>optionC</key>
+		<string> I only.
+ </string>
+		<key>optionD</key>
+		<string> III only.  
+</string>
+		<key>question</key>
+		<string>27.Which of the following, if any, accurately describe the relationship between the evidence and explanation sections of a usability aspect report? 
+I.Explanation is the author's interpretation of objective evidence.
+II.Explanation explains a solution to the problem that the evidence section describes.
+III.Explanation links the problem described in the evidence section to instances of the problem discovered in the past.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>28</string>
+		<key>identifier</key>
+		<string>28</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A usability aspect report should be no longer than one page.
+ </string>
+		<key>optionB</key>
+		<string> Looking for patterns in usability problems is an important step in the analysis process.
+ </string>
+		<key>optionC</key>
+		<string> It is important not to waste time on insignificant usability problems.
+ </string>
+		<key>optionD</key>
+		<string> Usability aspect reports should be grouped by where they were found in the program.  
+</string>
+		<key>question</key>
+		<string>28.In the context of writing a usability aspect report, what is meant by the statement: 
+"Always step back and try to see the bigger picture."  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>29</string>
+		<key>identifier</key>
+		<string>29</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Succinct description of the usability aspect
+ </string>
+		<key>optionB</key>
+		<string> Evidence for the aspect
+ </string>
+		<key>optionC</key>
+		<string> UAR Identifier
+ </string>
+		<key>optionD</key>
+		<string> Explanation of the aspect 
+</string>
+		<key>question</key>
+		<string>29.Which section of a usability aspect report (UAR) can serve as the UAR's "name"?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>30</string>
+		<key>identifier</key>
+		<string>30</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> II and III  
+</string>
+		<key>question</key>
+		<string>30. Which of the following are reasons why it is necessary that usability aspect reports be clear and complete? 
+I.The usability problem may need to be described to other members of the development team who did not see the problem first-hand.
+II.The author of the reports needs to be able to understand them long after they are written.
+III.The participants in a user study need to be able to read accounts of their sessions written in lay terms.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>31</string>
+		<key>identifier</key>
+		<string>31</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> BackStyle
+ </string>
+		<key>optionB</key>
+		<string> Caption
+ </string>
+		<key>optionC</key>
+		<string> Appearance
+ </string>
+		<key>optionD</key>
+		<string> (Name)  
+</string>
+		<key>question</key>
+		<string>31.Which Visual Basic control property's value is used as the identifier for the control in the code?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>32</string>
+		<key>identifier</key>
+		<string>32</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II only
+</string>
+		<key>question</key>
+		<string> 32.Which of the following approaches to user interface design follow the heuristic match between the system and the real world? 
+   I,Use the same vocabulary the user would use to describe things. 
+   II,Find a metaphor that describes aptly a useful portion of the computer's behavior. 
+   III,Don't clutter the screen with blinking animations. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>33</string>
+		<key>identifier</key>
+		<string>33</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>33. Which of the following common intuitions can fruitfully be applied in user interfaces? 
+   I,If B immediately follows A in time, B is caused by A. 
+   II,If B is bigger than A, B is more important than A. 
+   III,If B is near A, B is somehow related to A. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>34</string>
+		<key>identifier</key>
+		<string>34</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A computer system that appears to have crashed.
+ </string>
+		<key>optionB</key>
+		<string> A progress indicator showing how much of a file is left to download
+ </string>
+		<key>optionC</key>
+		<string> The full Recycle Bin icon showing that the bin has files in it
+ </string>
+		<key>optionD</key>
+		<string> The MS Windows taskbar showing the applications that are running 
+</string>
+		<key>question</key>
+		<string> 34.Which of the following situations violates the heuristic visibility of system status?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>35</string>
+		<key>identifier</key>
+		<string>35</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string> 35.Which of the following lines contains only valid Visual Basic equation operators? 
+	I,- + * / 
+	II,\ ^ Mod 
+	III,- + * / \ ^ &gt;&gt; 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>36</string>
+		<key>identifier</key>
+		<string>36</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> clicking the right mouse button.
+ </string>
+		<key>optionB</key>
+		<string> pressing F12.
+ </string>
+		<key>optionC</key>
+		<string> double-clicking the left mouse button.
+ </string>
+		<key>optionD</key>
+		<string> pressing Ctrl-F1.
+</string>
+		<key>question</key>
+		<string> 36.The Code window of a Visual Basic object can be opened by selecting the object and  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>37</string>
+		<key>identifier</key>
+		<string>37</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string> 37.Which of the following are valid Visual Basic variable names? 
+	I,curAccounts Receivable 
+	II,3ndPlaceEntrystr 
+	III,Month_To_Datedbl 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>38</string>
+		<key>identifier</key>
+		<string>38</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> to flag undeclared variables as errors at compile time.
+ </string>
+		<key>optionB</key>
+		<string> to assign a string data type to all undeclared variables.
+ </string>
+		<key>optionC</key>
+		<string> to initialize string variables with zero-length strings.
+ </string>
+		<key>optionD</key>
+		<string> to require that Dim and Public statements have As data type clauses.
+</string>
+		<key>question</key>
+		<string> 38.An Option Explicit On statement in a form's General Declarations section causes Visual Basic  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>39</string>
+		<key>identifier</key>
+		<string>39</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> (Name)
+ </string>
+		<key>optionB</key>
+		<string> Caption
+ </string>
+		<key>optionC</key>
+		<string> Index
+ </string>
+		<key>optionD</key>
+		<string> Tag  
+</string>
+		<key>question</key>
+		<string> 39.Which of the Visual Basic control properties listed below holds the value you will use when setting other properties of the same control from an event handler?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>40</string>
+		<key>identifier</key>
+		<string>40</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> panicButton_Click()
+ </string>
+		<key>optionB</key>
+		<string> Click_panicButton()
+ </string>
+		<key>optionC</key>
+		<string> myPanicButton_Click()
+ </string>
+		<key>optionD</key>
+		<string> panicButton-Click 
+</string>
+		<key>question</key>
+		<string>40. When you click the mouse on a Visual Basic control named panicButton which of the following is invoked?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>41</string>
+		<key>identifier</key>
+		<string>41</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> with a Dim statement in the modules general procedures section.
+ </string>
+		<key>optionB</key>
+		<string> using a special Visual Basic method (a procedure that acts on an object) to assign a shortcut character to the button.
+ </string>
+		<key>optionC</key>
+		<string> placing an "&amp;" (ampersand) in the button's caption immediately in front of the shortcut character.
+ </string>
+		<key>optionD</key>
+		<string> placing an "_" (underline character) in the button's identifier in its Name property.  
+</string>
+		<key>question</key>
+		<string>41.In Visual Basic, you can create a keyboard shortcut for a button by  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>42</string>
+		<key>identifier</key>
+		<string>42</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> actions that require additional information not supplied by the click
+ </string>
+		<key>optionB</key>
+		<string> mouse-initiated actions only
+ </string>
+		<key>optionC</key>
+		<string> a greater variety of actions than most other controls
+ </string>
+		<key>optionD</key>
+		<string> actions that require no additional information beyond that supplied by the click 
+</string>
+		<key>question</key>
+		<string>42. Because Visual Basic buttons can only be manipulated in one way (by clicking), they are suitable to be used for  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>43</string>
+		<key>identifier</key>
+		<string>43</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Yes, the application does not follow accepted conventions.
+ </string>
+		<key>optionB</key>
+		<string> Consistency and standards is not applicable in this situation.
+ </string>
+		<key>optionC</key>
+		<string> No, if the other menus are also named differently from accepted conventions.
+ </string>
+		<key>optionD</key>
+		<string> No, if the Actions menu contains similar menu items to File menus in other applications.
+</string>
+		<key>question</key>
+		<string>43. Is the consistency and standards heuristic violated by an application with a menu called Actions instead of File?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>44</string>
+		<key>identifier</key>
+		<string>44</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Two or more heuristics give conflicting advice about a particular interface element.
+ </string>
+		<key>optionB</key>
+		<string> One of your colleagues found heuristic violations that you did not.
+ </string>
+		<key>optionC</key>
+		<string> Your client disagrees with your findings.
+ </string>
+		<key>optionD</key>
+		<string> You think you have made a mistake in your usability aspect report.  
+</string>
+		<key>question</key>
+		<string>44. Which of the following is an appropriate time to do an error analysis?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>45</string>
+		<key>identifier</key>
+		<string>45</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Flexibility and efficiency of use
+ </string>
+		<key>optionB</key>
+		<string> Consistency and standards
+ </string>
+		<key>optionC</key>
+		<string> Visibility of system status
+ </string>
+		<key>optionD</key>
+		<string> Help and documentation  
+</string>
+		<key>question</key>
+		<string>45. Which heuristic is described in the following statement? 
+Information that is the same should appear to be the same (same words, icons, and position on the screen). Information that is different should be expressed differently.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>46</string>
+		<key>identifier</key>
+		<string>46</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> scrolling by using the keyboard arrow keys instead of the scrollbars
+ </string>
+		<key>optionB</key>
+		<string> increasing the speed with which the mouse moves
+ </string>
+		<key>optionC</key>
+		<string> function or command keys which combine an entire command into a single keypress
+ </string>
+		<key>optionD</key>
+		<string> typing (or clicking) the next input before the computer is ready to accept it  
+</string>
+		<key>question</key>
+		<string>46. Which of the following is an example of a typical accelerator for frequently used operations?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>47</string>
+		<key>identifier</key>
+		<string>47</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> There is no standard for visual cues for keyboard accelerators.
+ </string>
+		<key>optionB</key>
+		<string> Accelerators are easy for novice users to remember.
+ </string>
+		<key>optionC</key>
+		<string> Accelerators allow experts to learn to use the application more quickly.
+ </string>
+		<key>optionD</key>
+		<string> A user may operate them without his hands leaving the keyboard
+</string>
+		<key>question</key>
+		<string>47.Which of the following is an advantage of keyboard accelerators?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>48</string>
+		<key>identifier</key>
+		<string>48</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> be able to save files more often.
+ </string>
+		<key>optionB</key>
+		<string> help people learn not to make frequent mistakes.
+ </string>
+		<key>optionC</key>
+		<string> be less predictable.
+ </string>
+		<key>optionD</key>
+		<string> impair the user's natural ability to learn by doing
+</string>
+		<key>question</key>
+		<string>48. An interface with no "Undo" would  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>49</string>
+		<key>identifier</key>
+		<string>49</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> When it is physically set apart from other actions within the interface.
+ </string>
+		<key>optionB</key>
+		<string> An available Cancel button never violates this heuristic.
+ </string>
+		<key>optionC</key>
+		<string> When pressing the Cancel button undoes the previous action.
+ </string>
+		<key>optionD</key>
+		<string> After the user has clicked an Apply button, and there are no changes that the Cancel button can undo.  
+</string>
+		<key>question</key>
+		<string>49. When does the presence of an available Cancel button violate the heuristic visibility of system status?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>50</string>
+		<key>identifier</key>
+		<string>50</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>50A reference from one UAR to another is established when 
+   I,the analyst remembers a similar previous case. 
+   II,new problems are uncovered by thinking about the trade-offs of solutions. 
+   III,a sufficient number of UARs has been written for one heuristic. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>51</string>
+		<key>identifier</key>
+		<string>51</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>51, Which of the following features are designed to accelerate user interaction? 
+   I,History list in Web browsers. 
+   II,Bookmarks. 
+   III,List of shortcuts to recently used files 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>52</string>
+		<key>identifier</key>
+		<string>52</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>52. A Visual Basic button will hold the focus when the interface is first presented to the user, if 
+   I,its Default property is set to "true". 
+   II,its TabStop property is set to "true" and its TabIndex property is set to "0". 
+   III,its TabIndex property is set to "0". 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>53</string>
+		<key>identifier</key>
+		<string>53</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> should be carefully criticized before use.
+ </string>
+		<key>optionB</key>
+		<string> endorses or criticizes the interface as a whole.
+ </string>
+		<key>optionC</key>
+		<string> unambiguously endorses or criticizes the aspect of the interface to which it applies.
+ </string>
+		<key>optionD</key>
+		<string> may occasionally both endorse and criticize one aspect of the interface.
+</string>
+		<key>question</key>
+		<string>53. A heuristic used in evaluating prototypes of a user interface:  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>54</string>
+		<key>identifier</key>
+		<string>54</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>54. Which of the following heuristics are violated by the Date/Time Control Panel Time Zone ListBox? 
+  I,Visibility of system status 
+  II,Consistency and standards 
+  III,Aesthetics and minimalist design 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>55</string>
+		<key>identifier</key>
+		<string>55</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>55. In Visual Basic, which of the following CheckBox states can a user set interactively by directly manipulating the control? 
+   I,Unchecked 
+   II,Checked 
+   III,Grayed 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>56</string>
+		<key>identifier</key>
+		<string>56</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Checking that the window is not covered by another before displaying a menu.
+ </string>
+		<key>optionB</key>
+		<string> Allowing users to select an item from a list rather than type the name of the item.
+ </string>
+		<key>optionC</key>
+		<string> Not letting a novice user use a keyboard shortcut.
+ </string>
+		<key>optionD</key>
+		<string> Checking all application variables for inconsistencies, after a change to the value of one of them is attempted by the user.
+</string>
+		<key>question</key>
+		<string>56. Which of the following is an example of error prevention in an interface?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>57</string>
+		<key>identifier</key>
+		<string>57</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>57. Which of the following interface features does the error prevention heuristic warn us to avoid? 
+   I,Commands that are very similar 
+   II,Messages that contain double negatives 
+   III,Tabbed dialog boxes 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>58</string>
+		<key>identifier</key>
+		<string>58</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>58.Which of the following are true of Checkbox controls: 
+   I,Checkboxes are most commonly used to allow users to turn the options of larger interfaces on and off. 
+   II,Checkboxes allow users to toggle only two states interactively: checked and unchecked. 
+   III,A user cannot directly set a Checkbox to the Grayed state interactively. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>59</string>
+		<key>identifier</key>
+		<string>59</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> lstDevice.Selected
+ </string>
+		<key>optionB</key>
+		<string> lstDevice_Scroll
+ </string>
+		<key>optionC</key>
+		<string> lstDevice_Click
+ </string>
+		<key>optionD</key>
+		<string> lstDevice.Scroll 
+</string>
+		<key>question</key>
+		<string>59. Into which Visual Basic event handler would you insert code to record the fact that the user has selected "CrystalWare(TM) Playback" in this figure? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>60</string>
+		<key>identifier</key>
+		<string>60</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> buttons with icons but no textual labels
+ </string>
+		<key>optionB</key>
+		<string> case-sensitive commands
+ </string>
+		<key>optionC</key>
+		<string> hyperlinks that are not descriptive of the pages to which they link
+ </string>
+		<key>optionD</key>
+		<string> a very long dropdown list
+</string>
+		<key>question</key>
+		<string>60. Which of the following is an example of a description error as it relates to the heuristic error prevention in an interface?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>61</string>
+		<key>identifier</key>
+		<string>61</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I and III 
+</string>
+		<key>question</key>
+		<string>61.Which of the following is a way that the Windows 98 Date/Time control panel violates the heuristic help and documentation? 
+  I,Help messages disappear when the user clicks elsewhere. 
+  II,There is no help available. 
+  III,Help messages appear in a completely separate window. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>62</string>
+		<key>identifier</key>
+		<string>62</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Computers are better at remembering things precisely; people are better at recognizing something that is shown to them.
+ </string>
+		<key>optionB</key>
+		<string> People have no trouble at all remembering things exactly.
+ </string>
+		<key>optionC</key>
+		<string> Forcing users to memorize commands is good mental practice.
+ </string>
+		<key>optionD</key>
+		<string> It takes too long for users to recall commands from memory. 
+</string>
+		<key>question</key>
+		<string>62.Which of the following is a reason that adhering to the heuristic recognition rather than recall when designing interfaces is a good idea?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>63</string>
+		<key>identifier</key>
+		<string>63</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Paper manuals are always available and easily searchable.
+ </string>
+		<key>optionB</key>
+		<string> Online help can give more concrete advice than paper manuals.
+ </string>
+		<key>optionC</key>
+		<string> Online help is always available and easily searchable.
+ </string>
+		<key>optionD</key>
+		<string> People use paper manuals only when they have no other recourse.  
+</string>
+		<key>question</key>
+		<string> 63.How does online help better satisfy the heuristic help and documentation than paper manuals?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>64</string>
+		<key>identifier</key>
+		<string>64</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It supports the heuristic by informing users when a problem has occurred with the download.
+ </string>
+		<key>optionB</key>
+		<string> It supports the heuristic by allowing users to choose whether or not to pay attention to the indicator.
+ </string>
+		<key>optionC</key>
+		<string> It violates the heuristic by providing users with more information than they can deal with at one time.
+ </string>
+		<key>optionD</key>
+		<string> It violates the heuristic by providing unhelpful information.
+</string>
+		<key>question</key>
+		<string>64.Does the presence of a status indicator as a file is downloading support or violate the heuristic help users recognize, diagnose, and recover from errors?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>65</string>
+		<key>identifier</key>
+		<string>65</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III only
+ </string>
+		<key>optionD</key>
+		<string> II and III only  
+</string>
+		<key>question</key>
+		<string>65.Which of the following are true of Visual Basic Textbox controls? 
+   I,They can be set to hide the characters that are entered into them, allowing them to be for password entry. 
+   II,They can be set to display either a single line of text or multiple lines. 
+   III,They support keyboard editing of text but not conventional mouse select-edit functions. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>66</string>
+		<key>identifier</key>
+		<string>66</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I ,II, and III  
+</string>
+		<key>question</key>
+		<string>66.Which of the following are true of Visual Basic scrollbar controls? 
+   I,They are not typically used for tasks where particular or exact values are needed. 
+   II,They can be manipulated in three ways: by clicking their arrow buttons, by clicking and dragging their "thumb," and by clicking anywhere on the bar between their "thumb" and arrow buttons. 
+   III,They are represented on the toolbox palette by two icons. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>67</string>
+		<key>identifier</key>
+		<string>67</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string> 67.To determine if a Visual Basic control is actually in a container control and not merely "floating" over it, one can 
+  I,move the container control to see if the control in question moves with it. 
+  II,check to see if the control in question's AutoBuddy property is set to the name of the container control. 
+  III,move the control in question to see if it is limited to staying within the borders of the container control. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>68</string>
+		<key>identifier</key>
+		<string>68</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Make one method of completing a task obvious for novice users, and include hidden complexity for experts.
+ </string>
+		<key>optionB</key>
+		<string> Only allow users one way to complete a task.
+ </string>
+		<key>optionC</key>
+		<string> Include as much information relevant to an expert user as you can in an interface.
+ </string>
+		<key>optionD</key>
+		<string> Invent several different ways to complete a task, and make each of them obvious to all users.  
+</string>
+		<key>question</key>
+		<string>68.How does the usability heuristic aesthetics and minimalist design apply to the differences between novice and expert users?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>69</string>
+		<key>identifier</key>
+		<string>69</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The clock has an hour, minute, and second hand.
+</string>
+		<key>optionB</key>
+		<string> A map of the world appears on the Time Zone tab.
+</string>
+		<key>optionC</key>
+		<string> The date does not appear on the Time Zone tab.
+</string>
+		<key>optionD</key>
+		<string> The time zone is displayed on the Date &amp; Time tab
+</string>
+		<key>question</key>
+		<string>69.How does the Date/Time control panel support the heuristic recognition rather than recall? 	
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>70</string>
+		<key>identifier</key>
+		<string>70</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None of the above answers, the observation should not be interrupted
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>70.Which of the following is a way to tell when a participant wants to stop a usability test? 
+  I.Expressions of negative emotions, such as "I'm so stupid I'll never be able to finish this." 
+  II,Aggressive behavior towards the computer. 
+  III,Expressions of enthusiasm that seem insincere. 
+ 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>71</string>
+		<key>identifier</key>
+		<string>71</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> By force or influence
+ </string>
+		<key>optionB</key>
+		<string> Verbally
+ </string>
+		<key>optionC</key>
+		<string> By telling them every detail of the project by the time they are ready to leave
+ </string>
+		<key>optionD</key>
+		<string> Using a consent form 
+</string>
+		<key>question</key>
+		<string>71.How does a usability tester get informed consent from participants?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>72</string>
+		<key>identifier</key>
+		<string>72</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> In a lab, a user's brain-wave patterns are recorded and analyzed while they perform a task.
+ </string>
+		<key>optionB</key>
+		<string> The person conducting the test tells the user everything they are thinking as the user completes the task.
+ </string>
+		<key>optionC</key>
+		<string> A user describes each step of completing a task after the task has been completed.
+ </string>
+		<key>optionD</key>
+		<string> While being observed, a user says everything they are thinking as they perform a task.  
+</string>
+		<key>question</key>
+		<string>72.Which of the following answers best describes think-aloud usability testing?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>73</string>
+		<key>identifier</key>
+		<string>73</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> participant frustration is natural and should be always ignored.
+ </string>
+		<key>optionB</key>
+		<string> the observer and the participant engage in an exchange about the system being tested.
+ </string>
+		<key>optionC</key>
+		<string> the observer must form an opinion of the participant's intelligence.
+ </string>
+		<key>optionD</key>
+		<string> the participant may ask how to do something, but the observer must not answer. 
+</string>
+		<key>question</key>
+		<string>73.During a think-aloud usability-test  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>74</string>
+		<key>identifier</key>
+		<string>74</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>74.Your supervisor has suggested that you mention the following when introducing a think-aloud test to a participant: 
+   I,Prolonged silence will reflect negatively on the participant. 
+   II,The participant should not stop talking, even though it may seem unnatural at first. 
+   III,Once the recording begins, the observation cannot be stopped. 
+You should decide to abide by:
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>75</string>
+		<key>identifier</key>
+		<string>75</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>75.The drivers of the United Parcel Service (UPS) carry small data entry tablets to record pick-ups and deliveries. If you were preparing a think-aloud usability test for a new version of these tablets, you would 
+   I,plan to run the test in the lab, under controlled conditions. 
+   II,plan to test outdoors, under both intense sunlight and rain. 
+   II,ask the middle managers that have to approve the devices to participate in the test. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>76</string>
+		<key>identifier</key>
+		<string>76</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>76.When selecting the content of the tasks to be included in a think-aloud usability test, which of the following kinds of tasks should you consider? 
+   I,Tasks that will be exercised most often in the final product 
+   II,Tasks that will be exercised only in rare emergencies 
+   III,Tasks that take more than half a day of continuous interface use 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>77</string>
+		<key>identifier</key>
+		<string>77</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> is a false alarm unless confirmed by think-aloud usability tests.
+ </string>
+		<key>optionB</key>
+		<string> will be confirmed by think-aloud testing in all cases.
+ </string>
+		<key>optionC</key>
+		<string> will show up sooner or later in think-aloud tests with inexperienced users.
+ </string>
+		<key>optionD</key>
+		<string> may reflect a real problem even if not corroborated by think-aloud usability tests. 
+</string>
+		<key>question</key>
+		<string>77.A usability problem discovered by application of a heuristic  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>78</string>
+		<key>identifier</key>
+		<string>78</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The information must first be translated into words before it can be vocalized.
+</string>
+		<key>optionB</key>
+		<string> In that case thinking-aloud involves drawing a picture and talking about it.
+</string>
+		<key>optionC</key>
+		<string> Thinking-aloud is not possible under those circumstances.
+</string>
+		<key>optionD</key>
+		<string> There is no difference. 
+</string>
+		<key>question</key>
+		<string>78How is thinking-aloud different when a user is working with information that is non-linguistic in nature? 	
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>79</string>
+		<key>identifier</key>
+		<string>79</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A picture is mangled when cut from one application and pasted into another.
+</string>
+		<key>optionB</key>
+		<string> A sequence of user actions causes a program crash.
+</string>
+		<key>optionC</key>
+		<string> At times, the system becomes so slow that the user thinks something is wrong.
+</string>
+		<key>optionD</key>
+		<string> Icons for remote printers are too easily confused with those of an image-processing program.
+</string>
+		<key>question</key>
+		<string>79.Which of the following usability problems is most likely to be discovered by heuristic evaluation? 	
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>80</string>
+		<key>identifier</key>
+		<string>80</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only		</string>
+		<key>optionB</key>
+		<string> I only
+	</string>
+		<key>optionC</key>
+		<string> I, II, and III	</string>
+		<key>optionD</key>
+		<string> III only
+</string>
+		<key>question</key>
+		<string>80.What is a critical incident? 
+  I,A complete, observable activity. 
+  II.Activity where the intention seems clear and straightforward. 
+  III,Activity with definite consequences. 	
+
+	</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>81</string>
+		<key>identifier</key>
+		<string>81</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The individual solutions to similar problems can be implemented by the same programmer.
+</string>
+		<key>optionB</key>
+		<string> The task of analyzing the results of the test can be divided among several observers.
+</string>
+		<key>optionC</key>
+		<string> Related problems often have common, elegant solutions.
+</string>
+		<key>optionD</key>
+		<string> Several mistakes made by the same user can be eliminated from consideration. 
+</string>
+		<key>question</key>
+		<string>81.What is a good reason to relate Usability Aspect Reports to each other? 	
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>82</string>
+		<key>identifier</key>
+		<string>82</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Repair
+</string>
+		<key>optionB</key>
+		<string> Redraw
+</string>
+		<key>optionC</key>
+		<string> Refresh
+</string>
+		<key>optionD</key>
+		<string> Paint
+</string>
+		<key>question</key>
+		<string>82.What is the name of the event that occurs when a PictureBox control is redrawn?	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>83</string>
+		<key>identifier</key>
+		<string>83</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 1320
+</string>
+		<key>optionB</key>
+		<string> 1080
+</string>
+		<key>optionC</key>
+		<string> 240
+</string>
+		<key>optionD</key>
+		<string> 1560
+</string>
+		<key>question</key>
+		<string>83.The following Visual Basic form contains a Frame that contains a Button. The Button's Name property is set to Button1. If the left mouse button is pressed when the mouse is on the location shown, what would is value of Button1.Y? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>84</string>
+		<key>identifier</key>
+		<string>84</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> x - Frame1 - Button11
+</string>
+		<key>optionB</key>
+		<string> x + Button21.Left + Frame2.Left - Frame1.Left
+</string>
+		<key>optionC</key>
+		<string> x + Frame1 + Button11
+</string>
+		<key>optionD</key>
+		<string> x + Button21.Left + Frame2.Left - Frame1.Left - Button11.Left
+
+</string>
+		<key>question</key>
+		<string>84.Consider the following nesting of Visual Basic objects Form
+    Frame1
+        Button11
+    Frame2
+        Button21
+
+If the x-coordinate of the center of Button21 is located at x in the Button21 coordinate system, what would be the value of that x-coordinate in terms of the Frame1 coordinate system?	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>85</string>
+		<key>identifier</key>
+		<string>85</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 2040
+</string>
+		<key>optionB</key>
+		<string> 1080
+</string>
+		<key>optionC</key>
+		<string> 600
+</string>
+		<key>optionD</key>
+		<string> 1440
+</string>
+		<key>question</key>
+		<string>85.The following Visual Basic form contains a Frame that contains a Button. The Button's Name property is set to Button1. If the left mouse button is pressed when the mouse is on the location shown, what would is value of Button1.X? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>86</string>
+		<key>identifier</key>
+		<string>86</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> properties
+</string>
+		<key>optionB</key>
+		<string> controls
+</string>
+		<key>optionC</key>
+		<string> operators
+</string>
+		<key>optionD</key>
+		<string> methods
+</string>
+		<key>question</key>
+		<string>86.For the Visual Basic Graphics Class, drawing operations are implemented as	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>87</string>
+		<key>identifier</key>
+		<string>87</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> bottom left
+ </string>
+		<key>optionB</key>
+		<string> top left
+ </string>
+		<key>optionC</key>
+		<string> top right
+ </string>
+		<key>optionD</key>
+		<string> bottom right 
+</string>
+		<key>question</key>
+		<string>87.Which corner is designated with coordinates (0,0) in Visual Basic code? 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>88</string>
+		<key>identifier</key>
+		<string>88</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> pb.Refresh()
+ </string>
+		<key>optionB</key>
+		<string> pb.Redraw()
+ </string>
+		<key>optionC</key>
+		<string> pb.Repaint()
+ </string>
+		<key>optionD</key>
+		<string> pb.Redraw() </string>
+		<key>question</key>
+		<string>88.Which of the following method calls would force the PictureBox pb to immediately redraw itself? 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>89</string>
+		<key>identifier</key>
+		<string>89</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> relative to the overall form
+ </string>
+		<key>optionB</key>
+		<string> relative to its immediate container and never relative to the overall form
+ </string>
+		<key>optionC</key>
+		<string> relative to the screen upon which it will display
+ </string>
+		<key>optionD</key>
+		<string> relative to its immediate container and possibly relative to the overall form 
+</string>
+		<key>question</key>
+		<string>89.The X and Y properties of a Visual Basic control are always expressed 	
+	 </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>90</string>
+		<key>identifier</key>
+		<string>90</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Animator
+ </string>
+		<key>optionB</key>
+		<string> Scheduler
+ </string>
+		<key>optionC</key>
+		<string> TickGenerator
+ </string>
+		<key>optionD</key>
+		<string> Timer  
+</string>
+		<key>question</key>
+		<string>90.What Visual Basic component raises an event at regular intervals and can be useful in creating animated graphics? 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>91</string>
+		<key>identifier</key>
+		<string>91</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> information about the state of the object is used to determine how the input should be interpreted
+ </string>
+		<key>optionB</key>
+		<string> the objects searches for an appropriate handler
+ </string>
+		<key>optionC</key>
+		<string> the object is redrawn to provide feedback, if necessary
+ </string>
+		<key>optionD</key>
+		<string> the object reacts to the input 
+</string>
+		<key>question</key>
+		<string>91.When an event on a custom interactive object is handled, which of the following is the step that follows picking?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>92</string>
+		<key>identifier</key>
+		<string>92</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> center point
+ </string>
+		<key>optionB</key>
+		<string> visibility
+ </string>
+		<key>optionC</key>
+		<string> bounding box
+ </string>
+		<key>optionD</key>
+		<string> largest x- and largest y-coordinate contained in it  
+</string>
+		<key>question</key>
+		<string> 92.In Visual Basic, the extent of a part is synonymous with its  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>93</string>
+		<key>identifier</key>
+		<string>93</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> choosing the order in which to redraw "damaged" objects
+ </string>
+		<key>optionB</key>
+		<string> choosing the object "on top" when layers exist
+ </string>
+		<key>optionC</key>
+		<string> choosing the object upon which an event occurred
+ </string>
+		<key>optionD</key>
+		<string> choosing the part of an object upon which an event occurred  
+</string>
+		<key>question</key>
+		<string> 93.In Visual Basic, picking refers to  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>94</string>
+		<key>identifier</key>
+		<string>94</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the largest part is tested first
+ </string>
+		<key>optionB</key>
+		<string> the part drawn last is tested first
+ </string>
+		<key>optionC</key>
+		<string> the smallest part is tested first
+ </string>
+		<key>optionD</key>
+		<string> the part drawn first is tested first 
+</string>
+		<key>question</key>
+		<string> 94.When an event occurs at a position shared by overlapping parts,  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>95</string>
+		<key>identifier</key>
+		<string>95</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 4
+ </string>
+		<key>optionB</key>
+		<string> 3
+ </string>
+		<key>optionC</key>
+		<string> 2
+ </string>
+		<key>optionD</key>
+		<string> 1  
+</string>
+		<key>question</key>
+		<string>95How many comparisons are required to perform a bounding box test?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>96</string>
+		<key>identifier</key>
+		<string>96</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> is accompanied by redo
+ </string>
+		<key>optionB</key>
+		<string> allows an unlimited number of undos
+ </string>
+		<key>optionC</key>
+		<string> permits only a limited number of undos
+ </string>
+		<key>optionD</key>
+		<string> is implemented in an object-oriented language  
+</string>
+		<key>question</key>
+		<string> 96.Undo can be a potentially dangerous operation unless it  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>97</string>
+		<key>identifier</key>
+		<string>97</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> file manipulation operations
+ </string>
+		<key>optionB</key>
+		<string> choosing to log out of the system
+ </string>
+		<key>optionC</key>
+		<string> changing option settings in a program
+ </string>
+		<key>optionD</key>
+		<string> choosing to quit an application
+</string>
+		<key>question</key>
+		<string>97.Which of the following operations is considered irreversible by most systems?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>98</string>
+		<key>identifier</key>
+		<string>98</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the user may often change her mind, resulting in several duplicate undos
+ </string>
+		<key>optionB</key>
+		<string> one user action may result in the changing of many program values
+ </string>
+		<key>optionC</key>
+		<string> several user actions typically are required to change one program value
+ </string>
+		<key>optionD</key>
+		<string> program values that are changed are typically large 
+</string>
+		<key>question</key>
+		<string> 98.Typically, an undo subsystem cannot make use of singular adds and restores because  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>99</string>
+		<key>identifier</key>
+		<string>99</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> provide the user with access to state variables thus giving him the ability to restore an old state
+ </string>
+		<key>optionB</key>
+		<string> at timed intervals, save the state of a program
+ </string>
+		<key>optionC</key>
+		<string> save variables that have changed and provide a way to restore the old values
+ </string>
+		<key>optionD</key>
+		<string> save variables that haven't changed so as to map commonalities in program state
+</string>
+		<key>question</key>
+		<string> 99.Which of the following statements provides the best description of undo from the implementation point-of-view?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>100</string>
+		<key>identifier</key>
+		<string>100</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> stack
+ </string>
+		<key>optionB</key>
+		<string> queue
+ </string>
+		<key>optionC</key>
+		<string> array
+ </string>
+		<key>optionD</key>
+		<string> linked lis
+</string>
+		<key>question</key>
+		<string>100.Program states saved by an undo subsystem would most appropriately be stored in which data structure?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>101</string>
+		<key>identifier</key>
+		<string>101</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+</string>
+		<key>optionB</key>
+		<string> I only
+</string>
+		<key>optionC</key>
+		<string> I, II, and III
+</string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>101.A reference from one UAR to another is established when 
+  I,the analyst remembers a similar previous case. 
+  II,new problems are uncovered by thinking about the trade-offs of solutions. 
+  III,a sufficient number of UARs has been written for one heuristic. 	
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

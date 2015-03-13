@@ -13,6 +13,17 @@
 		B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */; };
 		B45BC3EF1AAF3689007C8436 /* SSDExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */; };
 		B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */; };
+		B4BBC4D01AB2F0E70029865D /* ku_ssd1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */; };
+		B4BBC4D11AB2F0E70029865D /* ku_ssd2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */; };
+		B4BBC4D21AB2F0E70029865D /* ku_ssd3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C91AB2F0E70029865D /* ku_ssd3.plist */; };
+		B4BBC4D31AB2F0E70029865D /* ku_ssd4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CA1AB2F0E70029865D /* ku_ssd4.plist */; };
+		B4BBC4D41AB2F0E70029865D /* ku_ssd5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CB1AB2F0E70029865D /* ku_ssd5.plist */; };
+		B4BBC4D51AB2F0E70029865D /* ku_ssd6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CC1AB2F0E70029865D /* ku_ssd6.plist */; };
+		B4BBC4D61AB2F0E70029865D /* ku_ssd7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */; };
+		B4BBC4D71AB2F0E70029865D /* ku_ssd8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */; };
+		B4BBC4D81AB2F0E70029865D /* ku_ssd9.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */; };
+		B4BBC4DA1AB2F12C0029865D /* DoingExerciseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */; };
+		B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BC7C381AB3090F00E1F23D /* BookName.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		B45BC3ED1AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDExerciseTests.swift; sourceTree = "<group>"; };
 		B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBookCollectionViewController.swift; sourceTree = "<group>"; };
+		B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd1.plist; sourceTree = "<group>"; };
+		B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd2.plist; sourceTree = "<group>"; };
+		B4BBC4C91AB2F0E70029865D /* ku_ssd3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd3.plist; sourceTree = "<group>"; };
+		B4BBC4CA1AB2F0E70029865D /* ku_ssd4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd4.plist; sourceTree = "<group>"; };
+		B4BBC4CB1AB2F0E70029865D /* ku_ssd5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd5.plist; sourceTree = "<group>"; };
+		B4BBC4CC1AB2F0E70029865D /* ku_ssd6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd6.plist; sourceTree = "<group>"; };
+		B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd7.plist; sourceTree = "<group>"; };
+		B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd8.plist; sourceTree = "<group>"; };
+		B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd9.plist; sourceTree = "<group>"; };
+		B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoingExerciseStoryboard.storyboard; sourceTree = "<group>"; };
+		B4BC7C381AB3090F00E1F23D /* BookName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookName.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +107,9 @@
 		B45BC3D31AAF3689007C8436 /* SSDExercise */ = {
 			isa = PBXGroup;
 			children = (
+				B4BBC4DB1AB2F1430029865D /* View */,
 				B4337D1C1AAF435600B3A927 /* Controller */,
 				B45BC3D61AAF3689007C8436 /* AppDelegate.swift */,
-				B45BC3DC1AAF3689007C8436 /* Main.storyboard */,
 				B45BC3DF1AAF3689007C8436 /* Images.xcassets */,
 				B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */,
 				B45BC3D41AAF3689007C8436 /* Supporting Files */,
@@ -98,7 +120,9 @@
 		B45BC3D41AAF3689007C8436 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
 				B45BC3D51AAF3689007C8436 /* Info.plist */,
+				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,6 +142,31 @@
 				B45BC3ED1AAF3689007C8436 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4BBC4DB1AB2F1430029865D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B45BC3DC1AAF3689007C8436 /* Main.storyboard */,
+				B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B4BC7C371AB3086D00E1F23D /* ssd题库 */ = {
+			isa = PBXGroup;
+			children = (
+				B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */,
+				B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */,
+				B4BBC4C91AB2F0E70029865D /* ku_ssd3.plist */,
+				B4BBC4CA1AB2F0E70029865D /* ku_ssd4.plist */,
+				B4BBC4CB1AB2F0E70029865D /* ku_ssd5.plist */,
+				B4BBC4CC1AB2F0E70029865D /* ku_ssd6.plist */,
+				B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */,
+				B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */,
+				B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */,
+			);
+			name = "ssd题库";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +250,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */,
+				B4BBC4D61AB2F0E70029865D /* ku_ssd7.plist in Resources */,
+				B4BBC4D11AB2F0E70029865D /* ku_ssd2.plist in Resources */,
+				B4BBC4D01AB2F0E70029865D /* ku_ssd1.plist in Resources */,
+				B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */,
+				B4BBC4DA1AB2F12C0029865D /* DoingExerciseStoryboard.storyboard in Resources */,
+				B4BBC4D21AB2F0E70029865D /* ku_ssd3.plist in Resources */,
 				B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */,
+				B4BBC4D41AB2F0E70029865D /* ku_ssd5.plist in Resources */,
+				B4BBC4D71AB2F0E70029865D /* ku_ssd8.plist in Resources */,
+				B4BBC4D51AB2F0E70029865D /* ku_ssd6.plist in Resources */,
+				B4BBC4D81AB2F0E70029865D /* ku_ssd9.plist in Resources */,
+				B4BBC4D31AB2F0E70029865D /* ku_ssd4.plist in Resources */,
 				B45BC3E01AAF3689007C8436 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

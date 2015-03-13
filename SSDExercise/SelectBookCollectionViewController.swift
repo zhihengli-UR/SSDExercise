@@ -8,13 +8,20 @@
 
 import UIKit
 
+class SSDBookCell : UICollectionViewCell {
+    @IBOutlet weak var bookNumberLabel: UILabel!
+    @IBOutlet weak var bookNameLabel: UILabel!
+    @IBOutlet weak var ratioOfQuestionsLabel: UILabel!
+    
+}
+
+
 let reuseIdentifier = "Cell"
 
 class SelectBookCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.collectionView?.backgroundColor = UIColor.whiteColor();
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -43,13 +50,13 @@ class SelectBookCollectionViewController: UICollectionViewController {
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         //#warning Incomplete method implementation -- Return the number of sections
-        return 0
+        return 3
     }
 
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
-        return 0
+        return 3
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {

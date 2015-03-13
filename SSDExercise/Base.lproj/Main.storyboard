@@ -42,13 +42,14 @@
             </objects>
             <point key="canvasLocation" x="769" y="-286"/>
         </scene>
-        <!--SSD-->
+        <!--选课本-->
         <scene sceneID="5Kw-7r-m20">
             <objects>
                 <collectionViewController id="g83-fI-6HZ" customClass="SelectBookCollectionViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="4DL-1a-t0x">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VFL-C0-npf">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -56,7 +57,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ukq-wO-f5d">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ukq-wO-f5d" customClass="SSDBookCell" customModule="SSDExercise" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -71,13 +72,13 @@
                             <outlet property="delegate" destination="g83-fI-6HZ" id="zqa-e1-GGu"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="SSD" id="zyq-6z-vlG"/>
+                    <navigationItem key="navigationItem" title="选课本" id="zyq-6z-vlG"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFZ-5q-dYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1451" y="-286"/>
         </scene>
-        <!--Root View Controller-->
+        <!--做题模式-->
         <scene sceneID="9Z8-KR-B8a">
             <objects>
                 <tableViewController id="cuu-WP-tvu" sceneMemberID="viewController">
@@ -86,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fv8-Kk-4CT">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" id="fv8-Kk-4CT">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fv8-Kk-4CT" id="dg9-Du-9Z5">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -98,7 +99,7 @@
                             <outlet property="delegate" destination="cuu-WP-tvu" id="qFa-n5-CFZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="JeT-Uu-WwX"/>
+                    <navigationItem key="navigationItem" title="做题模式" id="JeT-Uu-WwX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y5c-vj-SkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -121,7 +122,7 @@
             </objects>
             <point key="canvasLocation" x="769" y="391"/>
         </scene>
-        <!--Root View Controller-->
+        <!--设置-->
         <scene sceneID="dbM-zc-xwm">
             <objects>
                 <tableViewController id="jOm-P0-9pW" sceneMemberID="viewController">
@@ -204,7 +205,7 @@
                             <outlet property="delegate" destination="jOm-P0-9pW" id="tIb-4V-L8N"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="kfL-b7-6Vz"/>
+                    <navigationItem key="navigationItem" title="设置" id="kfL-b7-6Vz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JKw-gW-qPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

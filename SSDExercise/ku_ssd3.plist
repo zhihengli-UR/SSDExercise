@@ -1,0 +1,3137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>1</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>must use the extension .class
+</string>
+		<key>optionB</key>
+		<string>must be the same as the class it defines, ignoring case
+</string>
+		<key>optionC</key>
+		<string>must be the same as the class it defines, respecting case
+</string>
+		<key>optionD</key>
+		<string>has no restrictions
+</string>
+		<key>question</key>
+		<string>1. The name of a Java source file  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>2</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ^
+ </string>
+		<key>optionB</key>
+		<string> ++
+ </string>
+		<key>optionC</key>
+		<string> +
+ </string>
+		<key>optionD</key>
+		<string> &amp;  
+</string>
+		<key>question</key>
+		<string> 2. Which of the following is the string concatenation operator in Java? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>3</string>
+		<key>identifier</key>
+		<string>3</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Int
+ </string>
+		<key>optionB</key>
+		<string> integer
+ </string>
+		<key>optionC</key>
+		<string> Integer
+ </string>
+		<key>optionD</key>
+		<string> INT  
+</string>
+		<key>question</key>
+		<string> 3. What is the name of the wrapper class for the type int?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>4</string>
+		<key>identifier</key>
+		<string>4</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>The code will cause a compilation error.
+</string>
+		<key>optionB</key>
+		<string>The output caused by the code will be 512.
+</string>
+		<key>optionC</key>
+		<string>The output caused by the code will be 8. 
+</string>
+		<key>optionD</key>
+		<string>The output caused by the code will be 5 1 2.  
+</string>
+		<key>question</key>
+		<string>4. Consider the following Java program segment. 
+   int x = 5;
+   int y = 2;
+   System.out.println(x + "1" + y);
+Which of the following statements is true about the program segment? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>5</string>
+		<key>identifier</key>
+		<string>5</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>println appends a new line to the end of its output, but print does not
+</string>
+		<key>optionB</key>
+		<string>print inserts a new line at the beginning of its output, but println does not
+</string>
+		<key>optionC</key>
+		<string>print appends a new line to the end of its output, but println does not
+</string>
+		<key>optionD</key>
+		<string>println inserts a new line at the beginning of its output, but print does not 
+</string>
+		<key>question</key>
+		<string> 5.  A difference between the methods print and println of the class java.io.PrintWriter is that 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>6</string>
+		<key>identifier</key>
+		<string>6</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	By using the class FileFilter which gracefully filters out bad input data
+</string>
+		<key>optionB</key>
+		<string>	By always specifying the throws clause in every method header where file I/O is performed
+</string>
+		<key>optionC</key>
+		<string>	By writing while loops to guard against bad input
+</string>
+		<key>optionD</key>
+		<string>	By handling these problems by providing exception handlers  
+</string>
+		<key>question</key>
+		<string>6. What is the right way to handle abnormalities in input on Java?  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>7</string>
+		<key>identifier</key>
+		<string>7</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	x has an illegal definition, but y has a legal definition.
+</string>
+		<key>optionB</key>
+		<string>	Both x and y have legal definitions.
+</string>
+		<key>optionC</key>
+		<string>	x has a legal definition, but y has an illegal definition.
+</string>
+		<key>optionD</key>
+		<string>	Neither x nor y has a legal definition.
+</string>
+		<key>question</key>
+		<string>7.Consider the following Java program segment. 
+import java.io.*;
+public class SomeClass{
+  public void x() {
+       throw new RuntimeException("Exception from x");
+  }
+  public void y(){
+       throw new IOException("Exception from y");
+  }
+}
+Which of the following is true concerning the definitions for the methods x and y? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>8</string>
+		<key>identifier</key>
+		<string>8</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	//
+</string>
+		<key>optionB</key>
+		<string>	/*
+</string>
+		<key>optionC</key>
+		<string>	/**
+</string>
+		<key>optionD</key>
+		<string>	**/  
+</string>
+		<key>question</key>
+		<string>8.Which of the following patterns of characters opens a Javadoc comment block?  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>9</string>
+		<key>identifier</key>
+		<string>10</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	test case
+</string>
+		<key>optionB</key>
+		<string>	stack trace
+</string>
+		<key>optionC</key>
+		<string>	print statement
+</string>
+		<key>optionD</key>
+		<string>	breakpoint  
+</string>
+		<key>question</key>
+		<string>10.In a typical source-code debugger, a programmer can set a _____ to cause a program to stop executing at a particular line of code.
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>10</string>
+		<key>identifier</key>
+		<string>11</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	name, attributes, and methods
+</string>
+		<key>optionB</key>
+		<string>	attributes, methods, and name
+</string>
+		<key>optionC</key>
+		<string>	attributes, methods, and constants
+</string>
+		<key>optionD</key>
+		<string>	name, methods, and constants 
+</string>
+		<key>question</key>
+		<string>11. In a UML class diagram's representation of a class, the top, middle, and lower rectangular compartments respectively describe the _____ of the class. 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>11</string>
+		<key>identifier</key>
+		<string>13</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> relationship between a subclass and a superclass
+ </string>
+		<key>optionB</key>
+		<string> class without methods
+ </string>
+		<key>optionC</key>
+		<string> one-to-one relationship
+ </string>
+		<key>optionD</key>
+		<string> self-containing class  
+</string>
+		<key>question</key>
+		<string>13.Consider the following UML class diagram. 
+ 
+The diagram describes a  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>12</string>
+		<key>identifier</key>
+		<string>14</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	I and II only
+</string>
+		<key>optionB</key>
+		<string>	I and III only
+</string>
+		<key>optionC</key>
+		<string>	I, II, and III
+</string>
+		<key>optionD</key>
+		<string>	II and III only 
+</string>
+		<key>question</key>
+		<string>14. Consider the following UML class diagram. 
+According to the diagram, which of the following statements is (are) true? 
+I. ClassB is a specialization of ClassA. 
+II. ClassA is a generalization of ClassC. 
+III. ClassC is involved in a self-containment loop. 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>13</string>
+		<key>identifier</key>
+		<string>15</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> methods and variables common to both classes
+ </string>
+		<key>optionB</key>
+		<string> methods of one class that are called by the other class
+ </string>
+		<key>optionC</key>
+		<string> instances of one class that can be associated with an instance of the other class
+ </string>
+		<key>optionD</key>
+		<string> times that one class's methods are called by the other class
+</string>
+		<key>question</key>
+		<string>15. The multiplicity of an association between two classes indicates the number of 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>14</string>
+		<key>identifier</key>
+		<string>16</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	B, C
+</string>
+		<key>optionB</key>
+		<string>	B, A
+</string>
+		<key>optionC</key>
+		<string>	A, B
+</string>
+		<key>optionD</key>
+		<string>	A, C  </string>
+		<key>question</key>
+		<string>16.Consider the following UML class diagram. 
+ 
+According to the diagram, instances of the class named _____ have references to instances of the class named _____. 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>15</string>
+		<key>identifier</key>
+		<string>17</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> one class belongs to the same package as the other class
+ </string>
+		<key>optionB</key>
+		<string> one class is a subtype of the other class
+ </string>
+		<key>optionC</key>
+		<string> an object of one class is instantiated in the same method as an object of the other class
+ </string>
+		<key>optionD</key>
+		<string> an object of one class requires an object of the other class 
+</string>
+		<key>question</key>
+		<string>17. A binary association is said to exist between two classes when 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>16</string>
+		<key>identifier</key>
+		<string>18</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	its own superclass
+</string>
+		<key>optionB</key>
+		<string>	an attribute that references an object of the same class
+</string>
+		<key>optionC</key>
+		<string>	a method that calls itself
+</string>
+		<key>optionD</key>
+		<string>	a method that calls another method within the same class  
+</string>
+		<key>question</key>
+		<string>18. If a class has an association with itself, then the class contains 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>17</string>
+		<key>identifier</key>
+		<string>19</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	I and II only
+</string>
+		<key>optionB</key>
+		<string>	I and III only
+</string>
+		<key>optionC</key>
+		<string>	I, II, and III
+</string>
+		<key>optionD</key>
+		<string>	II and III only
+  
+</string>
+		<key>question</key>
+		<string>19.  An object model describes which of the following? 
+I	Attributes of classes 
+II	Methods of classes 
+III	Relationships between classes 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>18</string>
+		<key>identifier</key>
+		<string>20</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	generalizations
+</string>
+		<key>optionB</key>
+		<string>	attributes
+</string>
+		<key>optionC</key>
+		<string>	specializations
+</string>
+		<key>optionD</key>
+		<string>	methods  
+</string>
+		<key>question</key>
+		<string>20. In an object model, the data that an object is responsible for maintaining are represented by 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>19</string>
+		<key>identifier</key>
+		<string>21</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	The line of text "default" followed by the line of text "non-default"
+</string>
+		<key>optionB</key>
+		<string>	The line of text "non-default" followed by the line of text "default"
+</string>
+		<key>optionC</key>
+		<string>	The line of text "default"
+</string>
+		<key>optionD</key>
+		<string>	The line of text "non-default"
+</string>
+		<key>question</key>
+		<string>21. Consider the following Java program segment.
+import java.io.*;
+public class Test {
+    public Test( ) {
+        System.out.println("default");
+    }
+    public Test( int i ) {
+        System.out.println("non-default");
+    }
+    public static void main(String[] args) {
+        Test t = new Test(2);
+    }
+}
+Which of the following will be output during execution of the program segment?
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>20</string>
+		<key>identifier</key>
+		<string>22</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> native and non-native
+ </string>
+		<key>optionB</key>
+		<string> static and non-static
+ </string>
+		<key>optionC</key>
+		<string> default and non-default
+ </string>
+		<key>optionD</key>
+		<string> abstract and non-abstract 
+</string>
+		<key>question</key>
+		<string> 22. Which of the following categorizations can be applied to both the data fields and the methods in a Java class?
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>21</string>
+		<key>identifier</key>
+		<string>23</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	A class must define at least one constructor.
+</string>
+		<key>optionB</key>
+		<string>	A constructor must be defined as public.
+</string>
+		<key>optionC</key>
+		<string>	A class can define more than one constructor.
+</string>
+		<key>optionD</key>
+		<string>	A constructor must be defined as static. 
+</string>
+		<key>question</key>
+		<string> 23. Which of the following statements about constructors in Java is true?
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>22</string>
+		<key>identifier</key>
+		<string>24</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> once the first time an object of that class is instantiated
+ </string>
+		<key>optionB</key>
+		<string> each time an object of that class goes out of scope
+ </string>
+		<key>optionC</key>
+		<string> each time an object of that class is instantiated
+ </string>
+		<key>optionD</key>
+		<string> once at the beginning of any program that uses that class
+</string>
+		<key>question</key>
+		<string> 24. If a class contains a constructor, that constructor will be invoked  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>23</string>
+		<key>identifier</key>
+		<string>25</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> private
+ </string>
+		<key>optionB</key>
+		<string> class
+ </string>
+		<key>optionC</key>
+		<string> static
+ </string>
+		<key>optionD</key>
+		<string> final  
+</string>
+		<key>question</key>
+		<string> 25. Which is the Java keyword used to denote a class method?  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>24</string>
+		<key>identifier</key>
+		<string>26</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> null
+ </string>
+		<key>optionB</key>
+		<string> not specified in the method definition
+ </string>
+		<key>optionC</key>
+		<string> false
+ </string>
+		<key>optionD</key>
+		<string> void 
+</string>
+		<key>question</key>
+		<string> 26. The return type for a method that returns nothing to its caller is  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>25</string>
+		<key>identifier</key>
+		<string>27</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> overridden
+ </string>
+		<key>optionB</key>
+		<string> overloaded
+ </string>
+		<key>optionC</key>
+		<string> private
+ </string>
+		<key>optionD</key>
+		<string> hidden
+</string>
+		<key>question</key>
+		<string> 27. When a subclass defines an instance method with the same return type and signature as a method in its parent, the parent's method is said to be  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>26</string>
+		<key>identifier</key>
+		<string>28</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> parent
+ </string>
+		<key>optionB</key>
+		<string> this
+ </string>
+		<key>optionC</key>
+		<string> super
+ </string>
+		<key>optionD</key>
+		<string> base 
+</string>
+		<key>question</key>
+		<string>28. From within a child class, its parent class is referred to via the keyword  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>27</string>
+		<key>identifier</key>
+		<string>29</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> int sum(float a, int b)
+ </string>
+		<key>optionB</key>
+		<string> int sum(int x, int y)
+ </string>
+		<key>optionC</key>
+		<string> int sum(int x, float y)
+ </string>
+		<key>optionD</key>
+		<string> float sum(int x, float y)
+</string>
+		<key>question</key>
+		<string>29. If the method int sum(int a, int b) is defined in a Java class C, which of the following methods cannot coexist as a different method in class C? 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>28</string>
+		<key>identifier</key>
+		<string>30</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> final
+ </string>
+		<key>optionB</key>
+		<string> private
+ </string>
+		<key>optionC</key>
+		<string> protected
+ </string>
+		<key>optionD</key>
+		<string> default  
+</string>
+		<key>question</key>
+		<string>30. Which is a Java access modifier used to designate that a particular data field will not be inherited by a subclass?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>29</string>
+		<key>identifier</key>
+		<string>31</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 0
+ </string>
+		<key>optionB</key>
+		<string> 2
+ </string>
+		<key>optionC</key>
+		<string> 45
+ </string>
+		<key>optionD</key>
+		<string> 1  
+</string>
+		<key>question</key>
+		<string>31. Regarding the following declaration, what is the index of the element containing 45?
+int[]  numbers = {-1, 45, 6, 132};
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>30</string>
+		<key>identifier</key>
+		<string>32</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> LIMIT
+ </string>
+		<key>optionB</key>
+		<string> 0
+ </string>
+		<key>optionC</key>
+		<string> LIMIT / 2
+ </string>
+		<key>optionD</key>
+		<string> LIMIT - 1  
+</string>
+		<key>question</key>
+		<string>32. If the length of a particular array is the value of LIMIT, what is the index of the last item in that array?  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>31</string>
+		<key>identifier</key>
+		<string>33</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The number 2 is printed and there is no abnormal termination.
+ </string>
+		<key>optionB</key>
+		<string> The number 2 is printed and a run-time exception terminates execution.
+ </string>
+		<key>optionC</key>
+		<string> The number 3 is printed and a run-time exception terminates execution.
+ </string>
+		<key>optionD</key>
+		<string> The number 1 is printed and there is no abnormal termination. 
+</string>
+		<key>question</key>
+		<string>33. Consider the Java program below.
+public class Arr{
+   public static void main(String[] args) {
+      int[] a = {1, 2, 3};
+      System.out.println(a[1]);
+      System.out.println(a[3]);
+   }
+}   
+Which of the following is true about the result of executing the program?
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>32</string>
+		<key>identifier</key>
+		<string>34</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	int[] arr= {15, 17, 19};
+</string>
+		<key>optionB</key>
+		<string>	int[3] arr = {15, 17, 19};
+</string>
+		<key>optionC</key>
+		<string>	int arr[3]= {15, 17, 19};
+</string>
+		<key>optionD</key>
+		<string>	int arr = {15, 17, 19};
+</string>
+		<key>question</key>
+		<string> 34. Consider the following Java program segment.
+int[] arr;
+arr = new int[3];
+arr[2]=19;
+arr[1]=17;
+arr[0]=15;
+Which of the following Java statements is syntactically correct and semantically identical to the program segment?
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>33</string>
+		<key>identifier</key>
+		<string>35</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	1, n
+</string>
+		<key>optionB</key>
+		<string>	0, n-1
+</string>
+		<key>optionC</key>
+		<string>	0, n
+</string>
+		<key>optionD</key>
+		<string>	1, n-1  
+</string>
+		<key>question</key>
+		<string>35. A Java array that contains n components will be indexed from _____ through _____.
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>34</string>
+		<key>identifier</key>
+		<string>36</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>36. Legal Java statements to initialize an array reference include which of the following?
+I	int[] aobj = {0, 1, 2}; 
+II	int[4] aobj = {0, 1, 2}; 
+III	int[] aobj = new int[3];
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>35</string>
+		<key>identifier</key>
+		<string>37</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ArrayList objects that have been instantiated
+ </string>
+		<key>optionB</key>
+		<string> bytes used by c
+ </string>
+		<key>optionC</key>
+		<string> elements in the ArrayList represented by c
+ </string>
+		<key>optionD</key>
+		<string> times that the method c.add has been called  
+</string>
+		<key>question</key>
+		<string>37. Consider the following method call, where c is an instance of the class java.util.ArrayList. 
+c.size();
+This method call returns the number of
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>36</string>
+		<key>identifier</key>
+		<string>38</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> int
+ </string>
+		<key>optionB</key>
+		<string> Exception
+ </string>
+		<key>optionC</key>
+		<string> loop
+ </string>
+		<key>optionD</key>
+		<string> iterator  
+</string>
+		<key>question</key>
+		<string>38. An object that contains methods that traverse a collection linearly from start to finish is known as a(n)
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>37</string>
+		<key>identifier</key>
+		<string>39</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Once an object is inserted into an instance of ArrayList, it can never be removed.
+ </string>
+		<key>optionB</key>
+		<string> Items stored by an instance of ArrayList can be accessed using integer indexes.
+ </string>
+		<key>optionC</key>
+		<string> An instance of ArrayList can grow to accommodate new items when the collection is full.
+ </string>
+		<key>optionD</key>
+		<string> The constructor of the ArrayList class, when called with no arguments, causes an empty ArrayList to be constructed.
+</string>
+		<key>question</key>
+		<string> 39. Which of the following statements is not true of the class java.util.ArrayList?
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>38</string>
+		<key>identifier</key>
+		<string>40</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II
+</string>
+		<key>question</key>
+		<string>40. Which of the following methods is (are) provided by java.util.Iterator?
+I	next, which causes an iterator to return the next item in its iteration 
+II	remove, which can remove an item from a collection associated with an iterator 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>39</string>
+		<key>identifier</key>
+		<string>41</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and II 
+</string>
+		<key>question</key>
+		<string>41. Which of the following statements is (are) true in Java?
+I	Classes that contain abstract methods must be declared abstract. 
+II	Classes that contain protected methods must be declared abstract. 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>40</string>
+		<key>identifier</key>
+		<string>42</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only
+</string>
+		<key>question</key>
+		<string>42. Which of the following statements is (are) true about any abstract method in Java? 
+I	It contains no definition. 
+II	It cannot be declared public.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>41</string>
+		<key>identifier</key>
+		<string>43</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> None 
+</string>
+		<key>question</key>
+		<string> 43. Which of the following statements about Java classes is (are) accurate?
+I	A class may have only one parent. 
+II	Two or more classes may share a parent.
+ 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>42</string>
+		<key>identifier</key>
+		<string>44</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II only
+</string>
+		<key>question</key>
+		<string> 44. Which of the following statements is (are) true about interfaces in Java?
+I	Interfaces can extend other interfaces. 
+II	Interfaces can contain data fields.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>43</string>
+		<key>identifier</key>
+		<string>45</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>45. Which of the following statements is (are) true about inheritance in Java?
+I	A class can extend more than one abstract class. 
+II	A class can implement more than one interface.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>44</string>
+		<key>identifier</key>
+		<string>46</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>46. Which of the following statements is (are) true in Java?
+I	An abstract class may contain data fields. 
+II	Interfaces may contain data fields.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>45</string>
+		<key>identifier</key>
+		<string>47</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> extends
+ </string>
+		<key>optionB</key>
+		<string> interface
+ </string>
+		<key>optionC</key>
+		<string> import
+ </string>
+		<key>optionD</key>
+		<string> implements  
+</string>
+		<key>question</key>
+		<string> 47. Which is the Java keyword that denotes the use of an interface?  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>46</string>
+		<key>identifier</key>
+		<string>48</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	describe a practical solution to a common design problem
+</string>
+		<key>optionB</key>
+		<string>	allow the use of object-orientated concepts in a language that is not object-oriented
+</string>
+		<key>optionC</key>
+		<string>	reduce the number of classes in the design of a program
+</string>
+		<key>optionD</key>
+		<string>	ensure that code executes at optimal speed during runtime
+</string>
+		<key>question</key>
+		<string>48. A design pattern is typically used to
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>47</string>
+		<key>identifier</key>
+		<string>49</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> private
+ </string>
+		<key>optionB</key>
+		<string> protected
+ </string>
+		<key>optionC</key>
+		<string> package
+ </string>
+		<key>optionD</key>
+		<string> public 
+</string>
+		<key>question</key>
+		<string>49. The constructor of a class that adheres to the Singleton design pattern must have _____ visibility.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>48</string>
+		<key>identifier</key>
+		<string>50</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Singleton
+ </string>
+		<key>optionB</key>
+		<string> Decorator
+ </string>
+		<key>optionC</key>
+		<string> Strategy
+ </string>
+		<key>optionD</key>
+		<string> Proxy  
+</string>
+		<key>question</key>
+		<string> 50. In which of the following design patterns is a family of algorithms encapsulated into individual but interchangeable classes?
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>49</string>
+		<key>identifier</key>
+		<string>51</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A FileAlreadyExists exception will be raised.
+ </string>
+		<key>optionB</key>
+		<string> The existing contents of output.txt will be preserved.
+ </string>
+		<key>optionC</key>
+		<string> The existing contents of output.txt will be erased.
+ </string>
+		<key>optionD</key>
+		<string> A run-time error will be generate
+</string>
+		<key>question</key>
+		<string>51. Consider the following Java program segment.
+PrintWriter fileOut = new PrintWriter(  
+        new FileWriter("output.txt"));
+If the file output.txt already exists, which of the following events will occur when the program segment is executed?
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>50</string>
+		<key>identifier</key>
+		<string>52</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	The controller is the abstract domain knowledge of an application.
+</string>
+		<key>optionB</key>
+		<string>	The controller is the automatic mechanism by which the user interface is displayed and by which events are communicated between the model and the view.
+</string>
+		<key>optionC</key>
+		<string>	The controller is the list of abstract classes in an application.
+</string>
+		<key>optionD</key>
+		<string>	The controller is the way in which the abstract domain knowledge of an application is presented to the user. 
+</string>
+		<key>question</key>
+		<string>52. Which of the following is true regarding the controller part in the Model-View-Controller (MVC) paradigm? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>51</string>
+		<key>identifier</key>
+		<string>53</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> automatic mechanism by which the user interface is displayed and by which events are communicated between the model and the controller
+ </string>
+		<key>optionB</key>
+		<string> list of abstract classes in an application
+ </string>
+		<key>optionC</key>
+		<string> abstract domain knowledge of an application
+ </string>
+		<key>optionD</key>
+		<string> way in which the abstract domain knowledge of an application is presented to the user
+</string>
+		<key>question</key>
+		<string> 53. The view part of the Model-View-Controller (MVC) paradigm is the 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>52</string>
+		<key>identifier</key>
+		<string>54</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> way in which the abstract domain knowledge of an application is presented to the user
+ </string>
+		<key>optionB</key>
+		<string> list of abstract classes in an application
+ </string>
+		<key>optionC</key>
+		<string> abstract domain knowledge of an application
+ </string>
+		<key>optionD</key>
+		<string> automatic mechanism by which the user interface is displayed and by which events are communicated between the view and the controller
+</string>
+		<key>question</key>
+		<string> 54. The model part of the Model-View-Controller (MVC) paradigm embodies the 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>53</string>
+		<key>identifier</key>
+		<string>55</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> BorderLayout
+ </string>
+		<key>optionB</key>
+		<string> GridBagLayout
+ </string>
+		<key>optionC</key>
+		<string> GridLayout
+ </string>
+		<key>optionD</key>
+		<string> FlowLayout
+</string>
+		<key>question</key>
+		<string>55. In Java, the default layout manager for a JPanel component is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>54</string>
+		<key>identifier</key>
+		<string>56</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> javax.swing.event
+ </string>
+		<key>optionB</key>
+		<string> java.awt.event
+ </string>
+		<key>optionC</key>
+		<string> javax.event
+ </string>
+		<key>optionD</key>
+		<string> java.event  
+</string>
+		<key>question</key>
+		<string>56. The ListSelectionEvent class and ListSelectionListener interface are available in the _____ package of Java. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>55</string>
+		<key>identifier</key>
+		<string>57</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> None 
+</string>
+		<key>question</key>
+		<string>57. Which of the following is (are) true regarding event handling in Java? 
+I	When a GUI component is created, the component automatically has the ability to generate events during user interaction. 
+II	Each Listener object must be registered with the specific component object or objects for which the Listener object is to respond. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>56</string>
+		<key>identifier</key>
+		<string>58</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> WindowEvent
+ </string>
+		<key>optionB</key>
+		<string> DisposeEvent
+ </string>
+		<key>optionC</key>
+		<string> CloseEvent
+ </string>
+		<key>optionD</key>
+		<string> ExitEvent
+</string>
+		<key>question</key>
+		<string>58. Which of the following is a Java event that is generated when the close button on a JFrame component is pressed? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>57</string>
+		<key>identifier</key>
+		<string>59</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>	void valueChanged (ListSelectionEvent lse)
+</string>
+		<key>optionB</key>
+		<string>	void valueChanged (ListSelectionListener lsl)
+</string>
+		<key>optionC</key>
+		<string>	void actionPerformed (ListSelectionEvent lse)
+</string>
+		<key>optionD</key>
+		<string>	void ListSelectionListener (ListSelectionEvent lse)
+</string>
+		<key>question</key>
+		<string>59.What is the signature of the method specified in the Java ListSelectionListener interface? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>58</string>
+		<key>identifier</key>
+		<string>60</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ClickEvent
+ </string>
+		<key>optionB</key>
+		<string> WindowEvent
+ </string>
+		<key>optionC</key>
+		<string> ButtonEvent
+ </string>
+		<key>optionD</key>
+		<string> ActionEvent
+</string>
+		<key>question</key>
+		<string>60. Which of the following is a Java event that is generated when a JButton component is pressed? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>59</string>
+		<key>identifier</key>
+		<string>61</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> main
+ </string>
+		<key>optionB</key>
+		<string> begin
+ </string>
+		<key>optionC</key>
+		<string> paint
+ </string>
+		<key>optionD</key>
+		<string> init 
+</string>
+		<key>question</key>
+		<string>61. Which method must exist in every Java application?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>60</string>
+		<key>identifier</key>
+		<string>62</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> java.io
+ </string>
+		<key>optionB</key>
+		<string> java.awt
+ </string>
+		<key>optionC</key>
+		<string> java.applet
+ </string>
+		<key>optionD</key>
+		<string> java.lang  
+</string>
+		<key>question</key>
+		<string> 62. Which package does not need to be explicitly imported into a Java program?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>61</string>
+		<key>identifier</key>
+		<string>63</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> an @version tag
+ </string>
+		<key>optionB</key>
+		<string> the order of lines is not important
+ </string>
+		<key>optionC</key>
+		<string> an @author tag
+ </string>
+		<key>optionD</key>
+		<string> a summary sentence of the declared entry
+</string>
+		<key>question</key>
+		<string> 63. According to Javadoc convention, the first sentence of each Javadoc comment should be  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>62</string>
+		<key>identifier</key>
+		<string>64</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I and III only 
+</string>
+		<key>question</key>
+		<string>64. When using noun-phrase analysis to model a software system, which of the following should typically be eliminated from the list of potential classes? 
+I	References to the software system itself 
+II	Nouns that imply roles between objects 
+III	Synonyms to other nouns in the list 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>63</string>
+		<key>identifier</key>
+		<string>65</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> III only
+</string>
+		<key>question</key>
+		<string> 65. In which of the following ways can items be added to a collection implemented by java.util.ArrayList?
+
+Items can be inserted at the beginning of the collection. 
+Items can be inserted between two existing items in the collection. 
+Items can be appended to the end of the collection. 
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>64</string>
+		<key>identifier</key>
+		<string>66</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string> 66. Which of the following statements is (are) true about all data fields in an interface in Java? 
+I	They are implicitly public. 
+II	They are implicitly final. 
+III	They are implicitly static. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>65</string>
+		<key>identifier</key>
+		<string>67</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Singleton
+ </string>
+		<key>optionB</key>
+		<string> Strategy
+ </string>
+		<key>optionC</key>
+		<string> Decorator
+ </string>
+		<key>optionD</key>
+		<string> Adapter
+</string>
+		<key>question</key>
+		<string>67. Consider the following definition of a Java class.
+public class C {
+  private static C instance = null;
+  private C() {
+  }
+  public static C getInstance() {
+    if (instance == null) {
+      instance = new C();
+	}
+    return C;
+  }
+}
+
+This class is an example of the design pattern
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>66</string>
+		<key>identifier</key>
+		<string>68</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>68. The Strategy design pattern is likely to be useful when implementing which of the following?
+I	An application that offers several alternate sorting algorithms 
+II	A simple class to store the address of an organization of which only one instance can be instantiated 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>67</string>
+		<key>identifier</key>
+		<string>69</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A NullPointerException will be raised.
+ </string>
+		<key>optionB</key>
+		<string> A FileNotFoundException will be raised.
+ </string>
+		<key>optionC</key>
+		<string> A run-time error will occur.
+ </string>
+		<key>optionD</key>
+		<string> A new file will be created.
+</string>
+		<key>question</key>
+		<string>69. If a file opened for reading does not exist, which of the following events will occur in Java?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>68</string>
+		<key>identifier</key>
+		<string>70</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> GridBagLayout
+ </string>
+		<key>optionB</key>
+		<string> FlowLayout
+ </string>
+		<key>optionC</key>
+		<string> BorderLayout
+ </string>
+		<key>optionD</key>
+		<string> GridLayout
+</string>
+		<key>question</key>
+		<string>70. In Java, the default layout manager for a JFrame component is 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>69</string>
+		<key>identifier</key>
+		<string>71</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string>71. Which of the following is (are) true regarding containers and components in the context of java GUI? 
+I	A container can be added to a component. 
+II	A component can be added to a container. 
+III	A container can be added to another container. 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>70</string>
+		<key>identifier</key>
+		<string>72</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> java.event
+ </string>
+		<key>optionB</key>
+		<string> javax.swing.event
+ </string>
+		<key>optionC</key>
+		<string> java.awt.event
+ </string>
+		<key>optionD</key>
+		<string> javax.event 
+</string>
+		<key>question</key>
+		<string>72. The ActionEvent class and ActionListener interface are available in the _____ package of Java. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>71</string>
+		<key>identifier</key>
+		<string>73</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> void actionEvent (ActionPerformed ap)
+ </string>
+		<key>optionB</key>
+		<string> void actionPerformed (ActionListener al)
+ </string>
+		<key>optionC</key>
+		<string> void actionListener (ActionEvent ae)
+ </string>
+		<key>optionD</key>
+		<string> void actionPerformed (ActionEvent ae)  
+</string>
+		<key>question</key>
+		<string>73. What is the signature of the method specified in the Java ActionListener interface? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>72</string>
+		<key>identifier</key>
+		<string>74</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>74. Which of the following is (are) true regarding event handling in Java? 
+I	When a GUI component is created, the component automatically has the ability to generate events during user interaction. 
+II	Each Listener object must be registered with the specific component object or objects for which the Listener object is to respond. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>73</string>
+		<key>identifier</key>
+		<string>75</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> java.awt.event
+ </string>
+		<key>optionB</key>
+		<string> javax.event
+ </string>
+		<key>optionC</key>
+		<string> javax.swing.event
+ </string>
+		<key>optionD</key>
+		<string> java.event
+</string>
+		<key>question</key>
+		<string>75.The ListSelectionEvent class and ListSelectionListener interface are available in the _____ package of Java. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>74</string>
+		<key>identifier</key>
+		<string>76</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> III only 
+</string>
+		<key>question</key>
+		<string>76.	Which of the following statements is (are) true about the use of an asterisk (*) in a Java import statement? 
+I.	It does not incur run-time overhead. 
+II.	It can be used to import multiple packages with a single statement. 
+III.	It can be used to import multiple classes with a single statement.	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>75</string>
+		<key>identifier</key>
+		<string>77</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 6
+ </string>
+		<key>optionB</key>
+		<string> 3
+ </string>
+		<key>optionC</key>
+		<string> 4
+ </string>
+		<key>optionD</key>
+		<string> 1 
+</string>
+		<key>question</key>
+		<string>77.Given the following code, what value will be output by the last statement? 
+StringTokenizer st = new StringTokenizer("this is,a,test of tokens", ",");
+String s;
+int count = 0;
+while (st.hasMoreTokens())  {
+      s = st.nextToken();
+      ++count;
+}
+stdOut.println(count);	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>76</string>
+		<key>identifier</key>
+		<string>78</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 52
+ </string>
+		<key>optionB</key>
+		<string> 7
+ </string>
+		<key>optionC</key>
+		<string> 5+2
+ </string>
+		<key>optionD</key>
+		<string> 5 2
+</string>
+		<key>question</key>
+		<string>78.What will be output when the following Java program segment is executed? 
+   int x = 5;
+   int y = 2;
+   System.out.println(x + y);	
+	 </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>77</string>
+		<key>identifier</key>
+		<string>79</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> call stack
+ </string>
+		<key>optionB</key>
+		<string> catch blocks
+ </string>
+		<key>optionC</key>
+		<string> exception ladder
+ </string>
+		<key>optionD</key>
+		<string> block hierarchy </string>
+		<key>question</key>
+		<string>79.In Java, exceptions that are not handled are passed up the 	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>78</string>
+		<key>identifier</key>
+		<string>80</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> java.lang.Error
+ </string>
+		<key>optionB</key>
+		<string> java.io.IOException
+ </string>
+		<key>optionC</key>
+		<string> java.lang.Throwable
+ </string>
+		<key>optionD</key>
+		<string> java.lang.RuntimeException 
+</string>
+		<key>question</key>
+		<string>80.All Java exception classes are derived from the class 	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>79</string>
+		<key>identifier</key>
+		<string>81</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> init
+ </string>
+		<key>optionB</key>
+		<string> begin
+ </string>
+		<key>optionC</key>
+		<string> paint
+ </string>
+		<key>optionD</key>
+		<string> main 
+</string>
+		<key>question</key>
+		<string>81.Which method must exist in every Java application? 	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>80</string>
+		<key>identifier</key>
+		<string>82</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> III only 
+</string>
+		<key>question</key>
+		<string>82.	Which of the following statements is (are) true about the use of an asterisk (*) in a Java import statement? 
+I.	It does not incur run-time overhead. 
+II.	It can be used to import multiple packages with a single statement. 
+III.	It can be used to import multiple classes with a single statement.	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>81</string>
+		<key>identifier</key>
+		<string>83</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 6
+ </string>
+		<key>optionB</key>
+		<string> 3
+ </string>
+		<key>optionC</key>
+		<string> 4
+ </string>
+		<key>optionD</key>
+		<string> 1 
+</string>
+		<key>question</key>
+		<string>83.Given the following code, what value will be output by the last statement? 
+StringTokenizer st = new StringTokenizer("this is,a,test of tokens", ",");
+String s;
+int count = 0;
+
+while (st.hasMoreTokens())  {
+      s = st.nextToken();
+      ++count;
+}
+stdOut.println(count);	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>82</string>
+		<key>identifier</key>
+		<string>84</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>84.According to the document entitled Code Conventions for the Java Programming Language, file suffixes used by Java software include which of the following?
+I.	.obj 
+II.	.class
+III.	.h 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>83</string>
+		<key>identifier</key>
+		<string>85</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> scope
+ </string>
+		<key>optionB</key>
+		<string> debugger
+ </string>
+		<key>optionC</key>
+		<string> exception handler
+ </string>
+		<key>optionD</key>
+		<string> stack trace 
+</string>
+		<key>question</key>
+		<string>85.	A tool that allows programmers to execute lines of a program one line at a time in order to help locate the source of a program's errors is known as a(n)	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>84</string>
+		<key>identifier</key>
+		<string>87</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 100, avoided
+ </string>
+		<key>optionB</key>
+		<string> 100, encouraged
+ </string>
+		<key>optionC</key>
+		<string> 2000, avoided
+ </string>
+		<key>optionD</key>
+		<string> 2000, encouraged 
+</string>
+		<key>question</key>
+		<string>87.	According to the Java code conventions, files longer than _____ lines should be _____.	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>85</string>
+		<key>identifier</key>
+		<string>88</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only 
+</string>
+		<key>question</key>
+		<string>88.After a typical debugger encounters a breakpoint, the programmer using the debugger may perform which of the following actions?
+I.	Examine the values of variables in the halted program 
+II.	Execute the current line 
+III.	Resume execution of the halted program 	
+	 </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>86</string>
+		<key>identifier</key>
+		<string>89</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> specialization
+ </string>
+		<key>optionB</key>
+		<string> link
+ </string>
+		<key>optionC</key>
+		<string> association
+ </string>
+		<key>optionD</key>
+		<string> aggregation
+</string>
+		<key>question</key>
+		<string>89.A relationship that exists between two specific instances of an object is known as a(n) 	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>87</string>
+		<key>identifier</key>
+		<string>90</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> parent
+ </string>
+		<key>optionB</key>
+		<string> super
+ </string>
+		<key>optionC</key>
+		<string> base
+ </string>
+		<key>optionD</key>
+		<string> this 
+</string>
+		<key>question</key>
+		<string>90.From within a child class, its parent class is referred to via the keyword 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>88</string>
+		<key>identifier</key>
+		<string>91</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>91.	Consider the following Java class definitions. 
+public class Object1 {
+  
+    protected String d(){
+        return "Hi";
+    }
+}
+
+public class Object2 extends Object1 {
+        
+    protected String d(){
+		
+        return super.d();
+    }
+}
+Which of the following statements is (are) true regarding the definitions? 
+I.	Class Object2 inherits from class Object1. 
+II.	Class Object2 overrides method d. 
+III.	Method d returns equivalent results when executed from either class.	
+	 </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>89</string>
+		<key>identifier</key>
+		<string>92</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> All objects have their own copy of the class variable defined in the instantiated class.
+ </string>
+		<key>optionB</key>
+		<string> Non-static methods in a class can access the class variable defined in the same class.
+ </string>
+		<key>optionC</key>
+		<string> Class variables do not need the reference to the object of the instantiated class to access them.
+ </string>
+		<key>optionD</key>
+		<string> Class variables require the modifier static in the declarations
+</string>
+		<key>question</key>
+		<string>92.Which of the following statements about class variables in Java is not true?	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>90</string>
+		<key>identifier</key>
+		<string>93</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a static data field
+ </string>
+		<key>optionB</key>
+		<string> a read-only variable
+ </string>
+		<key>optionC</key>
+		<string> a private data field
+ </string>
+		<key>optionD</key>
+		<string> an instance variable
+</string>
+		<key>question</key>
+		<string>93.The term class variable is a synonym for 	
+	 </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>91</string>
+		<key>identifier</key>
+		<string>94</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> can grow to accommodate new items
+ </string>
+		<key>optionB</key>
+		<string> cannot be accessed using an integer index
+ </string>
+		<key>optionC</key>
+		<string> can only store primitive variables such as int or boolean
+ </string>
+		<key>optionD</key>
+		<string> can only store instances of the class java.lang.String 
+</string>
+		<key>question</key>
+		<string>94.	The class java.util.ArrayList implements a collection that	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>92</string>
+		<key>identifier</key>
+		<string>95</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> One/Two/Three/
+ </string>
+		<key>optionB</key>
+		<string> Three/Two/One/
+ </string>
+		<key>optionC</key>
+		<string> Three,Two,One
+ </string>
+		<key>optionD</key>
+		<string> One,Two,Three
+</string>
+		<key>question</key>
+		<string>95.Consider the following Java program segment.
+String[] str = {"Three","Two","One"};
+
+for (int i = 0; i &lt; str.length; ++i)  {
+System.out.println(str[i]+"/");
+}
+What will be output upon execution of the program segment?	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>93</string>
+		<key>identifier</key>
+		<string>96</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> private, abstract
+ </string>
+		<key>optionB</key>
+		<string> public, static
+ </string>
+		<key>optionC</key>
+		<string> public, abstract
+ </string>
+		<key>optionD</key>
+		<string> static, private
+</string>
+		<key>question</key>
+		<string>96.	In Java, all methods in an interface must be _____ and _____.	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>94</string>
+		<key>identifier</key>
+		<string>97</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string>97.Consider the following Java program fragment. 
+public void drive(Vehicle v) {
+   ...
+}
+...
+drive(obj);
+The method call drive(obj) is valid if obj is which of the following? 
+I.	A descendent of class Vehicle 
+II.	An ancestor of class Vehicle 
+III.	An object of class Vehicle	
+	 </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>95</string>
+		<key>identifier</key>
+		<string>98</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Int
+ </string>
+		<key>optionB</key>
+		<string> integer
+ </string>
+		<key>optionC</key>
+		<string> Integer
+ </string>
+		<key>optionD</key>
+		<string> INT 
+</string>
+		<key>question</key>
+		<string>98. What is the name of the wrapper class for the type int? 	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>96</string>
+		<key>identifier</key>
+		<string>99</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> java
+ </string>
+		<key>optionB</key>
+		<string> javadoc
+ </string>
+		<key>optionC</key>
+		<string> javacom
+ </string>
+		<key>optionD</key>
+		<string> javac 
+</string>
+		<key>question</key>
+		<string>99.What is the name of the JDK program that processes Javadoc comments? 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>97</string>
+		<key>identifier</key>
+		<string>100</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Association and aggregation have no meaningful relationship.
+ </string>
+		<key>optionB</key>
+		<string> Association is the opposite of aggregation.
+ </string>
+		<key>optionC</key>
+		<string> Aggregation is a special form of association.
+ </string>
+		<key>optionD</key>
+		<string> Association is a special form of aggregation</string>
+		<key>question</key>
+		<string>100.Which of the following is true about association and aggregation in UML class diagrams? 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>98</string>
+		<key>identifier</key>
+		<string>101</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> must be the same as the class it defines, ignoring case
+ </string>
+		<key>optionB</key>
+		<string> must be the same as the class it defines, respecting case
+ </string>
+		<key>optionC</key>
+		<string> has no restrictions
+ </string>
+		<key>optionD</key>
+		<string> must use the extension .class</string>
+		<key>question</key>
+		<string>101.	The name of a Java source file	
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>99</string>
+		<key>identifier</key>
+		<string>102</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a collection of Java classes that contain other Java classes
+ </string>
+		<key>optionB</key>
+		<string> a collection of Java classes that "wrap" Java primitive types
+ </string>
+		<key>optionC</key>
+		<string> the Java classes that contain at least two data fields
+ </string>
+		<key>optionD</key>
+		<string> the Java classes that contain themselves  </string>
+		<key>question</key>
+		<string>102.The term wrapper classes refers to	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>100</string>
+		<key>identifier</key>
+		<string>103</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> name was here
+ </string>
+		<key>optionB</key>
+		<string> name + was here
+ </string>
+		<key>optionC</key>
+		<string> Elvis was here
+ </string>
+		<key>optionD</key>
+		<string> Elviswas here </string>
+		<key>question</key>
+		<string>103.What will be output caused by the execution of the following Java program segment? 
+String name = "Elvis";
+
+System.out.print(name + "was here");	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>101</string>
+		<key>identifier</key>
+		<string>104</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only available through a typical debugger's step into feature
+ </string>
+		<key>optionB</key>
+		<string> a sequence of method calls
+ </string>
+		<key>optionC</key>
+		<string> a fatal error that causes a typical debugger to terminate
+ </string>
+		<key>optionD</key>
+		<string> a list of variables allocated on a program's stack   
+
+</string>
+		<key>question</key>
+		<string>104.A stack trace is	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>102</string>
+		<key>identifier</key>
+		<string>105</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 8
+ </string>
+		<key>optionB</key>
+		<string> 2
+ </string>
+		<key>optionC</key>
+		<string> 4
+ </string>
+		<key>optionD</key>
+		<string> 5
+</string>
+		<key>question</key>
+		<string>105.What is the number of regions into which the BorderLayout in Java subdivides a container? 	
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>
