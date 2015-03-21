@@ -9,16 +9,35 @@
 import UIKit
 
 class SSDBookCell : UICollectionViewCell {
-    @IBOutlet weak var bookNumberLabel: UILabel!
-    @IBOutlet weak var bookNameLabel: UILabel!
-    @IBOutlet weak var ratioOfQuestionsLabel: UILabel!
+    let BookNumber: UILabel!
+    let BookName: UILabel!
+    let BookRatio: UILabel!
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        BookNumber = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height/3))
+        BookNumber.textAlignment = .Center
+        BookNumber.textColor = UIColor.whiteColor()
+        BookName = UILabel(frame: CGRect(x: 0, y: BookNumber.frame.size.height, width: frame.size.width, height: frame.size.height/3))
+        BookName.textAlignment = .Center
+        BookName.textColor = UIColor.whiteColor()
+        BookName.font.fontWithSize(1)
+        BookRatio = UILabel(frame: CGRect(x: 0, y: BookNumber.frame.size.height + BookName.frame.size.height, width: frame.size.width, height: frame.size.height/3))
+        BookRatio.textAlignment = .Center
+        BookRatio.textColor = UIColor.whiteColor()
+        contentView.addSubview(BookNumber)
+        contentView.addSubview(BookName)
+        contentView.addSubview(BookRatio)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
     
 }
 
-
 let reuseIdentifier = "Cell"
 
-class SelectBookCollectionViewController: UICollectionViewController,UICollectionViewDelegate, UICollectionViewDataSource {
+class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
     var bookRatioArray : [String]!
@@ -30,11 +49,15 @@ class SelectBookCollectionViewController: UICollectionViewController,UICollectio
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        var bookArray = NSArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
+        self.navigationController?.navigationBar.barTintColor = themeColor
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.collectionView!.registerClass(SSDBookCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+//        var bookArray = NSArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
+        var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
+        self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as [String]
+        self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as [String]
+        self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("BookRatio" as NSString) as [String]
         
-        
-
         // Do any additional setup after loading the view.
     }
 
@@ -57,24 +80,31 @@ class SelectBookCollectionViewController: UICollectionViewController,UICollectio
 
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         //#warning Incomplete method implementation -- Return the number of sections
-        return 3
+        return 1
     }
 
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
-        return 3
+        return 9
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as UICollectionViewCell
-        
-        // Configure the cell
-    
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as SSDBookCell
+        cell.backgroundColor = themeColor
+        cell.BookNumber.text = self.bookNumberArray[indexPath.item]
+        cell.BookName.text = self.bookNameArray[indexPath.item]
+        cell.BookRatio.text = self.bookRatioArray[indexPath.item]
         return cell
     }
 
+    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
+    func collectionView(collectionView: UICollectionView!,
+        layout collectionViewLayout: UICollectionViewLayout!,
+        insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+            return sectionInsets
+    }
+    
     // MARK: UICollectionViewDelegate
 
     /*
