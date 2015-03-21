@@ -42,7 +42,6 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     var bookNameArray : [String]!
     var bookRatioArray : [String]!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
@@ -52,7 +51,6 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         self.navigationController?.navigationBar.barTintColor = themeColor
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.collectionView!.registerClass(SSDBookCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-//        var bookArray = NSArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
         var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as [String]

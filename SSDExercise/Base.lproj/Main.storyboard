@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -127,7 +128,7 @@
         <!--设置-->
         <scene sceneID="dbM-zc-xwm">
             <objects>
-                <tableViewController id="jOm-P0-9pW" sceneMemberID="viewController">
+                <tableViewController id="jOm-P0-9pW" customClass="SettingsViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Wkc-hn-Eg5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,7 +147,28 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ws8-Wp-QV2">
+                                                    <rect key="frame" x="398" y="7" width="196" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="192" id="tsX-6E-wIz"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <action selector="sliderValueChange:" destination="jOm-P0-9pW" eventType="valueChanged" id="r5b-rP-md0"/>
+                                                    </connections>
+                                                </slider>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ws8-Wp-QV2" firstAttribute="trailing" secondItem="Oua-Cs-XBs" secondAttribute="trailingMargin" id="078-65-fEM"/>
+                                                <constraint firstAttribute="centerY" secondItem="ws8-Wp-QV2" secondAttribute="centerY" id="KSq-gB-D3V"/>
+                                                <constraint firstItem="ws8-Wp-QV2" firstAttribute="trailing" secondItem="Oua-Cs-XBs" secondAttribute="trailingMargin" id="UKT-Yc-ZDf"/>
+                                                <constraint firstAttribute="centerY" secondItem="ws8-Wp-QV2" secondAttribute="centerY" id="wzH-no-6ZG"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="078-65-fEM"/>
+                                                    <exclude reference="KSq-gB-D3V"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -211,7 +233,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JKw-gW-qPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1451" y="1078"/>
+            <point key="canvasLocation" x="1451" y="1076"/>
         </scene>
         <!--设置-->
         <scene sceneID="UGF-p2-mq1">

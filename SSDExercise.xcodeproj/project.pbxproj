@@ -24,6 +24,7 @@
 		B4BBC4D81AB2F0E70029865D /* ku_ssd9.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */; };
 		B4BBC4DA1AB2F12C0029865D /* DoingExerciseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */; };
 		B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BC7C381AB3090F00E1F23D /* BookName.plist */; };
+		B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd9.plist; sourceTree = "<group>"; };
 		B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoingExerciseStoryboard.storyboard; sourceTree = "<group>"; };
 		B4BC7C381AB3090F00E1F23D /* BookName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookName.plist; sourceTree = "<group>"; };
+		B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Controller/SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */,
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
+				B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
+				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
