@@ -39,9 +39,13 @@ class SSDBookCell : UICollectionViewCell {
 let reuseIdentifier = "Cell"
 
 class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
     var bookRatioArray : [String]!
+    
+    var userDefaults = NSUserDefaults()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,7 +60,6 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as [String]
         self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("BookRatio" as NSString) as [String]
-        
         // Do any additional setup after loading the view.
     }
 

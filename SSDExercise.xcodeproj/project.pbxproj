@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
 		B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D61AAF3689007C8436 /* AppDelegate.swift */; };
 		B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DC1AAF3689007C8436 /* Main.storyboard */; };
 		B45BC3E01AAF3689007C8436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DF1AAF3689007C8436 /* Images.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectModeViewController.swift; path = Controller/SelectModeViewController.swift; sourceTree = "<group>"; };
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3D51AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3D61AAF3689007C8436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,9 +86,9 @@
 		B4337D1C1AAF435600B3A927 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */,
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
 				B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */,
+				B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -125,6 +127,7 @@
 		B45BC3D41AAF3689007C8436 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */,
 				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
 				B45BC3D51AAF3689007C8436 /* Info.plist */,
 				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */,
+				B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
 				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,
 			);
@@ -410,7 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SSDExercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -425,7 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SSDExercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -448,6 +452,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SSDExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSDExercise.app/SSDExercise";
@@ -463,6 +468,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SSDExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSDExercise.app/SSDExercise";

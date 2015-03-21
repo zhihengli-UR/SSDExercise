@@ -43,7 +43,8 @@ class SettingsViewController: UITableViewController {
 
     @IBAction func sliderValueChange(sender: AnyObject) {
         var slider: UISlider = sender as UISlider
-        
+        var userDefaults = NSUserDefaults()
+        userDefaults.setFloat(slider.value, forKey: "FontSize")
     }
 
     /*
