@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3D51AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3D61AAF3689007C8436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		B4337D1C1AAF435600B3A927 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */,
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
 			);
 			name = Controller;
@@ -405,10 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SSDExercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SSDExercise/SSDExercise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,10 +422,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SSDExercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SSDExercise/SSDExercise-Bridging-Header.h";
 			};
 			name = Release;
 		};

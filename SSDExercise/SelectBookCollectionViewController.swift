@@ -18,8 +18,12 @@ class SSDBookCell : UICollectionViewCell {
 
 let reuseIdentifier = "Cell"
 
-class SelectBookCollectionViewController: UICollectionViewController {
-
+class SelectBookCollectionViewController: UICollectionViewController,UICollectionViewDelegate, UICollectionViewDataSource {
+    var bookNumberArray : [String]!
+    var bookNameArray : [String]!
+    var bookRatioArray : [String]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
@@ -27,6 +31,9 @@ class SelectBookCollectionViewController: UICollectionViewController {
 
         // Register cell classes
         self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        var bookArray = NSArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -60,8 +67,9 @@ class SelectBookCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as UICollectionViewCell
-    
+        
         // Configure the cell
     
         return cell
