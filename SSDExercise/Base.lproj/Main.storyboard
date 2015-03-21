@@ -30,7 +30,7 @@
         <scene sceneID="CN0-xL-jHK">
             <objects>
                 <navigationController id="J4o-bk-1O1" customClass="SelectBookViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="选课本" id="iB9-9o-Fff"/>
+                    <tabBarItem key="tabBarItem" title="选课本" image="tab_selectbook" id="iB9-9o-Fff"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="t5u-F0-dvD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -112,7 +112,7 @@
         <scene sceneID="lt7-LE-QQE">
             <objects>
                 <navigationController id="Voe-Wb-IzW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="做题模式" id="J4q-1r-eaZ"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="做题模式" image="tab_selectmode" id="J4q-1r-eaZ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mSo-Uz-IIQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -239,7 +239,7 @@
         <scene sceneID="UGF-p2-mq1">
             <objects>
                 <navigationController id="Xhe-B6-t3u" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="设置" id="LAX-hL-ZOM"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="设置" image="tab_options" id="LAX-hL-ZOM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0sd-8g-EKz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -253,4 +253,9 @@
             <point key="canvasLocation" x="769" y="1078"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_options" width="24" height="24"/>
+        <image name="tab_selectbook" width="24" height="24"/>
+        <image name="tab_selectmode" width="24" height="24"/>
+    </resources>
 </document>

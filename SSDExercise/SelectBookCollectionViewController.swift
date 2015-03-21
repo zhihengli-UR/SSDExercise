@@ -10,18 +10,19 @@ import UIKit
 
 class SSDBookCell : UICollectionViewCell {
     let BookNumber: UILabel!
-    let BookName: UILabel!
+    let BookName: UITextView!
     let BookRatio: UILabel!
     override init(frame: CGRect) {
         super.init(frame: frame)
-        BookNumber = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height/3))
+        BookNumber = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height/5))
         BookNumber.textAlignment = .Center
         BookNumber.textColor = UIColor.whiteColor()
-        BookName = UILabel(frame: CGRect(x: 0, y: BookNumber.frame.size.height, width: frame.size.width, height: frame.size.height/3))
+        BookName = UITextView(frame: CGRect(x: 0, y: BookNumber.frame.size.height, width: frame.size.width, height: frame.size.height*3/5))
         BookName.textAlignment = .Center
         BookName.textColor = UIColor.whiteColor()
-        BookName.font.fontWithSize(1)
-        BookRatio = UILabel(frame: CGRect(x: 0, y: BookNumber.frame.size.height + BookName.frame.size.height, width: frame.size.width, height: frame.size.height/3))
+        BookName.backgroundColor = themeColor
+        BookName.font = UIFont(name: "Arial", size: 15)
+        BookRatio = UILabel(frame: CGRect(x: 0, y: BookNumber.frame.size.height + BookName.frame.size.height, width: frame.size.width, height: frame.size.height/5))
         BookRatio.textAlignment = .Center
         BookRatio.textColor = UIColor.whiteColor()
         contentView.addSubview(BookNumber)
@@ -48,8 +49,8 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.navigationController?.navigationBar.barTintColor = themeColor
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.navigationController?.navigationBar.barTintColor = themeColor
         self.collectionView!.registerClass(SSDBookCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as [String]
