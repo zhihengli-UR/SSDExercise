@@ -23,8 +23,10 @@
 		B4BBC4D61AB2F0E70029865D /* ku_ssd7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */; };
 		B4BBC4D71AB2F0E70029865D /* ku_ssd8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */; };
 		B4BBC4D81AB2F0E70029865D /* ku_ssd9.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */; };
-		B4BBC4DA1AB2F12C0029865D /* DoingExerciseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */; };
+		B4BBC4DA1AB2F12C0029865D /* TakeExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4D91AB2F12C0029865D /* TakeExercise.storyboard */; };
 		B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BC7C381AB3090F00E1F23D /* BookName.plist */; };
+		B4E70E181ABE3E640064A625 /* TakeExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E70E171ABE3E640064A625 /* TakeExerciseViewController.swift */; };
+		B4E70E1C1ABE69F60064A625 /* SSDExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E70E1B1ABE69F60064A625 /* SSDExercise.swift */; };
 		B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +62,10 @@
 		B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd7.plist; sourceTree = "<group>"; };
 		B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd8.plist; sourceTree = "<group>"; };
 		B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd9.plist; sourceTree = "<group>"; };
-		B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoingExerciseStoryboard.storyboard; sourceTree = "<group>"; };
+		B4BBC4D91AB2F12C0029865D /* TakeExercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TakeExercise.storyboard; sourceTree = "<group>"; };
 		B4BC7C381AB3090F00E1F23D /* BookName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookName.plist; sourceTree = "<group>"; };
+		B4E70E171ABE3E640064A625 /* TakeExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakeExerciseViewController.swift; path = Controller/TakeExerciseViewController.swift; sourceTree = "<group>"; };
+		B4E70E1B1ABE69F60064A625 /* SSDExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDExercise.swift; path = Model/SSDExercise.swift; sourceTree = "<group>"; };
 		B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Controller/SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +93,7 @@
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
 				B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */,
 				B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */,
+				B4E70E171ABE3E640064A625 /* TakeExerciseViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -114,9 +119,10 @@
 		B45BC3D31AAF3689007C8436 /* SSDExercise */ = {
 			isa = PBXGroup;
 			children = (
+				B45BC3D61AAF3689007C8436 /* AppDelegate.swift */,
+				B4E70E1A1ABE515C0064A625 /* Model */,
 				B4BBC4DB1AB2F1430029865D /* View */,
 				B4337D1C1AAF435600B3A927 /* Controller */,
-				B45BC3D61AAF3689007C8436 /* AppDelegate.swift */,
 				B45BC3DF1AAF3689007C8436 /* Images.xcassets */,
 				B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */,
 				B45BC3D41AAF3689007C8436 /* Supporting Files */,
@@ -128,9 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */,
-				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
 				B45BC3D51AAF3689007C8436 /* Info.plist */,
-				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				B45BC3DC1AAF3689007C8436 /* Main.storyboard */,
-				B4BBC4D91AB2F12C0029865D /* DoingExerciseStoryboard.storyboard */,
+				B4BBC4D91AB2F12C0029865D /* TakeExercise.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -175,6 +179,16 @@
 				B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */,
 			);
 			name = "ssd题库";
+			sourceTree = "<group>";
+		};
+		B4E70E1A1ABE515C0064A625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
+				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
+				B4E70E1B1ABE69F60064A625 /* SSDExercise.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +276,7 @@
 				B4BBC4D11AB2F0E70029865D /* ku_ssd2.plist in Resources */,
 				B4BBC4D01AB2F0E70029865D /* ku_ssd1.plist in Resources */,
 				B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */,
-				B4BBC4DA1AB2F12C0029865D /* DoingExerciseStoryboard.storyboard in Resources */,
+				B4BBC4DA1AB2F12C0029865D /* TakeExercise.storyboard in Resources */,
 				B4BBC4D21AB2F0E70029865D /* ku_ssd3.plist in Resources */,
 				B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */,
 				B4BBC4D41AB2F0E70029865D /* ku_ssd5.plist in Resources */,
@@ -292,6 +306,8 @@
 				B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
 				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,
+				B4E70E1C1ABE69F60064A625 /* SSDExercise.swift in Sources */,
+				B4E70E181ABE3E640064A625 /* TakeExerciseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

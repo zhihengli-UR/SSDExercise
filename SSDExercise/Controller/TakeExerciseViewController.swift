@@ -1,16 +1,21 @@
 //
-//  SettingsViewController.swift
+//  TakeExerciseViewController.swift
 //  SSDExercise
 //
-//  Created by 李 智恒 on 15/3/21.
+//  Created by 李 智恒 on 15/3/22.
 //  Copyright (c) 2015年 李 智恒. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UITableViewController {
-
-
+class TakeExerciseViewController: UITableViewController, SSDExerciseDataSource {
+    
+    var collectionButtonshouldBeHighlighted = 0
+    var exercise: SSDExercise?
+    var dataTransmitDelegate: BookNumberTransmitDelegate!
+    var selectedBookNumberFromRootViewController: Int = 0
+    
+    @IBOutlet weak var questionTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +26,15 @@ class SettingsViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
+        self.exercise = SSDExercise(delegate: self)
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        self.navigationController?.navigationBar.barTintColor = themeColor
+        
+        self.selectedBookNumberFromRootViewController = self.dataTransmitDelegate.requireBookNumber()
+        self.navigationItem.title = "SSD\(self.selectedBookNumberFromRootViewController)"
+
+        
         
     }
 
@@ -30,6 +42,37 @@ class SettingsViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillDisappear(animated: Bool) {
+        
+        
+    }
+
+    @IBAction func collectionButton(sender: AnyObject) {
+        self.collectionButtonshouldBeHighlighted = self.collectionButtonshouldBeHighlighted == 0 ? 1:0
+        if collectionButtonshouldBeHighlighted == 1 {
+            (sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)
+        }else {
+            (sender as! UIBarButtonItem).tintColor = UIColor.whiteColor()
+        }
+
+    }
+    
+//    func selectBookCompeletion(notification: NSNotification) {
+//        println("Notification has been received")
+//        var notificationDictionary = notification.userInfo as! [String: String]
+//        var selectedBook: Int = (notificationDictionary["selectedBook"]!).toInt()!
+//        
+//        println(selectedBook)
+//        self.navigationController?.title = "\(selectedBook)"
+//        
+//        
+//    }
+    
+    func loadExeciseData(exercise: String, options: [String : String], answer: String) {
+        
+    }
+    
 
     // MARK: - Table view data source
 
@@ -38,18 +81,12 @@ class SettingsViewController: UITableViewController {
 //        // Return the number of sections.
 //        return 0
 //    }
-
+//
 //    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        // #warning Incomplete method implementation.
 //        // Return the number of rows in the section.
 //        return 0
 //    }
-
-    @IBAction func sliderValueChange(sender: AnyObject) {
-        var slider: UISlider = sender as! UISlider
-        var userDefaults = NSUserDefaults()
-        userDefaults.setFloat(slider.value, forKey: "FontSize")
-    }
 
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

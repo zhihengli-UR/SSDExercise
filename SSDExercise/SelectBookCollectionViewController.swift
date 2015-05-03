@@ -8,12 +8,16 @@
 
 import UIKit
 
+protocol BookNumberTransmitDelegate {
+    func requireBookNumber() -> Int
+}
+
 class SSDBookCell : UICollectionViewCell {
     let BookNumber: UILabel!
     let BookName: UITextView!
     let BookRatio: UILabel!
     override init(frame: CGRect) {
-        super.init(frame: frame)
+//        super.init(frame: frame)
         BookNumber = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height/5))
         BookNumber.textAlignment = .Center
         BookNumber.textColor = UIColor.whiteColor()
@@ -22,84 +26,109 @@ class SSDBookCell : UICollectionViewCell {
         BookName.textColor = UIColor.whiteColor()
         BookName.backgroundColor = themeColor
         BookName.font = UIFont(name: "Arial", size: 15)
+        BookName.userInteractionEnabled = false
         BookRatio = UILabel(frame: CGRect(x: 0, y: BookNumber.frame.size.height + BookName.frame.size.height, width: frame.size.width, height: frame.size.height/5))
         BookRatio.textAlignment = .Center
         BookRatio.textColor = UIColor.whiteColor()
+        
+        
+        super.init(frame: frame)
         contentView.addSubview(BookNumber)
         contentView.addSubview(BookName)
         contentView.addSubview(BookRatio)
+        
+        //设置圆角矩形
+        self.layer.cornerRadius = 10
+
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
+//    required init(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//    }
     
 }
 
 let reuseIdentifier = "Cell"
 
-class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-
+class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITextViewDelegate, BookNumberTransmitDelegate {
+    
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
     var bookRatioArray : [String]!
     
     var userDefaults = NSUserDefaults()
+    var shouldStayInRootViewController = true
+    
+    var selectedBookNumber: Int = 0
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Register cell classes
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
+//        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.navigationController?.navigationBar.barTintColor = themeColor
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        
         self.collectionView!.registerClass(SSDBookCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        
         var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
-        self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as [String]
-        self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as [String]
-        self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("BookRatio" as NSString) as [String]
+        self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as! [String]
+        self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as! [String]
+        self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("BookRatio" as NSString) as! [String]
+        
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
     // MARK: UICollectionViewDataSource
-
+    
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         //#warning Incomplete method implementation -- Return the number of sections
         return 1
     }
-
-
+    
+    
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
         return 9
     }
-
+    
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as SSDBookCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! SSDBookCell
         cell.backgroundColor = themeColor
         cell.BookNumber.text = self.bookNumberArray[indexPath.item]
         cell.BookName.text = self.bookNameArray[indexPath.item]
         cell.BookRatio.text = self.bookRatioArray[indexPath.item]
+        
+        cell.BookName.delegate = self
+        
         return cell
     }
-
+    
     private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
     func collectionView(collectionView: UICollectionView!,
         layout collectionViewLayout: UICollectionViewLayout!,
@@ -107,35 +136,62 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
             return sectionInsets
     }
     
-    // MARK: UICollectionViewDelegate
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+//        NSOperationQueue.mainQueue().addOperationWithBlock { () -> Void in
+//        NSNotificationCenter.defaultCenter().postNotificationName("didSelectBookInCollectionView", object: nil, userInfo: ["selectedBook": "SSD\(indexPath.item+1)"])
+//            
+//        }
+        
+        self.selectedBookNumber = indexPath.item + 1
+        
+        
+        
+        var takeExerciseViewController: TakeExerciseViewController = UIStoryboard(name: "TakeExercise", bundle: nil).instantiateViewControllerWithIdentifier("TakeExercise") as! TakeExerciseViewController
+        
+        takeExerciseViewController.dataTransmitDelegate = self
+        
+        self.navigationController?.pushViewController(takeExerciseViewController, animated: true)
 
+        
+    }
+    
+    func requireBookNumber() -> Int {
+        return self.selectedBookNumber
+    }
+    
+    
+    
+    
+    // MARK: UICollectionViewDelegate
+    
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
     override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
+    return true
     }
     */
-
+    
     /*
     // Uncomment this method to specify if the specified item should be selected
     override func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
+    return true
     }
     */
-
+    
     /*
     // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
     override func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return false
+    return false
     }
-
+    
     override func collectionView(collectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
-        return false
+    return false
     }
-
+    
     override func collectionView(collectionView: UICollectionView, performAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
     
     }
     */
-
+    
 }
