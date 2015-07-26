@@ -26,17 +26,17 @@
 		<string>网络及分布式计算</string>
 		<string>软件工程</string>
 	</array>
-	<key>BookRatio</key>
+	<key>ExercisesCount</key>
 	<array>
-		<string>0/95</string>
-		<string>0/303</string>
-		<string>0/102</string>
-		<string>0/101</string>
-		<string>0/173</string>
-		<string>0/256</string>
-		<string>0/106</string>
-		<string>0/174</string>
-		<string>0/272</string>
+		<integer>95</integer>
+		<integer>303</integer>
+		<integer>102</integer>
+		<integer>101</integer>
+		<integer>173</integer>
+		<integer>256</integer>
+		<integer>106</integer>
+		<integer>174</integer>
+		<integer>272</integer>
 	</array>
 </dict>
 </plist>

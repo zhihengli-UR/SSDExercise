@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol BookNumberTransmitDelegate {
+protocol BookNumberTransmitDelegate: class {
     func requireBookNumber() -> Int
 }
 
@@ -52,18 +52,27 @@ class SSDBookCell : UICollectionViewCell {
     
 }
 
+class SSDCollectionViewLayout: UICollectionViewFlowLayout {
+    override func collectionViewContentSize() -> CGSize {
+        var width = UIScreen.mainScreen().applicationFrame.width;
+        var height = UIScreen.mainScreen().applicationFrame.height;
+        return CGSizeMake(width-10, height-20)
+    }
+}
+
 let reuseIdentifier = "Cell"
 
 class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITextViewDelegate, BookNumberTransmitDelegate {
     
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
-    var bookRatioArray : [String]!
+    var bookRatioArray : [Int]!
     
     var userDefaults = NSUserDefaults()
     var shouldStayInRootViewController = true
     
     var selectedBookNumber: Int = 0
+    var ssdCollectionViewlayout = SSDCollectionViewLayout()
     
     
     override func viewDidLoad() {
@@ -74,6 +83,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         // Register cell classes
         
 //        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         self.navigationController?.navigationBar.barTintColor = themeColor
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
@@ -83,7 +93,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as! [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as! [String]
-        self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("BookRatio" as NSString) as! [String]
+        self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("ExercisesCount" as NSString) as! [Int]
         
         
         // Do any additional setup after loading the view.
@@ -108,21 +118,21 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     
     override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         //#warning Incomplete method implementation -- Return the number of sections
-        return 1
+        return 3
     }
     
     
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
-        return 9
+        return 3
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! SSDBookCell
         cell.backgroundColor = themeColor
-        cell.BookNumber.text = self.bookNumberArray[indexPath.item]
-        cell.BookName.text = self.bookNameArray[indexPath.item]
-        cell.BookRatio.text = self.bookRatioArray[indexPath.item]
+        cell.BookNumber.text = self.bookNumberArray[indexPath.section * 3 + indexPath.item]
+        cell.BookName.text = self.bookNameArray[indexPath.section * 3 + indexPath.item]
+        cell.BookRatio.text = "\(self.bookRatioArray[indexPath.section * 3 + indexPath.item])"
         
         cell.BookName.delegate = self
         
@@ -143,13 +153,12 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
 //            
 //        }
         
-        self.selectedBookNumber = indexPath.item + 1
+        self.selectedBookNumber = indexPath.section * 3 + indexPath.item + 1
         
-        
-        
-        var takeExerciseViewController: TakeExerciseViewController = UIStoryboard(name: "TakeExercise", bundle: nil).instantiateViewControllerWithIdentifier("TakeExercise") as! TakeExerciseViewController
+        var takeExerciseViewController: RootViewController = UIStoryboard(name: "TakeExercise", bundle: nil).instantiateViewControllerWithIdentifier("RootViewController") as! RootViewController
         
         takeExerciseViewController.dataTransmitDelegate = self
+        
         
         self.navigationController?.pushViewController(takeExerciseViewController, animated: true)
 

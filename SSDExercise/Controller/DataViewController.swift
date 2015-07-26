@@ -8,14 +8,23 @@
 
 import UIKit
 
-class TakeExerciseViewController: UITableViewController, SSDExerciseDataSource {
+class DataViewController: UITableViewController {
     
-    var collectionButtonshouldBeHighlighted = 0
-    var exercise: SSDExercise?
-    var dataTransmitDelegate: BookNumberTransmitDelegate!
-    var selectedBookNumberFromRootViewController: Int = 0
+
+    var collectionButtonColor = false
     
-    @IBOutlet weak var questionTextView: UITextView!
+
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var optionALabel: UILabel!
+    @IBOutlet weak var optionBLabel: UILabel!
+    @IBOutlet weak var optionCLabel: UILabel!
+    @IBOutlet weak var optionDLabel: UILabel!
+    var dataObject: AnyObject?
+    
+    //题目答案
+    var answerToInt = ["a": 0, "b": 1, "c": 2, "d": 3]
+    var answer: Int?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,17 +34,9 @@ class TakeExerciseViewController: UITableViewController, SSDExerciseDataSource {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+     
         
-        self.exercise = SSDExercise(delegate: self)
-        
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        
-        self.selectedBookNumberFromRootViewController = self.dataTransmitDelegate.requireBookNumber()
-        self.navigationItem.title = "SSD\(self.selectedBookNumberFromRootViewController)"
-
-        
-        
+ 
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,19 +44,44 @@ class TakeExerciseViewController: UITableViewController, SSDExerciseDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillDisappear(animated: Bool) {
-        
-        
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        if let obj: AnyObject = dataObject {
+            var dict = dataObject as! [String: String]
+            self.answer = answerToInt[dict["answer"]!]
+            self.questionLabel.text = dict["question"]
+            self.optionALabel.text = dict["optionA"]
+            self.optionBLabel.text = dict["optionB"]
+            self.optionCLabel.text = dict["optionC"]
+            self.optionDLabel.text = dict["optionD"]
+            
+        } else {
+            self.answer = 4
+            self.questionLabel.text = ""
+            self.optionALabel.text = ""
+            self.optionBLabel.text = ""
+            self.optionCLabel.text = ""
+            self.optionDLabel.text = ""
+        }
     }
 
     @IBAction func collectionButton(sender: AnyObject) {
-        self.collectionButtonshouldBeHighlighted = self.collectionButtonshouldBeHighlighted == 0 ? 1:0
-        if collectionButtonshouldBeHighlighted == 1 {
-            (sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)
-        }else {
-            (sender as! UIBarButtonItem).tintColor = UIColor.whiteColor()
-        }
+        
+        collectionButtonColor = !collectionButtonColor
+        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
 
+    }
+    
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.section == 1 {
+            //选对时...
+            if indexPath.row == answer {
+                
+            }else {
+                //选错时...
+            }
+        }
     }
     
 //    func selectBookCompeletion(notification: NSNotification) {
@@ -69,9 +95,6 @@ class TakeExerciseViewController: UITableViewController, SSDExerciseDataSource {
 //        
 //    }
     
-    func loadExeciseData(exercise: String, options: [String : String], answer: String) {
-        
-    }
     
 
     // MARK: - Table view data source

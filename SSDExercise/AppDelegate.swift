@@ -19,6 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window?.tintColor = themeColor
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        
+        //第一次打开，设置缺省UserDefaults
+        if (NSUserDefaults.standardUserDefaults().objectForKey("everLaunched") == nil) {
+            //做题模式
+            NSUserDefaults.standardUserDefaults().setObject(ExerciseMode.Sequence.rawValue, forKey: "Mode")
+            //字号
+            
+            NSUserDefaults.standardUserDefaults().setObject("everLaunched", forKey: "everLaunched")
+        }
+        
         return true
     }
 
