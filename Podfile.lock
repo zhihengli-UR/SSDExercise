@@ -1,10 +1,10 @@
 PODS:
-  - MJRefresh (1.4.6)
+  - CRToast (0.0.7)
 
 DEPENDENCIES:
-  - MJRefresh
+  - CRToast (~> 0.0.7)
 
 SPEC CHECKSUMS:
-  MJRefresh: 2eaa3fd8f67fbb86497840fb0167446f7eb61dc7
+  CRToast: 99a28f4387def43b439ad88f957ce31357ff7373
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.37.1

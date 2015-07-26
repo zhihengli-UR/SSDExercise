@@ -1,9 +1,12 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## MJRefresh
+## CRToast
 
-Copyright (c) 2013-2015 MJRefresh (https://github.com/CoderMJLee/MJRefresh)
+The MIT License (MIT)
+
+Copyright (c) 2013 Cezary Wojcik <http://www.cezarywojcik.com>
+Copyright (c) 2014 Collin Ruffenach
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

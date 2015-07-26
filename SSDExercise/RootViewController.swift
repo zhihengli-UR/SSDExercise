@@ -13,6 +13,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
     var pageViewController: UIPageViewController?
     weak var dataTransmitDelegate: BookNumberTransmitDelegate!
     var selectedBookNumberFromRootViewController = 0
+    
+    var collectionButtonColor = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,6 +100,14 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         return .Min
     }
 
+    @IBAction func collectionButton(sender: AnyObject) {
+        
+        
+        collectionButtonColor = !collectionButtonColor
+        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
+        
+
+    }
 
 }
 

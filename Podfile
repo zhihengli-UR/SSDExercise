@@ -1,3 +1,3 @@
 platform :ios, '7.0'
 
-pod 'MJRefresh'
+pod 'CRToast', '~> 0.0.7'

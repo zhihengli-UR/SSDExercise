@@ -11,7 +11,7 @@ import UIKit
 class DataViewController: UITableViewController {
     
 
-    var collectionButtonColor = false
+    //var collectionButtonColor = false
     
 
     @IBOutlet weak var questionLabel: UILabel!
@@ -19,11 +19,20 @@ class DataViewController: UITableViewController {
     @IBOutlet weak var optionBLabel: UILabel!
     @IBOutlet weak var optionCLabel: UILabel!
     @IBOutlet weak var optionDLabel: UILabel!
+    @IBOutlet weak var optionAImage: UIImageView!
+    @IBOutlet weak var optionBImage: UIImageView!
+    @IBOutlet weak var optionCImage: UIImageView!
+    @IBOutlet weak var optionDImage: UIImageView!
+    
+    
+    
     var dataObject: AnyObject?
     
     //题目答案
     var answerToInt = ["a": 0, "b": 1, "c": 2, "d": 3]
+    var answerLetter: String?
     var answer: Int?
+    var optionImageViews: [UIImageView]!
     
     
     override func viewDidLoad() {
@@ -48,6 +57,7 @@ class DataViewController: UITableViewController {
         super.viewWillAppear(animated)
         if let obj: AnyObject = dataObject {
             var dict = dataObject as! [String: String]
+            self.answerLetter = dict["answer"]?.uppercaseString
             self.answer = answerToInt[dict["answer"]!]
             self.questionLabel.text = dict["question"]
             self.optionALabel.text = dict["optionA"]
@@ -63,23 +73,26 @@ class DataViewController: UITableViewController {
             self.optionCLabel.text = ""
             self.optionDLabel.text = ""
         }
+        self.optionImageViews = [optionAImage, optionBImage, optionCImage, optionDImage]
     }
 
-    @IBAction func collectionButton(sender: AnyObject) {
-        
-        collectionButtonColor = !collectionButtonColor
-        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
-
-    }
+//    @IBAction func collectionButton(sender: AnyObject) {
+//        
+//        collectionButtonColor = !collectionButtonColor
+//        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
+//
+//    }
     
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if indexPath.section == 1 {
-            //选对时...
-            if indexPath.row == answer {
+            //无论对错：
+            optionImageViews[answer!].image = UIImage(contentsOfFile: "option\(self.answerLetter!)_pre_right")
+            //选错时...
+            if indexPath.row != answer {
+                //提示：
+                //plist操作：
                 
-            }else {
-                //选错时...
             }
         }
     }
