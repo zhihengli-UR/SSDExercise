@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4794596683293C54391146DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A9D2553A61089D9F79D4A /* libPods.a */; };
+		B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */; };
+		B43F71411B64EBA500DD54B7 /* ToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F71401B64EBA500DD54B7 /* ToastManager.m */; };
 		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
 		B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D61AAF3689007C8436 /* AppDelegate.swift */; };
 		B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DC1AAF3689007C8436 /* Main.storyboard */; };
@@ -46,6 +48,9 @@
 /* Begin PBXFileReference section */
 		1BBFE90B98153D344D2C4B29 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		825A9D2553A61089D9F79D4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPlistManager.swift; path = Model/SSDPlistManager.swift; sourceTree = "<group>"; };
+		B43F713F1B64EBA500DD54B7 /* ToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToastManager.h; path = Model/ToastManager.h; sourceTree = "<group>"; };
+		B43F71401B64EBA500DD54B7 /* ToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToastManager.m; path = Model/ToastManager.m; sourceTree = "<group>"; };
 		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
 		B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectModeViewController.swift; path = Controller/SelectModeViewController.swift; sourceTree = "<group>"; };
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +214,9 @@
 				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
 				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
 				B4EEA1201B5B92FC00CD4163 /* ModelController.swift */,
+				B43F713F1B64EBA500DD54B7 /* ToastManager.h */,
+				B43F71401B64EBA500DD54B7 /* ToastManager.m */,
+				B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -370,7 +378,9 @@
 				B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */,
 				B4EEA1211B5B92FC00CD4163 /* ModelController.swift in Sources */,
 				B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */,
+				B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */,
 				B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */,
+				B43F71411B64EBA500DD54B7 /* ToastManager.m in Sources */,
 				B48177BF1AF86BDC0083575B /* Utilities.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
 				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,

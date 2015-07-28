@@ -62,7 +62,7 @@ class SSDCollectionViewLayout: UICollectionViewFlowLayout {
 
 let reuseIdentifier = "Cell"
 
-class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITextViewDelegate, BookNumberTransmitDelegate {
+class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, BookNumberTransmitDelegate, UITextViewDelegate {
     
     var bookNumberArray : [String]!
     var bookNameArray : [String]!

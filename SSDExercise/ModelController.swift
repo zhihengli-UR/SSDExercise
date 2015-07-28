@@ -40,7 +40,8 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         
         var number = bookNumber ?? 1 //默认课本为SSD1
         
-        array = NSMutableArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ku_ssd\(number)", ofType: "plist")!)!)!
+        //array = NSMutableArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ku_ssd\(number)", ofType: "plist")!)!)!
+        array = SSDPlistManager.sharedManager.loadArray(number)
         
         
         var _modeString: String? = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String?

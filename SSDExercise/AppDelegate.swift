@@ -26,6 +26,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSUserDefaults.standardUserDefaults().setObject(ExerciseMode.Sequence.rawValue, forKey: "Mode")
             //字号
             
+            
+            //将题库中的plist文件导入沙盒中的Documents目录下
+            SSDPlistManager.sharedManager.movePlistsToSandbox()
+            
+            
             NSUserDefaults.standardUserDefaults().setObject("everLaunched", forKey: "everLaunched")
         }
         
