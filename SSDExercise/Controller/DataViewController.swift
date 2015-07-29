@@ -27,15 +27,18 @@ class DataViewController: UITableViewController {
     
     
     
-    var dataObject: AnyObject?
+    var dataObject: [String: String]?
     
     //题目答案
     var answerToInt = ["a": 0, "b": 1, "c": 2, "d": 3]
+    var answerToString = [0: "a", 1: "b", 2: "c", 3: "d"]
     var answerLetter: String?
     var answer: Int?
     var done: String?
     var wrong: String?
     var collection: String?
+    var bookNumber: Int?
+    var collectionButtonColor = false
     
     
     var optionImageViews: [UIImageView]!
@@ -52,6 +55,9 @@ class DataViewController: UITableViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 44
         
+        //添加收藏按钮至rootViewController的NavigationBar中
+        var rootViewController = (((self.parentViewController as! UIPageViewController).delegate) as! RootViewController)
+        rootViewController.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav_collect"), style: UIBarButtonItemStyle.Plain, target: self, action: "collectionButton:")
  
     }
 
@@ -84,6 +90,7 @@ class DataViewController: UITableViewController {
             optionDLabel.text = ""
         }
         optionImageViews = [optionAImage, optionBImage, optionCImage, optionDImage]
+        self.bookNumber = (((self.parentViewController as! UIPageViewController).delegate) as! RootViewController).selectedBookNumberFromRootViewController
 
     }
 
@@ -97,18 +104,23 @@ class DataViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if indexPath.section == 1 {
-            //无论对错：
+            //无论对错，修改正选选项图片为深蓝色：
             optionImageViews[answer!].image = UIImage(named: "option\(answerLetter!)_pre_right")
-            var options: NSDictionary!
+            var options: NSDictionary! = ToastManager.sharedManager().generateOptionsWithCorrection(indexPath.row == answer, andRightAnswer: answerLetter)
             //选错时...
             if indexPath.row != answer {
                 //plist操作：
-                options = ToastManager.generateOptionsWithCorrection(false, andRightAnswer: answerLetter)
-                optionImageViews[indexPath.row].image = UIImage(named: "option\((answerToInt as NSDictionary).allKeysForObject(indexPath.row)[0].uppercaseString)_pre_wrong")
+                SSDPlistManager.sharedManager.saveStatus(dataObject!, bookNumber: bookNumber!, status: answerToString[indexPath.row]!)
+                //修改错误选项图片为红色
+                optionImageViews[indexPath.row].image = UIImage(named: "option\(answerToString[indexPath.row]!)_pre_wrong")
             }else {
                 //选对时
-                options = ToastManager.generateOptionsWithCorrection(true, andRightAnswer: answerLetter)
+                SSDPlistManager.sharedManager.saveStatus(dataObject!, bookNumber: bookNumber!, status: "done")
             }
+            
+
+            
+            
             //撤销选中
             tableView.deselectRowAtIndexPath(indexPath, animated: true)
             //在statusBar中显示Toast
@@ -133,6 +145,13 @@ class DataViewController: UITableViewController {
             //右上角星星的tintColor变为黄色
         }
         
+    }
+    
+    
+    func collectionButton(sender: AnyObject) {
+        
+        collectionButtonColor = !collectionButtonColor
+        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
     }
     
 //    func selectBookCompeletion(notification: NSNotification) {

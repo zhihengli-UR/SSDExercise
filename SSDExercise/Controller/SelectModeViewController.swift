@@ -30,8 +30,8 @@ class SelectModeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        self.navigationController?.navigationBar.barTintColor = themeColor
+//        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+//        self.navigationController?.navigationBar.barTintColor = themeColor
         
         self.selectModeButtons = [button1, button2, button3, button4, button5]
         self.selectModeLabels = [label1, label2, label3, label4, label5]

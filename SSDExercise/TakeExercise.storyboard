@@ -178,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="178" y="1022"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Default Navigation Controller-->
         <scene sceneID="Qs6-HD-EoS">
             <objects>
-                <navigationController id="CTC-xG-eYK" sceneMemberID="viewController">
+                <navigationController id="CTC-xG-eYK" customClass="DefaultNavigationController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mGg-5m-mON">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -207,14 +207,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="刷题中" id="uwl-WC-ksH">
-                        <barButtonItem key="rightBarButtonItem" image="nav_collect" id="yIi-2a-te5">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <connections>
-                                <action selector="collectionButton:" destination="VjC-Pn-NKL" id="hC8-To-OeK"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="刷题中" id="uwl-WC-ksH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFI-G3-9ig" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,69 +1,75 @@
 //
-//  SettingsViewController.swift
+//  FontSizeViewController.swift
 //  SSDExercise
 //
-//  Created by 李 智恒 on 15/3/21.
+//  Created by 李 智恒 on 15/7/29.
 //  Copyright (c) 2015年 李 智恒. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UITableViewController {
+class FontSizeViewController: UITableViewController {
 
-    @IBOutlet weak var clearUserRecordIndicator: UIActivityIndicatorView!
-
+    @IBOutlet weak var demoLabel: UILabel!
+    @IBOutlet weak var fontSlider: UISlider!
+    
+    private var fontNumbers: [Float] = [11.0, 13.0, 15.0, 17.0, 19.0, 20.0, 22.0]
+    private var numberOfSteps: Float = 6.0
+    private var fontSize:Float = 17.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        clearUserRecordIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 44
         
+
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(true)
+        NSUserDefaults.standardUserDefaults().setFloat(self.fontSize, forKey: "fontSize")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-        if indexPath.section == 1 {
-            tableView.deselectRowAtIndexPath(indexPath, animated: true)
-            //clearUserRecordIndicator.startAnimating()
-            SSDPlistManager.sharedManager.clearUserData({ (writeResult) -> Void in
-                var options: NSDictionary = ToastManager.sharedManager().generateOptionsForClearUserRecord(writeResult)
-                //self.clearUserRecordIndicator.stopAnimating()
-                CRToastManager.showNotificationWithOptions(options as! [NSObject: AnyObject], completionBlock: nil)
-            })
-        }
-        
+    @IBAction func sliderValueChanged(sender: AnyObject) {
+        var index: Int = Int(fontSlider.value + 0.5)
+        fontSlider.setValue(Float(index), animated: false)
+        var fontSize: Float = fontNumbers[index]
+        demoLabel.font = UIFont.systemFontOfSize(CGFloat(fontSize))
+        self.fontSize = fontSize
     }
     
-
+    
+    
+    
     // MARK: - Table view data source
 
 //    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 //        // #warning Potentially incomplete method implementation.
 //        // Return the number of sections.
-//        return 0
+//        return 2
 //    }
-
+//
 //    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        // #warning Incomplete method implementation.
 //        // Return the number of rows in the section.
-//        return 0
+//        return 1
 //    }
-
-
 
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
 

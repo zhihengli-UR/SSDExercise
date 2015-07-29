@@ -17,6 +17,8 @@
 		B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */; };
 		B45BC3EF1AAF3689007C8436 /* SSDExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */; };
 		B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */; };
+		B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4693F731B687F71000A8381 /* DefaultNavigationController.swift */; };
+		B4693F781B68CA85000A8381 /* FontSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4693F771B68CA85000A8381 /* FontSizeViewController.swift */; };
 		B48177BF1AF86BDC0083575B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48177BE1AF86BDC0083575B /* Utilities.swift */; };
 		B4BBC4D01AB2F0E70029865D /* ku_ssd1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */; };
 		B4BBC4D11AB2F0E70029865D /* ku_ssd2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */; };
@@ -63,6 +65,8 @@
 		B45BC3ED1AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDExerciseTests.swift; sourceTree = "<group>"; };
 		B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBookCollectionViewController.swift; sourceTree = "<group>"; };
+		B4693F731B687F71000A8381 /* DefaultNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNavigationController.swift; sourceTree = "<group>"; };
+		B4693F771B68CA85000A8381 /* FontSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontSizeViewController.swift; path = Controller/FontSizeViewController.swift; sourceTree = "<group>"; };
 		B48177BE1AF86BDC0083575B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd1.plist; sourceTree = "<group>"; };
 		B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd2.plist; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */,
 				B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */,
 				B4E70E171ABE3E640064A625 /* DataViewController.swift */,
+				B4693F731B687F71000A8381 /* DefaultNavigationController.swift */,
+				B4693F771B68CA85000A8381 /* FontSizeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -375,12 +381,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4693F781B68CA85000A8381 /* FontSizeViewController.swift in Sources */,
 				B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */,
 				B4EEA1211B5B92FC00CD4163 /* ModelController.swift in Sources */,
 				B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */,
 				B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */,
 				B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */,
 				B43F71411B64EBA500DD54B7 /* ToastManager.m in Sources */,
+				B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */,
 				B48177BF1AF86BDC0083575B /* Utilities.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
 				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,

@@ -12,6 +12,9 @@
 
 @interface ToastManager : NSObject
 
-+ (NSDictionary *)generateOptionsWithCorrection:(BOOL) correction andRightAnswer:(NSString *)answer;
++ (ToastManager *)sharedManager;
+
+- (NSDictionary *)generateOptionsWithCorrection:(BOOL) correction andRightAnswer:(NSString *)answer;
+- (NSDictionary *)generateOptionsForClearUserRecord: (BOOL) result;
 
 @end

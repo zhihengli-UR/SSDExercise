@@ -63,12 +63,43 @@ class SSDPlistManager: NSObject {
         if status == "done" || status == "mark" {
             exercise[status] = "1"
         }else if status == "a" || status == "b" || status == "c" || status == "d" {
+            exercise["done"] = "1"
             exercise["wrong"] = status
         }
         
         exercisesArray?[index] = exercise
         return saveToSandBox(exercisesArray! as NSArray, bookNumber: bookNumber)
     }
+    
+    
+    //清除用户数据
+    func clearUserData(completionHandler: (writeResult: Bool)->Void) {
+        
+        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        var path = paths[0] as! String
+        var result = true
+        
+        for i in 1...9 {
+            var pathInSandbox = path.stringByAppendingString("ku_ssd\(i).plist")
+            var array = NSArray(contentsOfFile: pathInSandbox) as! [[String : String]]
+            
+            for var i = 0; i < array.count; i++ {
+                array[i]["done"] = "0"
+                array[i]["mark"] = "0"
+                array[i]["wrong"] = "0"
+            }
+            
+            var arrayToWrite = NSArray(array: array)
+            
+            var everyResult = arrayToWrite.writeToFile(pathInSandbox, atomically: true)
+            result = result && everyResult
+        }
+        
+        completionHandler(writeResult: result)
+    
+    }
+    
+    
     
     
     

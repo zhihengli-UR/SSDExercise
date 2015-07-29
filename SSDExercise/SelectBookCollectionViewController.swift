@@ -52,17 +52,17 @@ class SSDBookCell : UICollectionViewCell {
     
 }
 
-class SSDCollectionViewLayout: UICollectionViewFlowLayout {
-    override func collectionViewContentSize() -> CGSize {
-        var width = UIScreen.mainScreen().applicationFrame.width;
-        var height = UIScreen.mainScreen().applicationFrame.height;
-        return CGSizeMake(width-10, height-20)
-    }
-}
+//class SSDCollectionViewLayout: UICollectionViewFlowLayout {
+//    override func collectionViewContentSize() -> CGSize {
+//        var width = UIScreen.mainScreen().applicationFrame.width;
+//        var height = UIScreen.mainScreen().applicationFrame.height;
+//        return CGSizeMake(width-10, height-20)
+//    }
+//}
 
 let reuseIdentifier = "Cell"
 
-class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, BookNumberTransmitDelegate, UITextViewDelegate {
+class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, BookNumberTransmitDelegate, UITextViewDelegate, UICollectionViewDelegateFlowLayout {
     
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
@@ -72,7 +72,6 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     var shouldStayInRootViewController = true
     
     var selectedBookNumber: Int = 0
-    var ssdCollectionViewlayout = SSDCollectionViewLayout()
     
     
     override func viewDidLoad() {
@@ -81,19 +80,14 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         // self.clearsSelectionOnViewWillAppear = false
         
         // Register cell classes
-        
-//        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        self.navigationController?.navigationBar.barTintColor = themeColor
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        
         self.collectionView!.registerClass(SSDBookCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         
         var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as! [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as! [String]
         self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("ExercisesCount" as NSString) as! [Int]
+        
+        
         
         
         // Do any additional setup after loading the view.
@@ -139,19 +133,31 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         return cell
     }
     
-    private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
-    func collectionView(collectionView: UICollectionView!,
-        layout collectionViewLayout: UICollectionViewLayout!,
+    private let sectionInsets = UIEdgeInsets(top: 30.0, left: 20.0, bottom: 30.0, right: 20.0)
+    func collectionView(collectionView: UICollectionView,
+        layout collectionViewLayout: UICollectionViewLayout,
         insetForSectionAtIndex section: Int) -> UIEdgeInsets {
             return sectionInsets
     }
     
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        var width = self.view.frame.width
+        //var height = self.view.frame.height
+        var cellWidth = CGFloat(Int((width - 80)/3))
+        //var cellHeight = CGFloat(Int((height - 180)/3))
+        return CGSize(width: cellWidth, height: cellWidth * 1.3)
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 5
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 5
+    }
+    
+    
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
-//        NSOperationQueue.mainQueue().addOperationWithBlock { () -> Void in
-//        NSNotificationCenter.defaultCenter().postNotificationName("didSelectBookInCollectionView", object: nil, userInfo: ["selectedBook": "SSD\(indexPath.item+1)"])
-//            
-//        }
         
         self.selectedBookNumber = indexPath.section * 3 + indexPath.item + 1
         

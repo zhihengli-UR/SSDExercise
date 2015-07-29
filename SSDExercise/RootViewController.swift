@@ -20,8 +20,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
         
         self.selectedBookNumberFromRootViewController = self.dataTransmitDelegate.requireBookNumber()
         self.modelController.bookNumber = self.selectedBookNumberFromRootViewController    //将书号传给model
@@ -38,10 +37,10 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         
         self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
         self.pageViewController!.delegate = self
-
+        
         let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(0, storyboard: self.storyboard!)!
         let viewControllers = [startingViewController]
-        self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: {done in })
+        self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: nil)
 
         self.pageViewController!.dataSource = self.modelController
 
@@ -49,14 +48,14 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.view.addSubview(self.pageViewController!.view)
 
         // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
-        var originBounds = self.view.bounds
-        var originBoundsWidth = originBounds.width
-        var originBoundsHeight = originBounds.height
-        var navigationBarHeight = self.navigationController?.navigationBar.bounds.height
+//        var originBounds = self.view.bounds
+//        var originBoundsWidth = originBounds.width
+//        var originBoundsHeight = originBounds.height
+//        var navigationBarHeight = self.navigationController?.navigationBar.bounds.height
         var pageViewFrame: CGRect = self.view.bounds
-        if let height = navigationBarHeight {
-            pageViewFrame = CGRectMake(0, height+15, originBoundsWidth, originBoundsHeight - height) //减去NavigationBar的高度
-        }
+//        if let height = navigationBarHeight {
+//            pageViewFrame = CGRectMake(0, height+15, originBoundsWidth, originBoundsHeight - height) //减去NavigationBar的高度
+//        }
         
         
         //newBounds.size.height -= self.navigationController?.navigationBar.bounds.size.height!
@@ -100,14 +99,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         return .Min
     }
 
-    @IBAction func collectionButton(sender: AnyObject) {
-        
-        
-        collectionButtonColor = !collectionButtonColor
-        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
-        
 
-    }
 
 }
 
