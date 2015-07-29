@@ -64,26 +64,26 @@ class DataViewController: UITableViewController {
         super.viewWillAppear(animated)
         if let obj: AnyObject = dataObject {
             var dict = obj as! [String: String]
-            self.answerLetter = dict["answer"]?.uppercaseString
-            self.answer = answerToInt[dict["answer"]!]
-            self.done = dict["done"]
-            self.wrong = dict["wrong"]
-            self.collection = dict["mark"]
-            self.questionLabel.text = dict["question"]
-            self.optionALabel.text = dict["optionA"]
-            self.optionBLabel.text = dict["optionB"]
-            self.optionCLabel.text = dict["optionC"]
-            self.optionDLabel.text = dict["optionD"]
+            answerLetter = dict["answer"]?.uppercaseString
+            answer = answerToInt[dict["answer"]!]
+            done = dict["done"]
+            wrong = dict["wrong"]
+            collection = dict["mark"]
+            questionLabel.text = dict["question"]
+            optionALabel.text = dict["optionA"]
+            optionBLabel.text = dict["optionB"]
+            optionCLabel.text = dict["optionC"]
+            optionDLabel.text = dict["optionD"]
             
         } else {
-            self.answer = 4
-            self.questionLabel.text = ""
-            self.optionALabel.text = ""
-            self.optionBLabel.text = ""
-            self.optionCLabel.text = ""
-            self.optionDLabel.text = ""
+            answer = 4
+            questionLabel.text = ""
+            optionALabel.text = ""
+            optionBLabel.text = ""
+            optionCLabel.text = ""
+            optionDLabel.text = ""
         }
-        self.optionImageViews = [optionAImage, optionBImage, optionCImage, optionDImage]
+        optionImageViews = [optionAImage, optionBImage, optionCImage, optionDImage]
 
     }
 

@@ -214,9 +214,9 @@
 				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
 				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
 				B4EEA1201B5B92FC00CD4163 /* ModelController.swift */,
+				B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */,
 				B43F713F1B64EBA500DD54B7 /* ToastManager.h */,
 				B43F71401B64EBA500DD54B7 /* ToastManager.m */,
-				B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";

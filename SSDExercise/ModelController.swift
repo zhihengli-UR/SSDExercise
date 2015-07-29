@@ -32,16 +32,23 @@ enum ExerciseMode: String {
 
 class ModelController: NSObject, UIPageViewControllerDataSource {
     
-    var pageData = NSMutableArray()
+    var pageData: [[String: String]]?
     var bookNumber: Int?
     
     func loadDataFromPlistToArray(){
-        var array: NSMutableArray!
+        var array: [[String: String]]!
         
         var number = bookNumber ?? 1 //默认课本为SSD1
         
         //array = NSMutableArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ku_ssd\(number)", ofType: "plist")!)!)!
         array = SSDPlistManager.sharedManager.loadArray(number)
+        
+        //确保不为空，但会丢失用户数据
+        if array == nil {
+            SSDPlistManager.sharedManager.movePlistsToSandbox()
+            array = SSDPlistManager.sharedManager.loadArray(number)
+            println("重新导入沙盒，丢失用户数据")
+        }
         
         
         var _modeString: String? = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String?
@@ -50,20 +57,25 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         
         switch mode {
         case .Sequence:
-            pageData = NSMutableArray(array: array)
+            pageData = array
+            
         case .Wrong, .Collection:
             for item in array {
-                if (item as! [String: String])[mode.rawValue] != "0" {
-                    pageData.addObject(NSDictionary(dictionary: item as! [String: String], copyItems: true))
+                if (item)[mode.rawValue] != "0" {
+//                    (pageData! as! NSMutableArray).addObject(NSDictionary(dictionary: item, copyItems: true))
+                    pageData?.append(item)
                 }
             }
         case .random, .exam:
             var originalLength = array.count
             for var i = 0; i < originalLength; i++ {
                 var random: Int = Int(arc4random()) % array.count  //生成一个随机数，范围是 0 到 “数组长度-1”
-                pageData.addObject(NSDictionary(dictionary: array[random] as! [String: String], copyItems: true))
-                array[random] = NSDictionary(dictionary: array.lastObject as! [String: String], copyItems: true)
-                array.removeLastObject()
+//                pageData.addObject(NSDictionary(dictionary: array[random] as! [String: String], copyItems: true))
+                pageData?.append(array[random])
+//                array[random] = NSDictionary(dictionary: array.lastObject as! [String: String], copyItems: true)
+                array[random] = array.last!
+//                array.removeLastObject()
+                array.removeLast()
             }
             
         }
@@ -71,13 +83,13 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
     
     func viewControllerAtIndex(index: Int, storyboard: UIStoryboard) -> DataViewController? {
         // Return the data view controller for the given index.
-        if (self.pageData.count == 0) || (index >= self.pageData.count) {
+        if (self.pageData!.count == 0) || (index >= self.pageData!.count) {
             return nil
         }
         
         // Create a new view controller and pass suitable data.
         let dataViewController = storyboard.instantiateViewControllerWithIdentifier("DataViewController") as! DataViewController
-        dataViewController.dataObject = self.pageData[index]
+        dataViewController.dataObject = self.pageData?[index]
         return dataViewController
     }
     
@@ -85,7 +97,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         // Return the index of the given data view controller.
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
         if let dataObject: AnyObject = viewController.dataObject {
-            return self.pageData.indexOfObject(dataObject)
+            return (self.pageData! as NSArray).indexOfObject(dataObject)
         } else {
             return NSNotFound
         }
@@ -110,7 +122,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         
         index++
-        if index == self.pageData.count {
+        if index == self.pageData!.count {
             return nil
         }
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
