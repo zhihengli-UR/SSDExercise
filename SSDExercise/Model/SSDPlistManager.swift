@@ -58,10 +58,6 @@ class SSDPlistManager: NSObject {
     //写入成功返回true，否则返回false
     func saveStatus(_exercise: [String: String], bookNumber: Int, status: String)->Bool {
         var exercise = _exercise
-        //若做过，则不写入
-        if exercise["done"] == "1" {
-            return true
-        }
         //var index = (NSArray(array: self.exercisesArray!)).indexOfObject(exercise)
         
         //将来替代成二分查找！！！
