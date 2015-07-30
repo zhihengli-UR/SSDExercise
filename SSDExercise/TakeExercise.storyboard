@@ -146,6 +146,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3u6-gL-qLE">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3u6-gL-qLE" id="aLd-bE-ghA">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -197,7 +204,7 @@
         <!--刷题中-->
         <scene sceneID="Owt-SD-aJG">
             <objects>
-                <viewController storyboardIdentifier="RootViewController" id="VjC-Pn-NKL" customClass="RootViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootViewController" hidesBottomBarWhenPushed="YES" id="VjC-Pn-NKL" customClass="RootViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PMv-du-vSa"/>
                         <viewControllerLayoutGuide type="bottom" id="Vdh-1s-8d8"/>

@@ -25,13 +25,15 @@ class DataViewController: UITableViewController {
     @IBOutlet weak var optionCImage: UIImageView!
     @IBOutlet weak var optionDImage: UIImageView!
     
+    weak var markButton: UIBarButtonItem?
+    
     
     
     var dataObject: [String: String]?
     
     //题目答案
-    var answerToInt = ["a": 0, "b": 1, "c": 2, "d": 3]
-    var answerToString = [0: "a", 1: "b", 2: "c", 3: "d"]
+    private let answerToInt = ["a": 0, "b": 1, "c": 2, "d": 3]
+    private let answerToString = [0: "a", 1: "b", 2: "c", 3: "d"]
     var answerLetter: String?
     var answer: Int?
     var done: String?
@@ -57,7 +59,8 @@ class DataViewController: UITableViewController {
         
         //添加收藏按钮至rootViewController的NavigationBar中
         var rootViewController = (((self.parentViewController as! UIPageViewController).delegate) as! RootViewController)
-        rootViewController.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav_collect"), style: UIBarButtonItemStyle.Plain, target: self, action: "collectionButton:")
+        self.markButton = rootViewController.navigationItem.rightBarButtonItem
+        self.markButton = UIBarButtonItem(image: UIImage(named: "nav_collect"), style: UIBarButtonItemStyle.Plain, target: self, action: "collectionButton:")
  
     }
 
@@ -68,6 +71,11 @@ class DataViewController: UITableViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        //加载字号
+        NSOperationQueue.mainQueue().addOperationWithBlock { () -> Void in
+            self.loadFontSize()
+        }
         if let obj: AnyObject = dataObject {
             var dict = obj as! [String: String]
             answerLetter = dict["answer"]?.uppercaseString
@@ -82,7 +90,7 @@ class DataViewController: UITableViewController {
             optionDLabel.text = dict["optionD"]
             
         } else {
-            answer = 4
+            answer = 0
             questionLabel.text = ""
             optionALabel.text = ""
             optionBLabel.text = ""
@@ -91,6 +99,10 @@ class DataViewController: UITableViewController {
         }
         optionImageViews = [optionAImage, optionBImage, optionCImage, optionDImage]
         self.bookNumber = (((self.parentViewController as! UIPageViewController).delegate) as! RootViewController).selectedBookNumberFromRootViewController
+        //加载题目状态
+        NSOperationQueue.mainQueue().addOperationWithBlock { () -> Void in
+            self.updateUIByRecord()
+        }
 
     }
 
@@ -107,33 +119,34 @@ class DataViewController: UITableViewController {
             //无论对错，修改正选选项图片为深蓝色：
             optionImageViews[answer!].image = UIImage(named: "option\(answerLetter!)_pre_right")
             var options: NSDictionary! = ToastManager.sharedManager().generateOptionsWithCorrection(indexPath.row == answer, andRightAnswer: answerLetter)
-            //选错时...
-            if indexPath.row != answer {
-                //plist操作：
-                SSDPlistManager.sharedManager.saveStatus(dataObject!, bookNumber: bookNumber!, status: answerToString[indexPath.row]!)
-                //修改错误选项图片为红色
-                optionImageViews[indexPath.row].image = UIImage(named: "option\(answerToString[indexPath.row]!)_pre_wrong")
-            }else {
-                //选对时
-                SSDPlistManager.sharedManager.saveStatus(dataObject!, bookNumber: bookNumber!, status: "done")
+            
+            //当没有做过时
+            if dataObject!["done"] != "1" {
+                //选错时...
+                if indexPath.row != answer {
+                    //plist操作：
+                    SSDPlistManager.sharedManager.saveStatus(dataObject!, bookNumber: bookNumber!, status: answerToString[indexPath.row]!)
+                    //修改错误选项图片为红色
+                    optionImageViews[indexPath.row].image = UIImage(named: "option\(answerToString[indexPath.row]!)_pre_wrong")
+                }else {
+                    //选对时
+                    SSDPlistManager.sharedManager.saveStatus(dataObject!, bookNumber: bookNumber!, status: "done")
+                }
+                
             }
-            
 
-            
-            
             //撤销选中
             tableView.deselectRowAtIndexPath(indexPath, animated: true)
             //在statusBar中显示Toast
             CRToastManager.showNotificationWithOptions(options as! [NSObject: AnyObject], completionBlock: nil)
-            
-            
+          
         }else {
-            
+            //按到第0个section时
             tableView.deselectRowAtIndexPath(indexPath, animated: true)
         }
     }
     
-    private func updateUI() {
+    private func updateUIByRecord() {
         if done! != "0" {
             optionImageViews[answer!].image = UIImage(named: "option\(answerLetter!)_pre_right")
             if wrong! != "0" {
@@ -143,6 +156,8 @@ class DataViewController: UITableViewController {
         
         if collection! != "0" {
             //右上角星星的tintColor变为黄色
+            collectionButtonColor = true
+            tintMarkButton()
         }
         
     }
@@ -151,21 +166,24 @@ class DataViewController: UITableViewController {
     func collectionButton(sender: AnyObject) {
         
         collectionButtonColor = !collectionButtonColor
-        collectionButtonColor == true ? ((sender as! UIBarButtonItem).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((sender as! UIBarButtonItem).tintColor = UIColor.whiteColor())
+        tintMarkButton()
     }
     
-//    func selectBookCompeletion(notification: NSNotification) {
-//        println("Notification has been received")
-//        var notificationDictionary = notification.userInfo as! [String: String]
-//        var selectedBook: Int = (notificationDictionary["selectedBook"]!).toInt()!
-//        
-//        println(selectedBook)
-//        self.navigationController?.title = "\(selectedBook)"
-//        
-//        
-//    }
+    private func tintMarkButton() {
+        collectionButtonColor == true ? ((markButton!).tintColor = UIColor(red: 245/255, green: 234/255, blue: 80/255, alpha: 1)) : ((markButton!).tintColor = UIColor.whiteColor())
+        
+    }
     
-    
+    private func loadFontSize() {
+        var fontSize: Float = NSUserDefaults.standardUserDefaults().floatForKey("fontSize")
+        var userFont: UIFont = UIFont.systemFontOfSize(CGFloat(fontSize))
+        questionLabel.font = userFont
+        optionALabel.font = userFont
+        optionBLabel.font = userFont
+        optionCLabel.font = userFont
+        optionDLabel.font = userFont
+    }
+
 
     // MARK: - Table view data source
 

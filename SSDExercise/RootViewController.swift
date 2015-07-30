@@ -27,10 +27,6 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.modelController.loadDataFromPlistToArray()
         self.navigationItem.title = "SSD\(self.selectedBookNumberFromRootViewController)"   //设置NavigationBar的Title
         
-        if self._modelController == nil {
-            println("_modelController is nil")
-        }
-        
         if (self.navigationController?.respondsToSelector("interactivePopGestureRecognizer") != nil){
             self.navigationController?.interactivePopGestureRecognizer.enabled = false    //禁用滑动返回
         }

@@ -27,6 +27,10 @@ class FontSizeViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 44
+        //初始化Slider的值
+        var fontSize: Float = NSUserDefaults.standardUserDefaults().floatForKey("fontSize")
+        var sliderValue = (fontSize - 11) / 2
+        fontSlider.setValue(sliderValue, animated: false)
         
 
     }

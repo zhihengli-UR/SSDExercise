@@ -49,7 +49,6 @@ class SSDPlistManager: NSObject {
         var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
         var path = paths[0] as! String
         var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
-        println(pathInSandbox)
         self.exercisesArray = NSArray(contentsOfFile: pathInSandbox) as? [[String: String]]
 
         return self.exercisesArray
@@ -59,15 +58,27 @@ class SSDPlistManager: NSObject {
     //写入成功返回true，否则返回false
     func saveStatus(_exercise: [String: String], bookNumber: Int, status: String)->Bool {
         var exercise = _exercise
-        var index = (NSArray(array: self.exercisesArray!)).indexOfObject(exercise)
-        if status == "done" || status == "mark" {
-            exercise[status] = "1"
-        }else if status == "a" || status == "b" || status == "c" || status == "d" {
-            exercise["done"] = "1"
-            exercise["wrong"] = status
+        //若做过，则不写入
+        if exercise["done"] == "1" {
+            return true
         }
+        //var index = (NSArray(array: self.exercisesArray!)).indexOfObject(exercise)
         
-        exercisesArray?[index] = exercise
+        //将来替代成二分查找！！！
+        for var i = 0; i < exercisesArray?.count; i++ {
+            if self.exercisesArray?[i]["identifier"] == exercise["identifier"] {
+                if status == "done" || status == "mark" {
+                    exercise[status] = "1"
+                }else if status == "a" || status == "b" || status == "c" || status == "d" {
+                    exercise["done"] = "1"
+                    exercise["wrong"] = status
+                }
+                
+                exercisesArray?[i] = exercise
+                break
+            }
+        }
+ 
         return saveToSandBox(exercisesArray! as NSArray, bookNumber: bookNumber)
     }
     
