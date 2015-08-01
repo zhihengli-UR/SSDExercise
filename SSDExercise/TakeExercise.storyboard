@@ -21,18 +21,18 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CYj-EF-Zpy" id="PLX-7k-zVU">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="题目" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCs-7S-bup">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="题目" translatesAutoresizingMaskIntoConstraints="NO" id="fDN-Dt-K6h">
                                                     <rect key="frame" x="8" y="8" width="584" height="28"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="vCs-7S-bup" firstAttribute="bottom" secondItem="PLX-7k-zVU" secondAttribute="bottomMargin" id="VW7-87-YVr"/>
-                                                <constraint firstItem="vCs-7S-bup" firstAttribute="top" secondItem="PLX-7k-zVU" secondAttribute="topMargin" id="k2f-h5-Lbe"/>
-                                                <constraint firstItem="vCs-7S-bup" firstAttribute="trailing" secondItem="PLX-7k-zVU" secondAttribute="trailingMargin" id="tcf-v2-PpL"/>
-                                                <constraint firstItem="vCs-7S-bup" firstAttribute="leading" secondItem="PLX-7k-zVU" secondAttribute="leadingMargin" id="wKM-Wx-nWV"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="fDN-Dt-K6h" secondAttribute="bottom" id="hgT-jZ-xpp"/>
+                                                <constraint firstItem="fDN-Dt-K6h" firstAttribute="top" secondItem="PLX-7k-zVU" secondAttribute="topMargin" id="mpH-Ps-f8k"/>
+                                                <constraint firstItem="fDN-Dt-K6h" firstAttribute="trailing" secondItem="PLX-7k-zVU" secondAttribute="trailingMargin" id="q8g-Xz-e6r"/>
+                                                <constraint firstItem="fDN-Dt-K6h" firstAttribute="leading" secondItem="PLX-7k-zVU" secondAttribute="leadingMargin" id="zfQ-0T-PeU"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -178,7 +178,7 @@
                         <outlet property="optionCLabel" destination="y95-at-S4g" id="zEl-l2-U11"/>
                         <outlet property="optionDImage" destination="xTy-UB-rWn" id="aCy-bf-XGF"/>
                         <outlet property="optionDLabel" destination="swP-bg-R9w" id="5u0-Jf-MgW"/>
-                        <outlet property="questionLabel" destination="vCs-7S-bup" id="IQu-CE-6l9"/>
+                        <outlet property="questionTextView" destination="fDN-Dt-K6h" id="2dd-fd-9Dj"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXj-VM-CxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

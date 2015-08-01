@@ -8,23 +8,22 @@
 
 import UIKit
 
-class RootViewController: UIViewController, UIPageViewControllerDelegate {
+class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelControllerDelegate {
 
     var pageViewController: UIPageViewController?
     weak var dataTransmitDelegate: BookNumberTransmitDelegate!
     var selectedBookNumberFromRootViewController = 0
-    
-    var collectionButtonColor = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
-        
-        
+        self.addMarkButton()
+        //初始化数据
         self.selectedBookNumberFromRootViewController = self.dataTransmitDelegate.requireBookNumber()
         self.modelController.bookNumber = self.selectedBookNumberFromRootViewController    //将书号传给model
-        self.modelController.loadDataFromPlistToArray()
+        self.modelController.loadPageData()
+
         self.navigationItem.title = "SSD\(self.selectedBookNumberFromRootViewController)"   //设置NavigationBar的Title
         
         if (self.navigationController?.respondsToSelector("interactivePopGestureRecognizer") != nil){
@@ -34,7 +33,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
         self.pageViewController!.delegate = self
         
-        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(0, storyboard: self.storyboard!)!
+        var indexShouldShowFirst: Int = self.modelController.indexShouldShowFirst()
+        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(indexShouldShowFirst, storyboard: self.storyboard!)!
         let viewControllers = [startingViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: nil)
 
@@ -43,24 +43,9 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.addChildViewController(self.pageViewController!)
         self.view.addSubview(self.pageViewController!.view)
 
-        // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
-//        var originBounds = self.view.bounds
-//        var originBoundsWidth = originBounds.width
-//        var originBoundsHeight = originBounds.height
-//        var navigationBarHeight = self.navigationController?.navigationBar.bounds.height
-        var pageViewFrame: CGRect = self.view.bounds
-//        if let height = navigationBarHeight {
-//            pageViewFrame = CGRectMake(0, height+15, originBoundsWidth, originBoundsHeight - height) //减去NavigationBar的高度
-//        }
-        
-        
-        //newBounds.size.height -= self.navigationController?.navigationBar.bounds.size.height!
-        
-        
-        //var pageViewRect = self.view.bounds
-        //self.pageViewController!.view.frame = pageViewRect
-        self.pageViewController!.view.frame = pageViewFrame
 
+        var pageViewFrame: CGRect = self.view.bounds
+        self.pageViewController!.view.frame = pageViewFrame
         self.pageViewController!.didMoveToParentViewController(self)
 
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
@@ -76,7 +61,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // Return the model controller object, creating it if necessary.
         // In more complex implementations, the model controller may be passed to the view controller.
         if _modelController == nil {
-            _modelController = ModelController()
+            _modelController = ModelController(delegate: self)
         }
         return _modelController!
     }
@@ -94,8 +79,23 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.pageViewController!.doubleSided = false
         return .Min
     }
+    
+    func arrayIsEmpty() {
+        var alert = UIAlertController(title: "", message: "该做题模式下，SSD\(selectedBookNumberFromRootViewController)没有要做的题哟~", preferredStyle: UIAlertControllerStyle.Alert)
+        var action = UIAlertAction(title: "好的", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
+            self.navigationController?.popViewControllerAnimated(true)
+        })
+        alert.addAction(action)
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+    }
 
-
+    func addMarkButton() {
+        if globalMode == "sequence" {
+            
+            self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav_collect"), style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
+        }
+    }
 
 }
 

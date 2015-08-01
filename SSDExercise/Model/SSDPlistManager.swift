@@ -6,6 +6,12 @@
 //  Copyright (c) 2015年 李 智恒. All rights reserved.
 //
 
+enum StorageLocation {
+    case sandbox
+    case bundle
+}
+
+
 class SSDPlistManager: NSObject {
     //单例
     static let sharedManager = SSDPlistManager()
@@ -17,7 +23,6 @@ class SSDPlistManager: NSObject {
         var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
         var path = paths[0] as! String
         var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
-        
         return array.writeToFile(pathInSandbox, atomically: true)
         
     }
@@ -34,48 +39,40 @@ class SSDPlistManager: NSObject {
     func movePlistsToSandbox(bookNumber: Int){
         var pathInBundle = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")
         if let p = pathInBundle {
-            var array = NSArray(contentsOfFile: p)
-
-            if saveToSandBox(array!, bookNumber: bookNumber) == true {
-                println("SSD\(bookNumber)导入至沙盒成功")
-            } else {
-                println("SSD\(bookNumber)导入至沙盒失败")
-            }
+            var array = NSArray(contentsOfFile: p)           
+//            if saveToSandBox(array!, bookNumber: bookNumber) == true {
+//                println("SSD\(bookNumber)导入至沙盒成功")
+//            } else {
+//                println("SSD\(bookNumber)导入至沙盒失败")
+//            }
         }
     }
     
-    
-    func loadArray(bookNumber: Int)->[[String: String]]? {
-        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
-        var path = paths[0] as! String
-        var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
-        self.exercisesArray = NSArray(contentsOfFile: pathInSandbox) as? [[String: String]]
-
-        return self.exercisesArray
+    func loadArray(bookNumber: Int, location: StorageLocation)->[[String: String]] {
+        
+        switch location {
+            
+        //返回未修改过的Array
+        case .bundle:
+            var pathInBundle = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")
+            self.exercisesArray = NSArray(contentsOfFile: pathInBundle!) as? [[String: String]]
+            return self.exercisesArray!
+            
+        //返回存有答题记录的Array
+        case .sandbox:
+            var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+            var path = paths[0] as! String
+            var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
+            self.exercisesArray = NSArray(contentsOfFile: pathInSandbox) as? [[String: String]]
+            return self.exercisesArray!
+        }
     }
     
     //status为"done"、"mark"或者是abcd
     //写入成功返回true，否则返回false
-    func saveStatus(_exercise: [String: String], bookNumber: Int, status: String)->Bool {
-        var exercise = _exercise
-        //var index = (NSArray(array: self.exercisesArray!)).indexOfObject(exercise)
-        
-        //将来替代成二分查找！！！
-        for var i = 0; i < exercisesArray?.count; i++ {
-            if self.exercisesArray?[i]["identifier"] == exercise["identifier"] {
-                if status == "done" || status == "mark" {
-                    exercise[status] = "1"
-                }else if status == "a" || status == "b" || status == "c" || status == "d" {
-                    exercise["done"] = "1"
-                    exercise["wrong"] = status
-                }
-                
-                exercisesArray?[i] = exercise
-                break
-            }
-        }
- 
-        return saveToSandBox(exercisesArray! as NSArray, bookNumber: bookNumber)
+    func saveStatus(exercise: [String: String], bookNumber: Int, arrayIndex: Int)->Bool {
+        self.exercisesArray![arrayIndex] = exercise
+        return saveToSandBox(self.exercisesArray! as NSArray, bookNumber: bookNumber)
     }
     
     
@@ -103,15 +100,7 @@ class SSDPlistManager: NSObject {
         }
         
         completionHandler(writeResult: result)
-    
+        
     }
-    
-    
-    
-    
-    
-    
-    
-    
     
 }

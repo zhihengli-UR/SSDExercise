@@ -11,7 +11,7 @@ import UIKit
 class SettingsViewController: UITableViewController {
 
     @IBOutlet weak var clearUserRecordIndicator: UIActivityIndicatorView!
-
+    var HUD: JGProgressHUD!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class SettingsViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.HUD = self.prototypeHUD()
         clearUserRecordIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
         
     }
@@ -33,87 +34,53 @@ class SettingsViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if indexPath.section == 1 {
-            tableView.deselectRowAtIndexPath(indexPath, animated: true)
-            //clearUserRecordIndicator.startAnimating()
-            SSDPlistManager.sharedManager.clearUserData({ (writeResult) -> Void in
-                var options: NSDictionary = ToastManager.sharedManager().generateOptionsForClearUserRecord(writeResult)
-                //self.clearUserRecordIndicator.stopAnimating()
-                CRToastManager.showNotificationWithOptions(options as! [NSObject: AnyObject], completionBlock: nil)
+            
+            NSOperationQueue.mainQueue().addOperationWithBlock({ () -> Void in
+                tableView.deselectRowAtIndexPath(indexPath, animated: false)
+                //clearUserRecordIndicator.startAnimating()
+                self.HUD = JGProgressHUD(style: JGProgressHUDStyle.Dark)
+                self.HUD.backgroundColor = UIColor(white: 0.0, alpha: 0.4)
+                self.HUD.textLabel.text = "清除中"
+                self.HUD.showInView(UIApplication.sharedApplication().delegate?.window!)
+                
+                SSDPlistManager.sharedManager.clearUserData({ (writeResult) -> Void in
+                    writeResult ? self.showSuccessHUD() : self.showErrorHUD()
+                    //                var options: NSDictionary = ToastManager.sharedManager().generateOptionsForClearUserRecord(writeResult)
+                    //self.clearUserRecordIndicator.stopAnimating()
+                    //                CRToastManager.showNotificationWithOptions(options as! [NSObject: AnyObject], completionBlock: nil)
+                })                
             })
+            
+            NSUserDefaults.standardUserDefaults().setObject("sequence", forKey: "Mode")
+            globalMode = "sequence"
+            
+            //最新做题数目
+            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
         }
-        
     }
     
-
-    // MARK: - Table view data source
-
-//    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-//        // #warning Potentially incomplete method implementation.
-//        // Return the number of sections.
-//        return 0
-//    }
-
-//    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete method implementation.
-//        // Return the number of rows in the section.
-//        return 0
-//    }
-
-
-
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-
-        // Configure the cell...
-
-        return cell
+    func showSuccessHUD() {
+        HUD.textLabel.text = "清除成功"
+        HUD.indicatorView = JGProgressHUDSuccessIndicatorView()
+        
+        HUD.showInView(UIApplication.sharedApplication().delegate?.window!)
+        HUD.dismissAfterDelay(2.0)
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the specified item to be editable.
-        return true
+    
+    func showErrorHUD() {
+        HUD.textLabel.text = "清除失败"
+        HUD.indicatorView = JGProgressHUDErrorIndicatorView()
+        
+        HUD.showInView(UIApplication.sharedApplication().delegate?.window!)
+        HUD.dismissAfterDelay(2.0)
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+    
+    func prototypeHUD()->JGProgressHUD {
+        var HUD = JGProgressHUD(style: JGProgressHUDStyle.Dark)
+        HUD.interactionType = JGProgressHUDInteractionType.BlockNoTouches
+        HUD.square = true
+        HUD.backgroundColor = UIColor(white: 0, alpha: 0.4)
+        return HUD
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

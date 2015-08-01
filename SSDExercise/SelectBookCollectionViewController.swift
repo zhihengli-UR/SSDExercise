@@ -17,7 +17,6 @@ class SSDBookCell : UICollectionViewCell {
     let BookName: UITextView!
     let BookRatio: UILabel!
     override init(frame: CGRect) {
-//        super.init(frame: frame)
         BookNumber = UILabel(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height/5))
         BookNumber.textAlignment = .Center
         BookNumber.textColor = UIColor.whiteColor()
@@ -46,19 +45,7 @@ class SSDBookCell : UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-//    required init(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
-//    }
-    
 }
-
-//class SSDCollectionViewLayout: UICollectionViewFlowLayout {
-//    override func collectionViewContentSize() -> CGSize {
-//        var width = UIScreen.mainScreen().applicationFrame.width;
-//        var height = UIScreen.mainScreen().applicationFrame.height;
-//        return CGSizeMake(width-10, height-20)
-//    }
-//}
 
 let reuseIdentifier = "Cell"
 
@@ -67,9 +54,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
     var bookRatioArray : [Int]!
-    
-    var userDefaults = NSUserDefaults()
-    var shouldStayInRootViewController = true
+    var latestBookNumber: [Int]!
     
     var selectedBookNumber: Int = 0
     
@@ -86,7 +71,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as! [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as! [String]
         self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("ExercisesCount" as NSString) as! [Int]
-        
+        self.latestBookNumber = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
         
         
         
@@ -97,6 +82,13 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        self.latestBookNumber = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+        collectionView?.reloadData()
+    }
+    
     
     /*
     // MARK: - Navigation
@@ -126,7 +118,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         cell.backgroundColor = themeColor
         cell.BookNumber.text = self.bookNumberArray[indexPath.section * 3 + indexPath.item]
         cell.BookName.text = self.bookNameArray[indexPath.section * 3 + indexPath.item]
-        cell.BookRatio.text = "\(self.bookRatioArray[indexPath.section * 3 + indexPath.item])"
+        cell.BookRatio.text = "\(self.latestBookNumber[indexPath.section * 3 + indexPath.item])/\(self.bookRatioArray[indexPath.section * 3 + indexPath.item])"
         
         cell.BookName.delegate = self
         
@@ -142,9 +134,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         var width = self.view.frame.width
-        //var height = self.view.frame.height
         var cellWidth = CGFloat(Int((width - 80)/3))
-        //var cellHeight = CGFloat(Int((height - 180)/3))
         return CGSize(width: cellWidth, height: cellWidth * 1.3)
     }
     
@@ -164,7 +154,6 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         var takeExerciseViewController: RootViewController = UIStoryboard(name: "TakeExercise", bundle: nil).instantiateViewControllerWithIdentifier("RootViewController") as! RootViewController
         
         takeExerciseViewController.dataTransmitDelegate = self
-        
         
         self.navigationController?.pushViewController(takeExerciseViewController, animated: true)
 

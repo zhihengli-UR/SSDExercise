@@ -19,8 +19,14 @@ There is no need to actually create view controllers for each page in advance --
 
 /*
 UserDefault说明：
-做题模式——Key:Mode
+做题模式——Key: Mode (String)
+字体大小——Key: fontSize (Float)
+最新做题数——Key:LatestNumber (Array)
 */
+
+protocol ModelControllerDelegate: class {
+    func arrayIsEmpty()
+}
 
 enum ExerciseMode: String {
     case Sequence = "sequence"
@@ -32,53 +38,27 @@ enum ExerciseMode: String {
 
 class ModelController: NSObject, UIPageViewControllerDataSource {
     
-    var pageData: [[String: String]]?
-    var bookNumber: Int?
+    var pageData: [SSDExercise]!
+    var bookNumber: Int!
+    weak var delegate: ModelControllerDelegate?
     
-    func loadDataFromPlistToArray(){
-        var array: [[String: String]]!
+    init(delegate: ModelControllerDelegate) {
+        self.delegate = delegate
+    }
+    
+    func loadPageData(){
+        var dictArray: [[String: String]]!
+        var dictArrayWithoutRecord: [[String: String]]?
         
-        var number = bookNumber ?? 1 //默认课本为SSD1
+        var mode = ExerciseMode(rawValue: globalMode)!
+        pageData = self.generatePageData(mode)
         
-        //array = NSMutableArray(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ku_ssd\(number)", ofType: "plist")!)!)!
-        array = SSDPlistManager.sharedManager.loadArray(number)
-        
-        //确保不为空，但会丢失用户数据
-        if array == nil {
-            SSDPlistManager.sharedManager.movePlistsToSandbox()
-            array = SSDPlistManager.sharedManager.loadArray(number)
-            println("重新导入沙盒，丢失用户数据")
-        }
-        
-        
-        var _modeString: String? = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String?
-        var _mode = _modeString ?? "sequence"
-        var mode = ExerciseMode(rawValue: _mode)!
-        
-        switch mode {
-        case .Sequence:
-            pageData = array
-            
-        case .Wrong, .Collection:
-            for item in array {
-                if (item)[mode.rawValue] != "0" {
-//                    (pageData! as! NSMutableArray).addObject(NSDictionary(dictionary: item, copyItems: true))
-                    pageData?.append(item)
-                }
-            }
-        case .random, .exam:
-            var originalLength = array.count
-            for var i = 0; i < originalLength; i++ {
-                var random: Int = Int(arc4random()) % array.count  //生成一个随机数，范围是 0 到 “数组长度-1”
-//                pageData.addObject(NSDictionary(dictionary: array[random] as! [String: String], copyItems: true))
-                pageData?.append(array[random])
-//                array[random] = NSDictionary(dictionary: array.lastObject as! [String: String], copyItems: true)
-                array[random] = array.last!
-//                array.removeLastObject()
-                array.removeLast()
-            }
-            
-        }
+//        if pageData == nil {
+//            self.delegate!.arrayIsEmpty()
+//            var emptyDictItem = ["answer": "a", "done": "0", "identifier": "1", "mark": "0", "optionA": "", "optionB": "", "optionC": "", "optionD": "", "question": "", "wrong": "0"]
+//            var emptySSDExerciseItem = SSDExercise(exerciseDict: emptyDictItem)
+//            pageData?.append(emptySSDExerciseItem)
+//        }
     }
     
     func viewControllerAtIndex(index: Int, storyboard: UIStoryboard) -> DataViewController? {
@@ -96,13 +76,15 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
     func indexOfViewController(viewController: DataViewController) -> Int {
         // Return the index of the given data view controller.
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-        if let dataObject: [String: String] = viewController.dataObject {
+        if let dataObject: SSDExercise = viewController.dataObject {
             var index = (self.pageData! as NSArray).indexOfObject(dataObject)
-            for var i = 0; i < pageData?.count; i++ {
-                if dataObject["identifier"] == pageData?[i]["identifier"] {
-                    index = i
-                }
-            }
+            //换二分查找
+//            for var i = 0; i < pageData?.count; i++ {
+//                if dataObject.identifier == pageData?[i].identifier {
+//                    index = i
+//                    break
+//                }
+//            }
             //return (self.pageData! as NSArray).indexOfObject(dataObject)
             return index
         } else {
@@ -135,6 +117,117 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
     
+    func indexShouldShowFirst()->Int{
+
+        //除了顺序做题外，其他模式默认首个要显示的题目为第一个
+        var index = 0
+        
+        if globalMode != "sequence" {
+            return 0
+        }
+        
+        for var i = 0; i < self.pageData?.count; i++ {
+            if pageData![i].done == false {
+                index = i
+                break
+            }
+        }
+        
+        return index
+    }
+    
+    private func generateExercisesArray(dictArray: [[String: String]])-> [SSDExercise] {
+        var exercisesArray: [SSDExercise] = []
+        
+        for dictItem in dictArray {
+            var item = SSDExercise(exerciseDict: dictItem)
+            exercisesArray.append(item)
+        }
+        return exercisesArray
+    }
+    
+    
+    private func generatePageData(mode: ExerciseMode)->[SSDExercise]? {
+        
+        var arrayToReturn: [SSDExercise] = []
+        
+        var dictArrayWithRecord: [[String: String]]? = SSDPlistManager.sharedManager.loadArray(self.bookNumber!, location: StorageLocation.sandbox)
+        
+        if dictArrayWithRecord == nil {
+            //确保不为空，但会丢失用户数据
+            SSDPlistManager.sharedManager.movePlistsToSandbox()
+            dictArrayWithRecord = SSDPlistManager.sharedManager.loadArray(self.bookNumber!, location: StorageLocation.bundle)
+            println("重新导入沙盒，丢失用户数据")
+        }
+        
+        var arrayWithRecord = generateExercisesArray(dictArrayWithRecord!)
+        
+        
+        
+        var arrayWithoutRecord: [SSDExercise]?
+        
+        if mode != ExerciseMode.Sequence {
+            var dictArrayWithoutRecord = SSDPlistManager.sharedManager.loadArray(self.bookNumber!, location: StorageLocation.bundle)
+            arrayWithoutRecord = generateExercisesArray(dictArrayWithoutRecord)
+            
+        }
+        
+        
+        switch mode {
+        case .Sequence:
+            arrayToReturn = arrayWithRecord
+            
+        case .Wrong:
+            
+            for var i = 0; i < arrayWithRecord.count; i++ {
+                if arrayWithRecord[i].wrong {
+                    var item: SSDExercise = arrayWithoutRecord![i]
+                    arrayToReturn.append(item)
+                }
+            }
+            
+            
+        case .Collection:
+            for var i = 0; i < arrayWithRecord.count; i++ {
+                if arrayWithRecord[i].mark {
+                    var item: SSDExercise = arrayWithoutRecord![i]
+                    arrayToReturn.append(item)
+                }
+            }
+            
+        case .random, .exam:
+            var originalLength = arrayWithoutRecord!.count
+            for var i = 0; i < originalLength; i++ {
+                var random: Int = Int(arc4random()) % arrayWithoutRecord!.count  //生成一个随机数，范围是 0 到 “数组长度-1”
+                arrayToReturn.append(arrayWithoutRecord![random])
+                arrayWithoutRecord![random] = arrayWithoutRecord!.last!
+                arrayWithoutRecord!.removeLast()
+            }
+            
+        }
+
+        if arrayToReturn.isEmpty {
+            var emptyDictItem = ["answer": "a", "done": "0", "identifier": "1", "mark": "0", "optionA": "                   ", "optionB": "                 ", "optionC": "                 ", "optionD": "                 ", "question": "                    ", "wrong": "0"]
+            var emptySSDExerciseItem = SSDExercise(exerciseDict: emptyDictItem)
+            arrayToReturn.append(emptySSDExerciseItem)
+            self.delegate!.arrayIsEmpty()
+        }
+        
+        return arrayToReturn
+    }
+    
+    func generateDictArray()->NSArray {
+        //var dictArray: [[String: String]] = []
+        var dictArray: NSMutableArray = NSMutableArray()
+        
+        for item in self.pageData! {
+            var dictItem: [String: String] = item.generateDict()
+            //dictArray.append(dictItem)
+            dictArray.addObject(dictItem)
+        }
+        var arrayToReturn: NSArray = NSArray(array: dictArray)
+        return arrayToReturn
+    }
     
 }
 

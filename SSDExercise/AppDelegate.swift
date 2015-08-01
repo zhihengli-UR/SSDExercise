@@ -8,6 +8,7 @@
 
 import UIKit
 
+var globalMode = "sequence"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,21 +22,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.backgroundColor = UIColor.whiteColor()
         
-        
         //第一次打开，设置缺省UserDefaults
         if (NSUserDefaults.standardUserDefaults().objectForKey("everLaunched") == nil) {
             //做题模式
             NSUserDefaults.standardUserDefaults().setObject(ExerciseMode.Sequence.rawValue, forKey: "Mode")
             //字号
             NSUserDefaults.standardUserDefaults().setFloat(17.0, forKey: "fontSize")
-            
+            //最新题目数
+            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
             //将题库中的plist文件导入沙盒中的Documents目录下
-            println("AppDelegate:导入至沙盒")
             SSDPlistManager.sharedManager.movePlistsToSandbox()
             
             
             NSUserDefaults.standardUserDefaults().setObject("everLaunched", forKey: "everLaunched")
         }
+        
+        //设置做题模式全局变量
+        globalMode = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String
         
         return true
     }

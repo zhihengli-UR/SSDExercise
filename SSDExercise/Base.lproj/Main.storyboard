@@ -285,33 +285,22 @@
                             </tableViewSection>
                             <tableViewSection id="XcV-Ir-2IK">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="j7A-fK-D4O">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j7A-fK-D4O" id="dtS-Su-dgI">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="联系我们" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IO3-XX-LjH">
-                                                    <rect key="frame" x="8" y="11" width="68" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SNf-oO-Qm5">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="SNf-oO-Qm5">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SNf-oO-Qm5" id="V2q-LW-fJP">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="关于我们" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zS2-Zr-ser">
-                                                    <rect key="frame" x="8" y="11" width="68" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="关于SSD刷题器" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zS2-Zr-ser">
+                                                    <rect key="frame" x="8" y="11" width="120" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QQH-cO-8DE" kind="show" id="5ea-fx-ROb"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -447,6 +436,166 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEE-Ck-3hq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2656" y="84"/>
+        </scene>
+        <!--关于-->
+        <scene sceneID="5Ey-8L-qS4">
+            <objects>
+                <tableViewController id="QQH-cO-8DE" customClass="AboutMeViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Sfd-Mo-Ka9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Yo4-BT-mwa">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="171"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSD刷题器" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UgP-r8-p3S">
+                                    <rect key="frame" x="260" y="120" width="81" height="20"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.0(1)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eED-mt-3Dt">
+                                    <rect key="frame" x="281" y="142" width="38" height="15"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="centerX" secondItem="eED-mt-3Dt" secondAttribute="centerX" id="WOE-uv-ZJI"/>
+                                <constraint firstItem="eED-mt-3Dt" firstAttribute="top" secondItem="UgP-r8-p3S" secondAttribute="bottom" constant="2" id="c1v-FD-z1q"/>
+                                <constraint firstAttribute="bottom" secondItem="UgP-r8-p3S" secondAttribute="bottom" constant="31" id="gxt-4N-DFD"/>
+                                <constraint firstAttribute="centerX" secondItem="UgP-r8-p3S" secondAttribute="centerX" id="ncl-O1-Eio"/>
+                            </constraints>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="V1J-oc-ZHq">
+                            <rect key="frame" x="0.0" y="377" width="600" height="104"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="武汉大学国际软件学院学生会网络部" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AL-O1-EzD">
+                                    <rect key="frame" x="204" y="70" width="192" height="15"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="联合荣誉出品" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcF-nU-bBx">
+                                    <rect key="frame" x="265" y="89" width="72" height="15"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="武汉大学自强学堂网站" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJG-PN-SMn">
+                                    <rect key="frame" x="240" y="54" width="120" height="15"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="centerX" secondItem="hcF-nU-bBx" secondAttribute="centerX" id="7pl-l6-Y1N"/>
+                                <constraint firstAttribute="bottom" secondItem="hcF-nU-bBx" secondAttribute="bottom" id="OsC-mC-h9e"/>
+                                <constraint firstAttribute="centerX" secondItem="5AL-O1-EzD" secondAttribute="centerX" id="Q7G-d9-4jc"/>
+                                <constraint firstItem="hcF-nU-bBx" firstAttribute="top" secondItem="5AL-O1-EzD" secondAttribute="bottom" constant="4" id="XpO-0U-S9l"/>
+                                <constraint firstAttribute="centerX" secondItem="RJG-PN-SMn" secondAttribute="centerX" id="ouI-Nn-5IG"/>
+                                <constraint firstItem="5AL-O1-EzD" firstAttribute="top" secondItem="RJG-PN-SMn" secondAttribute="bottom" constant="1" id="vZM-yb-Zfp"/>
+                            </constraints>
+                        </view>
+                        <sections>
+                            <tableViewSection id="rCg-j2-ePQ">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="nJL-Kb-EmY">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nJL-Kb-EmY" id="rA0-tD-pDd">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="关于我们" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEF-SR-JXv">
+                                                    <rect key="frame" x="8" y="11" width="68" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="JLa-OH-Oo4" kind="show" id="FfK-xr-RLg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="QQH-cO-8DE" id="rdN-zi-y0F"/>
+                            <outlet property="delegate" destination="QQH-cO-8DE" id="g8a-RH-uvv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="关于" id="xbO-dl-CtD"/>
+                    <connections>
+                        <outlet property="versionLabel" destination="eED-mt-3Dt" id="3ka-zM-GBt"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Goe-aW-Faf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2609" y="920"/>
+        </scene>
+        <!--关于我们-->
+        <scene sceneID="nrC-PL-vu6">
+            <objects>
+                <viewController id="JLa-OH-Oo4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rjb-O2-hgz"/>
+                        <viewControllerLayoutGuide type="bottom" id="6q3-DK-2Db"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ApL-K6-5dy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnX-I0-sSD">
+                                <rect key="frame" x="16" y="72" width="568" height="476"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">终于，它上线了。
+
+很久之前就有了SSD刷题器安卓版，据说是网络部两个学长期末备考时觉得无聊开发的= =
+感觉挺好用的（除了几个令人蛋疼的bug），在期末突击刷题时尤为方便。
+
+所以，iOS版的SSD刷题器便提上了日程。
+
+感谢吴枭同学这么信任我，把这项任务交给了我！
+
+但是...项目被我足足拖了有半年之久，导致让团队错过了参选国软的“软件文化节”的机会。
+
+趁着暑假，终于完工了。
+
+头一回写一个完整的应用，如有疏漏，还请批评指正。
+
+啊对了，团队介绍：
+
+产品：吴枭
+设计：孙子钧
+开发：李智恒
+
+以上。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WnX-I0-sSD" firstAttribute="trailing" secondItem="ApL-K6-5dy" secondAttribute="trailingMargin" id="5c6-Bp-fph"/>
+                            <constraint firstItem="WnX-I0-sSD" firstAttribute="leading" secondItem="ApL-K6-5dy" secondAttribute="leadingMargin" id="Pfb-IZ-spg"/>
+                            <constraint firstItem="WnX-I0-sSD" firstAttribute="top" secondItem="rjb-O2-hgz" secondAttribute="bottom" constant="8" id="c9F-HG-A2m"/>
+                            <constraint firstItem="6q3-DK-2Db" firstAttribute="top" secondItem="WnX-I0-sSD" secondAttribute="bottom" constant="8" id="rpV-gD-Osk"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="关于我们" id="O0o-sT-Oja"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6l-aN-Rg9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2609" y="1646"/>
         </scene>
         <!--设置-->
         <scene sceneID="UGF-p2-mq1">

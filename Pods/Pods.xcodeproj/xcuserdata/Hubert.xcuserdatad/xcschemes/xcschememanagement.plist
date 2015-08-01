@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-CRToast.xcscheme</key>
+		<key>CRToast.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JGProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B13D5C6804D95725DB28448E</key>
+		<key>10C15EDA8703B1303C16E846C534315F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E2154C7700B4A9D75FC1018F</key>
+		<key>219C56FF5EF89DBABB5C5453C4C2B330</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A08363BD9B51C9B3D371430F4643A78E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

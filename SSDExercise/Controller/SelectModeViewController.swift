@@ -24,20 +24,31 @@ class SelectModeViewController: UIViewController {
     
     
     var selectModeButtons: [UIButton]!
-    var selectMode = ["顺序做题", "错题集", "收藏集", "随机练习", "模拟考试"]
     var selectModeLabels: [UILabel]!
+    
+
+    let modeDict = ["sequence", "wrong", "collection", "random", "exam"]
+    let modeInt = ["sequence": 0, "wrong": 1, "collection": 2, "random": 3, "exam": 4]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-//        self.navigationController?.navigationBar.barTintColor = themeColor
-        
         self.selectModeButtons = [button1, button2, button3, button4, button5]
         self.selectModeLabels = [label1, label2, label3, label4, label5]
         
+        var index: Int = modeInt[globalMode]!
+        tintWhiteColor()
+        tintThemeColor(selectModeButtons[index])
+        
         
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        var index: Int = modeInt[globalMode]!
+        tintWhiteColor()
+        tintThemeColor(selectModeButtons[index])
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,17 +57,28 @@ class SelectModeViewController: UIViewController {
     }
     
     @IBAction func SelectModeButtonsOnClick(sender: UIButton) {
-        var userDefaults = NSUserDefaults()
+        tintWhiteColor()
+        tintThemeColor(sender)
+        globalMode = self.modeDict[sender.tag]
+        NSUserDefaults.standardUserDefaults().setObject(self.modeDict[sender.tag], forKey: "Mode")
+    }
+    
+    
+    func tintWhiteColor() {
+        //button都设置成白色
         for button in selectModeButtons {
             button.setImage(UIImage(named: "icon_bg"), forState: UIControlState.Normal)
         }
+        //label都设置为黑色
         for label in selectModeLabels {
             label.textColor = UIColor.blackColor()
         }
-        sender.setImage(UIImage(named: "icon_pre"), forState: UIControlState.Normal)
-        var labelSelect: UILabel = selectModeLabels[sender.tag]
+    }
+    
+    func tintThemeColor(button: UIButton) {
+        button.setImage(UIImage(named: "icon_pre"), forState: UIControlState.Normal)
+        var labelSelect: UILabel = selectModeLabels[button.tag]
         labelSelect.textColor = themeColor
-        userDefaults.setObject(self.selectMode[sender.tag], forKey: "SelectMode")
     }
     
 

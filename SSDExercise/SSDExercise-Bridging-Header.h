@@ -4,3 +4,4 @@
 
 #include "CRToast.h"
 #include "ToastManager.h"
+#include "JGProgressHUD.h"

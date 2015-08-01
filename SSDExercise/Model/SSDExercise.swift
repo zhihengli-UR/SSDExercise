@@ -8,9 +8,6 @@
 
 import UIKit
 
-//protocol SSDExerciseDataSource {
-//    func loadExeciseData(#question: String, options: [String: String], answer: String)
-//}
 
 protocol UpdateTakeExerciseUI: class {
     func upDateUI()
@@ -27,6 +24,10 @@ class SSDExercise: NSObject {
     //外部赋值
     var arrayIndex: Int!
     var bookNumber: Int!
+    //var arrayDict: NSArray?
+    
+    //内部赋值，外部修改
+    var wrongChoice: String!
     
     let answer: String!
     let optionA: String!
@@ -34,7 +35,6 @@ class SSDExercise: NSObject {
     let optionC: String!
     let optionD: String!
     let question: String!
-    let wrongChoice: String!
     
     var mark: Bool = false
     var wrong: Bool = false
@@ -69,9 +69,6 @@ class SSDExercise: NSObject {
     
     func userDidSelect(userChoice: Int) {
         
-        //写入存储status:
-        var status: String!
-        
         //是否正确
         var correction: Bool = userChoice == answerToInt[answer!]
         
@@ -84,22 +81,43 @@ class SSDExercise: NSObject {
         //若没有做过
         done = true
         self.exerciseDict!["done"] = "1"
-        status = "done"
+        var latestNumberArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+        latestNumberArray[self.bookNumber - 1] = self.identifier
+        NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")
         
         //答错时
         if !correction {
             wrong = true
+            wrongChoice = answerToString[userChoice]
             self.exerciseDict!["wrong"] = answerToString[userChoice]
-            status = answerToString[userChoice]
         }
         
         delegate?.upDateUI()
-        delegate?.showToast(correction, rightAnswer: answer!)
+        if globalMode != "exam" {
+            delegate?.showToast(correction, rightAnswer: answer!.uppercaseString)
+        }
         
         //写入存储
-        SSDPlistManager.sharedManager.saveStatus(self.exerciseDict!, bookNumber: self.bookNumber!, status: status)
+        if globalMode == "sequence" {
+            SSDPlistManager.sharedManager.saveStatus(self.exerciseDict!, bookNumber: self.bookNumber, arrayIndex: self.arrayIndex)
+            
+        }
  
     }
+    
+    func userDidMark(mark: Bool){
+        self.mark = mark
+        self.exerciseDict!["mark"] = mark ? "1" : "0"
+        SSDPlistManager.sharedManager.saveStatus(self.exerciseDict!, bookNumber: self.bookNumber, arrayIndex: self.arrayIndex)
+    }
+    
+    func generateDict()->[String: String] {
+        var dict: [String: String] = NSDictionary(dictionary: ["answer": self.answer, "identifier": "\(self.identifier)", "optionA": self.optionA, "optionB": self.optionB, "optionC": self.optionC, "optionD": self.optionD, "question": self.question, "wrong": self.wrongChoice, "mark": self.mark ? "1" : "0", "done": self.done ? "1" : "0"]) as! [String: String]
+        
+        
+        return dict
+    }
+    
     
     func setBookNumberArrayIndexAndDelegate(bookNumber: Int, index: Int, delegate: UpdateTakeExerciseUI) {
         self.bookNumber = bookNumber
