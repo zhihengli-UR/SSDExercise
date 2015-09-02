@@ -168,7 +168,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         
         if mode != ExerciseMode.Sequence {
             var dictArrayWithoutRecord = SSDPlistManager.sharedManager.loadArray(self.bookNumber!, location: StorageLocation.bundle)
-            arrayWithoutRecord = generateExercisesArray(dictArrayWithoutRecord)
+            arrayWithoutRecord = generateExercisesArray(dictArrayWithoutRecord!)
             
         }
         
