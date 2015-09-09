@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CTC-xG-eYK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CTC-xG-eYK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -51,7 +51,7 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="optionA" translatesAutoresizingMaskIntoConstraints="NO" id="ekA-gK-hvu">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="optionA" translatesAutoresizingMaskIntoConstraints="NO" id="ekA-gK-hvu">
                                                     <rect key="frame" x="8" y="10" width="24" height="24"/>
                                                 </imageView>
                                             </subviews>
@@ -150,7 +150,22 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3u6-gL-qLE" id="aLd-bE-ghA">
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnt-rJ-p5h">
+                                                    <rect key="frame" x="8" y="8" width="584" height="36"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="bnt-rJ-p5h" firstAttribute="trailing" secondItem="aLd-bE-ghA" secondAttribute="trailingMargin" id="CXx-E1-oln"/>
+                                                <constraint firstItem="bnt-rJ-p5h" firstAttribute="top" secondItem="aLd-bE-ghA" secondAttribute="topMargin" id="HWi-bu-2Mp"/>
+                                                <constraint firstItem="bnt-rJ-p5h" firstAttribute="leading" secondItem="aLd-bE-ghA" secondAttribute="leadingMargin" id="I1U-BP-2tb"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="bnt-rJ-p5h" secondAttribute="bottom" constant="-8" id="MeZ-Sn-1xr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -179,6 +194,7 @@
                         <outlet property="optionDImage" destination="xTy-UB-rWn" id="aCy-bf-XGF"/>
                         <outlet property="optionDLabel" destination="swP-bg-R9w" id="5u0-Jf-MgW"/>
                         <outlet property="questionTextView" destination="fDN-Dt-K6h" id="2dd-fd-9Dj"/>
+                        <outlet property="testTextView" destination="bnt-rJ-p5h" id="OHH-L1-gya"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXj-VM-CxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

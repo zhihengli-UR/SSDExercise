@@ -56,7 +56,7 @@ class SSDPlistManager: NSObject {
         case .bundle:
             var pathInBundle = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")
             self.exercisesArray = NSArray(contentsOfFile: pathInBundle!) as? [[String: String]]
-            return self.exercisesArray
+//            return self.exercisesArray
             
         //返回存有答题记录的Array
         case .sandbox:
@@ -64,8 +64,10 @@ class SSDPlistManager: NSObject {
             var path = paths[0] as! String
             var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
             self.exercisesArray = NSArray(contentsOfFile: pathInSandbox) as? [[String: String]]
-            return self.exercisesArray
+//            return self.exercisesArray
         }
+        
+        return self.exercisesArray
     }
     
     //status为"done"、"mark"或者是abcd

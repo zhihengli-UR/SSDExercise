@@ -20,6 +20,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
     @IBOutlet weak var optionBImage: UIImageView!
     @IBOutlet weak var optionCImage: UIImageView!
     @IBOutlet weak var optionDImage: UIImageView!
+    @IBOutlet weak var testTextView: UITextView!
     
     weak var markButton: UIBarButtonItem?
 
@@ -40,6 +41,9 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
         // self.clearsSelectionOnViewWillAppear = false
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        self.testTextView.hidden = true
+        
+        
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 44
     }
@@ -51,8 +55,6 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        
         NSOperationQueue.mainQueue().addOperationWithBlock { () -> Void in
             
             if globalMode == "sequence" {
@@ -70,6 +72,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
                 self.optionBLabel.text = obj.optionB
                 self.optionCLabel.text = obj.optionC
                 self.optionDLabel.text = obj.optionD
+                self.testTextView.text = obj.question
                 
             } else {
                 self.questionTextView.text = ""
@@ -86,12 +89,18 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
             //加载题目状态
             self.dataObject?.setBookNumberArrayIndexAndDelegate(self.bookNumber!, index: arrayIndex, delegate: self)
             
+
+            
             self.upDateUI()
             self.tableView.beginUpdates()
             self.tableView.endUpdates()
         }
         
     }
+    
+//    override func viewWillDisappear(animated: Bool) {
+//        super.viewWillDisappear(true)
+//    }
     
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

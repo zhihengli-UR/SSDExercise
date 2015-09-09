@@ -61,6 +61,9 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //展示LaunchImage
+        NSThread.sleepForTimeInterval(2.0)
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         

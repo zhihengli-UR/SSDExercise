@@ -81,9 +81,12 @@ class SSDExercise: NSObject {
         //若没有做过
         done = true
         self.exerciseDict!["done"] = "1"
-        var latestNumberArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
-        latestNumberArray[self.bookNumber - 1] = self.identifier
-        NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")
+        
+        if globalMode == "Sequence" {
+            var latestNumberArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+            latestNumberArray[self.bookNumber - 1] = self.identifier
+            NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")            
+        }
         
         //答错时
         if !correction {
