@@ -35,8 +35,8 @@
             @(0.5), kCRToastAnimationInTimeIntervalKey,
             @(0.5), kCRToastAnimationOutTimeIntervalKey,
             @(0.8), kCRToastTimeIntervalKey,
-            @(CRToastTypeNavigationBar), kCRToastNotificationTypeKey,
-        [UIFont systemFontOfSize:17], kCRToastFontKey,
+            @(CRToastTypeStatusBar), kCRToastNotificationTypeKey,
+        [UIFont systemFontOfSize:12], kCRToastFontKey,
         nil];
         });
     }
