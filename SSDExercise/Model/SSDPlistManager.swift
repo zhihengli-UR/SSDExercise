@@ -30,7 +30,6 @@ class SSDPlistManager: NSObject {
     
     //将题库中的plist文件导入沙盒中的Documents目录下
     func movePlistsToSandbox(){
-        
         for i in 1...9 {
             movePlistsToSandbox(i)
         }
@@ -45,6 +44,7 @@ class SSDPlistManager: NSObject {
 //            } else {
 //                println("SSD\(bookNumber)导入至沙盒失败")
 //            }
+            saveToSandBox(array!, bookNumber: bookNumber)
         }
     }
     
