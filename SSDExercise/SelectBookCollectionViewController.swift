@@ -118,10 +118,13 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! SSDBookCell
+        
+        var indexInArray: Int = indexPath.section * 3 + indexPath.item
+        
         cell.backgroundColor = themeColor
-        cell.BookNumber.text = self.bookNumberArray[indexPath.section * 3 + indexPath.item]
-        cell.BookName.text = self.bookNameArray[indexPath.section * 3 + indexPath.item]
-        cell.BookRatio.text = "\(self.latestBookNumber[indexPath.section * 3 + indexPath.item])/\(self.bookRatioArray[indexPath.section * 3 + indexPath.item])"
+        cell.BookNumber.text = self.bookNumberArray[indexInArray]
+        cell.BookName.text = self.bookNameArray[indexInArray]
+        cell.BookRatio.text = "\(self.latestBookNumber[indexInArray])/\(self.bookRatioArray[indexInArray])"
         
         cell.BookName.delegate = self
         
