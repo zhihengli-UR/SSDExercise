@@ -21,6 +21,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
     @IBOutlet weak var optionCImage: UIImageView!
     @IBOutlet weak var optionDImage: UIImageView!
     @IBOutlet weak var testTextView: UITextView!
+    var optionImageViews: [UIImageView]!
     
     weak var markButton: UIBarButtonItem?
 
@@ -30,9 +31,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
     
     var bookNumber: Int?
     var collectionButtonHighlight = false
-    
-    
-    var optionImageViews: [UIImageView]!
+    var HUD: JGProgressHUD?
     
     
     override func viewDidLoad() {
@@ -57,7 +56,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
         super.viewWillAppear(animated)
         NSOperationQueue.mainQueue().addOperationWithBlock { () -> Void in
             
-            if globalMode == "sequence" {
+            if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) == "sequence" {
                 //添加收藏按钮至rootViewController的NavigationBar中
                 var rootViewController = ((self.parentViewController as! UIPageViewController).delegate) as! RootViewController
                 rootViewController.navigationItem.rightBarButtonItem?.target = self
@@ -166,8 +165,18 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
     }
     
     func showToast(correction: Bool, rightAnswer: String) {
-        var options: NSDictionary = ToastManager.sharedManager().generateOptionsWithCorrection(correction, andRightAnswer: rightAnswer)
-        CRToastManager.showNotificationWithOptions(options as [NSObject : AnyObject], completionBlock: nil)
+
+        if HUD == nil {
+            HUD = JGProgressHUD(style: JGProgressHUDStyle.Dark)
+            HUD?.interactionType = JGProgressHUDInteractionType.BlockNoTouches
+            HUD?.square = true
+        }
+        
+        HUD?.textLabel.text = correction ? "正确" : "错误，正确选项为\(rightAnswer)"
+        HUD?.indicatorView = correction ? JGProgressHUDSuccessIndicatorView() : JGProgressHUDErrorIndicatorView()
+        
+        HUD?.showInView(UIApplication.sharedApplication().delegate?.window!)
+        HUD?.dismissAfterDelay(1.2, animated: true)
     }
     
     

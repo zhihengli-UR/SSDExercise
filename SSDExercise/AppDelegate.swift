@@ -8,7 +8,7 @@
 
 import UIKit
 
-var globalMode = "sequence"
+//var globalMode = "sequence"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         //设置做题模式全局变量
-        globalMode = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String
+//        globalMode = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String
         
         return true
     }

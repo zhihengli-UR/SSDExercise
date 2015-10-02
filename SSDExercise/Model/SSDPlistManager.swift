@@ -100,8 +100,9 @@ class SSDPlistManager: NSObject {
             var everyResult = arrayToWrite.writeToFile(pathInSandbox, atomically: true)
             result = result && everyResult
         }
-        
-        completionHandler(writeResult: result)
+        dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            completionHandler(writeResult: result)
+        })
         
     }
     

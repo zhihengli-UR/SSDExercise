@@ -85,7 +85,7 @@ class SSDExercise: NSObject {
         /**
         *  顺序做题时写入最新做题数
         */
-        if globalMode == "sequence" {
+        if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) == "sequence" {
             var latestNumberArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
             latestNumberArray[self.bookNumber - 1] = self.identifier
             NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")            
@@ -99,12 +99,12 @@ class SSDExercise: NSObject {
         }
         
         delegate?.upDateUI()
-        if globalMode != "exam" {
+        if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) != "exam" {
             delegate?.showToast(correction, rightAnswer: answer!.uppercaseString)
         }
         
         //写入存储
-        if globalMode == "sequence" {
+        if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) == "sequence" {
             SSDPlistManager.sharedManager.saveStatus(self.exerciseDict!, bookNumber: self.bookNumber, arrayIndex: self.arrayIndex)
             
         }

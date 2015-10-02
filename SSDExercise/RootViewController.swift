@@ -91,7 +91,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
     }
 
     func addMarkButton() {
-        if globalMode == "sequence" {
+        if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) == "sequence" {
             
             self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav_collect"), style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
         }

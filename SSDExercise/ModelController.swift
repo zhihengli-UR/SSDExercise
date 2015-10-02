@@ -50,7 +50,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         var dictArray: [[String: String]]!
         var dictArrayWithoutRecord: [[String: String]]?
         
-        var mode = ExerciseMode(rawValue: globalMode)!
+        var mode = ExerciseMode(rawValue: (NSUserDefaults.standardUserDefaults().objectForKey("Mode")) as! String)!
         pageData = self.generatePageData(mode)
         
 //        if pageData == nil {
@@ -122,7 +122,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         //除了顺序做题外，其他模式默认首个要显示的题目为第一个
         var index = 0
         
-        if globalMode != "sequence" {
+        if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) != "sequence" {
             return 0
         }
         
