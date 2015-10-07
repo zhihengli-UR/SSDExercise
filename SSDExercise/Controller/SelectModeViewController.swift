@@ -36,7 +36,7 @@ class SelectModeViewController: UIViewController {
         self.selectModeButtons = [button1, button2, button3, button4, button5]
         self.selectModeLabels = [label1, label2, label3, label4, label5]
         
-        var index: Int = modeInt[globalMode]!
+        var index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
         tintWhiteColor()
         tintThemeColor(selectModeButtons[index])
         
@@ -46,7 +46,7 @@ class SelectModeViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
-        var index: Int = modeInt[globalMode]!
+        var index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
         tintWhiteColor()
         tintThemeColor(selectModeButtons[index])
     }
@@ -59,7 +59,7 @@ class SelectModeViewController: UIViewController {
     @IBAction func SelectModeButtonsOnClick(sender: UIButton) {
         tintWhiteColor()
         tintThemeColor(sender)
-        globalMode = self.modeDict[sender.tag]
+        //globalMode = self.modeDict[sender.tag]
         NSUserDefaults.standardUserDefaults().setObject(self.modeDict[sender.tag], forKey: "Mode")
     }
     

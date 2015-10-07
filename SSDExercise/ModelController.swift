@@ -18,10 +18,10 @@ There is no need to actually create view controllers for each page in advance --
 */
 
 /*
-UserDefault说明：
+UserDefaults说明：
 做题模式——Key: Mode (String)
 字体大小——Key: fontSize (Float)
-最新做题数——Key:LatestNumber (Array)
+
 */
 
 protocol ModelControllerDelegate: class {
@@ -50,7 +50,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         var dictArray: [[String: String]]!
         var dictArrayWithoutRecord: [[String: String]]?
         
-        var mode = ExerciseMode(rawValue: globalMode)!
+        var mode = ExerciseMode(rawValue: (NSUserDefaults.standardUserDefaults().objectForKey("Mode")) as! String)!
         pageData = self.generatePageData(mode)
         
 //        if pageData == nil {
@@ -78,14 +78,6 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
         if let dataObject: SSDExercise = viewController.dataObject {
             var index = (self.pageData! as NSArray).indexOfObject(dataObject)
-            //换二分查找
-//            for var i = 0; i < pageData?.count; i++ {
-//                if dataObject.identifier == pageData?[i].identifier {
-//                    index = i
-//                    break
-//                }
-//            }
-            //return (self.pageData! as NSArray).indexOfObject(dataObject)
             return index
         } else {
             return NSNotFound
@@ -122,17 +114,23 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         //除了顺序做题外，其他模式默认首个要显示的题目为第一个
         var index = 0
         
-        if globalMode != "sequence" {
+        if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) != "sequence" {
             return 0
         }
         
-        for var i = 0; i < self.pageData?.count; i++ {
-            if pageData![i].done == false {
-                index = i
-                break
-            }
-        }
+//        for var i = 0; i < self.pageData?.count; i++ {
+//            if pageData![i].done == false {
+//                index = i
+//                break
+//            }
+//        }
+        index = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIndex(bookNumber)
         
+        //防止数组越界
+        if (index - 1) == pageData.count {
+            index--
+        }
+
         return index
     }
     
@@ -213,19 +211,6 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
             self.delegate!.arrayIsEmpty()
         }
         
-        return arrayToReturn
-    }
-    
-    func generateDictArray()->NSArray {
-        //var dictArray: [[String: String]] = []
-        var dictArray: NSMutableArray = NSMutableArray()
-        
-        for item in self.pageData! {
-            var dictItem: [String: String] = item.generateDict()
-            //dictArray.append(dictItem)
-            dictArray.addObject(dictItem)
-        }
-        var arrayToReturn: NSArray = NSArray(array: dictArray)
         return arrayToReturn
     }
     

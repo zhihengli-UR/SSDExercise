@@ -62,7 +62,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         //展示LaunchImage
-        NSThread.sleepForTimeInterval(2.0)
+        NSThread.sleepForTimeInterval(1.0)
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -74,7 +74,9 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as! [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as! [String]
         self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("ExercisesCount" as NSString) as! [Int]
-        self.latestBookNumber = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+        
+        //用于启动时
+        self.latestBookNumber = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIdentifier()
         
         
         
@@ -88,7 +90,10 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
-        self.latestBookNumber = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+        //self.latestBookNumber = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+        
+        //用于从做题界面返回刷新时
+        self.latestBookNumber = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIdentifier()
         collectionView?.reloadData()
     }
     
@@ -118,10 +123,13 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! SSDBookCell
+        
+        let indexInArray: Int = indexPath.section * 3 + indexPath.item
+        
         cell.backgroundColor = themeColor
-        cell.BookNumber.text = self.bookNumberArray[indexPath.section * 3 + indexPath.item]
-        cell.BookName.text = self.bookNameArray[indexPath.section * 3 + indexPath.item]
-        cell.BookRatio.text = "\(self.latestBookNumber[indexPath.section * 3 + indexPath.item])/\(self.bookRatioArray[indexPath.section * 3 + indexPath.item])"
+        cell.BookNumber.text = self.bookNumberArray[indexInArray]
+        cell.BookName.text = self.bookNameArray[indexInArray]
+        cell.BookRatio.text = "\(self.latestBookNumber[indexInArray])/\(self.bookRatioArray[indexInArray])"
         
         cell.BookName.delegate = self
         

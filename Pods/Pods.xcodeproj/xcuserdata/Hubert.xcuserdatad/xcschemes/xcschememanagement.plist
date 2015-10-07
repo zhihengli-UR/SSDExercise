@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CRToast.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>JGProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>10C15EDA8703B1303C16E846C534315F</key>
+		<key>122E451E66578DC8DAE1BF0662C76F6A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>219C56FF5EF89DBABB5C5453C4C2B330</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A08363BD9B51C9B3D371430F4643A78E</key>
+		<key>BEB0631239AA8DE8EB4072A7EFFDEA86</key>
 		<dict>
 			<key>primary</key>
 			<true/>

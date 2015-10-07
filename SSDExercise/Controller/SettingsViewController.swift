@@ -9,23 +9,23 @@
 import UIKit
 
 class SettingsViewController: UITableViewController {
-
+    
     @IBOutlet weak var clearUserRecordIndicator: UIActivityIndicatorView!
     var HUD: JGProgressHUD!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         self.HUD = self.prototypeHUD()
         clearUserRecordIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,27 +36,30 @@ class SettingsViewController: UITableViewController {
         if indexPath.section == 1 {
             
             NSOperationQueue.mainQueue().addOperationWithBlock({ () -> Void in
+                
                 tableView.deselectRowAtIndexPath(indexPath, animated: false)
-                //clearUserRecordIndicator.startAnimating()
                 self.HUD = JGProgressHUD(style: JGProgressHUDStyle.Dark)
                 self.HUD.backgroundColor = UIColor(white: 0.0, alpha: 0.4)
                 self.HUD.textLabel.text = "清除中"
                 self.HUD.showInView(UIApplication.sharedApplication().delegate?.window!)
-                
-                SSDPlistManager.sharedManager.clearUserData({ (writeResult) -> Void in
-                    writeResult ? self.showSuccessHUD() : self.showErrorHUD()
-                    //                var options: NSDictionary = ToastManager.sharedManager().generateOptionsForClearUserRecord(writeResult)
-                    //self.clearUserRecordIndicator.stopAnimating()
-                    //                CRToastManager.showNotificationWithOptions(options as! [NSObject: AnyObject], completionBlock: nil)
-                })                
             })
             
+            let clearUserDataQueue = dispatch_queue_create("cn.net.ziqiang.clearUserData", nil)
+            
+            dispatch_async(clearUserDataQueue, { () -> Void in
+                SSDPlistManager.sharedManager.clearUserData({ (writeResult) -> Void in
+                    writeResult ? self.showSuccessHUD() : self.showErrorHUD()
+                })
+            })
+            
+            
             NSUserDefaults.standardUserDefaults().setObject("sequence", forKey: "Mode")
-            globalMode = "sequence"
+            //globalMode = "sequence"
             
             //最新做题数目
-            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
-            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
+//            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+//            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
+            LatestExerciseNumberManager.sharedLatestNumberManager.resetAll()
         }
     }
     
