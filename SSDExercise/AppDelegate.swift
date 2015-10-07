@@ -8,14 +8,41 @@
 
 import UIKit
 
+//var globalMode = "sequence"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        window?.tintColor = themeColor
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        
+        window?.backgroundColor = UIColor.whiteColor()
+        
+        //第一次打开，设置缺省UserDefaults
+        if (NSUserDefaults.standardUserDefaults().objectForKey("everLaunched") == nil) {
+            //做题模式
+            NSUserDefaults.standardUserDefaults().setObject(ExerciseMode.Sequence.rawValue, forKey: "Mode")
+            //字号
+            NSUserDefaults.standardUserDefaults().setFloat(17.0, forKey: "fontSize")
+            //最新题目数
+//            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+//            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
+            //初始化单例，设置默认最新做题数
+            let manager = LatestExerciseNumberManager.sharedLatestNumberManager
+            //将题库中的plist文件导入沙盒中的Documents目录下
+            SSDPlistManager.sharedManager.movePlistsToSandbox()
+            
+            
+            NSUserDefaults.standardUserDefaults().setObject("everLaunched", forKey: "everLaunched")
+        }
+        
+        //设置做题模式全局变量
+//        globalMode = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String
+        
         return true
     }
 

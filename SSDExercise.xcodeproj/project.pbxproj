@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4794596683293C54391146DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A9D2553A61089D9F79D4A /* libPods.a */; };
+		B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */; };
+		B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */; };
+		B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */; };
+		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
 		B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D61AAF3689007C8436 /* AppDelegate.swift */; };
 		B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DC1AAF3689007C8436 /* Main.storyboard */; };
 		B45BC3E01AAF3689007C8436 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DF1AAF3689007C8436 /* Images.xcassets */; };
-		B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */; };
 		B45BC3EF1AAF3689007C8436 /* SSDExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */; };
 		B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */; };
+		B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4693F731B687F71000A8381 /* DefaultNavigationController.swift */; };
+		B4693F781B68CA85000A8381 /* FontSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4693F771B68CA85000A8381 /* FontSizeViewController.swift */; };
+		B4B5F9F71B69E2DF0090715F /* SSDExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B5F9F61B69E2DF0090715F /* SSDExercise.swift */; };
+		B4BBC4D01AB2F0E70029865D /* ku_ssd1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */; };
+		B4BBC4D11AB2F0E70029865D /* ku_ssd2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */; };
+		B4BBC4D21AB2F0E70029865D /* ku_ssd3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4C91AB2F0E70029865D /* ku_ssd3.plist */; };
+		B4BBC4D31AB2F0E70029865D /* ku_ssd4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CA1AB2F0E70029865D /* ku_ssd4.plist */; };
+		B4BBC4D41AB2F0E70029865D /* ku_ssd5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CB1AB2F0E70029865D /* ku_ssd5.plist */; };
+		B4BBC4D51AB2F0E70029865D /* ku_ssd6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CC1AB2F0E70029865D /* ku_ssd6.plist */; };
+		B4BBC4D61AB2F0E70029865D /* ku_ssd7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */; };
+		B4BBC4D71AB2F0E70029865D /* ku_ssd8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */; };
+		B4BBC4D81AB2F0E70029865D /* ku_ssd9.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */; };
+		B4BBC4DA1AB2F12C0029865D /* TakeExercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BBC4D91AB2F12C0029865D /* TakeExercise.storyboard */; };
+		B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4BC7C381AB3090F00E1F23D /* BookName.plist */; };
+		B4E70E181ABE3E640064A625 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E70E171ABE3E640064A625 /* DataViewController.swift */; };
+		B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */; };
+		B4EEA1211B5B92FC00CD4163 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEA1201B5B92FC00CD4163 /* ModelController.swift */; };
+		B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +48,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BBFE90B98153D344D2C4B29 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		825A9D2553A61089D9F79D4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPlistManager.swift; path = Model/SSDPlistManager.swift; sourceTree = "<group>"; };
+		B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatestExerciseNumberManager.swift; path = Model/LatestExerciseNumberManager.swift; sourceTree = "<group>"; };
+		B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = Controller/AboutMeViewController.swift; sourceTree = "<group>"; };
+		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectModeViewController.swift; path = Controller/SelectModeViewController.swift; sourceTree = "<group>"; };
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3D51AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3D61AAF3689007C8436 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B45BC3DD1AAF3689007C8436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B45BC3DF1AAF3689007C8436 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B45BC3E21AAF3689007C8436 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B45BC3E81AAF3689007C8436 /* SSDExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSDExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3ED1AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45BC3EE1AAF3689007C8436 /* SSDExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDExerciseTests.swift; sourceTree = "<group>"; };
 		B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectBookCollectionViewController.swift; sourceTree = "<group>"; };
+		B4693F731B687F71000A8381 /* DefaultNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultNavigationController.swift; sourceTree = "<group>"; };
+		B4693F771B68CA85000A8381 /* FontSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontSizeViewController.swift; path = Controller/FontSizeViewController.swift; sourceTree = "<group>"; };
+		B4B5F9F61B69E2DF0090715F /* SSDExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDExercise.swift; path = Model/SSDExercise.swift; sourceTree = "<group>"; };
+		B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd1.plist; sourceTree = "<group>"; };
+		B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd2.plist; sourceTree = "<group>"; };
+		B4BBC4C91AB2F0E70029865D /* ku_ssd3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd3.plist; sourceTree = "<group>"; };
+		B4BBC4CA1AB2F0E70029865D /* ku_ssd4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd4.plist; sourceTree = "<group>"; };
+		B4BBC4CB1AB2F0E70029865D /* ku_ssd5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd5.plist; sourceTree = "<group>"; };
+		B4BBC4CC1AB2F0E70029865D /* ku_ssd6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd6.plist; sourceTree = "<group>"; };
+		B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd7.plist; sourceTree = "<group>"; };
+		B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd8.plist; sourceTree = "<group>"; };
+		B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ku_ssd9.plist; sourceTree = "<group>"; };
+		B4BBC4D91AB2F12C0029865D /* TakeExercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TakeExercise.storyboard; sourceTree = "<group>"; };
+		B4BC7C381AB3090F00E1F23D /* BookName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BookName.plist; sourceTree = "<group>"; };
+		B4E70E171ABE3E640064A625 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = Controller/DataViewController.swift; sourceTree = "<group>"; };
+		B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B4EEA1201B5B92FC00CD4163 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Controller/SettingsViewController.swift; sourceTree = "<group>"; };
+		FD084E73BB1F079DA0D0D323 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4794596683293C54391146DD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +104,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66971D5D46E815442D7360CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD084E73BB1F079DA0D0D323 /* Pods.debug.xcconfig */,
+				1BBFE90B98153D344D2C4B29 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B4337D1C1AAF435600B3A927 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */,
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
+				B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */,
+				B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */,
+				B4E70E171ABE3E640064A625 /* DataViewController.swift */,
+				B4693F731B687F71000A8381 /* DefaultNavigationController.swift */,
+				B4693F771B68CA85000A8381 /* FontSizeViewController.swift */,
+				B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -70,6 +134,8 @@
 				B45BC3D31AAF3689007C8436 /* SSDExercise */,
 				B45BC3EB1AAF3689007C8436 /* SSDExerciseTests */,
 				B45BC3D21AAF3689007C8436 /* Products */,
+				66971D5D46E815442D7360CD /* Pods */,
+				EEAC289F4B8F6889D520FC45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,11 +151,11 @@
 		B45BC3D31AAF3689007C8436 /* SSDExercise */ = {
 			isa = PBXGroup;
 			children = (
-				B4337D1C1AAF435600B3A927 /* Controller */,
 				B45BC3D61AAF3689007C8436 /* AppDelegate.swift */,
-				B45BC3DC1AAF3689007C8436 /* Main.storyboard */,
+				B4E70E1A1ABE515C0064A625 /* Model */,
+				B4BBC4DB1AB2F1430029865D /* View */,
+				B4337D1C1AAF435600B3A927 /* Controller */,
 				B45BC3DF1AAF3689007C8436 /* Images.xcassets */,
-				B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */,
 				B45BC3D41AAF3689007C8436 /* Supporting Files */,
 			);
 			path = SSDExercise;
@@ -98,6 +164,7 @@
 		B45BC3D41AAF3689007C8436 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */,
 				B45BC3D51AAF3689007C8436 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -120,6 +187,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B4BBC4DB1AB2F1430029865D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B45BC3DC1AAF3689007C8436 /* Main.storyboard */,
+				B4BBC4D91AB2F12C0029865D /* TakeExercise.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B4BC7C371AB3086D00E1F23D /* ssd题库 */ = {
+			isa = PBXGroup;
+			children = (
+				B4BBC4C71AB2F0E70029865D /* ku_ssd1.plist */,
+				B4BBC4C81AB2F0E70029865D /* ku_ssd2.plist */,
+				B4BBC4C91AB2F0E70029865D /* ku_ssd3.plist */,
+				B4BBC4CA1AB2F0E70029865D /* ku_ssd4.plist */,
+				B4BBC4CB1AB2F0E70029865D /* ku_ssd5.plist */,
+				B4BBC4CC1AB2F0E70029865D /* ku_ssd6.plist */,
+				B4BBC4CD1AB2F0E70029865D /* ku_ssd7.plist */,
+				B4BBC4CE1AB2F0E70029865D /* ku_ssd8.plist */,
+				B4BBC4CF1AB2F0E70029865D /* ku_ssd9.plist */,
+			);
+			name = "ssd题库";
+			sourceTree = "<group>";
+		};
+		B4E70E1A1ABE515C0064A625 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC7C371AB3086D00E1F23D /* ssd题库 */,
+				B4BC7C381AB3090F00E1F23D /* BookName.plist */,
+				B4EEA1201B5B92FC00CD4163 /* ModelController.swift */,
+				B4B5F9F61B69E2DF0090715F /* SSDExercise.swift */,
+				B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */,
+				B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEAC289F4B8F6889D520FC45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825A9D2553A61089D9F79D4A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B45BC3F21AAF3689007C8436 /* Build configuration list for PBXNativeTarget "SSDExercise" */;
 			buildPhases = (
+				CFBBC6CAB92CAC2A7B3BAFF0 /* Check Pods Manifest.lock */,
 				B45BC3CD1AAF3689007C8436 /* Sources */,
 				B45BC3CE1AAF3689007C8436 /* Frameworks */,
 				B45BC3CF1AAF3689007C8436 /* Resources */,
+				14DE871D5D767B006B91922F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +284,7 @@
 				TargetAttributes = {
 					B45BC3D01AAF3689007C8436 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XJ85624L97;
 					};
 					B45BC3E71AAF3689007C8436 = {
 						CreatedOnToolsVersion = 6.2;
@@ -201,7 +317,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */,
-				B45BC3E31AAF3689007C8436 /* LaunchScreen.xib in Resources */,
+				B4BBC4D61AB2F0E70029865D /* ku_ssd7.plist in Resources */,
+				B4BBC4D11AB2F0E70029865D /* ku_ssd2.plist in Resources */,
+				B4BBC4D01AB2F0E70029865D /* ku_ssd1.plist in Resources */,
+				B4BC7C391AB3090F00E1F23D /* BookName.plist in Resources */,
+				B4BBC4DA1AB2F12C0029865D /* TakeExercise.storyboard in Resources */,
+				B4BBC4D21AB2F0E70029865D /* ku_ssd3.plist in Resources */,
+				B4BBC4D41AB2F0E70029865D /* ku_ssd5.plist in Resources */,
+				B4BBC4D71AB2F0E70029865D /* ku_ssd8.plist in Resources */,
+				B4BBC4D51AB2F0E70029865D /* ku_ssd6.plist in Resources */,
+				B4BBC4D81AB2F0E70029865D /* ku_ssd9.plist in Resources */,
+				B4BBC4D31AB2F0E70029865D /* ku_ssd4.plist in Resources */,
 				B45BC3E01AAF3689007C8436 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,13 +341,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14DE871D5D767B006B91922F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFBBC6CAB92CAC2A7B3BAFF0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B45BC3CD1AAF3689007C8436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4693F781B68CA85000A8381 /* FontSizeViewController.swift in Sources */,
 				B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */,
+				B4EEA1211B5B92FC00CD4163 /* ModelController.swift in Sources */,
+				B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */,
+				B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */,
+				B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */,
+				B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */,
+				B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */,
+				B4B5F9F71B69E2DF0090715F /* SSDExercise.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
+				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,
+				B4E70E181ABE3E640064A625 /* DataViewController.swift in Sources */,
+				B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +420,6 @@
 				B45BC3DD1AAF3689007C8436 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B45BC3E11AAF3689007C8436 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B45BC3E21AAF3689007C8436 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,25 +504,36 @@
 		};
 		B45BC3F31AAF3689007C8436 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD084E73BB1F079DA0D0D323 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: Hanyu Liu (H9V58YMEFL)";
 				INFOPLIST_FILE = SSDExercise/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SSDExercise/SSDExercise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B45BC3F41AAF3689007C8436 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBFE90B98153D344D2C4B29 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hanyu Liu (XJ85624L97)";
 				INFOPLIST_FILE = SSDExercise/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SSDExercise/SSDExercise-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -377,6 +550,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SSDExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSDExercise.app/SSDExercise";
@@ -392,6 +566,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SSDExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSDExercise.app/SSDExercise";

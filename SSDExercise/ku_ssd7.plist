@@ -1,0 +1,3139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>1</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only
+</string>
+		<key>question</key>
+		<string>1. An E-Commerce system consists of the following components. Which of these same components must be included in a database?   
+The data, such as information about the goods available for sale, customers, orders placed, shipping information, etc. 
+A database must include a collection of programs that control the data, such as programs to create, maintain, and manipulate the data. These programs can be easily used to create, maintain, and manipulate data in other domains. 
+A database must include a collection of programs that operate on the data, but are specific to the E-commerce system. These programs enable users to browse through the store-items, place orders, track shipping, etc. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>2</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>2. An E-Commerce database contains data about customers, products, orders, system response times, etc. Which of the following can be specified as integrity constraints in an E-Commerce database system? 
+No two products can have the same product ID. 
+The DBMS response time for all Web requests should be at most 2 seconds. 
+A customer order cannot have more than one shipping address. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>3</string>
+		<key>identifier</key>
+		<string>3</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string> 3. An E-Commerce system consists of the following components. Which of these same components will constitute a database system? 
+The data, such as information about the goods available for sale, customers, orders placed, shipping information, etc. 
+A collection of programs that control the data, such as programs to create, maintain, and manipulate the data constitutes a database system. These programs can be easily used to create, maintain, and manipulate data in other domains such as in a library information system. 
+A collection of programs that operate on the data, but are specific to the E-commerce system, constitutes a database system. These programs enable users to browse through the store-items, place orders, track shipping, etc. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>4</string>
+		<key>identifier</key>
+		<string>4</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the database administrator's
+ </string>
+		<key>optionB</key>
+		<string> the user's
+ </string>
+		<key>optionC</key>
+		<string> the application programmer's
+ </string>
+		<key>optionD</key>
+		<string> the DBMS's 
+</string>
+		<key>question</key>
+		<string>4. In a database system, whose responsibility is it to provide data consistency?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>5</string>
+		<key>identifier</key>
+		<string>5</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>5. A database is needed for which of the following application scenarios? 
+A video store that needs to keep track of data about members, about videos carried by the store, about videos rented by members, as well as data concerning borrow-date, return-date, and payment information. 
+In the human resources department of a company, information about employees, their titles, their salaries and sick days, and about vacation days taken by each employee. 
+A computer-simulated video game which needs to calculate and display, the physical (x, y) location of each actor in the game, the speed with which they are moving at the current instant, the direction in which they are moving, the action they are performing, the angle at which the game-player is viewing the scene. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>6</string>
+		<key>identifier</key>
+		<string>6</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> visible, visible
+ </string>
+		<key>optionB</key>
+		<string> hidden, visible
+ </string>
+		<key>optionC</key>
+		<string> visible, hidden
+ </string>
+		<key>optionD</key>
+		<string> hidden, hidden 
+</string>
+		<key>question</key>
+		<string>6. The physical storage structure will be _____ to the application programmer in a database approach, and will be _____ to the application programmer in a file system approach.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>7</string>
+		<key>identifier</key>
+		<string>7</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> I and III
+ </string>
+		<key>optionD</key>
+		<string> II and III  
+</string>
+		<key>question</key>
+		<string>7. The foreign key in a table T1 _____ the same _____ as the corresponding primary key in table T2.    
+must have, name 
+need not have, name 
+must have, domain 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>8</string>
+		<key>identifier</key>
+		<string>8</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> keys
+ </string>
+		<key>optionB</key>
+		<string> rows
+ </string>
+		<key>optionC</key>
+		<string> columns
+ </string>
+		<key>optionD</key>
+		<string> foreign keys  
+</string>
+		<key>question</key>
+		<string>8. The degree of a table is the number of _____ in the table.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>9</string>
+		<key>identifier</key>
+		<string>9</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> rows
+ </string>
+		<key>optionB</key>
+		<string> foreign keys
+ </string>
+		<key>optionC</key>
+		<string> columns
+ </string>
+		<key>optionD</key>
+		<string> keys 
+</string>
+		<key>question</key>
+		<string>9. The arity of a table is the number of _____ in the table.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>10</string>
+		<key>identifier</key>
+		<string>10</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> keys
+ </string>
+		<key>optionB</key>
+		<string> rows
+ </string>
+		<key>optionC</key>
+		<string> columns
+ </string>
+		<key>optionD</key>
+		<string> foreign keys
+</string>
+		<key>question</key>
+		<string>10. The cardinality of a table is the number of _____ in the table.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>11</string>
+		<key>identifier</key>
+		<string>11</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> CREATE
+ </string>
+		<key>optionB</key>
+		<string> ADD
+ </string>
+		<key>optionC</key>
+		<string> INSERT
+ </string>
+		<key>optionD</key>
+		<string> APPEND 
+</string>
+		<key>question</key>
+		<string>11. Which of the following SQL statements can be used to add a row to a table?   
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>12</string>
+		<key>identifier</key>
+		<string>12</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> UNITE
+ </string>
+		<key>optionB</key>
+		<string> UNION
+ </string>
+		<key>optionC</key>
+		<string> COMBINE
+ </string>
+		<key>optionD</key>
+		<string> MELD  
+</string>
+		<key>question</key>
+		<string>12. The SQL clause to perform a set UNION operation is   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>13</string>
+		<key>identifier</key>
+		<string>13</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> OMIT
+ </string>
+		<key>optionB</key>
+		<string> EXCEPT
+ </string>
+		<key>optionC</key>
+		<string> REJECT
+ </string>
+		<key>optionD</key>
+		<string> DIFFER  
+</string>
+		<key>question</key>
+		<string>13. The SQL clause to perform a set difference operation is    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>14</string>
+		<key>identifier</key>
+		<string>14</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> add contents to tables.
+ </string>
+		<key>optionB</key>
+		<string> define the structure of database applications.
+ </string>
+		<key>optionC</key>
+		<string> specify the structure of a database.
+ </string>
+		<key>optionD</key>
+		<string> access the contents of tables.  
+</string>
+		<key>question</key>
+		<string>14. DDL is used to    
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>15</string>
+		<key>identifier</key>
+		<string>15</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> fail
+ </string>
+		<key>optionB</key>
+		<string> crash the system
+ </string>
+		<key>optionC</key>
+		<string> succeed with warning
+ </string>
+		<key>optionD</key>
+		<string> succeed without warning  
+</string>
+		<key>question</key>
+		<string>15. A deletion operation will _____ if the deletion leads to the violation of a referential integrity constraint.    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>16</string>
+		<key>identifier</key>
+		<string>16</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a query for SQL examples
+ </string>
+		<key>optionB</key>
+		<string> a visual query language developed by IBM
+ </string>
+		<key>optionC</key>
+		<string> example SQL queries provided by other users that can be modified to suit current needs
+ </string>
+		<key>optionD</key>
+		<string> example SQL queries provided by the DBMS that users can modify to suit their current needs  
+</string>
+		<key>question</key>
+		<string>16. The term query by example refers to   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>17</string>
+		<key>identifier</key>
+		<string>17</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the name of the table and the amount of storage space to be allocated to the table
+ </string>
+		<key>optionB</key>
+		<string> the name of the table and the names of the table's attributes
+ </string>
+		<key>optionC</key>
+		<string> the name of the table, the names of the table's attributes, the data types of the table's attributes, the formats of the table's attributes, and the maximum number of rows that the table can have
+ </string>
+		<key>optionD</key>
+		<string> the name of the table, the names of the table's attributes, the data types of attributes, and the formats of attributes 
+</string>
+		<key>question</key>
+		<string>17. What information is necessary when specifying the structure of a table?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>18</string>
+		<key>identifier</key>
+		<string>18</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a Boolean operation
+ </string>
+		<key>optionB</key>
+		<string> the conditions under which the statement should be executed
+ </string>
+		<key>optionC</key>
+		<string> the time at which the selection should be performed
+ </string>
+		<key>optionD</key>
+		<string> an arithmetic operation 
+</string>
+		<key>question</key>
+		<string>18. What can be specified in the selection condition of a SELECT statement?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>19</string>
+		<key>identifier</key>
+		<string>19</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ALTER
+ </string>
+		<key>optionB</key>
+		<string> MODIFY
+ </string>
+		<key>optionC</key>
+		<string> UPDATE
+ </string>
+		<key>optionD</key>
+		<string> CHANGE  
+</string>
+		<key>question</key>
+		<string>19. Which of the following SQL statements can be used to modify just one row (out of many rows) in a table?    
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>20</string>
+		<key>identifier</key>
+		<string>20</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> succeed with warning
+ </string>
+		<key>optionB</key>
+		<string> succeed without warning
+ </string>
+		<key>optionC</key>
+		<string> fail
+ </string>
+		<key>optionD</key>
+		<string> crash the system  
+</string>
+		<key>question</key>
+		<string>20. A deletion operation will _____ if the deletion leads to the violation of a referential integrity constraint.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>21</string>
+		<key>identifier</key>
+		<string>21</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> APPEND
+ </string>
+		<key>optionB</key>
+		<string> CREATE
+ </string>
+		<key>optionC</key>
+		<string> ADD
+ </string>
+		<key>optionD</key>
+		<string> INSERT  
+</string>
+		<key>question</key>
+		<string>21. Which of the following SQL statements can be used to create a relational table?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>22</string>
+		<key>identifier</key>
+		<string>22</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> typing a syntactically correct SQL query that uses column and table names similar to the correct column and table names in a database
+ </string>
+		<key>optionB</key>
+		<string> filling in skeleton tables of the database with examples of what is to be retrieved
+ </string>
+		<key>optionC</key>
+		<string> placing SQL keywords, such as select, under the column names they want to retrieve
+ </string>
+		<key>optionD</key>
+		<string> writing an English description of the data that the user needs 
+</string>
+		<key>question</key>
+		<string>22. With Query By Example, a user enters a query by   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>2</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>23</string>
+		<key>identifier</key>
+		<string>23</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> manipulate the structure of database applications.
+ </string>
+		<key>optionB</key>
+		<string> specify the structure of a database.
+ </string>
+		<key>optionC</key>
+		<string> add and delete tables.
+ </string>
+		<key>optionD</key>
+		<string> add/modify/delete data in the database.  
+</string>
+		<key>question</key>
+		<string>3. DML is used to  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>24</string>
+		<key>identifier</key>
+		<string>24</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> two, one
+ </string>
+		<key>optionB</key>
+		<string> three, two
+ </string>
+		<key>optionC</key>
+		<string> four, two
+ </string>
+		<key>optionD</key>
+		<string> three, one  
+</string>
+		<key>question</key>
+		<string>24. A join operation joins _____ tables into _____.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>25</string>
+		<key>identifier</key>
+		<string>25</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> have the same column names
+ </string>
+		<key>optionB</key>
+		<string> are union compatible
+ </string>
+		<key>optionC</key>
+		<string> are the same size
+ </string>
+		<key>optionD</key>
+		<string> have the same name 
+</string>
+		<key>question</key>
+		<string>25. A difference operation can be applied to tables that    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>26</string>
+		<key>identifier</key>
+		<string>26</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> REMOVE
+ </string>
+		<key>optionB</key>
+		<string> ERASE
+ </string>
+		<key>optionC</key>
+		<string> DELETE
+ </string>
+		<key>optionD</key>
+		<string> DESTROY  
+</string>
+		<key>question</key>
+		<string>26. Which of the following SQL statements can be used to remove a row from a table?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>27</string>
+		<key>identifier</key>
+		<string>28</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> remove the table if there are no references to it
+ </string>
+		<key>optionB</key>
+		<string> remove the table and all other tables that the specified table refers to
+ </string>
+		<key>optionC</key>
+		<string> remove the table and all references to it
+ </string>
+		<key>optionD</key>
+		<string> recursively remove the table and all other tables that the removed table refers to  
+</string>
+		<key>question</key>
+		<string>28. When removing a table from the schema, using the RESTRICT option would    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>28</string>
+		<key>identifier</key>
+		<string>29</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the command DROP SCHEMA
+ </string>
+		<key>optionB</key>
+		<string> the command DELETE DATABASE
+ </string>
+		<key>optionC</key>
+		<string> the command DESTROY DATABASE
+ </string>
+		<key>optionD</key>
+		<string> a series of DESTROY TABLE commands 
+</string>
+		<key>question</key>
+		<string>29. In SQL, a database can be destroyed by which of the following?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>29</string>
+		<key>identifier</key>
+		<string>30</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> re-prompting for the entry of a string whose length is exactly n.
+ </string>
+		<key>optionB</key>
+		<string> storing the string as is.
+ </string>
+		<key>optionC</key>
+		<string> padding the end of the string with NULL characters to length n before storing it.
+ </string>
+		<key>optionD</key>
+		<string> padding the end of the string with spaces to length n before storing it.  
+</string>
+		<key>question</key>
+		<string>30. When a string whose length is strictly less than n is entered as the value of a field whose SQL data type is VARCHAR(n), the system responds by 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>30</string>
+		<key>identifier</key>
+		<string>31</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> everything in the specified database: the data, schema, etc.
+ </string>
+		<key>optionB</key>
+		<string> the schema if the database has no data (empty tables)
+ </string>
+		<key>optionC</key>
+		<string> the data and schema from the specified database, but not from related databases
+ </string>
+		<key>optionD</key>
+		<string> the data but not the schema  
+</string>
+		<key>question</key>
+		<string>31. In SQL, when destroying a database, the RESTRICT option removes  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>31</string>
+		<key>identifier</key>
+		<string>32</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a series of CREATE TABLE commands
+ </string>
+		<key>optionB</key>
+		<string> the command ADD DATABASE
+ </string>
+		<key>optionC</key>
+		<string> the command INSERT DATABASE
+ </string>
+		<key>optionD</key>
+		<string> the command CREATE SCHEMA  
+</string>
+		<key>question</key>
+		<string>32. In SQL, a database can be created by which of the following?   
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>32</string>
+		<key>identifier</key>
+		<string>33</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ALIAS
+ </string>
+		<key>optionB</key>
+		<string> AS
+ </string>
+		<key>optionC</key>
+		<string> RENAME
+ </string>
+		<key>optionD</key>
+		<string> @  
+</string>
+		<key>question</key>
+		<string>33. In a FROM clause of a SELECT statement in SQL, a table can be aliased with which of the following operators?     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>33</string>
+		<key>identifier</key>
+		<string>34</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> SORT
+ </string>
+		<key>optionB</key>
+		<string> GROUP BY
+ </string>
+		<key>optionC</key>
+		<string> ORDER BY
+ </string>
+		<key>optionD</key>
+		<string> ARRANGE BY  
+</string>
+		<key>question</key>
+		<string>34. In SQL, which of the following clauses can be used to sort results in ascending or descending order of attribute values?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>34</string>
+		<key>identifier</key>
+		<string>35</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ALIAS
+ </string>
+		<key>optionB</key>
+		<string> @
+ </string>
+		<key>optionC</key>
+		<string> RENAME
+ </string>
+		<key>optionD</key>
+		<string> AS  
+</string>
+		<key>question</key>
+		<string>35. When specifying a selection criterion in SQL, attributes can be renamed with which of the following operators?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>35</string>
+		<key>identifier</key>
+		<string>36</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> BETWEEN
+ </string>
+		<key>optionB</key>
+		<string> RANGE
+ </string>
+		<key>optionC</key>
+		<string> START and END
+ </string>
+		<key>optionD</key>
+		<string> FROM and TO  
+</string>
+		<key>question</key>
+		<string>36. In SQL, which of the following operators can be used to express searches that test for a range in a selection condition?     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>36</string>
+		<key>identifier</key>
+		<string>37</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A view is updateable if it involves one table and contains a key.
+ </string>
+		<key>optionB</key>
+		<string> A view is updateable if it involves multiple tables and no keys.
+ </string>
+		<key>optionC</key>
+		<string> A view is updateable if it involves one table and does not contain a key.
+ </string>
+		<key>optionD</key>
+		<string> A view is not updateable under any circumstance
+</string>
+		<key>question</key>
+		<string>37. Which of the following is true about updateability of views?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>37</string>
+		<key>identifier</key>
+		<string>38</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only the system tables
+ </string>
+		<key>optionB</key>
+		<string> only specific rows of the defining tables
+ </string>
+		<key>optionC</key>
+		<string> only the user tables
+ </string>
+		<key>optionD</key>
+		<string> only specific columns of the defining tables
+</string>
+		<key>question</key>
+		<string>38. A vertical view allows users access to   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>38</string>
+		<key>identifier</key>
+		<string>39</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only specific rows of the defining tables
+ </string>
+		<key>optionB</key>
+		<string> only specific columns of the defining tables
+ </string>
+		<key>optionC</key>
+		<string> only the system tables
+ </string>
+		<key>optionD</key>
+		<string> only the base tables  
+</string>
+		<key>question</key>
+		<string>39. A horizontal view allows users access to      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>39</string>
+		<key>identifier</key>
+		<string>40</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> to use a transaction in NOT DEFERRABLE mode
+ </string>
+		<key>optionB</key>
+		<string> to use a transaction either in DEFERRABLE mode or in NOT DEFERRABLE mode
+ </string>
+		<key>optionC</key>
+		<string> not to use a transaction at all
+ </string>
+		<key>optionD</key>
+		<string> to use a transaction in DEFERRABLE mode
+</string>
+		<key>question</key>
+		<string>40. Consider two tables, Employee(EmpNo, Name, DeptNo) and Department(DeptNo, Name, Manager) with primary keys being EmpNo and DeptNo respectively. The DeptNo attribute of the Employee table has a NOT NULL constraint and is a foreign key that references the DeptNo attribute of the Department table. The Manager attribute of the Department table has a NOT NULL constraint and is a foreign key that references the EmpNo attribute of the Employee table. When the tables are empty, the only way to insert rows into the two tables is    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>40</string>
+		<key>identifier</key>
+		<string>41</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> WRITE, ABORT
+ </string>
+		<key>optionB</key>
+		<string> COMMIT, ROLLBACK
+ </string>
+		<key>optionC</key>
+		<string> UPDATE, SELECT
+ </string>
+		<key>optionD</key>
+		<string> SAVE, CANCEL  
+</string>
+		<key>question</key>
+		<string>41. The SQL keyword _____ makes the modifications of the transaction permanent, while the SQL keyword _____ discards the modifications of the transaction.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>41</string>
+		<key>identifier</key>
+		<string>42</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> GRANT
+ </string>
+		<key>optionB</key>
+		<string> AUTHORIZE
+ </string>
+		<key>optionC</key>
+		<string> PERMIT
+ </string>
+		<key>optionD</key>
+		<string> ALLOW  
+</string>
+		<key>question</key>
+		<string>42. Which of the following commands can be used to give access permissions to a table?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>42</string>
+		<key>identifier</key>
+		<string>43</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only the super-user
+ </string>
+		<key>optionB</key>
+		<string> the owner of the table
+ </string>
+		<key>optionC</key>
+		<string> the user of the table
+ </string>
+		<key>optionD</key>
+		<string> only the database administrator (DBA)  
+</string>
+		<key>question</key>
+		<string>43.  Who can always give access permissions to a table?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>43</string>
+		<key>identifier</key>
+		<string>44</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> REVOKE
+ </string>
+		<key>optionB</key>
+		<string> DENY
+ </string>
+		<key>optionC</key>
+		<string> RETRACT
+ </string>
+		<key>optionD</key>
+		<string> REMOVE  
+</string>
+		<key>question</key>
+		<string>44. Which of the following commands can be used to remove access privileges associated with a table? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>44</string>
+		<key>identifier</key>
+		<string>45</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> when the SQL statements can never be changed
+ </string>
+		<key>optionB</key>
+		<string> when the embedded SQL operates on the static part of the database
+ </string>
+		<key>optionC</key>
+		<string> when the embedded SQL always returns the same set of results
+ </string>
+		<key>optionD</key>
+		<string> when the embedded SQL is translated into DBMS calls at compile-time  
+</string>
+		<key>question</key>
+		<string>45. When is embedded SQL referred to as static SQL?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>45</string>
+		<key>identifier</key>
+		<string>46</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> when the embedded SQL is translated into DBMS calls at run-time
+ </string>
+		<key>optionB</key>
+		<string> when the embedded SQL operates on the dynamic part of the database
+ </string>
+		<key>optionC</key>
+		<string> when the embedded SQL always returns different sets of results
+ </string>
+		<key>optionD</key>
+		<string> when the SQL statements are changed in every run  
+</string>
+		<key>question</key>
+		<string>46. When is embedded SQL referred to as dynamic SQL? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>46</string>
+		<key>identifier</key>
+		<string>47</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Views are always up to date.
+ </string>
+		<key>optionB</key>
+		<string> Views can be automatically made up to date periodically by the system.
+ </string>
+		<key>optionC</key>
+		<string> Views are never up to date; there is always a lag time.
+ </string>
+		<key>optionD</key>
+		<string> Views are up to date only after the synchronization operation by the user.  
+</string>
+		<key>question</key>
+		<string>47. Which of the following is true about views being up to date?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>47</string>
+		<key>identifier</key>
+		<string>48</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, III, and IV only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and IV only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III only  
+</string>
+		<key>question</key>
+		<string>48. Which of the following referentially triggered actions are supported in SQL when a referential integrity constraint is violated?    
+SET NULL 
+REJECT 
+CASCADE 
+SET DEFAULT 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>48</string>
+		<key>identifier</key>
+		<string>49</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A view is not updateable if it involves one table and contains a key.
+ </string>
+		<key>optionB</key>
+		<string> A view is updateable under all circumstances.
+ </string>
+		<key>optionC</key>
+		<string> A view is not updateable if it involves aggregate functions and nested queries.
+ </string>
+		<key>optionD</key>
+		<string> A view is not updateable under any circumstance.  
+</string>
+		<key>question</key>
+		<string>49. Which of the following is true about updateability of views?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>49</string>
+		<key>identifier</key>
+		<string>50</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The type of relationship that does not belong anywhere
+ </string>
+		<key>optionB</key>
+		<string> A never-ending type of relationship
+ </string>
+		<key>optionC</key>
+		<string> The relationship type where the related entities are one and the same
+ </string>
+		<key>optionD</key>
+		<string> The type of relationship between entities of one entity typ
+</string>
+		<key>question</key>
+		<string>50. In an ER model, what is a recursive relationship type?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>50</string>
+		<key>identifier</key>
+		<string>51</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the number of instances of relationships of that relationship type
+ </string>
+		<key>optionB</key>
+		<string> the number of relationships of that relationship type in which an entity can participate
+ </string>
+		<key>optionC</key>
+		<string> the minimum number of entities that can participate in that relationship type
+ </string>
+		<key>optionD</key>
+		<string> the number of entity types involved in that relationship type
+</string>
+		<key>question</key>
+		<string>51. In an ER model, the cardinality ratio of a relationship type is      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>51</string>
+		<key>identifier</key>
+		<string>52</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Derived attributes must not be stored.
+ </string>
+		<key>optionB</key>
+		<string> Derived attributes are usually not stored because they can be computed.
+ </string>
+		<key>optionC</key>
+		<string> Derived attributes must be stored.
+ </string>
+		<key>optionD</key>
+		<string> Derived attributes are usually stored because storage improves retrieval performance.  
+</string>
+		<key>question</key>
+		<string>52. Which of the following is true about storage for derived attributes?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>52</string>
+		<key>identifier</key>
+		<string>53</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> relationship with partial participation constraint
+ </string>
+		<key>optionB</key>
+		<string> strong relationship type
+ </string>
+		<key>optionC</key>
+		<string> relationship with total participation constraint
+ </string>
+		<key>optionD</key>
+		<string> weak relationship type  
+</string>
+		<key>question</key>
+		<string>53. A weak entity type implies a      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>53</string>
+		<key>identifier</key>
+		<string>54</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> weak entities 
+ </string>
+		<key>optionB</key>
+		<string> entity types
+ </string>
+		<key>optionC</key>
+		<string> attributes
+ </string>
+		<key>optionD</key>
+		<string> participation constraints  
+</string>
+		<key>question</key>
+		<string>54. In the Entity-Relationship model, properties that characterize entities and relationships are modeled as      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>54</string>
+		<key>identifier</key>
+		<string>55</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> that is composed of multiple atomic attributes
+ </string>
+		<key>optionB</key>
+		<string> that may have multiple values simultaneously
+ </string>
+		<key>optionC</key>
+		<string> whose value can be computed from the values of other attributes
+ </string>
+		<key>optionD</key>
+		<string> that characterizes a relationship instead of an entity  
+</string>
+		<key>question</key>
+		<string>55. In the Entity-Relationship model, a derived attribute is one     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>55</string>
+		<key>identifier</key>
+		<string>56</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A component attribute always contains other components.
+ </string>
+		<key>optionB</key>
+		<string> A component attribute can be a composite attribute.
+ </string>
+		<key>optionC</key>
+		<string> A component attribute is always atomic.
+ </string>
+		<key>optionD</key>
+		<string> Component attributes must always be combined by an aggregation operation.  
+</string>
+		<key>question</key>
+		<string>56. In an ER model, which of the following is true about a component attribute?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>56</string>
+		<key>identifier</key>
+		<string>57</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> entities out of attributes
+ </string>
+		<key>optionB</key>
+		<string> superclasses out of subclasses
+ </string>
+		<key>optionC</key>
+		<string> subclasses out of superclasses
+ </string>
+		<key>optionD</key>
+		<string> attributes out of entities 
+</string>
+		<key>question</key>
+		<string>57. In ER modeling, generalization is the process of generating    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>57</string>
+		<key>identifier</key>
+		<string>58</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> Neither I nor II
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> Both I and II 
+</string>
+		<key>question</key>
+		<string>58. Which of the following is true about attributes in a relational model? 
+Attributes can be multi-valued. 
+Attributes can be composite. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>58</string>
+		<key>identifier</key>
+		<string>59</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> row
+ </string>
+		<key>optionB</key>
+		<string> column
+ </string>
+		<key>optionC</key>
+		<string> key
+ </string>
+		<key>optionD</key>
+		<string> table  
+</string>
+		<key>question</key>
+		<string>59. When mapping from an ER model to a relational model, a strong entity is mapped into a  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>59</string>
+		<key>identifier</key>
+		<string>60</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The cardinality ratio of the relationship
+ </string>
+		<key>optionB</key>
+		<string> The number of attributes that characterize the relationship
+ </string>
+		<key>optionC</key>
+		<string> The number of integrity constraints required to implement the relationship
+ </string>
+		<key>optionD</key>
+		<string> The number of entities that participate in the relationship
+</string>
+		<key>question</key>
+		<string>60. In the Entity-Relationship model, the degree of a relationship specifies which of the following?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>60</string>
+		<key>identifier</key>
+		<string>61</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The entity upon which a strong entity's existence depends
+ </string>
+		<key>optionB</key>
+		<string> The entity upon which a weak entity's existence depends
+ </string>
+		<key>optionC</key>
+		<string> The relationship that identifies a strong entity's owner
+ </string>
+		<key>optionD</key>
+		<string> The relationship that identifies a weak entity's owner  
+</string>
+		<key>question</key>
+		<string>61. What is an identifying owner in an ER model?      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>61</string>
+		<key>identifier</key>
+		<string>62</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>62. Which of the following is a property (are properties) exhibited by good relational schemas?
+The use of null values in tuples   
+The grouping of as many attributes as possible into one main table 
+The elimination of data redundancy to avoid update anomalies 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>62</string>
+		<key>identifier</key>
+		<string>63</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> is usually left unchanged
+ </string>
+		<key>optionB</key>
+		<string> can be minimized but not eliminated
+ </string>
+		<key>optionC</key>
+		<string> can be eliminated
+ </string>
+		<key>optionD</key>
+		<string> can be maximized  
+</string>
+		<key>question</key>
+		<string>63. Through normalization, update anomalies     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>63</string>
+		<key>identifier</key>
+		<string>64</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>64. Consider the following functional dependency.
+{A, B} -&gt; {C}
+Regarding this dependency, which of the following statements is (are) true?  
+The values of C are uniquely determined by the values of A. 
+The values of A are uniquely determined by the values of C. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>64</string>
+		<key>identifier</key>
+		<string>65</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only 
+</string>
+		<key>question</key>
+		<string>65. Which of the following problems can be caused by data redundancy in a relational schema?
+Inefficient use of space 
+Update anomalies and possible loss of data 
+Inefficient use of processing time 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>65</string>
+		<key>identifier</key>
+		<string>66</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> can be minimized but not eliminated
+ </string>
+		<key>optionB</key>
+		<string> are usually left unchanged
+ </string>
+		<key>optionC</key>
+		<string> can be maximized
+ </string>
+		<key>optionD</key>
+		<string> can be eliminated  
+</string>
+		<key>question</key>
+		<string>66. Through normalization, data redundancy   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>66</string>
+		<key>identifier</key>
+		<string>67</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II and III
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>67. Consider a table with atomic attributes A, B, and C and the following functional dependencies.
+A -&gt; B 
+B -&gt; C
+If the primary key of this table is attribute A, then this relation satisfies which of the following normal forms?    
+First 
+Second 
+Third 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>67</string>
+		<key>identifier</key>
+		<string>68</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a non-primary key, the primary key
+ </string>
+		<key>optionB</key>
+		<string> a primary key, a non-primary key
+ </string>
+		<key>optionC</key>
+		<string> a primary key, a foreign key
+ </string>
+		<key>optionD</key>
+		<string> a non-primary key, a foreign key 
+</string>
+		<key>question</key>
+		<string>68. For a relation to be in 3NF, it should not contain _____ attribute that is transitively dependent on _____.     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>68</string>
+		<key>identifier</key>
+		<string>69</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> at least one, removed from
+ </string>
+		<key>optionB</key>
+		<string> at least one, added to
+ </string>
+		<key>optionC</key>
+		<string> no, added to
+ </string>
+		<key>optionD</key>
+		<string> no, removed from
+</string>
+		<key>question</key>
+		<string>69. The FD X -&gt; Y is a full dependency in a relation R, if there is _____ attribute A that can be _____ X and the dependency still holds.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>69</string>
+		<key>identifier</key>
+		<string>70</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> every alternate key, the primary key
+ </string>
+		<key>optionB</key>
+		<string> every non-primary-key, the primary key
+ </string>
+		<key>optionC</key>
+		<string> every non-key, at least one key
+ </string>
+		<key>optionD</key>
+		<string> every non-key, every key  
+</string>
+		<key>question</key>
+		<string>70. For a relation to be in 2NF, _____ attribute must be fully functionally dependent on _____. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>70</string>
+		<key>identifier</key>
+		<string>71</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> at least one, added to
+ </string>
+		<key>optionB</key>
+		<string> no, removed from
+ </string>
+		<key>optionC</key>
+		<string> at least one, removed from
+ </string>
+		<key>optionD</key>
+		<string> no, added to  
+</string>
+		<key>question</key>
+		<string>71. The FD X -&gt; Y is a partial dependency in a relation R, if there is _____ attribute A that can be _____ X and the dependency still holds.    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>71</string>
+		<key>identifier</key>
+		<string>72</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The lower the normal form number, the better the schema design is.
+ </string>
+		<key>optionB</key>
+		<string> A relation that is in second normal form is also in first normal form.
+ </string>
+		<key>optionC</key>
+		<string> Schemas that are in second normal form are considered the best.
+ </string>
+		<key>optionD</key>
+		<string> Each normal form contains a state of independent properties, unrelated to other normal forms.  
+</string>
+		<key>question</key>
+		<string>72. Which of the following statements concerning normal forms is true?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>72</string>
+		<key>identifier</key>
+		<string>73</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only if there have been no software failures
+ </string>
+		<key>optionB</key>
+		<string> only if there have been no hardware failures
+ </string>
+		<key>optionC</key>
+		<string> only if there have been no software AND no hardware failures
+ </string>
+		<key>optionD</key>
+		<string> irrespective of whether there have been hardware or software failures
+</string>
+		<key>question</key>
+		<string>73. All changes made by a committed transaction can be recovered    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>73</string>
+		<key>identifier</key>
+		<string>74</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is not possible for a transaction to see the modified, yet uncommitted, data of another transaction, even if both transactions are working on the same data, and even if both transactions are concurrent.
+ </string>
+		<key>optionB</key>
+		<string> It is possible for a transaction to see the modified, yet uncommitted, data of another transaction even if both transactions are not working on the same data, AND even if both transactions are NOT concurrent.
+ </string>
+		<key>optionC</key>
+		<string> It is possible for a transaction to see the modified, yet uncommitted, data of another transaction only if both transactions work on the same data, AND both transactions are NOT concurrent.
+ </string>
+		<key>optionD</key>
+		<string> It is possible for a transaction to see the modified, yet uncommitted, data of another transaction, only if both transactions work on the same data, AND both transactions are concurrent.  
+</string>
+		<key>question</key>
+		<string>74. Is it possible for a valid transaction to see the modified, yet uncommitted data of another valid transaction when the isolation level is set to SERIALIZABLE?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>74</string>
+		<key>identifier</key>
+		<string>75</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a transaction is aborted and restarted repeatedly
+ </string>
+		<key>optionB</key>
+		<string> a transaction holding a lock is aborted
+ </string>
+		<key>optionC</key>
+		<string> 2 or more transactions wait indefinitely because each holds the data items of another
+ </string>
+		<key>optionD</key>
+		<string> an aborted transaction holding a lock is restarted  
+</string>
+		<key>question</key>
+		<string>75. A livelock occurs when   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>75</string>
+		<key>identifier</key>
+		<string>76</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The transaction can acquire locks, and can release its locks.
+ </string>
+		<key>optionB</key>
+		<string> The transaction cannot acquire locks, but can release its locks.
+ </string>
+		<key>optionC</key>
+		<string> The transaction can acquire locks, and can release its locks as long as the number of acquired locks is greater than the number of released locks.
+ </string>
+		<key>optionD</key>
+		<string> The transaction can acquire locks, but cannot release its locks.  
+</string>
+		<key>question</key>
+		<string>76. In a two-phase locking protocol, what happens during the growing phase?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>76</string>
+		<key>identifier</key>
+		<string>77</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Read only
+ </string>
+		<key>optionB</key>
+		<string> Neither read nor write
+ </string>
+		<key>optionC</key>
+		<string> Both read and write
+ </string>
+		<key>optionD</key>
+		<string> Write only  
+</string>
+		<key>question</key>
+		<string>77. An exclusive lock on a data item represents permission to perform which of the operations, read and write, on the data item?  
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>77</string>
+		<key>identifier</key>
+		<string>78</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The transaction cannot acquire locks, but can release its locks.
+ </string>
+		<key>optionB</key>
+		<string> The transaction can acquire locks, but cannot release its locks.
+ </string>
+		<key>optionC</key>
+		<string> The transaction can acquire locks, and can release its locks.
+ </string>
+		<key>optionD</key>
+		<string> The transaction can acquire locks, and can release its locks as long as the number of released locks is greater than the number of acquired locks.  
+</string>
+		<key>question</key>
+		<string>78. In a two-phase locking protocol, what happens during the shrinking phase?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>78</string>
+		<key>identifier</key>
+		<string>79</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> easier than most two-phase locking protocols
+ </string>
+		<key>optionB</key>
+		<string> more difficult than most two-phase locking protocols
+ </string>
+		<key>optionC</key>
+		<string> the easiest two-phase locking protocol
+ </string>
+		<key>optionD</key>
+		<string> the most difficult two-phase locking protocol  
+</string>
+		<key>question</key>
+		<string>79. The strict two-phase locking protocol is _____ to implement.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>79</string>
+		<key>identifier</key>
+		<string>80</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> does not require, requires
+ </string>
+		<key>optionB</key>
+		<string> requires, requires
+ </string>
+		<key>optionC</key>
+		<string> requires, does not require
+ </string>
+		<key>optionD</key>
+		<string> does not require, does not require  
+</string>
+		<key>question</key>
+		<string>80. Force propagation policy _____ redo actions, and no-force propagation policy _____ redo actions.    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>80</string>
+		<key>identifier</key>
+		<string>81</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> does not require, requires
+ </string>
+		<key>optionB</key>
+		<string> does not require, does not require
+ </string>
+		<key>optionC</key>
+		<string> requires, does not require
+ </string>
+		<key>optionD</key>
+		<string> requires, requires  
+</string>
+		<key>question</key>
+		<string>81.Immediate update policy _____ undo actions, and deferred update policy _____ undo actions.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>81</string>
+		<key>identifier</key>
+		<string>82</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III only
+ </string>
+		<key>optionB</key>
+		<string> I, III, and IV only
+ </string>
+		<key>optionC</key>
+		<string> I, II, III, and IV
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>82. During recovery, in which of the following ways are the before and after images used by the undo and redo actions?  
+undo action uses the before image 
+undo action uses the after image 
+redo action uses the after image 
+redo action uses the before image 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>82</string>
+		<key>identifier</key>
+		<string>83</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>83. Which of the following are properties of a good hash function?  
+It should be computed efficiently. 
+It should minimize the number of collisions by spreading keys as evenly and uniformly as possible. 
+It should always use the Modulo (MOD) function. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>83</string>
+		<key>identifier</key>
+		<string>84</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> at random locations in the heap file
+ </string>
+		<key>optionB</key>
+		<string> in the middle of the heap file
+ </string>
+		<key>optionC</key>
+		<string> at the end of the heap file
+ </string>
+		<key>optionD</key>
+		<string> at the beginning of the heap file 
+</string>
+		<key>question</key>
+		<string>84. Where do heap files add new records?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>84</string>
+		<key>identifier</key>
+		<string>85</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> range queries
+ </string>
+		<key>optionB</key>
+		<string> ordering query results based on the key used for hashing
+ </string>
+		<key>optionC</key>
+		<string> equality searches involving the key, provided the key is used for hashing
+ </string>
+		<key>optionD</key>
+		<string> sequential scan of the entire table  
+</string>
+		<key>question</key>
+		<string>85. Hashing exhibits the best performance for  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>85</string>
+		<key>identifier</key>
+		<string>86</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> some records of a table
+ </string>
+		<key>optionB</key>
+		<string> some fields of a table
+ </string>
+		<key>optionC</key>
+		<string> all fields of a table
+ </string>
+		<key>optionD</key>
+		<string> all records of a table
+</string>
+		<key>question</key>
+		<string>86. A sparse index contains entries for     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>86</string>
+		<key>identifier</key>
+		<string>87</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> need not be, should not be
+ </string>
+		<key>optionB</key>
+		<string> should be, should not be
+ </string>
+		<key>optionC</key>
+		<string> need not be, need not be
+ </string>
+		<key>optionD</key>
+		<string> should be, need not be  
+</string>
+		<key>question</key>
+		<string>87. A primary index _____ defined on a key field, and a secondary index _____ defined on a key field.      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>87</string>
+		<key>identifier</key>
+		<string>88</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>88. Each index entry in an index file contains    
+an indexing value 
+a pointer to the page where the record with the value appears 
+an indexing function 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>88</string>
+		<key>identifier</key>
+		<string>89</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the outermost track
+ </string>
+		<key>optionB</key>
+		<string> tracks with the same diameter
+ </string>
+		<key>optionC</key>
+		<string> the innermost track
+ </string>
+		<key>optionD</key>
+		<string> tracks with different diameters  
+</string>
+		<key>question</key>
+		<string>89. A cylinder of a multi-platter hard disk consists of   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>89</string>
+		<key>identifier</key>
+		<string>90</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> never use buffering when transferring data between secondary storage and main memory
+ </string>
+		<key>optionB</key>
+		<string> never use hash files when deciding on an appropriate indexing structure
+ </string>
+		<key>optionC</key>
+		<string> always use hash files when deciding on an appropriate indexing structure
+ </string>
+		<key>optionD</key>
+		<string> minimize the amount of data transferred between secondary storage and main memory 
+</string>
+		<key>question</key>
+		<string>90. To improve the performance of a database,   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>90</string>
+		<key>identifier</key>
+		<string>91</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> load the address of a disk block from an index
+ </string>
+		<key>optionB</key>
+		<string> move the read/write head to the appropriate track on the disk
+ </string>
+		<key>optionC</key>
+		<string> read data from a disk
+ </string>
+		<key>optionD</key>
+		<string> position the appropriate disk block under the read/write head
+</string>
+		<key>question</key>
+		<string>91. The term block transfer time refers to the amount of time it takes to      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>91</string>
+		<key>identifier</key>
+		<string>92</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> disk blocks that form a track
+ </string>
+		<key>optionB</key>
+		<string> disk blocks that are on a hard disk drive platter
+ </string>
+		<key>optionC</key>
+		<string> database records that can be stored on a disk block
+ </string>
+		<key>optionD</key>
+		<string> cylinders on a hard disk drive  
+</string>
+		<key>question</key>
+		<string>92. The term blocking factor refers to the number of   
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>92</string>
+		<key>identifier</key>
+		<string>93</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The first available empty bucket in a chained list of buckets is used.
+ </string>
+		<key>optionB</key>
+		<string> The first available slot in the overflow area where slots are chained using a hash function is used.
+ </string>
+		<key>optionC</key>
+		<string> The first available slot in a linked list of slots that is connected to the collision slot is used.
+ </string>
+		<key>optionD</key>
+		<string> The first available slot in a linked list of overflow buckets that is connected to the hashed bucket is used
+</string>
+		<key>question</key>
+		<string>93. How does chained overflow solve the problem of collisions in hashing?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>93</string>
+		<key>identifier</key>
+		<string>94</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> non-ordering
+ </string>
+		<key>optionB</key>
+		<string> ordering
+ </string>
+		<key>optionC</key>
+		<string> primary key
+ </string>
+		<key>optionD</key>
+		<string> alternate key  
+</string>
+		<key>question</key>
+		<string>94. A secondary index is an index defined on a(n) _____ field.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>94</string>
+		<key>identifier</key>
+		<string>95</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>95. Which of the following can be used to measure hard disk drive performance?  
+Seek time 
+Rotational latency 
+Block transfer time
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>95</string>
+		<key>identifier</key>
+		<string>96</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a record hashes to two locations
+ </string>
+		<key>optionB</key>
+		<string> all overflow buckets are full
+ </string>
+		<key>optionC</key>
+		<string> a hash function is static
+ </string>
+		<key>optionD</key>
+		<string> a new record hashes to a location already occupied by an existing record  
+</string>
+		<key>question</key>
+		<string>96. Collisions occur in hashing when  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>96</string>
+		<key>identifier</key>
+		<string>97</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> dense, sparse
+ </string>
+		<key>optionB</key>
+		<string> sparse, dense
+ </string>
+		<key>optionC</key>
+		<string> sparse, sparse
+ </string>
+		<key>optionD</key>
+		<string> dense, dense  
+</string>
+		<key>question</key>
+		<string>97.A primary ISAM is a _____ index, and a secondary ISAM is a _____ index.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>97</string>
+		<key>identifier</key>
+		<string>98</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Only table inheritance is supported
+ </string>
+		<key>optionB</key>
+		<string> Neither single inheritance nor multiple inheritance is supported.
+ </string>
+		<key>optionC</key>
+		<string> Single inheritance is supported, but not multiple inheritance.
+ </string>
+		<key>optionD</key>
+		<string> Both single inheritance and multiple inheritance are supported. 
+</string>
+		<key>question</key>
+		<string>98. Which of the following is true about the support for inheritance in Object-Relational models?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>98</string>
+		<key>identifier</key>
+		<string>99</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> III only
+</string>
+		<key>question</key>
+		<string>99. Which of the following is an ordered collection? 
+SET 
+LIST 
+MULTISET 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>99</string>
+		<key>identifier</key>
+		<string>100</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>100.In an Object-Relational model, which of the following data types are supported? 
+user-defined data types 
+ROW types 
+time-series data types 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>100</string>
+		<key>identifier</key>
+		<string>101</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> EXTENDS
+ </string>
+		<key>optionB</key>
+		<string> UNDER
+ </string>
+		<key>optionC</key>
+		<string> INHERIT
+ </string>
+		<key>optionD</key>
+		<string> SUBTYPE  
+</string>
+		<key>question</key>
+		<string>101. In SQL3, inheritance is specified using which of the following keywords?      
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>101</string>
+		<key>identifier</key>
+		<string>102</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> two
+ </string>
+		<key>optionB</key>
+		<string> multi
+ </string>
+		<key>optionC</key>
+		<string> four
+ </string>
+		<key>optionD</key>
+		<string> three  
+</string>
+		<key>question</key>
+		<string>102. Spatial data is _____-dimensional data.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>102</string>
+		<key>identifier</key>
+		<string>103</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>103. Which of the following are valid operations performed on spatial data? 
+object overlap 
+object containment 
+object visibility 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>103</string>
+		<key>identifier</key>
+		<string>104</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> network
+ </string>
+		<key>optionB</key>
+		<string> object-oriented
+ </string>
+		<key>optionC</key>
+		<string> hierarchical
+ </string>
+		<key>optionD</key>
+		<string> relational  
+</string>
+		<key>question</key>
+		<string>104. Which of the following data models currently have the predominant market share?   
+  </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>104</string>
+		<key>identifier</key>
+		<string>105</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A central fact table and six surrounding tables
+ </string>
+		<key>optionB</key>
+		<string> A central fact table and five surrounding tables
+ </string>
+		<key>optionC</key>
+		<string> A central fact table and a number of dimension tables
+ </string>
+		<key>optionD</key>
+		<string> A single table with seven columns, with the center column being the primary key  
+</string>
+		<key>question</key>
+		<string>105. A star schema in a data warehouse context refers to which of the following?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>105</string>
+		<key>identifier</key>
+		<string>106</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Viewing along a different dimension
+ </string>
+		<key>optionB</key>
+		<string> Expanding the view in all the dimensions
+ </string>
+		<key>optionC</key>
+		<string> Deriving a fine-grained view, i.e., a disaggregated view along a particular dimension
+ </string>
+		<key>optionD</key>
+		<string> Deriving a coarse-grained view, i.e., a summarized view along a particular dimension  
+</string>
+		<key>question</key>
+		<string>106. What is a drill-down operation in a data warehouse application?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>106</string>
+		<key>identifier</key>
+		<string>107</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> two-dimensional
+ </string>
+		<key>optionB</key>
+		<string> three-dimensional
+ </string>
+		<key>optionC</key>
+		<string> one-dimensional
+ </string>
+		<key>optionD</key>
+		<string> multi-dimensional  
+</string>
+		<key>question</key>
+		<string>107. Which of the following is the predominant data type that is encountered in OLAP databases? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

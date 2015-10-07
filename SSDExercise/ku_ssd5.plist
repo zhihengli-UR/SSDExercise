@@ -1,0 +1,5314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>1</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> C-style comments
+ </string>
+		<key>optionB</key>
+		<string> classes, inheritance, and polymorphism
+ </string>
+		<key>optionC</key>
+		<string> attendant algorithms
+ </string>
+		<key>optionD</key>
+		<string> pointers  
+</string>
+		<key>question</key>
+		<string>1. C++ is said to be an object-oriented language because of its support for 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>2</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>2. Which of the following statements about C++ is (are) true 
+It is strongly typed. 
+It has been standardized by ISO.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>3</string>
+		<key>identifier</key>
+		<string>3</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> - (hyphen)
+ </string>
+		<key>optionB</key>
+		<string> _ (underscore)
+ </string>
+		<key>optionC</key>
+		<string> X
+ </string>
+		<key>optionD</key>
+		<string> 3  
+</string>
+		<key>question</key>
+		<string>3. All of the following characters are allowed to be part of a valid C++ identifier except 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>4</string>
+		<key>identifier</key>
+		<string>4</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> linked, preprocessed, compiled
+ </string>
+		<key>optionB</key>
+		<string> compiled, preprocessed, linked
+ </string>
+		<key>optionC</key>
+		<string> preprocessed, compiled, linked
+ </string>
+		<key>optionD</key>
+		<string> compiled, linked, preprocessed
+</string>
+		<key>question</key>
+		<string>4. To produce an executable image, a C++ source file must be _____, then _____, and finally _____. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>5</string>
+		<key>identifier</key>
+		<string>5</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> linking, source file
+ </string>
+		<key>optionB</key>
+		<string> preprocessing, object file
+ </string>
+		<key>optionC</key>
+		<string> linking, executable image
+ </string>
+		<key>optionD</key>
+		<string> compiling, preprocessed file 
+</string>
+		<key>question</key>
+		<string>5. At the end of the _____ stage for a C++ program, a(n) _____ can be produced.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>6</string>
+		<key>identifier</key>
+		<string>6</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> preprocessor
+ </string>
+		<key>optionB</key>
+		<string> Standard Template Library
+ </string>
+		<key>optionC</key>
+		<string> linker
+ </string>
+		<key>optionD</key>
+		<string> compiler 
+</string>
+		<key>question</key>
+		<string>6. In C++, the directive #include is processed by the   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>7</string>
+		<key>identifier</key>
+		<string>7</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> data structures
+ </string>
+		<key>optionB</key>
+		<string> functional programming languages
+ </string>
+		<key>optionC</key>
+		<string> algorithms
+ </string>
+		<key>optionD</key>
+		<string> object-oriented programming languages  
+</string>
+		<key>question</key>
+		<string>7. Lines at a store, file cabinets, and bookcases are real-world entities that most resemble _____ in computer science. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>8</string>
+		<key>identifier</key>
+		<string>8</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> cache
+ </string>
+		<key>optionB</key>
+		<string> data structure
+ </string>
+		<key>optionC</key>
+		<string> algorithm
+ </string>
+		<key>optionD</key>
+		<string> processor  
+</string>
+		<key>question</key>
+		<string>8. In computer science, a structured representation of information is known as a(n) 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>9</string>
+		<key>identifier</key>
+		<string>9</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> hash table
+ </string>
+		<key>optionB</key>
+		<string> algorithm
+ </string>
+		<key>optionC</key>
+		<string> associative array
+ </string>
+		<key>optionD</key>
+		<string> tree  
+</string>
+		<key>question</key>
+		<string>9. An ordered set of directives that can be carried out mechanically is known as a(n)  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>10</string>
+		<key>identifier</key>
+		<string>10</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Simplifying the problem by eliminating low-priority requirements
+ </string>
+		<key>optionB</key>
+		<string> Determining a programming language for implementing a solution to the problem
+ </string>
+		<key>optionC</key>
+		<string> Reverse-engineering an algorithm that solves a different problem
+ </string>
+		<key>optionD</key>
+		<string> Identifying entities and relationships that will aid in solving the problem  
+</string>
+		<key>question</key>
+		<string>10. Decomposition of a problem involves which of the following?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>11</string>
+		<key>identifier</key>
+		<string>11</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 0 &lt; 10
+ </string>
+		<key>optionB</key>
+		<string> 0 &lt;= i &amp;&amp; i &lt;= 10
+ </string>
+		<key>optionC</key>
+		<string> 0 &lt;= i &amp;&amp; i &lt; 10
+ </string>
+		<key>optionD</key>
+		<string> 0 &lt;= i &lt; 10  
+</string>
+		<key>question</key>
+		<string>11. Which of the following expressions evaluates to true in C++ if and only if the index variable i is in bounds for an array of size 10?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>12</string>
+		<key>identifier</key>
+		<string>12</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> short, char, int, long
+ </string>
+		<key>optionB</key>
+		<string> long, int, short, char
+ </string>
+		<key>optionC</key>
+		<string> long, int, char, short
+ </string>
+		<key>optionD</key>
+		<string> char, short, int, long  
+</string>
+		<key>question</key>
+		<string>12. Which of the following lists of C++ types are ordered increasingly by size, as computed by sizeof()?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>13</string>
+		<key>identifier</key>
+		<string>13</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> bool
+ </string>
+		<key>optionB</key>
+		<string> char
+ </string>
+		<key>optionC</key>
+		<string> byte
+ </string>
+		<key>optionD</key>
+		<string> unsigned int  
+</string>
+		<key>question</key>
+		<string>13. Each of the following is a basic C++ type except 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>14</string>
+		<key>identifier</key>
+		<string>14</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> be used internally in an object's copy constructor
+ </string>
+		<key>optionB</key>
+		<string> provide for proper assignment between objects
+ </string>
+		<key>optionC</key>
+		<string> initialize data members when an instance is first created
+ </string>
+		<key>optionD</key>
+		<string> prevent memory leaks  
+</string>
+		<key>question</key>
+		<string>14. The purpose of the assignment operator is to    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>15</string>
+		<key>identifier</key>
+		<string>15</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> void operator+=( const Complex&amp; rhs );
+ </string>
+		<key>optionB</key>
+		<string> void operator+=( float real, float imag );
+ </string>
+		<key>optionC</key>
+		<string> Complex&amp; operator+=( const Complex&amp; rhs );
+ </string>
+		<key>optionD</key>
+		<string> Complex&amp; operator+=( const Complex rhs );  
+</string>
+		<key>question</key>
+		<string>15. If a user-defined class Complex has overloaded operator+=, then one would expect this operator to have which of the following declarations? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>16</string>
+		<key>identifier</key>
+		<string>16</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The assignment operator
+ </string>
+		<key>optionB</key>
+		<string> The default constructor
+ </string>
+		<key>optionC</key>
+		<string> The copy constructor
+ </string>
+		<key>optionD</key>
+		<string> The destructor  
+</string>
+		<key>question</key>
+		<string>16. Assume that Thing is a user-defined class, and consider the following code fragment, where B is an instance of Thing.
+      Thing  A = B;
+Which of the following is a class member that is used in this code fragment? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>17</string>
+		<key>identifier</key>
+		<string>17</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> In copying the data from A to B
+ </string>
+		<key>optionB</key>
+		<string> In the return operation
+ </string>
+		<key>optionC</key>
+		<string> In passing the parameter
+ </string>
+		<key>optionD</key>
+		<string> In the creation of the local variable B  
+</string>
+		<key>question</key>
+		<string>17. Assume that Thing is a user-defined class, and consider the following function.
+Thing  f(Thing&amp; A)  {
+  Thing B;
+  B.x  =  A.x;
+  return B;
+}
+Where in this code will a copy constructor be used? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>18</string>
+		<key>identifier</key>
+		<string>18</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It may have a destructor, but might not.
+ </string>
+		<key>optionB</key>
+		<string> It cannot have a destructor.
+ </string>
+		<key>optionC</key>
+		<string> It must have a destructor.
+ </string>
+		<key>optionD</key>
+		<string> It cannot have an assignment operator.
+</string>
+		<key>question</key>
+		<string>18. Which of the following is true about a class without a (user-defined) constructor?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>19</string>
+		<key>identifier</key>
+		<string>19</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> both private
+ </string>
+		<key>optionB</key>
+		<string> private and public, respectively
+ </string>
+		<key>optionC</key>
+		<string> public and private, respectively
+ </string>
+		<key>optionD</key>
+		<string> both public  
+</string>
+		<key>question</key>
+		<string>19. In a C++ class, access to data members and function members are typically    
+b</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>20</string>
+		<key>identifier</key>
+		<string>20</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Implementing simple monolithic programs
+ </string>
+		<key>optionB</key>
+		<string> Encapsulation
+ </string>
+		<key>optionC</key>
+		<string> Attaining the highest possible efficiency
+ </string>
+		<key>optionD</key>
+		<string> Providing elegant mechanisms for code reuse  
+</string>
+		<key>question</key>
+		<string>20. To which of the following is object-based programming ideally suited? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>21</string>
+		<key>identifier</key>
+		<string>21</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> &gt;, &lt;
+ </string>
+		<key>optionB</key>
+		<string> &gt;&gt;, &lt;&lt;
+ </string>
+		<key>optionC</key>
+		<string> &lt;, &gt;
+ </string>
+		<key>optionD</key>
+		<string> &lt;&lt;, &gt;&gt;  
+</string>
+		<key>question</key>
+		<string>21.Regarding C++ standard I/O, the _____ operator writes to a stream and the _____ operator reads from a stream.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>22</string>
+		<key>identifier</key>
+		<string>22</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Characters are read until the end of the file is reached.
+ </string>
+		<key>optionB</key>
+		<string> Characters are read until a white space is read.
+ </string>
+		<key>optionC</key>
+		<string> Characters are read until a non-white-space character is read or until the end of the file is reached.
+ </string>
+		<key>optionD</key>
+		<string> The number of non-white-space characters is counted. 
+</string>
+		<key>question</key>
+		<string>22. Suppose inf is an available ifstream and c is an available character. Consider the following code fragment.
+do
+    c = inf.get();
+while (!inf.eof() &amp;&amp; isspace(c));
+Which of the following accurately describes the effect of executing this fragment? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>23</string>
+		<key>identifier</key>
+		<string>23</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> cin, cout
+ </string>
+		<key>optionB</key>
+		<string> stdin, stdout
+ </string>
+		<key>optionC</key>
+		<string> input, output
+ </string>
+		<key>optionD</key>
+		<string> keyboard, screen  
+</string>
+		<key>question</key>
+		<string>23. In C++, the standard input stream is accessible using the object _____, and the standard output stream is accessible using the object _____.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>24</string>
+		<key>identifier</key>
+		<string>24</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> instruct the compiler to set i to any value in the indicated range
+ </string>
+		<key>optionB</key>
+		<string> send a warning message but continue execution when the condition is violated
+ </string>
+		<key>optionC</key>
+		<string> provide a comment for the user
+ </string>
+		<key>optionD</key>
+		<string> terminate execution and send an error message whenever the condition is violated  
+ 
+</string>
+		<key>question</key>
+		<string>24. One reason for using an assert statement such as assert (0 &lt;= i &amp;&amp; i &lt; 10); within code is to 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>25</string>
+		<key>identifier</key>
+		<string>25</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> #
+ </string>
+		<key>optionB</key>
+		<string> %
+ </string>
+		<key>optionC</key>
+		<string> -
+ </string>
+		<key>optionD</key>
+		<string> ? </string>
+		<key>question</key>
+		<string>25. In C++, preprocessor directives begin with which of the following symbols?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>26</string>
+		<key>identifier</key>
+		<string>26</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> #ifndef
+ </string>
+		<key>optionB</key>
+		<string> #pragma
+ </string>
+		<key>optionC</key>
+		<string> #include
+ </string>
+		<key>optionD</key>
+		<string> #define  
+</string>
+		<key>question</key>
+		<string>26. Which of the following is the C++ preprocessor directive for file inclusion? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>27</string>
+		<key>identifier</key>
+		<string>27</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> terminate execution and send an error message whenever the condition is violated
+ </string>
+		<key>optionB</key>
+		<string> provide a comment for the user
+ </string>
+		<key>optionC</key>
+		<string> instruct the compiler to set i to any value in the indicated range
+ </string>
+		<key>optionD</key>
+		<string> send a warning message but continue execution when the condition is violated  
+</string>
+		<key>question</key>
+		<string>27. One reason for using an assert statement such as
+      assert( 0 &lt;= i &amp;&amp; i &lt; 10 );
+within code is to 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>28</string>
+		<key>identifier</key>
+		<string>28</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a virtual CPU that can be used to simulate machine-code execution
+ </string>
+		<key>optionB</key>
+		<string> a debugging tool common to most visual programming environments
+ </string>
+		<key>optionC</key>
+		<string> a set of APIs provided by several compiler vendors
+ </string>
+		<key>optionD</key>
+		<string> a tool that manipulates source files before compilation  
+</string>
+		<key>question</key>
+		<string>28. In C++, the preprocessor is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>29</string>
+		<key>identifier</key>
+		<string>29</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> comment ignored by the preprocessor
+ </string>
+		<key>optionB</key>
+		<string> comment that prevents the linking of object files into executable programs
+ </string>
+		<key>optionC</key>
+		<string> single-line command introduced into a C++ source file
+ </string>
+		<key>optionD</key>
+		<string> command-line argument supplied to the linker  
+</string>
+		<key>question</key>
+		<string>29. In C++, a preprocessor directive is a 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>30</string>
+		<key>identifier</key>
+		<string>30</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> cfile
+ </string>
+		<key>optionB</key>
+		<string> cin
+ </string>
+		<key>optionC</key>
+		<string> cout
+ </string>
+		<key>optionD</key>
+		<string> cerr  
+</string>
+		<key>question</key>
+		<string>30. Which of the following is not a predefined stream object in C++? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>31</string>
+		<key>identifier</key>
+		<string>31</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> fstream
+ </string>
+		<key>optionB</key>
+		<string> string
+ </string>
+		<key>optionC</key>
+		<string> ctype
+ </string>
+		<key>optionD</key>
+		<string> iomanip  
+</string>
+		<key>question</key>
+		<string>31. To read data from a file into a C++ program using class ifstream, it is necessary to include the _____ library header file.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>32</string>
+		<key>identifier</key>
+		<string>32</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It sets 100 pointers in A to 0.
+ </string>
+		<key>optionB</key>
+		<string> It produces an out-of-bounds error.
+ </string>
+		<key>optionC</key>
+		<string> It zeroes out A[0]-many elements of array A.
+ </string>
+		<key>optionD</key>
+		<string> It zeroes out the 100 elements of array A.  
+</string>
+		<key>question</key>
+		<string>32. What is the effect of the following C++ code fragment?  
+int   A[100];
+for( int *p = A; p &lt; A + 100; ++p ) {
+    *p = 0;
+}
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>33</string>
+		<key>identifier</key>
+		<string>33</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 0
+ </string>
+		<key>optionB</key>
+		<string> 9
+ </string>
+		<key>optionC</key>
+		<string> 5
+ </string>
+		<key>optionD</key>
+		<string> 4  
+</string>
+		<key>question</key>
+		<string>33. Consider the following C++ program segment: 
+int j = 5;
+int *a = &amp;j;
+*a = *a + 4;
+After execution of this program segment, what will be the value of the variable j? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>34</string>
+		<key>identifier</key>
+		<string>34</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 11
+ </string>
+		<key>optionB</key>
+		<string> 2
+ </string>
+		<key>optionC</key>
+		<string> 0
+ </string>
+		<key>optionD</key>
+		<string> 1 
+</string>
+		<key>question</key>
+		<string>34. Consider the following C++ program segment: 
+int j[10];
+for (int i = 0; i &lt; 10; i++) {
+    j[i] = i;
+}
+int *a = j;
+a++;
+After execution of this program segment, what will be the value of j[0]? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>35</string>
+		<key>identifier</key>
+		<string>35</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> int *p = &amp;i;
+ </string>
+		<key>optionB</key>
+		<string> int &amp;p = *i;
+ </string>
+		<key>optionC</key>
+		<string> int *p = i;
+ </string>
+		<key>optionD</key>
+		<string> int &amp;p = i; 
+</string>
+		<key>question</key>
+		<string>35. Which of the following statements creates p as an alternative name for the variable i? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>36</string>
+		<key>identifier</key>
+		<string>36</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> void print( Thing* x );
+ </string>
+		<key>optionB</key>
+		<string> void print( Thing x );
+ </string>
+		<key>optionC</key>
+		<string> void print( Thing&amp; x );
+ </string>
+		<key>optionD</key>
+		<string> void print( const Thing&amp; x );
+</string>
+		<key>question</key>
+		<string>36. Assume that Thing is a user-defined type. Which of the following print functions for Thing is the safest and most efficient?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>37</string>
+		<key>identifier</key>
+		<string>37</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>delete [] A;
+</string>
+		<key>optionB</key>
+		<string>delete A[100];
+</string>
+		<key>optionC</key>
+		<string>delete A;
+</string>
+		<key>optionD</key>
+		<string>delete [100] A; 
+</string>
+		<key>question</key>
+		<string>37.If A is an array of 100 integers, which of the following properly deallocates A? 
+ 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>38</string>
+		<key>identifier</key>
+		<string>38</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>They are created and destroyed by the programmer.
+</string>
+		<key>optionB</key>
+		<string>They are created by the programmer, but destroyed by the compiler.
+</string>
+		<key>optionC</key>
+		<string>They are destroyed only at the end of execution.
+</string>
+		<key>optionD</key>
+		<string>They are created and destroyed by the compiler. 
+</string>
+		<key>question</key>
+		<string>38.Which of the following is true about variables with dynamic extent? 
+ 
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>39</string>
+		<key>identifier</key>
+		<string>39</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>When executed, it will create an instance of Thing and then remove the only reference to this instance without destroying it first.
+</string>
+		<key>optionB</key>
+		<string>Nothing
+</string>
+		<key>optionC</key>
+		<string>When executed, it will create an instance of Thing and then overwrite it with NULL.
+</string>
+		<key>optionD</key>
+		<string>When executed, it will assign a NULL pointer to a variable that is a pointer to a Thing. 
+</string>
+		<key>question</key>
+		<string>39.What, if anything, is wrong with the following code fragment?
+
+
+      Thing  *ptr = new Thing;
+
+      ptr = NULL;
+
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>40</string>
+		<key>identifier</key>
+		<string>40</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> int *A = new int[100];
+ </string>
+		<key>optionB</key>
+		<string> int A = new int[100];
+ </string>
+		<key>optionC</key>
+		<string> int *A = new (int) 100;
+ </string>
+		<key>optionD</key>
+		<string> int &amp;A = new int[100];  
+</string>
+		<key>question</key>
+		<string>40. Which of the following statements properly allocates an array of 100 integers?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>41</string>
+		<key>identifier</key>
+		<string>41</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> C++ always uses a garbage collector.
+ </string>
+		<key>optionB</key>
+		<string> Allocation and deallocation is the responsibility of the programmer.
+ </string>
+		<key>optionC</key>
+		<string> Allocation and deallocation is completely shielded from the programmer.
+ </string>
+		<key>optionD</key>
+		<string> C++ has a garbage collector that can be used or turned off.  
+</string>
+		<key>question</key>
+		<string>41. How does C++ handle memory allocation?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>42</string>
+		<key>identifier</key>
+		<string>42</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It will not contain calls to delete.
+ </string>
+		<key>optionB</key>
+		<string> The appropriate destructor will be provided automatically by the compiler.
+ </string>
+		<key>optionC</key>
+		<string> It might contain calls to delete, but might not.
+ </string>
+		<key>optionD</key>
+		<string> In this case, no destructor is required for class Thing.  
+</string>
+		<key>question</key>
+		<string>42. Suppose a user-defined class Thing has a simple constructor that does not require any calls to new. Which of the following is true about the destructor?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>43</string>
+		<key>identifier</key>
+		<string>43</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is an important idea in Object Oriented Programming, but currently it is not implemented in C++.
+ </string>
+		<key>optionB</key>
+		<string> It causes one type to behave like several types.
+ </string>
+		<key>optionC</key>
+		<string> It provides for the elegant construction of a new class from an existing class.
+ </string>
+		<key>optionD</key>
+		<string> It protects data members from illegal access.
+</string>
+		<key>question</key>
+		<string>43. Which of the following is true of inheritance?   
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>44</string>
+		<key>identifier</key>
+		<string>44</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> it makes type-checking much easier
+ </string>
+		<key>optionB</key>
+		<string> it can often replace templates
+ </string>
+		<key>optionC</key>
+		<string> it is a powerful code reuse mechanism
+ </string>
+		<key>optionD</key>
+		<string> it greatly increases efficiency  
+</string>
+		<key>question</key>
+		<string>44. Inheritance is an important feature of C++ because 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>45</string>
+		<key>identifier</key>
+		<string>45</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Pointers or references are used with virtual functions.
+ </string>
+		<key>optionB</key>
+		<string> Templates are avoided.
+ </string>
+		<key>optionC</key>
+		<string> Only instances of the base class are used.
+ </string>
+		<key>optionD</key>
+		<string> Only instances of the derived class are used.  
+</string>
+		<key>question</key>
+		<string>45. Which of the following is necessary in order to obtain polymorphic behavior in C++? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>46</string>
+		<key>identifier</key>
+		<string>46</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>virtual int Compute() = 0;
+</string>
+		<key>optionB</key>
+		<string>int Compute() { Compute = 0; };
+</string>
+		<key>optionC</key>
+		<string>virtual int Compute() { return 0; };
+</string>
+		<key>optionD</key>
+		<string>virtual int Compute(); 
+</string>
+		<key>question</key>
+		<string>46.Which of the following is an example of a pure virtual function? 
+ 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>47</string>
+		<key>identifier</key>
+		<string>47</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string>It is called automatically.
+</string>
+		<key>optionB</key>
+		<string>It will not be called and it cannot be called at such a time.
+</string>
+		<key>optionC</key>
+		<string>It must be called by the user, unless the derived class uses dynamic memory (the heap).
+</string>
+		<key>optionD</key>
+		<string>It is available to be called by the user to prevent the destructor for the derived class from being called. 
+</string>
+		<key>question</key>
+		<string>47.What is the role of the destructor for the base class when an instance of a derived class goes out of scope? 
+ 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>48</string>
+		<key>identifier</key>
+		<string>48</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> protect data members from illegal access
+ </string>
+		<key>optionB</key>
+		<string> determine methods of a class based on its data members
+ </string>
+		<key>optionC</key>
+		<string> build new classes on top of existing ones
+ </string>
+		<key>optionD</key>
+		<string> determine the type of an object dynamically at run time
+</string>
+		<key>question</key>
+		<string>48. Polymorphism is a mechanism that is used in order to 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>49</string>
+		<key>identifier</key>
+		<string>49</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Always
+ </string>
+		<key>optionB</key>
+		<string> If and only if the class is not a template class
+ </string>
+		<key>optionC</key>
+		<string> If and only if the function is explicitly declared to be virtual
+ </string>
+		<key>optionD</key>
+		<string> If and only if the class uses private inheritance 
+</string>
+		<key>question</key>
+		<string>49. Under what circumstances will a member function in C++ display polymorphic behavior?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>50</string>
+		<key>identifier</key>
+		<string>50</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> II and III
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>50. If templates were removed from C++, which of the following would be true? 
+Some algorithms could no longer be implemented. 
+Any particular algorithm could still be implemented, but often less elegantly. 
+Any particular algorithm could still be implemented, but the efficiency would often be catastrophically worse. 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>51</string>
+		<key>identifier</key>
+		<string>51</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>51. Which of the following is (are) true about template classes in C++? 
+Methods cannot be overloaded in templated class definitions. 
+Private data of a templated class cannot be declared to have the type of the templated parameter. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>52</string>
+		<key>identifier</key>
+		<string>52</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is a poor choice since the type matching will slow down access at runtime.
+ </string>
+		<key>optionB</key>
+		<string> It is a reasonable way to implement such a class.
+ </string>
+		<key>optionC</key>
+		<string> It is a poor choice since templates slow down compilation.
+ </string>
+		<key>optionD</key>
+		<string> It is impossible since the algorithm cannot know how to copy an instance of type T. 
+</string>
+		<key>question</key>
+		<string>52. Consider the following outline of a template array class. 
+      template&lt;typename T&gt; class Array { ... }
+Which of the following is true about using this outline to implement a general container class?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>53</string>
+		<key>identifier</key>
+		<string>53</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> exactly one
+ </string>
+		<key>optionB</key>
+		<string> one or more
+ </string>
+		<key>optionC</key>
+		<string> exactly two
+ </string>
+		<key>optionD</key>
+		<string> three or fewer  
+</string>
+		<key>question</key>
+		<string>53. In C++ exception handling, a try block must be followed by _____ catch block(s).  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>54</string>
+		<key>identifier</key>
+		<string>54</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> overflow_error
+ </string>
+		<key>optionB</key>
+		<string> range_error
+ </string>
+		<key>optionC</key>
+		<string> domain_error
+ </string>
+		<key>optionD</key>
+		<string> underflow_error  
+</string>
+		<key>question</key>
+		<string>54. In the C++ standard exception hierarchy, which of the following classes is not derived from class runtime_error?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>55</string>
+		<key>identifier</key>
+		<string>55</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ensure allocated resources are properly released
+ </string>
+		<key>optionB</key>
+		<string> catch exceptions polymorphically
+ </string>
+		<key>optionC</key>
+		<string> override the guarantees of exception specifications
+ </string>
+		<key>optionD</key>
+		<string> throw user-defined exception classes 
+</string>
+		<key>question</key>
+		<string>55a55. In C++ exception handling, intermediate exception handlers typically are used to: 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>56</string>
+		<key>identifier</key>
+		<string>56</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> polymorphism
+ </string>
+		<key>optionB</key>
+		<string> templates
+ </string>
+		<key>optionC</key>
+		<string> object oriented programming
+ </string>
+		<key>optionD</key>
+		<string> inheritance  
+</string>
+		<key>question</key>
+		<string>56. The STL is heavily based on   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>57</string>
+		<key>identifier</key>
+		<string>57</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Stack
+ </string>
+		<key>optionB</key>
+		<string> Hash table
+ </string>
+		<key>optionC</key>
+		<string> List
+ </string>
+		<key>optionD</key>
+		<string> Vector  
+</string>
+		<key>question</key>
+		<string>57. Which of the following data structures is not a container implemented in the C++ Standard Template Library? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>58</string>
+		<key>identifier</key>
+		<string>58</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>58d58. Which of the following statements regarding the design of the Standard Template Library (STL) in C++ is (are) true? 
+Each STL algorithm is usable with one specific container. 
+The STL does not use templates and instead relies on polymorphism.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>59</string>
+		<key>identifier</key>
+		<string>59</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>59. The main abstractions of the Standard Template Library include which of the following? 
+Iterators 
+Exception handlers 
+Algorithms
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>60</string>
+		<key>identifier</key>
+		<string>60</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> pointers
+ </string>
+		<key>optionB</key>
+		<string> iterators
+ </string>
+		<key>optionC</key>
+		<string> arrays
+ </string>
+		<key>optionD</key>
+		<string> virtual functions  
+</string>
+		<key>question</key>
+		<string>60b60. In the STL, common algorithms are instantiated for multiple types of container classes by using _____ to provide a uniform interface between the algorithms and containers. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>61</string>
+		<key>identifier</key>
+		<string>61</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> check array bounds, enlarge the vector if necessary, and then write x to position i
+ </string>
+		<key>optionB</key>
+		<string> write x to position i of the vector, without bounds checking
+ </string>
+		<key>optionC</key>
+		<string> check array bounds, and write x to position i if and only if i is in the proper range
+ </string>
+		<key>optionD</key>
+		<string> create an iterator x pointing to position i in the array  
+</string>
+		<key>question</key>
+		<string>61. If A is an STL vector, then the effect of executing the statement
+      A[i] = x;
+is to  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>62</string>
+		<key>identifier</key>
+		<string>62</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a copy constructor
+ </string>
+		<key>optionB</key>
+		<string> an assignment operator
+ </string>
+		<key>optionC</key>
+		<string> a default constructor
+ </string>
+		<key>optionD</key>
+		<string> a destructor  
+</string>
+		<key>question</key>
+		<string>62. Consider the following declaration that makes use of a user-defined class Thing.
+      vector&lt;Thing&gt;  A(10);
+In order that it compile, the class Thing must have which of the following?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>63</string>
+		<key>identifier</key>
+		<string>63</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> difference between the current number of elements and the maximum number of elements
+ </string>
+		<key>optionB</key>
+		<string> number of elements currently stored in the vector
+ </string>
+		<key>optionC</key>
+		<string> maximum number of elements the vector could possibly have on the given machine
+ </string>
+		<key>optionD</key>
+		<string> maximum number of elements that can be stored in the vector without resizing  
+</string>
+		<key>question</key>
+		<string>63. The capacity of an STL vector is defined to be the   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>64</string>
+		<key>identifier</key>
+		<string>64</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> number of elements currently stored in the vector
+ </string>
+		<key>optionB</key>
+		<string> total of the sizes of the data members in the vector class
+ </string>
+		<key>optionC</key>
+		<string> maximum number of elements that can be stored in the vector without resizing
+ </string>
+		<key>optionD</key>
+		<string> number of bytes the vector occupies in memory 
+</string>
+		<key>question</key>
+		<string>64. The size of an STL vector is defined to be the  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>65</string>
+		<key>identifier</key>
+		<string>65</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 0
+ </string>
+		<key>optionB</key>
+		<string> 10
+ </string>
+		<key>optionC</key>
+		<string> 5000
+ </string>
+		<key>optionD</key>
+		<string> 1  
+</string>
+		<key>question</key>
+		<string>65. Consider the following program segment.  
+vector&lt;int&gt;  A(10);
+A.resize(0);
+A.push_back(5000);
+At the end of an execution of this fragment, the size of vector A is
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>66</string>
+		<key>identifier</key>
+		<string>66</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> check whether the capacity of A is larger than the size of A, enlarges A if necessary, and append x to A
+ </string>
+		<key>optionB</key>
+		<string> append x to A if there is room, and otherwise overwrites the currently last element of A
+ </string>
+		<key>optionC</key>
+		<string> append x to A if and only if the size of A is less than capacity of A
+ </string>
+		<key>optionD</key>
+		<string> append x to A, without checking the size and capacity of A 
+</string>
+		<key>question</key>
+		<string>66. If A is an STL vector, then the effect of executing the statement
+    A.push_back( x );
+is to 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>67</string>
+		<key>identifier</key>
+		<string>67</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> An array of 10 ints, each initialized to 20
+ </string>
+		<key>optionB</key>
+		<string> An array of 10 arrays of ints, each of size 20
+ </string>
+		<key>optionC</key>
+		<string> An array of ints, indexed from 10 to 20
+ </string>
+		<key>optionD</key>
+		<string> An array of 20 arrays of ints, each of size 10  
+</string>
+		<key>question</key>
+		<string>67. Consider the execution of the following.
+      vector&lt;int&gt;  A(10,20);
+Which of the following accurately describes what is created? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>68</string>
+		<key>identifier</key>
+		<string>68</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A.reset( it );
+ </string>
+		<key>optionB</key>
+		<string> it = A.begin();
+ </string>
+		<key>optionC</key>
+		<string> A.begin( it );
+ </string>
+		<key>optionD</key>
+		<string> begin( A, it );  
+</string>
+		<key>question</key>
+		<string>68. Execution of which of the following statements sets an STL iterator it so that it points to the first element of a container A?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>69</string>
+		<key>identifier</key>
+		<string>69</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Pre-decrements the item to which the iterator points.
+ </string>
+		<key>optionB</key>
+		<string> Decreases by 1 the size of the container pointed to by it.
+ </string>
+		<key>optionC</key>
+		<string> Post-decrements the item to which the iterator points.
+ </string>
+		<key>optionD</key>
+		<string> Steps the iterator backwards to the previous item.
+</string>
+		<key>question</key>
+		<string>69. For an STL iterator it, execution of the statement
+    it--;
+does which of the following?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>70</string>
+		<key>identifier</key>
+		<string>70</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Increase by 1 the size of the container pointed to by it.
+ </string>
+		<key>optionB</key>
+		<string> Post-increments the item to which the iterator points.
+ </string>
+		<key>optionC</key>
+		<string> Advances the iterator to the next item.
+ </string>
+		<key>optionD</key>
+		<string> Pre-increments the item to which the iterator points.  
+</string>
+		<key>question</key>
+		<string>70. For an STL iterator it, execution of the statement
+    ++it;
+does which of the following? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>71</string>
+		<key>identifier</key>
+		<string>71</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> suitable access member functions
+ </string>
+		<key>optionB</key>
+		<string> pointers
+ </string>
+		<key>optionC</key>
+		<string> iterators
+ </string>
+		<key>optionD</key>
+		<string> references  
+</string>
+		<key>question</key>
+		<string>71. Access to ranges of elements in an STL container is typically handled by  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>72</string>
+		<key>identifier</key>
+		<string>72</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> const char &amp;
+ </string>
+		<key>optionB</key>
+		<string> char
+ </string>
+		<key>optionC</key>
+		<string> char &amp;
+ </string>
+		<key>optionD</key>
+		<string> char *  
+</string>
+		<key>question</key>
+		<string>72. Consider the following C++ program segment, assuming that string is a class. 
+   string str1("Hello, World");
+   str1[5] = 'Z';
+The overloaded operator[] function invoked in the above program segment should have which of the following return types?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>73</string>
+		<key>identifier</key>
+		<string>73</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None 
+</string>
+		<key>question</key>
+		<string>73. Which of the following statements is (are) true regarding C-style strings?  
+They are terminated by the null character. 
+Storing a five-character string requires at least seven characters.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>74</string>
+		<key>identifier</key>
+		<string>74</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a '\n'
+ </string>
+		<key>optionB</key>
+		<string> a '0'
+ </string>
+		<key>optionC</key>
+		<string> any white-space
+ </string>
+		<key>optionD</key>
+		<string> a '\0'  
+</string>
+		<key>question</key>
+		<string>74. A C-style string is stored as an array of characters that ends with _____ character. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>75</string>
+		<key>identifier</key>
+		<string>75</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>75. Which of the following statements is (are) true regarding strings in C++? 
+Strings in C++ are supported by the standard class string. 
+A constructor for the class string can accept a C-style string as an argument. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>76</string>
+		<key>identifier</key>
+		<string>76</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> bool ans = ("hello" == s1);
+ </string>
+		<key>optionB</key>
+		<string> bool ans = (s2 == "hello");
+ </string>
+		<key>optionC</key>
+		<string> string s3("Hello, World");
+ </string>
+		<key>optionD</key>
+		<string> bool ans = (s1 == s2); 
+</string>
+		<key>question</key>
+		<string>76. Consider the following C++ program fragment, which is a partial declaration of the class string. 
+   class string {
+     public:
+         string(const char* cstring = "");
+         bool operator== (const string &amp; rhs);
+      ...
+   };
+Given this class and two string objects called s1 and s2, which of the following is not a legal statement? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>77</string>
+		<key>identifier</key>
+		<string>77</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 5000
+ </string>
+		<key>optionB</key>
+		<string> 10
+ </string>
+		<key>optionC</key>
+		<string> 11
+ </string>
+		<key>optionD</key>
+		<string> dependent on machine and compiler  
+</string>
+		<key>question</key>
+		<string>77. Consider the following C++ program fragment.
+      vector&lt;int&gt;   A(10);
+      A.push_back( 5000 );
+At the end of an execution of this fragment, the size of vector A is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>78</string>
+		<key>identifier</key>
+		<string>78</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> based on arrays of elements
+ </string>
+		<key>optionB</key>
+		<string> random access containers
+ </string>
+		<key>optionC</key>
+		<string> sequential containers
+ </string>
+		<key>optionD</key>
+		<string> inherited from the superclass Container 
+</string>
+		<key>question</key>
+		<string>78. One thing that the STL vector and the STL list have in common is that both are  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>79</string>
+		<key>identifier</key>
+		<string>79</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> inserting the element at the next available position in the deque and maintaining a table of element positions
+ </string>
+		<key>optionB</key>
+		<string> inserting the element at the end of the deque and maintaining a table of element positions
+ </string>
+		<key>optionC</key>
+		<string> reserving memory at the front of the deque's stored elements
+ </string>
+		<key>optionD</key>
+		<string> using a background thread to reallocate memory when necessary
+</string>
+		<key>question</key>
+		<string>79. A typical implementation of a deque in the C++ STL minimizes the need to copy elements upon the frontal insertion of new items by   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>80</string>
+		<key>identifier</key>
+		<string>80</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> int is_odd(int begin, int end);
+ </string>
+		<key>optionB</key>
+		<string> bool is_odd(int i);
+ </string>
+		<key>optionC</key>
+		<string> int is_odd(bool i);
+ </string>
+		<key>optionD</key>
+		<string> bool is_odd(int begin, int end); 
+</string>
+		<key>question</key>
+		<string>80. Consider the following program fragment that calls the method count_if in the C++ Standard Template Library. 
+   deque&lt;int&gt; numbers;
+   ...
+   count_if(numbers.begin(), numbers.end(), is_odd);
+Which of the following declarations for the method is_odd is correct for the call to count_if? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>81</string>
+		<key>identifier</key>
+		<string>81</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>81. In the C++ Standard Template Library, vectors and deques differ in their interfaces for handling which of the following operations? 
+Insertion of an element at the front of the container 
+Insertion of an element at the end of the container 
+Removal of an element from the front of the container
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>82</string>
+		<key>identifier</key>
+		<string>82</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>82. The class vector in the C++ STL contains which of the following methods? 
+push_back 
+push_front 
+pop_front 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>83</string>
+		<key>identifier</key>
+		<string>83</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string>83. The STL deque container contains which of the following methods?  
+push_back 
+push_front 
+pop_front 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>84</string>
+		<key>identifier</key>
+		<string>84</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>84. Which of the following statements is (are) true of typical implementations of vectors and deques?
+A vector's implementation uses one array, whereas a deque's implementation uses multiple arrays. 
+Insertions at the front of a deque tend to be more efficient than insertions at the front of a vector. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>85</string>
+		<key>identifier</key>
+		<string>85</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Creates a linked list of 10 ints, with each element initially 0.
+ </string>
+		<key>optionB</key>
+		<string> Creates a linked list of 10 ints, with each element initially containing random values.
+ </string>
+		<key>optionC</key>
+		<string> Creates an empty linked list of ints, but reserves memory for 10 entries
+ </string>
+		<key>optionD</key>
+		<string> Creates 10 linked lists of ints, all initially empty.  
+</string>
+		<key>question</key>
+		<string>85. Execution of the code fragment
+    list&lt;int&gt;  A(10);
+does which of the following?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>86</string>
+		<key>identifier</key>
+		<string>86</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the class list does not support a constructor with given length
+ </string>
+		<key>optionB</key>
+		<string> L is an array of 10 list objects, and we cannot assign 555 to a list object
+ </string>
+		<key>optionC</key>
+		<string> the class list does not support the bracket operator
+ </string>
+		<key>optionD</key>
+		<string> the class list only supports the const version of the bracket operator 
+</string>
+		<key>question</key>
+		<string>86. Consider the following code fragment concerning the STL list class.
+      list&lt;int&gt;   L(10);
+      L[3] = 555;
+The fragment will produce a compile time error because  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>87</string>
+		<key>identifier</key>
+		<string>87</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> inserting a new element 10 after each list element
+ </string>
+		<key>optionB</key>
+		<string> stepping through the lists in increments of 10
+ </string>
+		<key>optionC</key>
+		<string> adding 10 to each list element
+ </string>
+		<key>optionD</key>
+		<string> appending 10 to the list  
+</string>
+		<key>question</key>
+		<string>87. Consider the following code fragment, where L is a linked list of integers.
+      for( it = L.begin(); it != L.end(); ++it )
+        *it += 10;
+Execution of this fragment has the effect of  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>88</string>
+		<key>identifier</key>
+		<string>88</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> there is no decrement operation for list iterators
+ </string>
+		<key>optionB</key>
+		<string> linked lists in the STL are circular and the loop will never terminate
+ </string>
+		<key>optionC</key>
+		<string> an attempt is made to access a non-existing list element
+ </string>
+		<key>optionD</key>
+		<string> the identifier it is a keyword
+</string>
+		<key>question</key>
+		<string>88. Consider the following C++ code segment intended to traverse the list L in reverse order.
+      list&lt;int&gt;::iterator  it;
+      for(  it = L.end(); it != L.begin(); --it ) {
+      	  cout &lt;&lt; *it &lt;&lt; endl;
+      }
+The code segment will not serve the intended purpose because 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>89</string>
+		<key>identifier</key>
+		<string>89</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+ 
+</string>
+		<key>question</key>
+		<string>89. In STL, nodes of a linked list can be accessed using which of the following? 
+STL iterators 
+Subscripts
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>90</string>
+		<key>identifier</key>
+		<string>90</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>90. Which of the following is (are) typically true about linked lists? 
+Objects in a linked list are stored contiguously in memory. 
+All elements in a list are copied to new locations in memory upon frontal insertions to the list. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>91</string>
+		<key>identifier</key>
+		<string>91</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>91. Which of the following pointers is (are) stored by nodes in a doubly-linked list?  
+A pointer to the next node 
+A pointer to the previous node 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>92</string>
+		<key>identifier</key>
+		<string>92</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a single use of the operator new allocates memory for the list
+ </string>
+		<key>optionB</key>
+		<string> elements must contain unique values
+ </string>
+		<key>optionC</key>
+		<string> elements can contain duplicate values
+ </string>
+		<key>optionD</key>
+		<string> each node contains a pointer to only one other node  
+</string>
+		<key>question</key>
+		<string>92. A singly linked list is a linked list in which   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>93</string>
+		<key>identifier</key>
+		<string>93</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a null pointer, pointer to the previous node
+ </string>
+		<key>optionB</key>
+		<string> a null pointer, pointer to the next node
+ </string>
+		<key>optionC</key>
+		<string> its own address, pointer to the previous node
+ </string>
+		<key>optionD</key>
+		<string> its own address, pointer to the next node  
+</string>
+		<key>question</key>
+		<string>93. To indicate the end of the list, the final node in a typical singly-linked list stores _____ in place of a _____. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>94</string>
+		<key>identifier</key>
+		<string>94</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> None
+</string>
+		<key>question</key>
+		<string>94. Typical implementations for which of the following STL containers store elements contiguously in memory?  
+vector 
+list 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>95</string>
+		<key>identifier</key>
+		<string>95</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> doubly, backward only
+ </string>
+		<key>optionB</key>
+		<string> singly, forward only
+ </string>
+		<key>optionC</key>
+		<string> doubly, forward only
+ </string>
+		<key>optionD</key>
+		<string> singly, forward and backward  
+</string>
+		<key>question</key>
+		<string>95. The nodes of a _____ linked list can be traversed _____.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>96</string>
+		<key>identifier</key>
+		<string>96</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> add the element's index to the memory address of the first element in the list
+ </string>
+		<key>optionB</key>
+		<string> compute a hash value for the element
+ </string>
+		<key>optionC</key>
+		<string> traverse all nodes in the list prior to that element
+ </string>
+		<key>optionD</key>
+		<string> allocate memory for temporary nodes  
+</string>
+		<key>question</key>
+		<string>96. To access an element in a singly linked list, a program must  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>97</string>
+		<key>identifier</key>
+		<string>97</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only 
+</string>
+		<key>question</key>
+		<string>97. Which of the following statements is (are) true about stacks?
+Elements are inserted and deleted in last-in-first-out order. 
+Stacks can be implemented using linked lists. 
+Stacks can be implemented using arrays.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>98</string>
+		<key>identifier</key>
+		<string>98</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 1
+ </string>
+		<key>optionB</key>
+		<string> 8
+ </string>
+		<key>optionC</key>
+		<string> 7
+ </string>
+		<key>optionD</key>
+		<string> 3  
+</string>
+		<key>question</key>
+		<string>98. Consider the following sequence of operations applied to an empty queue:
+Insert element with value 3 
+Insert element with value 8
+Remove element
+Insert element with value 1
+Remove element
+Insert element with value 7
+The next element removed from this queue will have which of the following values? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>99</string>
+		<key>identifier</key>
+		<string>99</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A stack of integers
+ </string>
+		<key>optionB</key>
+		<string> A stack of integer lists
+ </string>
+		<key>optionC</key>
+		<string> A list of integer stacks
+ </string>
+		<key>optionD</key>
+		<string> A list of integers 
+</string>
+		<key>question</key>
+		<string>99.Consider the following C++ program segment, which uses the STL. 
+stack&lt;int,list&lt;int&gt; &gt; S;
+Execution of the statement results in creation of which of the following? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>100</string>
+		<key>identifier</key>
+		<string>100</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A stack of integers
+ </string>
+		<key>optionB</key>
+		<string> A vector of integer stacks
+ </string>
+		<key>optionC</key>
+		<string> A vector of integers
+ </string>
+		<key>optionD</key>
+		<string> A stack of integer vectors
+</string>
+		<key>question</key>
+		<string>100. Consider the following C++ program segment, which uses the STL. 
+stack&lt;int,vector&lt;int&gt; &gt; S;
+Execution of the statement results in creation of which of the following? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>101</string>
+		<key>identifier</key>
+		<string>101</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> true if the queue contains no elements
+ </string>
+		<key>optionB</key>
+		<string> an empty queue
+ </string>
+		<key>optionC</key>
+		<string> all elements in the queue
+ </string>
+		<key>optionD</key>
+		<string> the front of the queue if the queue is not empty 
+</string>
+		<key>question</key>
+		<string>101. In C++, calling the method empty for the STL adapter queue returns  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>102</string>
+		<key>identifier</key>
+		<string>102</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Nothing is wrong with the segment.
+ </string>
+		<key>optionB</key>
+		<string> An execution error occurs because pop is a private member function.
+ </string>
+		<key>optionC</key>
+		<string> A compilation error occurs because pop does not return a value.
+ </string>
+		<key>optionD</key>
+		<string> An execution error occurs because an STL stack has no member function pop
+</string>
+		<key>question</key>
+		<string>102. Consider the following C++ program segment, which uses the STL.  
+stack&lt;int&gt; S;
+S.push(123);
+S.push(456);
+cout &lt;&lt; S.pop() &lt;&lt; endl;
+Which of the following accurately describes what, if anything, fails in the segment? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>103</string>
+		<key>identifier</key>
+		<string>103</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and II 
+</string>
+		<key>question</key>
+		<string>103. In order to use the adapter queue from the C++ Standard Template Library, which of the following preprocessor directives is (are) typically required?  
+#include &lt;queue&gt; 
+#include &lt;deque&gt; 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>104</string>
+		<key>identifier</key>
+		<string>104</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>104. The queue adapter interface in the C++ Standard Template Library contains which of the following member functions?  
+push 
+pop_back 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>105</string>
+		<key>identifier</key>
+		<string>105</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a wrapper that allows an STL container to be used by the Java programming language
+ </string>
+		<key>optionB</key>
+		<string> a new programming interface for an existing STL container
+ </string>
+		<key>optionC</key>
+		<string> a pointer to an instance of an STL container
+ </string>
+		<key>optionD</key>
+		<string> a network-socket interface to an STL container
+</string>
+		<key>question</key>
+		<string>105. An STL adapter provides  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>106</string>
+		<key>identifier</key>
+		<string>106</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>106. Differences between the STL adapter queue and the STL container deque include which of the following?  
+queue provides support for iterators, whereas deque does not. 
+queue provides access to only the first and last elements in a collection, whereas deque permits access to an entire collection. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>107</string>
+		<key>identifier</key>
+		<string>107</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Stack
+ </string>
+		<key>optionB</key>
+		<string> Tree
+ </string>
+		<key>optionC</key>
+		<string> Queue
+ </string>
+		<key>optionD</key>
+		<string> Hash table  
+</string>
+		<key>question</key>
+		<string>107. Which of the following data structures uses a "Last-in, First-out" policy for element insertion and removal?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>108</string>
+		<key>identifier</key>
+		<string>108</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>108. Which of the following is a method (are methods) available in the class queue in the C++ Standard Template Library? 
+push 
+pop 
+enqueue
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>109</string>
+		<key>identifier</key>
+		<string>109</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a sequence container, a C-style array
+ </string>
+		<key>optionB</key>
+		<string> an adapter, a C-style array
+ </string>
+		<key>optionC</key>
+		<string> a sequence container, an adapter class
+ </string>
+		<key>optionD</key>
+		<string> an adapter, a sequence container
+</string>
+		<key>question</key>
+		<string>109. In the C++ Standard Template Library (STL), the class queue is _____ that uses _____ for storage.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>110</string>
+		<key>identifier</key>
+		<string>110</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> top
+ </string>
+		<key>optionB</key>
+		<string> pop
+ </string>
+		<key>optionC</key>
+		<string> push
+ </string>
+		<key>optionD</key>
+		<string> empty  
+</string>
+		<key>question</key>
+		<string>110. Which of the following operations typically removes an item from a stack?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>111</string>
+		<key>identifier</key>
+		<string>111</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Accessing an item from the front of the queue
+ </string>
+		<key>optionB</key>
+		<string> Inserting an item at the back of the queue
+ </string>
+		<key>optionC</key>
+		<string> Removing an item from the front of the queue
+ </string>
+		<key>optionD</key>
+		<string> Inserting an item into the second position of the queue  
+</string>
+		<key>question</key>
+		<string>111. Which of the following is not a basic operation that can be performed on a queue?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>112</string>
+		<key>identifier</key>
+		<string>112</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>112. Which of the following is (are) typically managed using a stack?  
+Implementation of function calls in a procedural programming language 
+Evaluating arithmetic expressions, taking precedence rules into account 
+Handling jobs sent to a printer, and ensuring that the first jobs to be submitted are printed first
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>113</string>
+		<key>identifier</key>
+		<string>113</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 1
+ </string>
+		<key>optionB</key>
+		<string> 2
+ </string>
+		<key>optionC</key>
+		<string> 5
+ </string>
+		<key>optionD</key>
+		<string> 3  
+</string>
+		<key>question</key>
+		<string>113. Consider the function defined as follows.  
+      int  f( int n )
+      {
+          if( n == 0 ) return 0;
+          if( (n &amp; 1) == 0 ) return f(n/2);
+          return f(n/2) + 1;
+      }
+The value returned by the call f( 10 ); is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>114</string>
+		<key>identifier</key>
+		<string>114</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The sum of m and n
+ </string>
+		<key>optionB</key>
+		<string> The greatest common divisor of m and n
+ </string>
+		<key>optionC</key>
+		<string> The product of m and n
+ </string>
+		<key>optionD</key>
+		<string> The least common multiple of m anda114. </string>
+		<key>question</key>
+		<string>114. Consider the following definition of a recursive function ff in C++. 
+int  ff( int n, int m )
+{
+    if( n == 0 ) return 0;
+    return  ff( n - 1, m ) + m;
+}
+Which of the following characterizes the value returned by the call f(n,m)?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>115</string>
+		<key>identifier</key>
+		<string>115</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a prime
+ </string>
+		<key>optionB</key>
+		<string> even
+ </string>
+		<key>optionC</key>
+		<string> a power of 2
+ </string>
+		<key>optionD</key>
+		<string> odd  
+
+ 
+</string>
+		<key>question</key>
+		<string>115. Consider the following definition of a recursive function f.
+      bool  f( int x )
+      {
+            if( (x &amp; 1) == 1 )  return (x == 1);
+            return  f( x &gt;&gt; 1 );               // right shift
+      }
+The value returned by the call f(x) will determine whether the input x is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>116</string>
+		<key>identifier</key>
+		<string>116</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The least common multiple of m and n
+ </string>
+		<key>optionB</key>
+		<string> The product of m and n
+ </string>
+		<key>optionC</key>
+		<string> The greatest common divisor of m and n
+ </string>
+		<key>optionD</key>
+		<string> The sum of m and n 
+</string>
+		<key>question</key>
+		<string>116. Consider the following definition of a recursive function ff in C++. 
+int  ff( int n, int m )
+{
+    if( n == 0 ) return m;
+    return  ff( n - 1, m + 1 );
+}
+Which of the following characterizes the value returned by the call f(n,m)?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>117</string>
+		<key>identifier</key>
+		<string>117</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> log2 n
+ </string>
+		<key>optionB</key>
+		<string> n2
+ </string>
+		<key>optionC</key>
+		<string> 2^n
+ </string>
+		<key>optionD</key>
+		<string> 2 * n  
+</string>
+		<key>question</key>
+		<string>117. Consider the following definition of a recursive function ff.
+      int  ff( int n )
+      {
+          if( n == 0 ) return 1;
+          return  2 * ff( n - 1 );
+      }
+If n &gt; 0, what is returned by ff( n )?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>118</string>
+		<key>identifier</key>
+		<string>118</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> For all even inputs x only
+ </string>
+		<key>optionB</key>
+		<string> For all odd inputs x only
+ </string>
+		<key>optionC</key>
+		<string> For x = 0 only
+ </string>
+		<key>optionD</key>
+		<string> For all inputs x  
+</string>
+		<key>question</key>
+		<string>118. Consider the following definition of a recursive function f.
+      int  f( int x )
+      {
+            if( x == 0 )  return 1;
+            return  x * f( x );
+      }
+For which inputs x will the call f(x) terminate?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>119</string>
+		<key>identifier</key>
+		<string>119</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> unrestricted
+ </string>
+		<key>optionB</key>
+		<string> even
+ </string>
+		<key>optionC</key>
+		<string> non-negative
+ </string>
+		<key>optionD</key>
+		<string> odd  
+</string>
+		<key>question</key>
+		<string>119. Consider the following definition of a recursive function f.
+      int  f( int x )
+      {
+            if( x == 0 )  return 1;
+            return  x * f( x - 1 );
+      }
+The inputs for which f will terminate are all x such that x is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>120</string>
+		<key>identifier</key>
+		<string>120</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> Any number
+ </string>
+		<key>optionC</key>
+		<string> At most one
+ </string>
+		<key>optionD</key>
+		<string> At most two 
+</string>
+		<key>question</key>
+		<string>120. How many calls to itself is a recursive function allowed to make?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>121</string>
+		<key>identifier</key>
+		<string>121</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> To avoid templates and inheritance
+ </string>
+		<key>optionB</key>
+		<string> To improve efficiency
+ </string>
+		<key>optionC</key>
+		<string> To obtain short, elegant solutions
+ </string>
+		<key>optionD</key>
+		<string> To use less memory  
+</string>
+		<key>question</key>
+		<string>121. Which of the following is the main reason for using recursion? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>122</string>
+		<key>identifier</key>
+		<string>122</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> inheritance, methods of the child class
+ </string>
+		<key>optionB</key>
+		<string> recursive function calls, base case of the recursion
+ </string>
+		<key>optionC</key>
+		<string> iteration, body of the loop
+ </string>
+		<key>optionD</key>
+		<string> a process scheduler, individual processes  
+</string>
+		<key>question</key>
+		<string>122. Typical divide and conquer algorithms use _____ to divide a problem into smaller sub-problems. The _____ typically solve(s) these sub-problems directly.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>123</string>
+		<key>identifier</key>
+		<string>123</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> return result;
+ </string>
+		<key>optionB</key>
+		<string> int result = sum(i,mid) + sum(mid+1,j);
+ </string>
+		<key>optionC</key>
+		<string> if (i == j) {
+ </string>
+		<key>optionD</key>
+		<string> int mid = (i+j) / 2;  
+</string>
+		<key>question</key>
+		<string>123. Consider the following C++ function that uses a divide and conquer approach to calculate the sum of a range of numbers. 
+int sum(int i, int j) {
+    if (i == j) {
+      return i;
+    }
+    else {
+        int mid = (i+j) / 2;
+      int result = sum(i,mid) + sum(mid+1,j);
+      return result;
+    }
+}
+Which of the following lines of code from the above function divides this problem into sub-problems?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>124</string>
+		<key>identifier</key>
+		<string>124</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> pursuing a possible solution until it is found to be a solution or a non-solution
+ </string>
+		<key>optionB</key>
+		<string> starting with the set of all possible solutions and working backwards from each to determine which is the actual solution
+ </string>
+		<key>optionC</key>
+		<string> using concurrency to check several possible solutions simultaneously
+ </string>
+		<key>optionD</key>
+		<string> using a breadth-first strategy to search the problem space  
+</string>
+		<key>question</key>
+		<string>124. Using a backtracking technique to solve a problem typically involves 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>125</string>
+		<key>identifier</key>
+		<string>125</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>125. Which of the following is (are) true of recursive algorithms and the backtracking problem-solving technique?  
+Recursive algorithms implement backtracking by reducing a problem into smaller and smaller sub-problems. 
+Recursive algorithms cannot be used to implement backtracking. 
+Recursive algorithms that implement backtracking do not typically have a base case.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>126</string>
+		<key>identifier</key>
+		<string>126</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> uses a binary search to solve a problem
+ </string>
+		<key>optionB</key>
+		<string> splits a problem into two equal halves and uses recursion to solve each half
+ </string>
+		<key>optionC</key>
+		<string> uses recursion to test all possible solutions for a problem
+ </string>
+		<key>optionD</key>
+		<string> uses loops to iterate through all possible solutions for a problem  
+</string>
+		<key>question</key>
+		<string>126. A backtracking algorithm is one that  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>127</string>
+		<key>identifier</key>
+		<string>127</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> integer division
+ </string>
+		<key>optionB</key>
+		<string> iteration through looping
+ </string>
+		<key>optionC</key>
+		<string> recursion
+ </string>
+		<key>optionD</key>
+		<string> floating-point division  
+</string>
+		<key>question</key>
+		<string>127. A divide-and-conquer algorithm typically makes use of   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>128</string>
+		<key>identifier</key>
+		<string>128</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>128. Which of the following search algorithms can be applied to unsorted data?    
+Linear search 
+Binary search
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>129</string>
+		<key>identifier</key>
+		<string>129</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 3, 100                                                            
+ </string>
+		<key>optionB</key>
+		<string> 10, 1000
+ </string>
+		<key>optionC</key>
+		<string> 100, 3
+ </string>
+		<key>optionD</key>
+		<string> 1000, 10  
+</string>
+		<key>question</key>
+		<string>129. In a search over a data set with 1000 items, the maximum number of items examined by a linear search is _____, and the maximum number of items examined by a binary search is _____. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>130</string>
+		<key>identifier</key>
+		<string>130</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II only
+</string>
+		<key>question</key>
+		<string>130. Consider a data set of 100 items. Which of the following is a search algorithm (are search algorithms) that could possibly examine 25 items in this set before succeeding?
+Linear search 
+Binary search
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>131</string>
+		<key>identifier</key>
+		<string>131</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string>131. Which of the following statements about both arrays and linked lists is (are) true? 
+Direct element access using subscripts is supported in both the containers. 
+Both can be searched using binary search. 
+Elements of both the containers can be sorted.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>132</string>
+		<key>identifier</key>
+		<string>132</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Bubble sort
+ </string>
+		<key>optionB</key>
+		<string> Selection sort
+ </string>
+		<key>optionC</key>
+		<string> Merge sort
+ </string>
+		<key>optionD</key>
+		<string> Quicksort  
+</string>
+		<key>question</key>
+		<string>132. Consider the following C++ template function. 
+template &lt;class T&gt;
+void mystery_sort(vector&lt;T&gt;&amp; v) {
+    for (int i = 0; i &lt; v.size() - 1; i++) {
+        int best = i;
+        for (int j = i + 1; j &lt; v.size(); j++) {
+            if (v[j] &lt; v[best]) {
+                best = j;
+            }
+        }
+        if (best != i) {
+            T temp = v[i];
+            v[i] = v[best];
+            v[best] = temp;
+        }
+    }
+}
+The above function implements which of the following sort algorithms? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>133</string>
+		<key>identifier</key>
+		<string>133</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>133. Which of the following statements about arrays and linked lists is (are) true in the context of a sorting algorithm? 
+The sorting algorithm is asymptotically faster if the elements are in an array rather than a linked list. 
+For the algorithm to be implemented, direct element access must be supported in both the containers.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>134</string>
+		<key>identifier</key>
+		<string>134</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>134. Which of the following statements is true of the selection-sort algorithm?  
+It is a divide-and-conquer algorithm typically implemented using recursion. 
+An implementation of the algorithm typically requires the use of a hash table.
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>135</string>
+		<key>identifier</key>
+		<string>135</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Container A is sorted using the Boolean valued function f for comparisons.
+ </string>
+		<key>optionB</key>
+		<string> Container A is sorted using sorting algorithm f.
+ </string>
+		<key>optionC</key>
+		<string> Container A is sorted by applying function f to its elements.
+ </string>
+		<key>optionD</key>
+		<string> Container A is sorted using the function f for assignments.  
+</string>
+		<key>question</key>
+		<string>135. Consider the following statement using the STL sort() routine.
+      sort( A.begin(), A.end(), f );
+Which of the following most accurately describes the result of executing this statement? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>136</string>
+		<key>identifier</key>
+		<string>136</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a hash function
+ </string>
+		<key>optionB</key>
+		<string> a hash set
+ </string>
+		<key>optionC</key>
+		<string> an associative hash table
+ </string>
+		<key>optionD</key>
+		<string> a hash map  
+</string>
+		<key>question</key>
+		<string>136. A hash table that stores whether or not a key is present, but does not associate any other information with the key, is commonly known as  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string> </string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>137</string>
+		<key>identifier</key>
+		<string>137</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a hash function
+ </string>
+		<key>optionB</key>
+		<string> a hash set
+ </string>
+		<key>optionC</key>
+		<string> an associative hash table
+ </string>
+		<key>optionD</key>
+		<string> a hash map  
+</string>
+		<key>question</key>
+		<string>(d) Container A is sorted using the function f for assignments.  
+b136. A hash table that stores whether or not a key is present, but does not associate any other information with the key, is commonly known as  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>138</string>
+		<key>identifier</key>
+		<string>138</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is a poor choice since templates slow down sorting.
+ </string>
+		<key>optionB</key>
+		<string> It is a reasonable way to implement S.
+ </string>
+		<key>optionC</key>
+		<string> It is a poor choice since it does not work with linked lists.
+ </string>
+		<key>optionD</key>
+		<string> It is impossible since the algorithm cannot know how to compare two instances of type T.  
+</string>
+		<key>question</key>
+		<string>138. Consider the following outline of a template sorting function.
+      template&lt;class T&gt;  void  sort( T a[], int n ) { ... }
+For a given sorting algorithm S, which of the following is true about using this outline to implement S?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>139</string>
+		<key>identifier</key>
+		<string>139</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Hash functions are hard to compute.
+ </string>
+		<key>optionB</key>
+		<string> Collisions will occur.
+ </string>
+		<key>optionC</key>
+		<string> Hash tables take up a lot of memory.
+ </string>
+		<key>optionD</key>
+		<string> Access in hash tables is slow. 
+</string>
+		<key>question</key>
+		<string>139. Which of the following indicates the primary difficulty with hashing in general? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>140</string>
+		<key>identifier</key>
+		<string>140</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> To store return values of functions, in order to avoid recomputation
+ </string>
+		<key>optionB</key>
+		<string> To speed up access in a hash table
+ </string>
+		<key>optionC</key>
+		<string> To improve the memory requirements of hash tables
+ </string>
+		<key>optionD</key>
+		<string> To eliminate recursion in computing function values  
+ 
+</string>
+		<key>question</key>
+		<string>140. What is the purpose of using memoizing?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>141</string>
+		<key>identifier</key>
+		<string>141</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the type Thing, a hash function for Thing, and equality testing for Thing.
+ </string>
+		<key>optionB</key>
+		<string> the type Thing and a hash function for Thing.
+ </string>
+		<key>optionC</key>
+		<string> just the type Thing.
+ </string>
+		<key>optionD</key>
+		<string> just the size of the table, templates take care of the rest.  
+</string>
+		<key>question</key>
+		<string>141. For a template hash table class to work with some user-defined key type Thing, the user has to specify  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>142</string>
+		<key>identifier</key>
+		<string>142</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n)
+ </string>
+		<key>optionB</key>
+		<string> O(1)
+ </string>
+		<key>optionC</key>
+		<string> O(n3)
+ </string>
+		<key>optionD</key>
+		<string> O(n2) 
+</string>
+		<key>question</key>
+		<string>142. Searching for an element in a linked list containing n elements is most closely bounded from above by 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>143</string>
+		<key>identifier</key>
+		<string>143</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(log n)
+ </string>
+		<key>optionB</key>
+		<string> O(n)
+ </string>
+		<key>optionC</key>
+		<string> O(n log n)
+ </string>
+		<key>optionD</key>
+		<string> O(n2)  
+</string>
+		<key>question</key>
+		<string>143. Consider the following code fragment.
+      for( int i = n; i &gt; 0; i /= 2 ) body;
+If body executes in O(1) time, then the asymptotic running time that most closely bounds the fragment is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>144</string>
+		<key>identifier</key>
+		<string>144</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n2)
+ </string>
+		<key>optionB</key>
+		<string> O(n)
+ </string>
+		<key>optionC</key>
+		<string> O(n log n)
+ </string>
+		<key>optionD</key>
+		<string> O(n3)  
+</string>
+		<key>question</key>
+		<string>144. Consider the following C++ code fragment.
+for( int i = 0; i &lt; n; i++ ) {
+    for( int j = 0; j &lt; n/5; j++ ) {
+        body;
+    }
+}
+If body executes in constant time, then the asymptotic running time that most closely bounds from above the performance of this code fragment is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>145</string>
+		<key>identifier</key>
+		<string>145</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n)
+ </string>
+		<key>optionB</key>
+		<string> O(n2)
+ </string>
+		<key>optionC</key>
+		<string> O(2n)
+ </string>
+		<key>optionD</key>
+		<string> O(n3)  
+</string>
+		<key>question</key>
+		<string>145. Consider the following C++ code fragment.
+for( int i = 0; i &lt; n; i++ ) {
+    for( int j = 0; j &lt; n; j++ ) {
+        for( int k = 0; k &lt; n; k++ ) {
+            body;
+        }
+    }
+}
+If body executes in constant time, then the asymptotic running time that most closely bounds from above the performance of this code fragment is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>146</string>
+		<key>identifier</key>
+		<string>146</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n2)
+ </string>
+		<key>optionB</key>
+		<string> O(n log n)
+ </string>
+		<key>optionC</key>
+		<string> O(n)
+ </string>
+		<key>optionD</key>
+		<string> O(log n)  
+</string>
+		<key>question</key>
+		<string>146. Consider the following recursive definition of a function f in C++.
+int  f(int  n) {
+    if( n == 0 ) {
+        return 1;
+    }
+    else {
+        return  f(n / 2);
+    }
+}
+The asymptotic running time of the call f(n) is most closely bound from above by 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>147</string>
+		<key>identifier</key>
+		<string>147</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n log n)
+ </string>
+		<key>optionB</key>
+		<string> O(2n)
+ </string>
+		<key>optionC</key>
+		<string> O(n)
+ </string>
+		<key>optionD</key>
+		<string> O(n2)  
+</string>
+		<key>question</key>
+		<string>147. The asymptotic running time that most closely bounds the performance of a selection sort on an input array with length n is   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>148</string>
+		<key>identifier</key>
+		<string>148</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n3)
+ </string>
+		<key>optionB</key>
+		<string> O(n2)
+ </string>
+		<key>optionC</key>
+		<string> O(n)
+ </string>
+		<key>optionD</key>
+		<string> O(n log n
+</string>
+		<key>question</key>
+		<string>148. Consider the following C++ code fragment.
+for( int i = 0; i &lt; n; i++ ) {
+    for( int j = 0; j &lt; n/5; j++ ) {
+        body;
+    }
+}
+If body executes in constant time, then the asymptotic running time that most closely bounds from above the performance of this code fragment is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>149</string>
+		<key>identifier</key>
+		<string>149</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n)
+ </string>
+		<key>optionB</key>
+		<string> O(n log n)
+ </string>
+		<key>optionC</key>
+		<string> O(2n)
+ </string>
+		<key>optionD</key>
+		<string> O(n2)  
+</string>
+		<key>question</key>
+		<string>149. The asymptotic running time of merge sort with an input array of length n is most closely bound from above by?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>150</string>
+		<key>identifier</key>
+		<string>150</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n2)
+ </string>
+		<key>optionB</key>
+		<string> O(2n)
+ </string>
+		<key>optionC</key>
+		<string> O(n log n)
+ </string>
+		<key>optionD</key>
+		<string> O(n) 
+</string>
+		<key>question</key>
+		<string>150. The asymptotic running time that most closely bounds the performance of insertion sort on an input array with length n is   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>151</string>
+		<key>identifier</key>
+		<string>151</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n2)
+ </string>
+		<key>optionB</key>
+		<string> O(n)
+ </string>
+		<key>optionC</key>
+		<string> O(n log n)
+ </string>
+		<key>optionD</key>
+		<string> O(log n)  
+</string>
+		<key>question</key>
+		<string>151. Consider the following C++ code fragment.
+      for( int i = 1; i &lt; n; i *= 2 ) body;
+If body executes in O(1) time, then the asymptotic running time that most closely bounds the code fragment above is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>152</string>
+		<key>identifier</key>
+		<string>152</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> quadratic
+ </string>
+		<key>optionB</key>
+		<string> exponential
+ </string>
+		<key>optionC</key>
+		<string> logarithmic
+ </string>
+		<key>optionD</key>
+		<string> linear  
+ 
+</string>
+		<key>question</key>
+		<string>152. Consider the following definition of a recursive function, power, that will perform exponentiation.
+      int  power( int b, int e )
+      {
+        if( e == 0 ) return 1;
+        if( e % 2 = 0 ) return  power( b * b, e/2 ); 
+        return  b * power( b * b, e/2 );
+      }
+Asymptotically in terms of the exponent e, the number of calls to power that occur as a result of the call power(b,e) is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>153</string>
+		<key>identifier</key>
+		<string>153</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> There is no bound on the number of nodes.
+ </string>
+		<key>optionB</key>
+		<string> It is at most two.
+ </string>
+		<key>optionC</key>
+		<string> It is at most three.
+ </string>
+		<key>optionD</key>
+		<string> It is at most one.  
+ 
+</string>
+		<key>question</key>
+		<string>153. Which of the following is true about the total number of nodes in a tree with depth two?
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>154</string>
+		<key>identifier</key>
+		<string>154</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is at most three.
+ </string>
+		<key>optionB</key>
+		<string> There is no bound on the depth.
+ </string>
+		<key>optionC</key>
+		<string> It is at most two.
+ </string>
+		<key>optionD</key>
+		<string> It is at most one. </string>
+		<key>question</key>
+		<string>154. Which of the following is true about the depth of a tree with exactly three nodes? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>155</string>
+		<key>identifier</key>
+		<string>155</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the element with the smallest value
+ </string>
+		<key>optionB</key>
+		<string> the element with the largest value
+ </string>
+		<key>optionC</key>
+		<string> an element containing the average of all other element values
+ </string>
+		<key>optionD</key>
+		<string> an element whose value is always negative 
+</string>
+		<key>question</key>
+		<string>155. The root node of a min heap contains: 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>156</string>
+		<key>identifier</key>
+		<string>156</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 10, 20, 30, 40, 50
+ </string>
+		<key>optionB</key>
+		<string> 30, 50, 40, 45, 42
+ </string>
+		<key>optionC</key>
+		<string> 50, 40, 30, 20, 10
+ </string>
+		<key>optionD</key>
+		<string> 10, 20, 30, 15, 18  
+</string>
+		<key>question</key>
+		<string>156. Which of the following sequences cannot represent values visited during a binary search?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>157</string>
+		<key>identifier</key>
+		<string>157</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> tree where all nodes are full                                              
+ </string>
+		<key>optionB</key>
+		<string> totally unbalanced tree
+ </string>
+		<key>optionC</key>
+		<string> completely balanced tree
+ </string>
+		<key>optionD</key>
+		<string> mildly unbalanced tree  
+</string>
+		<key>question</key>
+		<string>157. If numbers 1,2,...,n are inserted into a binary search tree, in order, then the result for large n is a 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>158</string>
+		<key>identifier</key>
+		<string>158</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> equal to
+ </string>
+		<key>optionB</key>
+		<string> not related to
+ </string>
+		<key>optionC</key>
+		<string> less than
+ </string>
+		<key>optionD</key>
+		<string> greater than 
+</string>
+		<key>question</key>
+		<string>158. A max heap guarantees that the values in child nodes are _____ the value in the parent node. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>159</string>
+		<key>identifier</key>
+		<string>159</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Every node of a binary tree has at most two predecessors.
+ </string>
+		<key>optionB</key>
+		<string> Exactly two paths exist between any two nodes in a binary tree.
+ </string>
+		<key>optionC</key>
+		<string> A binary tree contains exactly two nodes.
+ </string>
+		<key>optionD</key>
+		<string> Every node of a binary tree has at most two children.
+</string>
+		<key>question</key>
+		<string>159. Which of the following statements about binary trees is true?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>160</string>
+		<key>identifier</key>
+		<string>160</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the size of the tree
+ </string>
+		<key>optionB</key>
+		<string> 1 (the search takes constant time)
+ </string>
+		<key>optionC</key>
+		<string> the number of leaves of the tree
+ </string>
+		<key>optionD</key>
+		<string> the depth of the tree  
+</string>
+		<key>question</key>
+		<string>160. Searching for an element in a binary search tree takes O(s) steps where s is   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>161</string>
+		<key>identifier</key>
+		<string>161</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(d)
+ </string>
+		<key>optionB</key>
+		<string> O(n*d)
+ </string>
+		<key>optionC</key>
+		<string> O(n/d)
+ </string>
+		<key>optionD</key>
+		<string> O(n)  
+</string>
+		<key>question</key>
+		<string>161. For all binary search trees, where d represents the depth of a tree and n represents the number of nodes, the worst-case complexity of searching for an element is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>162</string>
+		<key>identifier</key>
+		<string>162</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> map
+ </string>
+		<key>optionB</key>
+		<string> list
+ </string>
+		<key>optionC</key>
+		<string> priority_queue
+ </string>
+		<key>optionD</key>
+		<string> set  
+</string>
+		<key>question</key>
+		<string>162. In the C++ Standard Template Library, which of the following containers stores only key-value pairs? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>163</string>
+		<key>identifier</key>
+		<string>163</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> string
+ </string>
+		<key>optionB</key>
+		<string> list
+ </string>
+		<key>optionC</key>
+		<string> vector
+ </string>
+		<key>optionD</key>
+		<string> set  
+</string>
+		<key>question</key>
+		<string>163. In the C++ Standard Template Library, which of the following containers represents a collection of unique elements? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>164</string>
+		<key>identifier</key>
+		<string>164</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> directed
+ </string>
+		<key>optionB</key>
+		<string> undirected
+ </string>
+		<key>optionC</key>
+		<string> disconnected
+ </string>
+		<key>optionD</key>
+		<string> connected  
+</string>
+		<key>question</key>
+		<string>164. By definition, a(n) _____ graph contains edges that can be traversed in either direction.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>165</string>
+		<key>identifier</key>
+		<string>165</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a binary search tree
+ </string>
+		<key>optionB</key>
+		<string> an adjacency list
+ </string>
+		<key>optionC</key>
+		<string> a Boolean matrix
+ </string>
+		<key>optionD</key>
+		<string> an edge list  
+</string>
+		<key>question</key>
+		<string>165. Each of the following indicates a reasonable way to implement graphs except  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>166</string>
+		<key>identifier</key>
+		<string>166</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> whether or not a graph is a tree
+ </string>
+		<key>optionB</key>
+		<string> the shortest path between two nodes in a graph
+ </string>
+		<key>optionC</key>
+		<string> whether a graph is directed or undirected
+ </string>
+		<key>optionD</key>
+		<string> the edge with the greatest weight in a graph 
+</string>
+		<key>question</key>
+		<string>166. Dijkstra's algorithm and the Bellman-Ford algorithm both determine   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>167</string>
+		<key>identifier</key>
+		<string>167</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is identical to the Bellman-Ford algorithm.
+ </string>
+		<key>optionB</key>
+		<string> It processes nodes in order of decreasing distance from a starting node.
+ </string>
+		<key>optionC</key>
+		<string> It processes nodes in order of increasing distance from a starting node.
+ </string>
+		<key>optionD</key>
+		<string> For graphs whose edges have only positive weights, it is identical to a depth-first search. 
+</string>
+		<key>question</key>
+		<string>167. Which of the following statements is true of a breadth-first search?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>168</string>
+		<key>identifier</key>
+		<string>168</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> O(n * e)
+ </string>
+		<key>optionB</key>
+		<string> O(n)
+ </string>
+		<key>optionC</key>
+		<string> O(n + e)
+ </string>
+		<key>optionD</key>
+		<string> O(n^2)
+</string>
+		<key>question</key>
+		<string>168. The time to perform depth first search, starting at the first vertex of a graph with n vertices and e edges implemented as an adjacency list has what order?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>169</string>
+		<key>identifier</key>
+		<string>169</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Their implementations each require a stack of nodes.
+ </string>
+		<key>optionB</key>
+		<string> Their implementations each require a queue of nodes.
+ </string>
+		<key>optionC</key>
+		<string> From a given starting node, they will not necessarily explore all other nodes in a graph.
+ </string>
+		<key>optionD</key>
+		<string> They can each be used calculate the shortest path between two nodes in a weighted graph. 
+</string>
+		<key>question</key>
+		<string>169. Which of the following statements is true of both depth-first and breadth-first searches? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>170</string>
+		<key>identifier</key>
+		<string>170</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> tree
+ </string>
+		<key>optionB</key>
+		<string> priority queue
+ </string>
+		<key>optionC</key>
+		<string> vector
+ </string>
+		<key>optionD</key>
+		<string> set  
+</string>
+		<key>question</key>
+		<string>170. Which of the following is a C++ data structure that represents an ordered list with no duplicate items?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>171</string>
+		<key>identifier</key>
+		<string>171</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> set
+ </string>
+		<key>optionB</key>
+		<string> priority_queue
+ </string>
+		<key>optionC</key>
+		<string> stack
+ </string>
+		<key>optionD</key>
+		<string> map  
+</string>
+		<key>question</key>
+		<string>171. Which of the following is a C++ data structure that represents a list of entries consisting of unique keys and their associated values?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>172</string>
+		<key>identifier</key>
+		<string>172</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>172. A priority queue can be implemented with which of the following data structures? 
+A set 
+A multiset
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>173</string>
+		<key>identifier</key>
+		<string>173</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> linear
+ </string>
+		<key>optionB</key>
+		<string> heap
+ </string>
+		<key>optionC</key>
+		<string> depth-first
+ </string>
+		<key>optionD</key>
+		<string> breadth-first
+</string>
+		<key>question</key>
+		<string>173. A graph-searching strategy that processes vertices in layers such that layers closest to the starting point are searched before those that are more distant is known as a _____ search.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

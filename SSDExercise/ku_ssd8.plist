@@ -1,0 +1,5296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>1</string>
+		<key>identifier</key>
+		<string>1</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only the computers that are tuned to a channel see and process the packets in that channel
+ </string>
+		<key>optionB</key>
+		<string> all computers see and process the application data within all packets
+ </string>
+		<key>optionC</key>
+		<string> only the destination computer sees a packet
+ </string>
+		<key>optionD</key>
+		<string> all computers see all packets, but the application data in each packet is only processed by the destination computer 
+</string>
+		<key>question</key>
+		<string>1.In a broadcast network  Correct answer is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>2</string>
+		<key>identifier</key>
+		<string>2</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the size of data sent by the application
+ </string>
+		<key>optionB</key>
+		<string> the application protocol
+ </string>
+		<key>optionC</key>
+		<string> the operating system
+ </string>
+		<key>optionD</key>
+		<string> the technology of the physical network
+</string>
+		<key>question</key>
+		<string>2.The Maximum Transfer Unit (MTU) is a parameter of  Correct answer is 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>3</string>
+		<key>identifier</key>
+		<string>3</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the application client and server you use at each moment
+ </string>
+		<key>optionB</key>
+		<string> which HTTP (Web) server you connect to
+ </string>
+		<key>optionC</key>
+		<string> which operating system is running on your computer
+ </string>
+		<key>optionD</key>
+		<string> what vendor your Internet service provider purchased equipment from  
+</string>
+		<key>question</key>
+		<string>3.When you connect your computer to the Internet, the protocol(s) your computer uses is (are) selected according to 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>4</string>
+		<key>identifier</key>
+		<string>4</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>4.Which of the following methods are invoked by a client implemented with sockets? 
+I connect( )  II listen( )  III read( ) 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>5</string>
+		<key>identifier</key>
+		<string>5</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> only one implementation need then be created
+ </string>
+		<key>optionB</key>
+		<string> a protocol designed by committee always has better performance than that designed by a single company or research project
+ </string>
+		<key>optionC</key>
+		<string> different implementations can then communicate with each other
+ </string>
+		<key>optionD</key>
+		<string> otherwise source code would need to be shipped with all networking applications  
+</string>
+		<key>question</key>
+		<string>5. An advantage of defining network protocols through agreement among many companies and individuals is that  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>6</string>
+		<key>identifier</key>
+		<string>6</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>6. Which of the following methods are invoked by a server implemented with sockets? 
+I connect( )  II listen( )  III accept( ) 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>7</string>
+		<key>identifier</key>
+		<string>7</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>7. An application on a computer sends data through a socket to another computer. Which of the following are specified by the communication protocol?  
+I The contents of the message body 
+II The speed of transmission 
+III The header format, which specifies the header field sizes and meanings 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>8</string>
+		<key>identifier</key>
+		<string>8</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>8. Which of the following distinguish stream sockets (e.g., TCP) from datagram sockets (e.g., UDP)?  
+Stream sockets guarantee delivery of the data sent through them. 
+Stream sockets can be used to send application data to a remote host, whereas datagram sockets can only send control commands. 
+Stream sockets have greater overhead. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>9</string>
+		<key>identifier</key>
+		<string>9</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> connection-based networks
+ </string>
+		<key>optionB</key>
+		<string> broadcast networks
+ </string>
+		<key>optionC</key>
+		<string> connectionless networks
+ </string>
+		<key>optionD</key>
+		<string> packet or message switched networks
+</string>
+		<key>question</key>
+		<string>9. All store-and-forward networks are 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>10</string>
+		<key>identifier</key>
+		<string>10</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II only 
+</string>
+		<key>question</key>
+		<string>10. Which of the following pairs of entities name a client and one of its servers? 
+Google search engine/www.example.com 
+Web browser/Google search engine 
+Email client/Web browser 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>11</string>
+		<key>identifier</key>
+		<string>11</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II and IV only
+ </string>
+		<key>optionC</key>
+		<string> I, II, III, and IV
+ </string>
+		<key>optionD</key>
+		<string> II and III only  
+</string>
+		<key>question</key>
+		<string>11. Why do network applications send "messages," but the network transmits information in "packets?" 
+I. Buffer allocation and error handling is easier when done for smaller chunks of data. 
+II. Multiple messages can be sent in a single large packet to decrease overhead. 
+III. Network engineers and application programmers just use different terminology for the same unit of application data. 
+IV. A message needs to be packaged with the instructions to process it at the destination. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>12</string>
+		<key>identifier</key>
+		<string>13</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> By the protocol with which the data was sent
+ </string>
+		<key>optionB</key>
+		<string> By the port number carried by the transport protocol
+ </string>
+		<key>optionC</key>
+		<string> Only one application at a time is given access to the network.
+ </string>
+		<key>optionD</key>
+		<string> By the file extension of the data  
+</string>
+		<key>question</key>
+		<string>13. How does an operating system identify the application to which data coming in from the network should be relayed? 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>13</string>
+		<key>identifier</key>
+		<string>14</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>14. Which of the following are specified by the HTTP protocol?  
+The syntax of the request header 
+The syntax of the response header 
+The specific legal names of the request header fields 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>14</string>
+		<key>identifier</key>
+		<string>15</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> two Ethernet nodes can send packets at the same time
+ </string>
+		<key>optionB</key>
+		<string> the Ethernet uses a ring topology
+ </string>
+		<key>optionC</key>
+		<string> two different Ethernet networks may be spliced together
+ </string>
+		<key>optionD</key>
+		<string> the Ethernet switching mechanism may occasionally send two packets through the same route  
+</string>
+		<key>question</key>
+		<string>15. Packet collisions occur in an Ethernet network because  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>15</string>
+		<key>identifier</key>
+		<string>16</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the Ethernet switching mechanism may occasionally send two packets through the same route
+ </string>
+		<key>optionB</key>
+		<string> two Ethernet nodes can send packets at the same time
+ </string>
+		<key>optionC</key>
+		<string> the Ethernet uses a ring topology
+ </string>
+		<key>optionD</key>
+		<string> two different Ethernet networks may be spliced together  
+</string>
+		<key>question</key>
+		<string>16. Packet collisions occur in an Ethernet network because  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>16</string>
+		<key>identifier</key>
+		<string>17</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> in the order A-B, after possibly having traversed different routes
+ </string>
+		<key>optionB</key>
+		<string> in any order, after having traversed the same route
+ </string>
+		<key>optionC</key>
+		<string> in any order, after possibly having traversed different routes
+ </string>
+		<key>optionD</key>
+		<string> in the order A-B, after having traversed the same route  
+</string>
+		<key>question</key>
+		<string>17.Two packets A and B are sent in that order through a connectionless communication network. They will arrive at the destination   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>17</string>
+		<key>identifier</key>
+		<string>18</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Bit Error Rate
+ </string>
+		<key>optionB</key>
+		<string> Percentage of packets retransmitted
+ </string>
+		<key>optionC</key>
+		<string> Throughput
+ </string>
+		<key>optionD</key>
+		<string> Roundtrip time  
+</string>
+		<key>question</key>
+		<string>18. _____ can be used to measure latency in the communication network.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>18</string>
+		<key>identifier</key>
+		<string>19</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 76 milliseconds
+ </string>
+		<key>optionB</key>
+		<string> cannot be determined from the information given
+ </string>
+		<key>optionC</key>
+		<string> 55 milliseconds
+ </string>
+		<key>optionD</key>
+		<string> 40 milliseconds  
+</string>
+		<key>question</key>
+		<string>19. A packet with no data is sent from host A to host B on an otherwise idle network. The packet is found to have taken 35 milliseconds to reach B. The incremental overhead to send an additional byte (usually called the "throughput") is estimated to be five microseconds by repeatedly measuring the transmission times of long packets. Approximately, how long will an eight Kbytes (8192 bytes) packet take to reach B when sent from A? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>19</string>
+		<key>identifier</key>
+		<string>20</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> in the range from 60 to 120 Kbps (kilobits per second)
+ </string>
+		<key>optionB</key>
+		<string> in the range from 6 to 12 Kbps (kilobits per second)
+ </string>
+		<key>optionC</key>
+		<string> exactly 10 Kbps
+ </string>
+		<key>optionD</key>
+		<string> not able to be determined with the information given  
+</string>
+		<key>question</key>
+		<string>20. A computer sends 100 Kbytes of aggregate data to another computer through the network. If this transmission time takes 10 seconds and setup time is negligible, the throughput of this network is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>20</string>
+		<key>identifier</key>
+		<string>21</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> uses connectionless protocols
+ </string>
+		<key>optionB</key>
+		<string> gives higher priority to bulk data transfers
+ </string>
+		<key>optionC</key>
+		<string> is unable to guarantee minimum throughput or maximum latency for a given connection
+ </string>
+		<key>optionD</key>
+		<string> does not really have sufficient throughput  
+</string>
+		<key>question</key>
+		<string>21. The transmission of high-quality, interactive voice and video over the current Internet is difficult because today's Internet  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>21</string>
+		<key>identifier</key>
+		<string>22</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> B is smaller than A
+ </string>
+		<key>optionB</key>
+		<string> B and A are not related
+ </string>
+		<key>optionC</key>
+		<string> A is smaller than B
+ </string>
+		<key>optionD</key>
+		<string> B is equal to A  
+</string>
+		<key>question</key>
+		<string>22. The throughput of a network link for an HTTP session is measured in two ways. Measurement A is the total amount of data received by the browser, divided by the duration of the session. Measurement B is the total amount of data received by the operating system on behalf of the browser, divided by the duration of the session. Which of the following statements about A and B is true?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>22</string>
+		<key>identifier</key>
+		<string>23</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> in the range from 6 to 12 Kbps (kilobits per second)
+ </string>
+		<key>optionB</key>
+		<string> in the range from 60 to 120 Kbps (kilobits per second)
+ </string>
+		<key>optionC</key>
+		<string> not able to be determined with the information given
+ </string>
+		<key>optionD</key>
+		<string> exactly 10 Kbps 
+</string>
+		<key>question</key>
+		<string>23. A computer sends 100 Kbytes of aggregate data to another computer through the network. If this transmission time takes 10 seconds and setup time is negligible, the throughput of this network is  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>23</string>
+		<key>identifier</key>
+		<string>24</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It is exactly 90 ms.
+ </string>
+		<key>optionB</key>
+		<string> It is exactly 180 ms.
+ </string>
+		<key>optionC</key>
+		<string> It is smaller than 180 ms.
+ </string>
+		<key>optionD</key>
+		<string> It is greater than 180 ms. 
+</string>
+		<key>question</key>
+		<string>24. We send a packet from host A to host B, which immediately acknowledges it. We measure the interval between the time the packet is sent by A and its acknowledgement is received. This interval is found to be 180 milliseconds. What can be said about the latency of the link from A to B?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>24</string>
+		<key>identifier</key>
+		<string>25</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> none  
+</string>
+		<key>question</key>
+		<string>25. What can be said about the protocol used by the implementation of the transport layer of an Internet host? 
+It guarantees delivery. 
+It is the Transmission Control Protocol (TCP). 
+It uses services provided by the session layer. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>25</string>
+		<key>identifier</key>
+		<string>26</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> none  
+</string>
+		<key>question</key>
+		<string>26.What can be said concerning the protocol that is used by the implementation of the network layer of an Internet host?      
+It guarantees delivery. 
+It is the Internet Protocol (IP). 
+It uses services provided by the session layer. 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>26</string>
+		<key>identifier</key>
+		<string>27</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> none
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I and II only 
+</string>
+		<key>question</key>
+		<string>27. What can be said about the protocol used by the implementation of the transport layer of an Internet host? 
+It guarantees delivery. 
+It is the Transmission Control Protocol (TCP). 
+It uses services provided by the session layer. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>27</string>
+		<key>identifier</key>
+		<string>28</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>28. Every Protocol Data Unit (PDU) that is sent by a protocol layer to its remote peer on the destination system always includes: 
+The headers for all the protocols of the layers above it 
+The headers for the protocol of the layer below it 
+Application Data 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>28</string>
+		<key>identifier</key>
+		<string>29</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>29. The Protocol Data Unit (PDU) that is sent by a protocol layer to its peer on the destination system typically includes 
+A payload 
+A protocol header 
+A router vendor ID 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>29</string>
+		<key>identifier</key>
+		<string>30</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a standard developed by the International Telecommunications Union
+ </string>
+		<key>optionB</key>
+		<string> a successful example of the Internet's strategy of developing standards through "rough consensus and running code"
+ </string>
+		<key>optionC</key>
+		<string> a de facto standard later developed into a de jure standard
+ </string>
+		<key>optionD</key>
+		<string> an a priori standard  
+</string>
+		<key>question</key>
+		<string>30. Ethernet (IEEE 802.3) is an example of  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>30</string>
+		<key>identifier</key>
+		<string>31</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> modified arbitrarily by the Advance Research projects Agency (ARPA) of the United States Department of Defense, which originally developed the Internet
+ </string>
+		<key>optionB</key>
+		<string> applied before they have been embodied in working implementations, in order not to delay progress
+ </string>
+		<key>optionC</key>
+		<string> extensively critiqued and modified by individuals, without requiring them to have special membership status
+ </string>
+		<key>optionD</key>
+		<string> developed in secret by the members of the IETF until the standards mature sufficiently to withstand public criticism  
+</string>
+		<key>question</key>
+		<string>31. In contrast to standards developed by traditional standards organizations like the International Telecommunications Union (ITU) or the International Standards Organization (ISO), standards developed by the Internet Engineering Task Force (IETF) can be     
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>31</string>
+		<key>identifier</key>
+		<string>32</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>32. Which of the following activities use an inter-network? 
+A phone call from Pittsburgh in the United States to Chennai in India 
+A phone call from a wired phone to a mobile ("cell") phone 
+A chat session between two computers connected to an office Ethernet 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>32</string>
+		<key>identifier</key>
+		<string>33</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> it was an interim (temporary) design of what it later became, but the name stuck
+ </string>
+		<key>optionB</key>
+		<string> it achieved international scope with the addition of the City University of London
+ </string>
+		<key>optionC</key>
+		<string> it consisted of many interconnected networks
+ </string>
+		<key>optionD</key>
+		<string> it was meant to be a network internal to the United States Department of Defense 
+</string>
+		<key>question</key>
+		<string>33. The Internet received its name in the 1980s because  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>33</string>
+		<key>identifier</key>
+		<string>34</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>34. John is using his bank's Web server to pay his telephone bill electronically. Which kind(s) of network interaction take(s) place in this Scenario, from the moment John logs into his bank's Web site until the telephone company receives the money? 
+People-people 
+People-computer 
+Computer-computer 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>34</string>
+		<key>identifier</key>
+		<string>35</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>35. You have recently become the first network engineer of a large corporation with offices worldwide. The company is considering the installation of a data network, but the Board of Directors is rather old-fashioned and does not see the need to change the company's time-honored business practices. Your first task at the job is to justify your salary and the cost of a new network, and for this purpose you are about to give a presentation to the Board of Directors. Which of the following would you include in your presentation? Assume the directors are extremely intelligent, though perhaps not knowledgeable in your field. 
+Lower expenditures on computer hardware 
+Higher availability of customer services 
+Better protection of the company's proprietary information 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>35</string>
+		<key>identifier</key>
+		<string>36</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> none
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>36. After the phone company installs a T1 trunk to an office building, which of the following can it provide to the tenants of the building? Recall that a T1 trunk has a capacity of 1.544 Mbps, and that a voice channel requires an isolated 3 KHz channel. 
+20 new telephone lines and a 200 Kbps digital data channel 
+A single 1.1 Mbps data channel 
+25 new telephone lines 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>36</string>
+		<key>identifier</key>
+		<string>37</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> exactly 200 megabits per second
+ </string>
+		<key>optionB</key>
+		<string> currently 56 Kbps but more as modem technology improves
+ </string>
+		<key>optionC</key>
+		<string> exactly 200 megabytes per second
+ </string>
+		<key>optionD</key>
+		<string> within 80 and 120 megabits per secon
+</string>
+		<key>question</key>
+		<string>37. The maximum binary data throughput of a cable that cleanly transmits a range of frequencies up to 100 MHz is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>37</string>
+		<key>identifier</key>
+		<string>38</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> frequency-division
+ </string>
+		<key>optionB</key>
+		<string> time-division
+ </string>
+		<key>optionC</key>
+		<string> wavelength-division
+ </string>
+		<key>optionD</key>
+		<string> phase shift
+</string>
+		<key>question</key>
+		<string>38. Radio stations are able to share the AM (Amplitude Modulation) spectrum by using _____ multiplexing  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>38</string>
+		<key>identifier</key>
+		<string>39</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> none
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>39. In contrast with wireless communication, "wired" communication  
+does not suffer from attenuation and interference 
+can use any frequencies without a license 
+always has more throughput 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>39</string>
+		<key>identifier</key>
+		<string>40</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>40. A physical medium that uses the 4b/5b encoding scheme sends 5 bits for every 4 bits of data it needs to deliver. This encoding 
+decreases the maximum throughput of the medium 
+unnecessarily sends redundant data 
+improves the reliability of the transmission 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>40</string>
+		<key>identifier</key>
+		<string>41</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> can be any number greater than or equal to 19200 bits per second, depending on the way the data is encoded into signal voltages
+ </string>
+		<key>optionB</key>
+		<string> is exactly 19200 bits per second
+ </string>
+		<key>optionC</key>
+		<string> is less than 19200 bits per second
+ </string>
+		<key>optionD</key>
+		<string> is between 19200 and 38400 bits per second, depending on the bit pattern of the transmitted data  
+</string>
+		<key>question</key>
+		<string>41. A cable is rated at 19200 baud. A 19200 baud cable is guaranteed to transmit a signal successfully that has the potential to change 19200 times per second. The maximum throughput of this cable, assuming a sensible encoding,  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>41</string>
+		<key>identifier</key>
+		<string>42</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only
+</string>
+		<key>question</key>
+		<string>42. A fiber optic is found to be able to deliver light cleanly in a frequency range 25,000 GHz wide. This fiber can be used to create the following type of channel between two routers  
+a single 50 terabits per second (Tbps = 1,000 Gbps) data channel 
+5 2-Gbps data channels 
+one video channel but no data channels, because data cannot be encoded in light beams 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>42</string>
+		<key>identifier</key>
+		<string>43</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The data link layer need not retransmit data, but must acknowledge received data because it must detect lost data.
+ </string>
+		<key>optionB</key>
+		<string> The data link layer must provide connection-oriented service because it must retransmit lost data and eliminate duplicate data.
+ </string>
+		<key>optionC</key>
+		<string> The data link layer need not be concerned with reliability because the physical layer is perfectly reliable.
+ </string>
+		<key>optionD</key>
+		<string> The data link layer's concern with reliability is an optimization, not a requirement. 
+</string>
+		<key>question</key>
+		<string>43.Which of the following statements most closely agrees with your position regarding the reliability of the service provided by the data link layer?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>43</string>
+		<key>identifier</key>
+		<string>44</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> duplex transmission technique
+ </string>
+		<key>optionB</key>
+		<string> error-detecting code
+ </string>
+		<key>optionC</key>
+		<string> error-correcting code
+ </string>
+		<key>optionD</key>
+		<string> fair resource allocation scheme 
+</string>
+		<key>question</key>
+		<string>44. A parity code is a(n)  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>44</string>
+		<key>identifier</key>
+		<string>45</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> pad the data so that it has an even length for parity calculations
+ </string>
+		<key>optionB</key>
+		<string> mark the start and the end of a frame
+ </string>
+		<key>optionC</key>
+		<string> avoid confusing data bits with control bits
+ </string>
+		<key>optionD</key>
+		<string> force the receiver to enlarge its flow control window 
+</string>
+		<key>question</key>
+		<string>45. A sender's data link layer uses "bit stuffing" to   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>45</string>
+		<key>identifier</key>
+		<string>46</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> adds the protocol headers from higher layers to the data before it transmits it
+ </string>
+		<key>optionB</key>
+		<string> cuts out the headers from higher layer protocols before transmission
+ </string>
+		<key>optionC</key>
+		<string> enhances it with extra data that permits the receiver to synchronize with the sender
+ </string>
+		<key>optionD</key>
+		<string> inserts flags to draw attention to high-priority data within a transmission 
+</string>
+		<key>question</key>
+		<string>46. When the data link layer applies "framing" to the data to be transmitted, it   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>46</string>
+		<key>identifier</key>
+		<string>47</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Null Parity
+ </string>
+		<key>optionB</key>
+		<string> Odd Parity
+ </string>
+		<key>optionC</key>
+		<string> Cannot tell since we do not know which bit is the parity bit
+ </string>
+		<key>optionD</key>
+		<string> Even Parity  
+</string>
+		<key>question</key>
+		<string>47. What is the type of an "8+1" parity code that outputs 100101011?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>47</string>
+		<key>identifier</key>
+		<string>48</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>48. Which of the following are responsibilities of the data link layer?  
+Noticing transmission errors 
+Regulating transmission speed when a receiver is overwhelmed 
+Regulating transmission speed when any of several IP routers in a network path are overwhelmed 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>48</string>
+		<key>identifier</key>
+		<string>49</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Space-switched
+ </string>
+		<key>optionB</key>
+		<string> Packet-switched
+ </string>
+		<key>optionC</key>
+		<string> Message-switched
+ </string>
+		<key>optionD</key>
+		<string> Circuit-switched 
+</string>
+		<key>question</key>
+		<string>49. A packet-switched network uses switches that schedule packets using a first-in-first-out (FIFO) discipline. Several people want to carry out a conference over this network. The conference is carried out via typed text for the most part, but, occasionally, one of the parties has to send a large video. This happens very rarely. Which of the following switching approaches is most suitable for this application?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>49</string>
+		<key>identifier</key>
+		<string>50</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Packet-switched
+ </string>
+		<key>optionB</key>
+		<string> Space-switched
+ </string>
+		<key>optionC</key>
+		<string> Message-switched
+ </string>
+		<key>optionD</key>
+		<string> Circuit-switched 
+</string>
+		<key>question</key>
+		<string>50. When a student in Hong Kong uses her computer to have a voice conversation with a teacher in Pittsburgh, the application she uses requires that the network deliver bits at a modest but constant bit rate. This is because, even though voice can be faithfully encoded in less than 64 Kbps, the late arrival of a voice sample produces a noticeable and unpleasant sound effect. Which of the following switching options will give you better quality?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>50</string>
+		<key>identifier</key>
+		<string>51</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>51. Why do not all network switches use crossbars in their switching fabric? 
+For a given number of ports, crossbars are more expensive. 
+Crossbars are more likely to block connections unnecessarily between ports that are idle. 
+Crossbar designs are too simple. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>51</string>
+		<key>identifier</key>
+		<string>52</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I and II only
+</string>
+		<key>question</key>
+		<string>52. In contrast to message switching, packet switching  
+needs to find a "copper" path to the receiver before transmitting any data 
+offers a better upper bound on transmission delay 
+suffers from greater overhead at the endpoints 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>52</string>
+		<key>identifier</key>
+		<string>53</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Replace the hubs with 10 Base-T switches
+ </string>
+		<key>optionB</key>
+		<string> A new bank of dial-up modems
+ </string>
+		<key>optionC</key>
+		<string> A small 10 Base-T switch to connect the existing hubs
+ </string>
+		<key>optionD</key>
+		<string> Replace the hubs with 100 Base-T hubs 
+</string>
+		<key>question</key>
+		<string>53. A university has 20 computers in a laboratory that is currently served by several small 10 Base-T "Ethernet" hubs that are directly connected to each other. The network performance has been found to be lacking, and an upgrade is planned. The computers are identical and place a comparable load on the network that is relatively constant and modest for each computer (in the order of 500 Kbps). What would you suggest for the upgrade?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>53</string>
+		<key>identifier</key>
+		<string>54</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string>54. Collision Detection improves the throughput of multiple access networks because  
+it can shorten the length of garbled frames 
+it can decrease the number of garbled frames 
+it delays by a random amount of time when a collision is detected 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>54</string>
+		<key>identifier</key>
+		<string>55</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> works best for an even number of nodes
+ </string>
+		<key>optionB</key>
+		<string> suffers performance degradation as nodes are added
+ </string>
+		<key>optionC</key>
+		<string> has higher cost per node as nodes are added
+ </string>
+		<key>optionD</key>
+		<string> can connect very distant nodes
+</string>
+		<key>question</key>
+		<string>55.A specific CSMA-CD network such as 10-BASET "Ethernet"    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>55</string>
+		<key>identifier</key>
+		<string>56</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>56. In the year 2000, telephone and cable television companies are competing for the home Internet market. A typical offering of ADSL by the telephone companies is for a 1.5 Mbps link into the home, while a common offering by the cable television companies is for a shared 27 Mbps link into the home. The cost is usually comparable for these two options. Suppose you want to display the images at home that are constantly sent over the Internet by a security camera elsewhere. The camera has a relatively low refresh rate and the transmission will approximately require a constant 300 Kbps. Of course, you will also want to use your computer to surf the Internet. Which of the following would be valid arguments to get a cable modem instead of ADSL? 
+The cable modem always has better bandwidth and latency than ADSL. 
+The cable TV company has more experience transmitting analog video. 
+The camera is connected to the Internet via the same cable TV company 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>56</string>
+		<key>identifier</key>
+		<string>57</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>57. The point-to-point (PPP) protocol  
+can only be used in analog dial-up connections 
+is a data-link protocol 
+can only be used to carry IP over serial lines 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>57</string>
+		<key>identifier</key>
+		<string>58</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> significantly decrease the benefit of sensing the carrier before transmitting
+ </string>
+		<key>optionB</key>
+		<string> do not affect the cost-benefit trade-off of carrier sensing
+ </string>
+		<key>optionC</key>
+		<string> destroy the carrier, making it impossible to sense it before transmitting
+ </string>
+		<key>optionD</key>
+		<string> make it all the more critical to sense the carrier before transmitting  
+ 
+</string>
+		<key>question</key>
+		<string>58. In a broadcast-based network, longer propagation delays   
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>58</string>
+		<key>identifier</key>
+		<string>59</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> destroy the carrier, making it impossible to sense it before transmitting
+ </string>
+		<key>optionB</key>
+		<string> significantly decrease the benefit of sensing the carrier before transmitting
+ </string>
+		<key>optionC</key>
+		<string> make it all the more critical to sense the carrier before transmitting
+ </string>
+		<key>optionD</key>
+		<string> do not affect the cost-benefit trade-off of carrier sensing  
+</string>
+		<key>question</key>
+		<string>59. In a broadcast-based network, longer propagation delays   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>59</string>
+		<key>identifier</key>
+		<string>60</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> To decrease the number of times a call must be handed off from one base station to another.
+ </string>
+		<key>optionB</key>
+		<string> To allow the use of switches based on space-division multiplexing
+ </string>
+		<key>optionC</key>
+		<string> To increase frequency reuse without having to build more antenna towers
+ </string>
+		<key>optionD</key>
+		<string> To decrease frequency reuse without the need for time-division multiplexing  
+</string>
+		<key>question</key>
+		<string>60. If you have seen any mobile telephone antennas, you will have noticed that they have groups of radiating elements facing different directions. Most antennas we know are arranged in a triangle, so that each group spans a 120-degree arc of the horizon, but we have also seen squares in which each group spans a 90-degree arc instead. There is one such arrangement for each cell of a mobile phone system. This sort of base station is unsightly and expensive. A cell could instead use a single omnidirectional antenna that would be simple and inconspicuous. Why do you think the more complicated designs are used?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>60</string>
+		<key>identifier</key>
+		<string>61</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I only 
+</string>
+		<key>question</key>
+		<string>61. The Internet Protocol (IP) 
+is the only network-layer protocol 
+is required of hosts on the Internet 
+is the body of standard protocols in use on the Internet 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>61</string>
+		<key>identifier</key>
+		<string>62</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Connectionless service via datagrams
+ </string>
+		<key>optionB</key>
+		<string> Connection-oriented service via virtual circuits
+ </string>
+		<key>optionC</key>
+		<string> Connectionless service via virtual circuits
+ </string>
+		<key>optionD</key>
+		<string> Connection-oriented service via datagrams  
+</string>
+		<key>question</key>
+		<string>62. The Internet Protocol (IP) is used in the network layer of the Internet. Which service does IP provide to the transport layer?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>62</string>
+		<key>identifier</key>
+		<string>63</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Ability to reserve bandwidth e.g., for important presentations to the Board
+ </string>
+		<key>optionB</key>
+		<string> Ability to re-route traffic around congested links
+ </string>
+		<key>optionC</key>
+		<string> Cost of the routers as the network grows
+ </string>
+		<key>optionD</key>
+		<string> Cost of short transactions e.g., credit card charge approval.
+</string>
+		<key>question</key>
+		<string>63. The main network engineer of a large corporation is charged with designing and deploying the company's intranet. She has decided to use a connection-oriented network layer. Which of the following concerns do you think motivated her choice?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>63</string>
+		<key>identifier</key>
+		<string>64</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Datagram broadcast
+ </string>
+		<key>optionB</key>
+		<string> Distance vector routing
+ </string>
+		<key>optionC</key>
+		<string> Link state routing
+ </string>
+		<key>optionD</key>
+		<string> Flooding  
+</string>
+		<key>question</key>
+		<string>64. Which of the following routing algorithms is the most scalable?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>64</string>
+		<key>identifier</key>
+		<string>65</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>65. Tired of inaccurate routing tables, Joe, the network engineer, devises what he thinks is surely the best of all routing algorithms, which calculates the shortest-delay path for each packet. The algorithm works as follows. A routing server periodically polls each router for its full routing table and link delay statistics. This information from all routers is amalgamated into a complete model of the state of the network topology. Using this model, Joe's program selects the shortest delay paths, for which he derives new routing tables and sends to each router. Joe wants to deploy his algorithm immediately, but critics envious of his intelligence have offered the following objections. Which of the objections, if any, deserve attention?    
+Joe's algorithm is not scalable 
+Joe's algorithm is not reliable 
+Joe's algorithm results in inaccurate routing tables 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>65</string>
+		<key>identifier</key>
+		<string>66</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> none
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>66. In a network that uses shortest-path-per-hop routing, router A receives a datagram destined for host H and determines that the shortest path to H traverses routers B, C, and D, in that order. The datagram may traverse   
+B and D, but not C 
+B, C, and D, in that order 
+C and D, but not B 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>66</string>
+		<key>identifier</key>
+		<string>67</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> none
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>67. A network uses a routing algorithm that uses paths with the least number of hops. These paths are computed periodically using a shortest-path algorithm. In this network, datagrams   
+are routed around congested links 
+may traverse the same router twice 
+will always reach their destination 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>67</string>
+		<key>identifier</key>
+		<string>68</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> routers perform the same function as switches but the two are marketed in very different ways
+ </string>
+		<key>optionB</key>
+		<string> routers parse, process, and modify IP headers
+ </string>
+		<key>optionC</key>
+		<string> switches connect only to hosts, whereas routers connect networks
+ </string>
+		<key>optionD</key>
+		<string> switches hold IP routing tables only for only local subnets  
+</string>
+		<key>question</key>
+		<string>68. A difference between routers and switches is that   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>68</string>
+		<key>identifier</key>
+		<string>69</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> none
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>69. The IP address space is organized in a hierarchy   
+to make the routing task more scalable 
+to decrease inefficient fragmentation of the address space 
+to give institutions managing local-area networks autonomous control over the assignment of addresses to computers 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>69</string>
+		<key>identifier</key>
+		<string>70</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The IP address space will be exhausted.
+ </string>
+		<key>optionB</key>
+		<string> Router memory will become insufficient to keep track of an exponentially increasing number of circuits.
+ </string>
+		<key>optionC</key>
+		<string> Big multimedia files will no longer fit into IP datagrams.
+ </string>
+		<key>optionD</key>
+		<string> Widespread deployment of fiber optics will call for more than 8192 fragments per datagram.  
+</string>
+		<key>question</key>
+		<string>70. Which of the following is the most credible threat to the continuing success of the Internet Protocol (IP) as currently deployed? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>70</string>
+		<key>identifier</key>
+		<string>71</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> III only
+</string>
+		<key>question</key>
+		<string>71. The class B IP network 128.2.x.x has been assigned to Carnegie Mellon University. To relieve congestion in its internal LAN, Carnegie Mellon has decided to subnet this IP network. This will have which of the following consequences? 
+The configuration of the subnets will have to be announced to routers all over the world by notifying NIC and/or IANA. 
+A computer may need to change its IP address when moved from one office to another. 
+Some bridges, hubs, or switches will need to be replaced with routers. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>71</string>
+		<key>identifier</key>
+		<string>72</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 4
+ </string>
+		<key>optionB</key>
+		<string> 1
+ </string>
+		<key>optionC</key>
+		<string> 0
+ </string>
+		<key>optionD</key>
+		<string> 5  
+</string>
+		<key>question</key>
+		<string>72. A router is installed to interconnect 4 subnetworks with MTUs of 1024, 2048, 576, and 1556 bytes respectively. Nodes A and B are connected to the first and second subnets respectively. An application on node A sends a 4096 byte datagram (e.g. using UDP) to an application on node B. How many incoming IP headers will the router process that have the MF (more fragments) flag set?                             
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>72</string>
+		<key>identifier</key>
+		<string>73</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> none 
+</string>
+		<key>question</key>
+		<string>73. A modification is proposed to the IP protocol that would eliminate the "Identification" and "Fragment Offset" fields from the IP header. This could result in nearly a 15% improvement in the throughput of a link used for short transactions. Which other effects would this proposal have? 
+The resulting internetwork would no longer be able to interconnect subnetworks of any kind. 
+The scalability of the routing protocol would improve.  
+Data delivery would be more robust in the presence of congestion. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>73</string>
+		<key>identifier</key>
+		<string>74</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> is not used to find hosts within a LAN
+ </string>
+		<key>optionB</key>
+		<string> can use the same algorithm on all physical network technologies
+ </string>
+		<key>optionC</key>
+		<string> caches values
+ </string>
+		<key>optionD</key>
+		<string> is not used to find host addresses
+</string>
+		<key>question</key>
+		<string>74. In contrast to the Address Resolution Protocol (ARP), the Domain Name System (DNS) 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>74</string>
+		<key>identifier</key>
+		<string>75</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> It sent an IP packet to its own IP address and did not receive any IP packets within a timeout period.
+ </string>
+		<key>optionB</key>
+		<string> It sent an ARP packet to the local broadcast address and received a reply.
+ </string>
+		<key>optionC</key>
+		<string> It sent an Ethernet frame to its own Ethernet address, and some other machine responded.
+ </string>
+		<key>optionD</key>
+		<string> It sent a packet to 127.0.0.0 and did not receive any replies. 
+</string>
+		<key>question</key>
+		<string>75. You have just connected a newly purchased computer to your LAN. Eagerly, you boot it for the first time and find with great disappointment that the machine will not be able to use the network because of an IP address conflict. How did the computer find the conflict?  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>75</string>
+		<key>identifier</key>
+		<string>76</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> all known DNS servers are down
+ </string>
+		<key>optionB</key>
+		<string> a route to www.example.com is not available
+ </string>
+		<key>optionC</key>
+		<string> www.example.com is down
+ </string>
+		<key>optionD</key>
+		<string> www.example.com does not respond to ARP requests  
+</string>
+		<key>question</key>
+		<string>76. The following Java declaration 
+InetAddress addr = InetAddress.getbyName("www.example.com");
+will fail when   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>76</string>
+		<key>identifier</key>
+		<string>77</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>77. Using the Domain Name System, we can find 
+that 204.194.30.130 is the IP address of www.example.com 
+that ns.watson.ibm.com knows how to handle email for all IBM employees 
+that a datagram for an IBM address in India will be routed through an Internet IBM router named ibm-gw.customer.ibm.net in New York 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>77</string>
+		<key>identifier</key>
+		<string>78</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The Domain Name System (DNS) has not yet updated its entry for the Web server.
+ </string>
+		<key>optionB</key>
+		<string> Your desktop computer is still trying to contact the server's old network card.
+ </string>
+		<key>optionC</key>
+		<string> The new network card does not work.
+ </string>
+		<key>optionD</key>
+		<string> Your desktop computer's network card does not work.
+</string>
+		<key>question</key>
+		<string>78. The network interface card of a Web server that you manage has developed sporadic problems. You measure the packet loss rate from your desktop computer and immediately decide to replace the network card. After this simple operation, the Web server successfully rejoins the network, as confirmed by your officemate using her desktop computer. You eagerly go to your desktop to measure the improvement, but find instead that the Web server is not responding to any of your packets. What is your diagnosis?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>78</string>
+		<key>identifier</key>
+		<string>79</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> none
+ </string>
+		<key>optionD</key>
+		<string> II and III only  
+</string>
+		<key>question</key>
+		<string>79. After coming back from a vacation, you are eager to read your mail. You have several email accounts. One of them is served from hotmail.com, so you open up your browser and try to go to www.hotmail.com. Unfortunately, www.hotmail.com is down at the moment. 
+Because of this, which of the following packet types have traversed your ISP's router?  
+ARP 
+DNS 
+IP 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>79</string>
+		<key>identifier</key>
+		<string>80</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I or II only  
+</string>
+		<key>question</key>
+		<string>80. At which of the following layers of the OSI protocol stack can the Internet Control Message Protocol be implemented?  
+Network 
+Transport 
+Data link 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>80</string>
+		<key>identifier</key>
+		<string>81</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>81. The Dynamic Host Configuration Protocol (DHCP) may be used to  
+configure the scheduling policy of a busy server 
+relieve the saturation of the IP address space 
+assign a fixed address to a Web server after a reboot 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>81</string>
+		<key>identifier</key>
+		<string>82</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ICMP (ping)
+ </string>
+		<key>optionB</key>
+		<string> SNMP
+ </string>
+		<key>optionC</key>
+		<string> PLM
+ </string>
+		<key>optionD</key>
+		<string> TCP  
+</string>
+		<key>question</key>
+		<string>82. A corporate information systems manager is interested in collecting statistics on the frequency of computer failures within the organization. Most failures result in an automatic reboot, so the failed computer is typically back on the network in less than a minute. The corporate network connects 1,500 computers in far-flung locations to which the average latency of a packet is 40 milliseconds. The manager asks you to write a tool that will collect the times at which failures occurred in which computers. She wants it by tomorrow, so the tool will have to be simple. On which protocol will you base your implementation?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>82</string>
+		<key>identifier</key>
+		<string>83</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II and III only
+</string>
+		<key>question</key>
+		<string>83. Which of the following protocols are essential to the existence of the Traceroute tool?  
+IP 
+ICMP 
+TCP 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>83</string>
+		<key>identifier</key>
+		<string>84</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Netstat
+ </string>
+		<key>optionB</key>
+		<string> Ping
+ </string>
+		<key>optionC</key>
+		<string> Netperf
+ </string>
+		<key>optionD</key>
+		<string> Traceroute 
+</string>
+		<key>question</key>
+		<string>84. While writing a small application that downloads a program from one of several Web sites, you realize that you would like to download the program from the server that has the best connection to the computer in which the downloader executes. You have no access to the servers, so you cannot change their networking software or install new services, but you can incorporate any code you want into the downloader application. Which tool's source code will you look at for inspiration, assuming you want to minimize the execution time of your program?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>84</string>
+		<key>identifier</key>
+		<string>85</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>85. Which of the following developments will be facilitated by the widespread deployment of IPv6? 
+Every appliance can become an Internet node                   
+Doubling in reliability of data links between routers 
+Elimination of IP address "spoofing" (a line of computer attack in which IP datagrams are made to appear to come from a bogus address) 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>85</string>
+		<key>identifier</key>
+		<string>86</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> none
+ </string>
+		<key>optionD</key>
+		<string> I, II and III
+</string>
+		<key>question</key>
+		<string>86. Which of the following benefit from "tunneling" IP datagrams by conveying them inside other packets?   
+Mobile IP 
+Multicast 
+Roll-out of IPv6 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>86</string>
+		<key>identifier</key>
+		<string>87</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>87. Which of the following functions can the transport layer provide to applications? 
+End-to-end flow control 
+Packet forwarding 
+Congestion control 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>87</string>
+		<key>identifier</key>
+		<string>88</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> All packets will reach B normally.
+ </string>
+		<key>optionB</key>
+		<string> All packets will reach B at a degraded rate.
+ </string>
+		<key>optionC</key>
+		<string> No packets will reach B.
+ </string>
+		<key>optionD</key>
+		<string> Some packets will reach B, but most will not.  
+</string>
+		<key>question</key>
+		<string>88. Because of a faulty routing table, a network provider is temporarily unable to successfully deliver packets from host B to host A, even though packets from A to B experience no problems. This malfunction lasts 15 minutes. At the time the malfunction occurred, the TCP entity at host A was sending a large file to host B. Which of the following is true of the packets that had not yet been sent to B?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>88</string>
+		<key>identifier</key>
+		<string>89</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>89. TCP packets may be lost  
+when the sender runs out of buffer space 
+when a router runs out of buffer space 
+when the subnet, running IP, is congested 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>89</string>
+		<key>identifier</key>
+		<string>90</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> none
+ </string>
+		<key>optionB</key>
+		<string> a few megabytes
+ </string>
+		<key>optionC</key>
+		<string> as much as possible
+ </string>
+		<key>optionD</key>
+		<string> a few kilobytes, enough to hold one packet and one acknowledgment  
+</string>
+		<key>question</key>
+		<string>90. The Pittsburgh Supercomputing Center and the San Diego Supercomputing Center are linked to the Internet via very high-speed lines (in 1999, about 622 Mbps). Separated by about 4,000 Km, and several routers, the network installers measured the round trip time between these two sites to be about 50 milliseconds. You want to exchange a large data set between two very fast computers at these sites. The physical network capacity and/or speed of the computers limit the maximum TCP throughput to be about 50 million bytes per second under ideal circumstances. Assuming the channel is free of interference and that very few packets, if any, are dropped, how much memory would you allocate for a TCP connection at the sender in order to maximize throughput without spending money unnecessarily?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>90</string>
+		<key>identifier</key>
+		<string>91</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>91. The router designers of a well-known network equipment manufacturer are having an internal debate. Some of them want to add reliability to the network-layer protocol, because they have devised a way to do this without making the routers any more costly. Their manager likes this, because it will give the marketing department a powerful weapon in promoting the company's products. The manager has hired you to enumerate the technical benefits of the proposal. Which of the following does your list include?  
+Early detection and recovery of data loss and corruption 
+Better service to multi-media traffic 
+Elimination of TCP from routers 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>91</string>
+		<key>identifier</key>
+		<string>92</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>92. A TCP implementation that uses a sliding window for flow control has a coding error that causes it to calculate a window size greater than the ideal. What are some of the likely effects of this error?  
+Unnecessarily idle network links 
+Unnecessary packet losses 
+Greater memory usage in routers 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>92</string>
+		<key>identifier</key>
+		<string>93</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+</string>
+		<key>question</key>
+		<string>93. A TCP implementation that uses a sliding window for flow control has a coding error that causes it to calculate a window size smaller than the ideal. What are some of the likely effects of this error?  
+Unnecessarily idle network links 
+Unnecessary packet losses 
+Greater memory usage in routers 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>93</string>
+		<key>identifier</key>
+		<string>94</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> none  
+</string>
+		<key>question</key>
+		<string>94. Two programs execute in different computers and communicate through a TCP connection. Which of the following is certain when an IP packet supporting this connection successfully reaches the network interface of the receiving host? 
+Its payload data will be delivered to the receiving process. 
+An acknowledgment will be issued from the receiving to the sending computer. 
+The sending host will move its sliding window forward. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>94</string>
+		<key>identifier</key>
+		<string>95</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> a 32-bit integer and a "port" number
+ </string>
+		<key>optionB</key>
+		<string> a 32-bit integer and a process number
+ </string>
+		<key>optionC</key>
+		<string> a 32-bit integer and an application name  
+ </string>
+		<key>optionD</key>
+		<string> all of these three are wrong</string>
+		<key>question</key>
+		<string>95. In today's Internet, a TCP address is  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>95</string>
+		<key>identifier</key>
+		<string>96</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>96. Most postal systems allow customers to request a receipt notification, by which the Postal Service promises to notify the sender when the letter has been delivered to the recipient. This makes the postal system  
+a reliable network services provider 
+a reliable transport services provider 
+a datagram network service provider 
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>96</string>
+		<key>identifier</key>
+		<string>97</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 100 packets
+ </string>
+		<key>optionB</key>
+		<string> 34 packets
+ </string>
+		<key>optionC</key>
+		<string> 300 packets
+ </string>
+		<key>optionD</key>
+		<string> 600 packets  
+</string>
+		<key>question</key>
+		<string>97. A transport protocol entity determines that the underlying network is able to deliver 100 of its packets every second. Each of these packets contains 1,500 bytes (including transport headers). In addition, the time elapsed between the transmission of a packet and the reception of its acknowledgement is 3 seconds on the average. An efficient and smooth flow would require that the sliding window size be no less than approximately   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>97</string>
+		<key>identifier</key>
+		<string>98</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Sliding window size
+ </string>
+		<key>optionB</key>
+		<string> Store-and-forward buffer
+ </string>
+		<key>optionC</key>
+		<string> Maximum Transfer Unit (MTU)
+ </string>
+		<key>optionD</key>
+		<string> Retransmit timeout  
+</string>
+		<key>question</key>
+		<string>98. Most postal systems provide a "COD" service, by which the recipient pays for goods when she picks them up at the post office. For the sender and seller, this incurs a delay in payment between the time the goods are sent and the time the post office returns the customer's payment. In a sense, during this period, the seller is loaning money to the buyer. To limit its credit liability, the seller typically limits the number of COD packages that are outstanding to a particular customer. This means that after ordering N items, the customer may be unable to order any more until at least one of the N items has arrived and been paid for. What would you call N now that you are a networking expert?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>98</string>
+		<key>identifier</key>
+		<string>99</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Congestion control
+ </string>
+		<key>optionB</key>
+		<string> Error detection using checksum
+ </string>
+		<key>optionC</key>
+		<string> Addressing
+ </string>
+		<key>optionD</key>
+		<string> API provided to application layer  
+
+</string>
+		<key>question</key>
+		<string>99. What is the service that TCP provides but UDP does not?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>99</string>
+		<key>identifier</key>
+		<string>100</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>100. To improve network performance, a TCP receiver sends some information back to the sender by piggybacking it onto the headers of packets sent from the receiver to the sender. Which of the following can be sent this way?  
+New retransmission timeout values 
+Number of the last TCP segment being acknowledged 
+Available receiver buffer size 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>100</string>
+		<key>identifier</key>
+		<string>101</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> acknowledgment timeouts
+ </string>
+		<key>optionB</key>
+		<string> multiple routes for each packet
+ </string>
+		<key>optionC</key>
+		<string> congestion control
+ </string>
+		<key>optionD</key>
+		<string> end-to-end flow control  
+</string>
+		<key>question</key>
+		<string>101. TCP provides reliability in the presence of packet losses by  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>101</string>
+		<key>identifier</key>
+		<string>102</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III  
+
+</string>
+		<key>question</key>
+		<string>102.The Transmission Control Protocol (TCP) differs from the User Data Protocol (UDP) in that 
+TCP is connection-oriented 
+TCP needs to manage buffer space 
+TCP addresses are a pair (IP address, port number) 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>102</string>
+		<key>identifier</key>
+		<string>103</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> II and III only
+</string>
+		<key>question</key>
+		<string>103.The Transmission Control Protocol (TCP) differs from the User Data Protocol (UDP) in that  
+TCP has lower overhead 
+TCP is a transport-layer protocol 
+TCP provides reliable transmission 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>103</string>
+		<key>identifier</key>
+		<string>104</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> sendseqno &lt;= 1501
+ </string>
+		<key>optionB</key>
+		<string> sendseqno &lt;= 1502
+ </string>
+		<key>optionC</key>
+		<string> sendseqno == 1501
+ </string>
+		<key>optionD</key>
+		<string> sendseqno == 1502  
+  
+</string>
+		<key>question</key>
+		<string>104. Computer A has just received a TCP segment with a header that has the values 1500 and 1501 in the ACK and sequence number fields, respectively, from computer B. The TCP segment has one byte of payload. From this, we know the following about the sequence number sendseqno that computer B will send next:  
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>104</string>
+		<key>identifier</key>
+		<string>105</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 20 Kbytes
+ </string>
+		<key>optionB</key>
+		<string> 5 Kbytes
+ </string>
+		<key>optionC</key>
+		<string> 35 Kbytes
+ </string>
+		<key>optionD</key>
+		<string> 15 Kbytes  
+</string>
+		<key>question</key>
+		<string>105. As you access a remote Web site (as you are currently doing), a TCP segment is received from the Web server that advertises a receive window size of 20 Kbytes. From the round trip delay and recent history, your computer's TCP code decides to expand its congestion window to 15 Kbytes, in order to take advantage of an apparent improvement in network conditions. What TCP sending window size will be in effect in your computer at this point? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>105</string>
+		<key>identifier</key>
+		<string>106</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> none
+ </string>
+		<key>optionC</key>
+		<string> III only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>106. A new telephone company has approached your Internet provider's backbone operator with a new, flexible billing scheme. The phone company will periodically increase the capacity of the links needed by the backbone, at a price. The periodic increase will occur when the links are saturated beyond some threshold. This would be implemented by checking the network status every 10 minutes, and adjusting capacity if needed. The manager at your ISP is very happy about this, because it will entail which of the following?  
+No congestion ever again 
+Crystal-clear audio transmissions over the network 
+Ability to guarantee throughput for high-priority data 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>106</string>
+		<key>identifier</key>
+		<string>107</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> none
+ </string>
+		<key>optionD</key>
+		<string> I and II only 
+</string>
+		<key>question</key>
+		<string>107. An open-loop approach to network congestion may   
+drop packets 
+deny connection requests 
+dynamically adapt to network conditions 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>107</string>
+		<key>identifier</key>
+		<string>108</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> discards packets that arrive before packets with lower sequence numbers                 
+ </string>
+		<key>optionB</key>
+		<string> changes packet timeouts depending on network conditions
+ </string>
+		<key>optionC</key>
+		<string> wastes available bandwidth
+ </string>
+		<key>optionD</key>
+		<string> piggybacks several acknowledgments into data traffic  
+</string>
+		<key>question</key>
+		<string>108. An open-loop congestion prevention strategy that successfully prevents congestion in all circumstances    
+</string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>108</string>
+		<key>identifier</key>
+		<string>109</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II and III only
+ </string>
+		<key>optionB</key>
+		<string> none
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>109. A 4-port Internet router has been designed with enough buffer space and CPU power to service its four links at their maximum capacity. Which of the following is(are) sufficient to keep the router from becoming congested?  
+Neighboring routers are similarly designed. 
+All ports have comparable throughput and latency. 
+Links to other routers have neither interference nor any losses. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>109</string>
+		<key>identifier</key>
+		<string>110</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> none
+ </string>
+		<key>optionD</key>
+		<string> II only  
+</string>
+		<key>question</key>
+		<string>110. The Pittsburgh Supercomputing Center and the San Diego Supercomputing Center are linked to the Internet via very high-speed lines (in 1999, about 622 Mbps). Separated by about 4,000 Km and several routers, the network installers measured the round trip time between these two sites to be about 50 milliseconds. You want to exchange a large data set between two very fast computers at these sites. The physical network capacity and/or speed of the computers limit the maximum TCP throughput to be about 50 million bytes per second under ideal circumstances. The operating system of the sending computer has allocated 500 Kbytes to the TCP protocol that manages the exchange. The systems administrator then increases this allocation to 2.5 Mbytes. Which of the following are certain to ensue?  
+Throughput increases 
+Sender's transmission window grows 
+Receiver's transmission window shrinks 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>110</string>
+		<key>identifier</key>
+		<string>111</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Populate routers with more memory than they will ever need.
+ </string>
+		<key>optionB</key>
+		<string> Divide the available bandwidth equally among all connections.
+ </string>
+		<key>optionC</key>
+		<string> Have data sources send data as soon as it is available.
+ </string>
+		<key>optionD</key>
+		<string> Have data sources increase their sending rate until congestion is detected
+</string>
+		<key>question</key>
+		<string>111. In a network that is mostly used for HTTP (Web) traffic, which of the following is a reasonable approach to minimizing the amount of wasted bandwidth?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>111</string>
+		<key>identifier</key>
+		<string>112</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> III only 
+</string>
+		<key>question</key>
+		<string>112. The load offered to a network is the aggregate data rate at which the hosts connected to it attempt to send data. When the offered load increases by 20%, the amount of data successfully transported   
+may decrease by more than 30% 
+may decrease by less than 30% 
+may increase by less than 30% 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>112</string>
+		<key>identifier</key>
+		<string>113</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>113. A surveillance camera is connected to a computer that sends video frames to a remote site where multiple such cameras are monitored. The video stream uses the TCP transport protocol. When the network experiences congestion   
+the receiver should adjust the frame playback rate 
+the sender should adjust the frame capture rate 
+TCP automatically adjusts the video frame transmission rate 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>113</string>
+		<key>identifier</key>
+		<string>114</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> In neither the sending nor receiving application, because late-arriving video frames are of no use
+ </string>
+		<key>optionB</key>
+		<string> In the sending application only
+ </string>
+		<key>optionC</key>
+		<string> In both the sending and receiving applications
+ </string>
+		<key>optionD</key>
+		<string> In neither the sending nor receiving application, because TCP takes care of it  
+</string>
+		<key>question</key>
+		<string>114. You are charged with setting up the technology required to transmit a video-conference over an IP-based internetwork. You will have to implement a sending and a receiving application. Where will you handle network congestion?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>114</string>
+		<key>identifier</key>
+		<string>115</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> each endpoint in a connection is a peer in the protocol
+ </string>
+		<key>optionB</key>
+		<string> a feature should be implemented in as high a layer as possible
+ </string>
+		<key>optionC</key>
+		<string> a feature should be implemented in as low a layer as possible
+ </string>
+		<key>optionD</key>
+		<string> all network devices should support all protocols 
+</string>
+		<key>question</key>
+		<string>115. In designing a network protocol stack, the end-to-end argument would suggest that  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>115</string>
+		<key>identifier</key>
+		<string>116</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>116. Which of the following apply to the transport protocol (e.g., TCP) but not to the network-layer protocol (e.g., IP)?  
+It need not be connection-oriented. 
+It cannot guarantee, by itself, that data is received completely and without errors. 
+It is only executed at the sender and receiver, not within the network infrastructure of routers and switches. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>116</string>
+		<key>identifier</key>
+		<string>117</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 6
+ </string>
+		<key>optionB</key>
+		<string> 2
+ </string>
+		<key>optionC</key>
+		<string> 5
+ </string>
+		<key>optionD</key>
+		<string> 1  
+</string>
+		<key>question</key>
+		<string>117. A Web server is attending to five active requests from five different computers. How many sockets is this server using?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>117</string>
+		<key>identifier</key>
+		<string>118</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 1 TCP port                        </string>
+		<key>optionB</key>
+		<string> 6 TCP ports
+ </string>
+		<key>optionC</key>
+		<string> 2 TCP ports
+ </string>
+		<key>optionD</key>
+		<string> 5 TCP ports  
+</string>
+		<key>question</key>
+		<string>118. A Web server is attending to five active requests from five computers. It receives data sent via TCP to   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>118</string>
+		<key>identifier</key>
+		<string>119</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only 
+</string>
+		<key>question</key>
+		<string>119. When a big-endian host receives an integer, which of the following is responsible for changing the integer from network byte order to big-endian byte order?  
+The network interface card 
+The application layer 
+The operating system 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>119</string>
+		<key>identifier</key>
+		<string>120</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> atoin
+ </string>
+		<key>optionB</key>
+		<string> endian
+ </string>
+		<key>optionC</key>
+		<string> htonl
+ </string>
+		<key>optionD</key>
+		<string> bcopy  
+</string>
+		<key>question</key>
+		<string>120. What C function converts long integers from machine-byte order to network-byte order?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>120</string>
+		<key>identifier</key>
+		<string>121</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> is a library to convert between machine byte order and network byte order
+ </string>
+		<key>optionB</key>
+		<string> allows users to access audio files from a text-only terminal
+ </string>
+		<key>optionC</key>
+		<string> identifies the type of documents included in electronic mail messages
+ </string>
+		<key>optionD</key>
+		<string> is a way of conserving IP addresses  
+</string>
+		<key>question</key>
+		<string>121. MIME   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>121</string>
+		<key>identifier</key>
+		<string>122</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> provide fast, semi-reliable transfer of streaming media over the Internet
+ </string>
+		<key>optionB</key>
+		<string> make interactions with a server look like a local procedure call to the developer of the client
+ </string>
+		<key>optionC</key>
+		<string> enable network interface serial numbers to be tracked after leaving the factory
+ </string>
+		<key>optionD</key>
+		<string> provide a reliable byte stream transfer with congestion control  
+</string>
+		<key>question</key>
+		<string>122. The idea behind RPC is to    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>122</string>
+		<key>identifier</key>
+		<string>123</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> parameterizing
+ </string>
+		<key>optionB</key>
+		<string> packetizing
+ </string>
+		<key>optionC</key>
+		<string> RPCode
+ </string>
+		<key>optionD</key>
+		<string> marshaling  
+</string>
+		<key>question</key>
+		<string>123. In RPC, the process of encoding parameters and results is called  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>123</string>
+		<key>identifier</key>
+		<string>124</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>124. A student's desktop system executes a procedure call to a departmental server. Which of the following are true? 
+A remote procedure call will always take longer than a local call to complete. 
+A remote procedure call will never take longer than a local call to complete. 
+A remote procedure call may fail when the same call executed locally would succeed. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>124</string>
+		<key>identifier</key>
+		<string>125</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> PCI                                          </string>
+		<key>optionB</key>
+		<string> SCSI
+ </string>
+		<key>optionC</key>
+		<string> PCMCIA
+ </string>
+		<key>optionD</key>
+		<string> ISA 
+</string>
+		<key>question</key>
+		<string>125. High-speed network interfaces for PCs or Macs are typically designed for use in the _____ bus. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>125</string>
+		<key>identifier</key>
+		<string>126</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> processor
+ </string>
+		<key>optionB</key>
+		<string> network device driver
+ </string>
+		<key>optionC</key>
+		<string> I/O bus
+ </string>
+		<key>optionD</key>
+		<string> operating system  
+</string>
+		<key>question</key>
+		<string>126. The network layer and standard transport protocols (TCP and UDP) are typically implemented inside the _____.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>126</string>
+		<key>identifier</key>
+		<string>127</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> slower, twice
+ </string>
+		<key>optionB</key>
+		<string> faster, twice
+ </string>
+		<key>optionC</key>
+		<string> slower, more than two times
+ </string>
+		<key>optionD</key>
+		<string> faster, once  
+</string>
+		<key>question</key>
+		<string>127. DMA tends to be a _____ way to move data between I/O devices and main memory than using the processor, in part because the data has to cross the memory bus _____.   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>127</string>
+		<key>identifier</key>
+		<string>128</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>128. Which of the following will help to avoid context switches in network code?  
+Run one server for each client. 
+Library procedures that send data should buffer until a substantial amount is ready to be sent. 
+Data that arrives should be passed to the user as soon as possible after it arrives. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>128</string>
+		<key>identifier</key>
+		<string>129</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Operating system and protocol overhead
+ </string>
+		<key>optionB</key>
+		<string> Limited memory bandwidth between processor and network interface card
+ </string>
+		<key>optionC</key>
+		<string> Large buffer on network interface card takes a while to fill up
+ </string>
+		<key>optionD</key>
+		<string> Ethernet has long delay time  
+</string>
+		<key>question</key>
+		<string>129. In theory, the minimum RPC time on an Ethernet is 102 microseconds. In practice, getting the RPC time down to 1500 microseconds is a considerable achievement. What causes this difference?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>129</string>
+		<key>identifier</key>
+		<string>130</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 1 megabyte
+ </string>
+		<key>optionB</key>
+		<string> 2 megabytes
+ </string>
+		<key>optionC</key>
+		<string> 8 megabytes
+ </string>
+		<key>optionD</key>
+		<string> 500 kilobytes
+</string>
+		<key>question</key>
+		<string>130. Two machines are connected to each other with a 100 megabit/sec fiber connection. The round trip time between the machines is 80 milliseconds. What minimum size must the receive buffer be to allow the machines to utilize the full 100 megabits/sec?   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>130</string>
+		<key>identifier</key>
+		<string>131</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> II and III only 
+</string>
+		<key>question</key>
+		<string>131. Which of the following statements are true? 
+You can buy more bandwidth, but buying lower delay is not always possible. 
+Network congestion is easier to recover from than to prevent. 
+The way to avoid extra work with timeouts is to set timers shorter than necessary. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>131</string>
+		<key>identifier</key>
+		<string>132</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> III only 
+</string>
+		<key>question</key>
+		<string>132. When an application submits a request for guaranteed service, which of the following will the signaling protocol contact?  
+Only the router with the lowest bandwidth along the path that the application will use 
+Only the first router along the path that the application will use 
+All routers along the path that the application will use 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>132</string>
+		<key>identifier</key>
+		<string>133</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>133. Which of the following does the original Internet service model guarantee?  
+A certain maximum packet delay 
+A certain minimum bandwidth 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>133</string>
+		<key>identifier</key>
+		<string>134</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>134. Which of the following statements about routers that use FIFO packet schedulers are true?  
+Each user has a separate queue in the router. 
+Users who send at higher rates despite congestion warnings will have the same throughput as users who send at lower rates. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>134</string>
+		<key>identifier</key>
+		<string>135</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> to weigh the amount of traffic through a router
+ </string>
+		<key>optionB</key>
+		<string> to combine packets into a smaller number of larger datagrams
+ </string>
+		<key>optionC</key>
+		<string> to store copies of packets in case some are lost	
+ </string>
+		<key>optionD</key>
+		<string> to limit the amount of traffic entering a network
+</string>
+		<key>question</key>
+		<string>135. The purpose of token buckets is    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>135</string>
+		<key>identifier</key>
+		<string>136</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A:1 B:3 C:1 D:1 E:1 F:2
+ </string>
+		<key>optionB</key>
+		<string> A:1 B:6 C:1 D:1 E:1 F:4
+ </string>
+		<key>optionC</key>
+		<string> A:2 B:7 C:2 D:2 E:2 F:5
+ </string>
+		<key>optionD</key>
+		<string> A:4 B:2 C:4 D:5 E:4 F:1  
+</string>
+		<key>question</key>
+		<string>136. Six flows (A-F) share a 100-megabit-per-second line. Flow B is a dedicated 35-megabit-per-second line, and flow F is a dedicated 25-megabit-per-second line. The other four flows split the remaining bandwidth equally. What weights could be assigned to each flow in a WFQ scheduling router so that these requirements are met?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>136</string>
+		<key>identifier</key>
+		<string>137</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and III only
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> III only  
+</string>
+		<key>question</key>
+		<string>137. Which of the following are reasons IntServ (the Integrated Services Model) has not been widely deployed?  
+Concerns about complexity of the service model 
+Lack of demand for real-time services 
+Problems scaling to a large environment such as the Internet 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>137</string>
+		<key>identifier</key>
+		<string>138</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>138. If DiffServ (the Differentiated Services Model) supports the gold-silver-bronze service model, which of the following will that model guarantee? 
+Guaranteed minimum bandwidth 
+Guaranteed maximum delay 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>138</string>
+		<key>identifier</key>
+		<string>139</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> 10 megabits/sec
+ </string>
+		<key>optionB</key>
+		<string> 1 megabit/sec
+ </string>
+		<key>optionC</key>
+		<string> 125 kilobits/sec
+ </string>
+		<key>optionD</key>
+		<string> 8 megabits/sec
+</string>
+		<key>question</key>
+		<string>139. A flow passes through a token bucket filter, then over a 10 megabit/sec Ethernet to a router. The token bucket size is 15K tokens. If the token bucket accumulates tokens at a rate of 1 million tokens per second and packets consume one token per byte, what is the maximum instantaneous throughput (i.e., the throughput during a very short time interval) of the flow to the router? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>139</string>
+		<key>identifier</key>
+		<string>140</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ABCDABABCDAB...
+ </string>
+		<key>optionB</key>
+		<string> ABCABDABCABD...
+ </string>
+		<key>optionC</key>
+		<string> ABACADABACAD...
+ </string>
+		<key>optionD</key>
+		<string> ACDBCDACDBCD... 
+</string>
+		<key>question</key>
+		<string>140. In a WFQ scheduler, four flows A, B, C, and D are allocated weights 1, 1, 2, and 2, respectively. If all packets were the same size, in what order would the scheduler serve the queues? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>140</string>
+		<key>identifier</key>
+		<string>141</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the approval of all components in the system, delays
+ </string>
+		<key>optionB</key>
+		<string> dedicated hardware, extra cost
+ </string>
+		<key>optionC</key>
+		<string> communication between components, security threats
+ </string>
+		<key>optionD</key>
+		<string> multiple copies of files, extra overhead from copying  
+</string>
+		<key>question</key>
+		<string>141. In a distributed system, most tasks require _____, creating _____ .  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>141</string>
+		<key>identifier</key>
+		<string>142</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I and II
+ </string>
+		<key>optionD</key>
+		<string> II only  
+  
+</string>
+		<key>question</key>
+		<string>142. Which of the following are true?  
+Making the distributed system look more like a centralized system to the user is in general a desirable feature. 
+It is always possible to hide the distributed nature of the system completely. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>142</string>
+		<key>identifier</key>
+		<string>143</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> No, most distributed applications only need a partial ordering of events.
+ </string>
+		<key>optionB</key>
+		<string> Yes, and they must know the exact time.
+ </string>
+		<key>optionC</key>
+		<string> Yes, but they do not need to know the exact time.
+ </string>
+		<key>optionD</key>
+		<string> No, most distributed applications are designed so that the order of events doesn't matter. 
+</string>
+		<key>question</key>
+		<string>143. Do most distributed applications require a complete ordering of events?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>143</string>
+		<key>identifier</key>
+		<string>144</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> None
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+</string>
+		<key>question</key>
+		<string>144. Which of the following are true?  
+The happens-before relation is transitive. 
+Disjoint events can have the same logical time. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>144</string>
+		<key>identifier</key>
+		<string>146</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+</string>
+		<key>question</key>
+		<string>146. Which of the following are true of token-based mutual exclusion algorithms? 
+Token-based mutual exclusion works best when accesses to the critical region are rare. 
+Token-based mutual exclusion has a low message overhead. 
+Token-based mutual exclusion slows down when there are more processes. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>145</string>
+		<key>identifier</key>
+		<string>147</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> when one processor runs one task for too long a time
+ </string>
+		<key>optionB</key>
+		<string> when one processor fails, and its tasks must be transferred to another processor
+ </string>
+		<key>optionC</key>
+		<string> when one processor runs too many tasks at a time
+ </string>
+		<key>optionD</key>
+		<string> when one processor accesses the same file over and over  
+</string>
+		<key>question</key>
+		<string>147. In a distributed system, thrashing is caused   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>146</string>
+		<key>identifier</key>
+		<string>148</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>148. Which of the following statements are true?  
+Working on several tasks at the same time in an interleaved fashion can sometimes improve throughput without increasing response time. 
+It is sometimes not possible to both maximize throughput and minimize response time. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>147</string>
+		<key>identifier</key>
+		<string>149</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> which process gets the first token
+ </string>
+		<key>optionB</key>
+		<string> which machine each file is stored on
+ </string>
+		<key>optionC</key>
+		<string> how work is divided among processors
+ </string>
+		<key>optionD</key>
+		<string> a denial-of-service attack algorithm  
+ 
+</string>
+		<key>question</key>
+		<string>149. In a distributed system, push and pull algorithms refer to   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>148</string>
+		<key>identifier</key>
+		<string>150</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> II and III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>150. Which of the following distributed file systems are location transparent to users? 
+The WWW 
+NFS 
+AFS 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>149</string>
+		<key>identifier</key>
+		<string>151</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+ 
+</string>
+		<key>question</key>
+		<string>151. Which of the following distributed file systems use block/file caching? 
+AFS 
+NFS 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>150</string>
+		<key>identifier</key>
+		<string>152</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>152. Which of the following are advantages of stateless distributed file systems? 
+Limited complexity on the file server 
+Prevents inconsistencies by preventing conflicting file access 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>151</string>
+		<key>identifier</key>
+		<string>153</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> unbreakable cipher
+ </string>
+		<key>optionB</key>
+		<string> substitution cipher
+ </string>
+		<key>optionC</key>
+		<string> transposition cipher
+ </string>
+		<key>optionD</key>
+		<string> product cipher  
+</string>
+		<key>question</key>
+		<string>153. A Caesar cipher is a kind of   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>152</string>
+		<key>identifier</key>
+		<string>154</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> The server's public key encrypted, using the secret key of a certification authority
+ </string>
+		<key>optionB</key>
+		<string> The client's public key encrypted, using the secret key of a certification authority
+ </string>
+		<key>optionC</key>
+		<string> A certification authority's public key encrypted, using the server's private key
+ </string>
+		<key>optionD</key>
+		<string> The client's public key encrypted, using the server's private key  
+</string>
+		<key>question</key>
+		<string>154. A client sends a secure http request to a server that uses SSL. The server responds with a certificate. What is the data in the certificate?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>153</string>
+		<key>identifier</key>
+		<string>155</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and III only
+ </string>
+		<key>optionB</key>
+		<string> III only
+ </string>
+		<key>optionC</key>
+		<string> I, II, and III
+ </string>
+		<key>optionD</key>
+		<string> I and II only  
+ 
+</string>
+		<key>question</key>
+		<string>155. Which of the following can PGP provide?  
+Message integrity checking 
+Sender authentication 
+Secrecy 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>154</string>
+		<key>identifier</key>
+		<string>156</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> A URL, an HTML form
+ </string>
+		<key>optionB</key>
+		<string> an HTML form, an HTML document
+ </string>
+		<key>optionC</key>
+		<string> an HTML form, a URL
+ </string>
+		<key>optionD</key>
+		<string> an ASCII string, an HTML document  
+</string>
+		<key>question</key>
+		<string>156. CGI scripts are passed _____ and return _____.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>155</string>
+		<key>identifier</key>
+		<string>157</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Real-time scheduling
+ </string>
+		<key>optionB</key>
+		<string> Multithreading
+ </string>
+		<key>optionC</key>
+		<string> Sandboxing
+ </string>
+		<key>optionD</key>
+		<string> Executing binary executables  
+</string>
+		<key>question</key>
+		<string>157. _____ prevents mobile code from accessing the memory of other users or of the system.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>156</string>
+		<key>identifier</key>
+		<string>158</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> None
+ </string>
+		<key>optionC</key>
+		<string> I only
+ </string>
+		<key>optionD</key>
+		<string> II only 
+</string>
+		<key>question</key>
+		<string>158. Which of the following statements about Java applets are true? 
+Applets typically execute inside their own thread or set of threads. 
+Applets are complete, self-contained programs. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string> </string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>157</string>
+		<key>identifier</key>
+		<string>159</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> IV only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, III, and IV  
+</string>
+		<key>question</key>
+		<string>a159. Security problems in mobile code are often dealt with by which of the following techniques: 
+run-time checking 
+compile-time checking 
+precompile checking 
+predictive checking 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>158</string>
+		<key>identifier</key>
+		<string>160</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> use begin and end statements
+ </string>
+		<key>optionB</key>
+		<string> send the statements without a 1 second pause between each pair
+ </string>
+		<key>optionC</key>
+		<string> disable auto-commit
+ </string>
+		<key>optionD</key>
+		<string> open multiple connections 
+</string>
+		<key>question</key>
+		<string>160. To execute transactions that contain multiple statements, a JDBC application must _____.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>159</string>
+		<key>identifier</key>
+		<string>161</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> I and III only
+ </string>
+		<key>optionD</key>
+		<string> II and III only
+</string>
+		<key>question</key>
+		<string>161. Which of the following have a procedural interface?  
+ODBC 
+SAG CLI 
+JDBC 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>160</string>
+		<key>identifier</key>
+		<string>162</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> SAG CLI
+ </string>
+		<key>optionB</key>
+		<string> OLE/DB
+ </string>
+		<key>optionC</key>
+		<string> SQL
+ </string>
+		<key>optionD</key>
+		<string> JDBC  
+</string>
+		<key>question</key>
+		<string>162. What is Microsoft's ODBC based on?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>161</string>
+		<key>identifier</key>
+		<string>163</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ASCII strings concatenated with slashes
+ </string>
+		<key>optionB</key>
+		<string> Unordered lists of attribute-value pairs
+ </string>
+		<key>optionC</key>
+		<string> Ordered lists of attribute-value pairs
+ </string>
+		<key>optionD</key>
+		<string> ASCII strings concatenated with periods (dots)  
+</string>
+		<key>question</key>
+		<string>163. How are LDAP names represented?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>162</string>
+		<key>identifier</key>
+		<string>164</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> I and II only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>164. In which of the following naming services do lookups correspond to a walk from the root to a node of a name tree?  
+CORBA's name service 
+LDAP 
+SLP 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>163</string>
+		<key>identifier</key>
+		<string>165</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> ASCII strings concatenated with slashes
+ </string>
+		<key>optionB</key>
+		<string> ASCII strings concatenated with periods (dots)
+ </string>
+		<key>optionC</key>
+		<string> Ordered lists of attribute-value pairs
+ </string>
+		<key>optionD</key>
+		<string> Unordered lists of attribute-value pairs 
+</string>
+		<key>question</key>
+		<string>165. How are SLP names represented?    
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>164</string>
+		<key>identifier</key>
+		<string>166</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the user
+ </string>
+		<key>optionB</key>
+		<string> the system manager
+ </string>
+		<key>optionC</key>
+		<string> a process load table
+ </string>
+		<key>optionD</key>
+		<string> a central server  
+</string>
+		<key>question</key>
+		<string>166. In a traditional distributed computing environment, _____ decides what services are needed and configures a set of servers to provide those services.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>b</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>165</string>
+		<key>identifier</key>
+		<string>167</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> stateless functions, interpreter                                                  
+ </string>
+		<key>optionB</key>
+		<string> objects, RMI
+ </string>
+		<key>optionC</key>
+		<string> URLs, Web browser
+ </string>
+		<key>optionD</key>
+		<string> procedures, RPC  
+</string>
+		<key>question</key>
+		<string>167. In ORB environments, services are implemented as _____, and they are invoked through a(n) _____.  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>166</string>
+		<key>identifier</key>
+		<string>168</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I, II, and III
+ </string>
+		<key>optionB</key>
+		<string> II only
+ </string>
+		<key>optionC</key>
+		<string> I and II only
+ </string>
+		<key>optionD</key>
+		<string> I only  
+</string>
+		<key>question</key>
+		<string>168. Which of the following do RPC/RMI packages typically support?  
+Heterogeneity across platforms 
+Heterogeneity across languages environments 
+Support for dynamic interfaces 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>167</string>
+		<key>identifier</key>
+		<string>169</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>169. Which of the following stubs does the IDL compiler generate?  
+Client stubs 
+Server stubs 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>168</string>
+		<key>identifier</key>
+		<string>170</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> In the client IDL stubs
+ </string>
+		<key>optionB</key>
+		<string> In the DII
+ </string>
+		<key>optionC</key>
+		<string> In the Interface Repository
+ </string>
+		<key>optionD</key>
+		<string> In the ORB interface  
+</string>
+		<key>question</key>
+		<string>170. Where is marshalling handled in CORBA? 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>c</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>169</string>
+		<key>identifier</key>
+		<string>171</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I only
+ </string>
+		<key>optionB</key>
+		<string> I and II
+ </string>
+		<key>optionC</key>
+		<string> II only
+ </string>
+		<key>optionD</key>
+		<string> None  
+</string>
+		<key>question</key>
+		<string>171. Which of the following are true of CORBA's dynamic discovery of interfaces? 
+Parameter values are matched by the number and type of the parameters. 
+Parameter values can be provided by a human user at run time. 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>170</string>
+		<key>identifier</key>
+		<string>172</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> the Object Adapter
+ </string>
+		<key>optionB</key>
+		<string> the Implementation Repository
+ </string>
+		<key>optionC</key>
+		<string> the DSI
+ </string>
+		<key>optionD</key>
+		<string> the ORB Interface 
+</string>
+		<key>question</key>
+		<string>172. To convert a CORBA object reference to a string, one could use   
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>171</string>
+		<key>identifier</key>
+		<string>173</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> I and II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I, II, and III 
+</string>
+		<key>question</key>
+		<string>173. Which of the following statements are true about CORBA? 
+Using the CORBA IDL, existing code written in procedural languages can be made to look like objects using IDL wrappers 
+IDL code can be generated automatically from the code of many OO languages 
+The IDL code can be used to generate implementation code automatically in one of many OO languages 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>172</string>
+		<key>identifier</key>
+		<string>174</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> III only
+ </string>
+		<key>optionB</key>
+		<string> I, II, and III
+ </string>
+		<key>optionC</key>
+		<string> II and III only
+ </string>
+		<key>optionD</key>
+		<string> I and III only  
+</string>
+		<key>question</key>
+		<string>174. Which of the following are advantages of Jini over CORBA?  
+Language independence 
+Dynamic method invocation 
+Dynamically downloaded service object 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>d</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>173</string>
+		<key>identifier</key>
+		<string>175</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> II only
+ </string>
+		<key>optionB</key>
+		<string> I only
+ </string>
+		<key>optionC</key>
+		<string> None
+ </string>
+		<key>optionD</key>
+		<string> I and II  
+ 
+</string>
+		<key>question</key>
+		<string>175. Which of the following are supported by Jini?
+ Entire object passing
+ Discovery service that looks up services based on a set of attributes 
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>answer</key>
+		<string>a</string>
+		<key>done</key>
+		<string>0</string>
+		<key>id</key>
+		<string>174</string>
+		<key>identifier</key>
+		<string>176</string>
+		<key>mark</key>
+		<string>0</string>
+		<key>optionA</key>
+		<string> Inheritance
+ </string>
+		<key>optionB</key>
+		<string> Both static and dynamic method invocation
+ </string>
+		<key>optionC</key>
+		<string> A name service
+ </string>
+		<key>optionD</key>
+		<string> Language independence
+</string>
+		<key>question</key>
+		<string>176. Which of the following does CORBA support but DCOM not support?  
+ </string>
+		<key>wrong</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BookNumber</key>
+	<array>
+		<string>SSD1</string>
+		<string>SSD2</string>
+		<string>SSD3</string>
+		<string>SSD4</string>
+		<string>SSD5</string>
+		<string>SSD6</string>
+		<string>SSD7</string>
+		<string>SSD8</string>
+		<string>SSD9</string>
+	</array>
+	<key>BookName</key>
+	<array>
+		<string>信息系统导论</string>
+		<string>计算机系统导论</string>
+		<string>面向对象程序设计</string>
+		<string>用户界面设计与测试</string>
+		<string>数据结构</string>
+		<string>系统级程序设计</string>
+		<string>数据库系统</string>
+		<string>网络及分布式计算</string>
+		<string>软件工程</string>
+	</array>
+	<key>ExercisesCount</key>
+	<array>
+		<integer>95</integer>
+		<integer>303</integer>
+		<integer>102</integer>
+		<integer>101</integer>
+		<integer>173</integer>
+		<integer>256</integer>
+		<integer>106</integer>
+		<integer>174</integer>
+		<integer>272</integer>
+	</array>
+</dict>
+</plist>
