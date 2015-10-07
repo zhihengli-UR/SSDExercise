@@ -57,8 +57,9 @@ class SettingsViewController: UITableViewController {
             //globalMode = "sequence"
             
             //最新做题数目
-            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
-            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
+//            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+//            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
+            LatestExerciseNumberManager.sharedLatestNumberManager.resetAll()
         }
     }
     

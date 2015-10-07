@@ -86,9 +86,12 @@ class SSDExercise: NSObject {
         *  顺序做题时写入最新做题数
         */
         if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) == "sequence" {
-            var latestNumberArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
-            latestNumberArray[self.bookNumber - 1] = self.identifier
-            NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")            
+//            var latestNumberArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
+//            latestNumberArray[self.bookNumber - 1] = self.identifier
+//            NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")            
+            let manager = LatestExerciseNumberManager.sharedLatestNumberManager
+            manager.writeLatestIdentifier(bookNumber, identifier: identifier)
+            manager.writeLatestIndex(bookNumber, index: arrayIndex)
         }
         
         //答错时
