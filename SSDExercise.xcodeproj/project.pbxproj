@@ -11,7 +11,6 @@
 		B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */; };
 		B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */; };
 		B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */; };
-		B43F71411B64EBA500DD54B7 /* ToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F71401B64EBA500DD54B7 /* ToastManager.m */; };
 		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
 		B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D61AAF3689007C8436 /* AppDelegate.swift */; };
 		B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DC1AAF3689007C8436 /* Main.storyboard */; };
@@ -54,8 +53,6 @@
 		B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPlistManager.swift; path = Model/SSDPlistManager.swift; sourceTree = "<group>"; };
 		B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatestExerciseNumberManager.swift; path = Model/LatestExerciseNumberManager.swift; sourceTree = "<group>"; };
 		B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = Controller/AboutMeViewController.swift; sourceTree = "<group>"; };
-		B43F713F1B64EBA500DD54B7 /* ToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToastManager.h; path = Model/ToastManager.h; sourceTree = "<group>"; };
-		B43F71401B64EBA500DD54B7 /* ToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToastManager.m; path = Model/ToastManager.m; sourceTree = "<group>"; };
 		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
 		B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectModeViewController.swift; path = Controller/SelectModeViewController.swift; sourceTree = "<group>"; };
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,8 +220,6 @@
 				B4EEA1201B5B92FC00CD4163 /* ModelController.swift */,
 				B4B5F9F61B69E2DF0090715F /* SSDExercise.swift */,
 				B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */,
-				B43F713F1B64EBA500DD54B7 /* ToastManager.h */,
-				B43F71401B64EBA500DD54B7 /* ToastManager.m */,
 				B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */,
 			);
 			name = Model;
@@ -390,7 +385,6 @@
 				B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */,
 				B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */,
 				B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */,
-				B43F71411B64EBA500DD54B7 /* ToastManager.m in Sources */,
 				B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */,
 				B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */,
 				B4B5F9F71B69E2DF0090715F /* SSDExercise.swift in Sources */,

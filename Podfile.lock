@@ -1,13 +1,10 @@
 PODS:
-  - CRToast (0.0.7)
   - JGProgressHUD (1.2.7)
 
 DEPENDENCIES:
-  - CRToast (~> 0.0.7)
   - JGProgressHUD (~> 1.2.7)
 
 SPEC CHECKSUMS:
-  CRToast: 99a28f4387def43b439ad88f957ce31357ff7373
   JGProgressHUD: a45c1d16adddf7e38092ce3f0d71d3955d2de2ec
 
 COCOAPODS: 0.38.2
