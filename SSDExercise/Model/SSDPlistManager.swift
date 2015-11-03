@@ -17,54 +17,50 @@ class SSDPlistManager: NSObject {
     static let sharedManager = SSDPlistManager()
     var exercisesArray: [[String: String]]?
     
+    private let basePathInSandbox = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0] as! String
+    
     //写入成功返回true，否则返回false
     func saveToSandBox(_array: NSArray, bookNumber: Int)->Bool {
         var array = _array as NSArray
-        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
-        var path = paths[0] as! String
-        var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
+        var pathInSandbox = basePathInSandbox.stringByAppendingString("ku_ssd\(bookNumber).plist")
         return array.writeToFile(pathInSandbox, atomically: true)
         
     }
     
     
     //将题库中的plist文件导入沙盒中的Documents目录下
-    func movePlistsToSandbox(){
+    func movePlistsToSandbox()->Bool {
+        var flag = true
         for i in 1...9 {
-            movePlistsToSandbox(i)
+            flag = flag && movePlistsToSandbox(i)
         }
+        
+        return flag
     }
     
-    func movePlistsToSandbox(bookNumber: Int){
-        var pathInBundle = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")
-        if let p = pathInBundle {
-            var array = NSArray(contentsOfFile: p)           
-//            if saveToSandBox(array!, bookNumber: bookNumber) == true {
-//                println("SSD\(bookNumber)导入至沙盒成功")
-//            } else {
-//                println("SSD\(bookNumber)导入至沙盒失败")
-//            }
-            saveToSandBox(array!, bookNumber: bookNumber)
-        }
+    func movePlistsToSandbox(bookNumber: Int)->Bool {
+        var pathInBundle = generatePathInBundle(bookNumber)
+        
+        var array = NSArray(contentsOfFile: pathInBundle)
+        return saveToSandBox(array!, bookNumber: bookNumber)
+        
     }
     
     func loadArray(bookNumber: Int, location: StorageLocation)->[[String: String]]? {
         
         switch location {
             
-        //返回未修改过的Array
+            //返回未修改过的Array
         case .bundle:
-            var pathInBundle = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")
-            self.exercisesArray = NSArray(contentsOfFile: pathInBundle!) as? [[String: String]]
-//            return self.exercisesArray
+            var pathInBundle = generatePathInBundle(bookNumber)
+            self.exercisesArray = NSArray(contentsOfFile: pathInBundle) as? [[String: String]]
+            //            return self.exercisesArray
             
-        //返回存有答题记录的Array
+            //返回存有答题记录的Array
         case .sandbox:
-            var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
-            var path = paths[0] as! String
-            var pathInSandbox = path.stringByAppendingString("ku_ssd\(bookNumber).plist")
+            var pathInSandbox = basePathInSandbox.stringByAppendingString("ku_ssd\(bookNumber).plist")
             self.exercisesArray = NSArray(contentsOfFile: pathInSandbox) as? [[String: String]]
-//            return self.exercisesArray
+            //            return self.exercisesArray
         }
         
         return self.exercisesArray
@@ -81,29 +77,46 @@ class SSDPlistManager: NSObject {
     //清除用户数据
     func clearUserData(completionHandler: (writeResult: Bool)->Void) {
         
-        var paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.UserDomainMask, true)
-        var path = paths[0] as! String
-        var result = true
+        //var result = true
         
-        for i in 1...9 {
-            var pathInSandbox = path.stringByAppendingString("ku_ssd\(i).plist")
-            var array = NSArray(contentsOfFile: pathInSandbox) as! [[String : String]]
-            
-            for var i = 0; i < array.count; i++ {
-                array[i]["done"] = "0"
-                array[i]["mark"] = "0"
-                array[i]["wrong"] = "0"
-            }
-            
-            var arrayToWrite = NSArray(array: array)
-            
-            var everyResult = arrayToWrite.writeToFile(pathInSandbox, atomically: true)
-            result = result && everyResult
-        }
+        //        for i in 1...9 {
+        //            var pathInSandbox = path.stringByAppendingString("ku_ssd\(i).plist")
+        //            var array = NSArray(contentsOfFile: pathInSandbox) as! [[String : String]]
+        //
+        //            for var i = 0; i < array.count; i++ {
+        //                array[i]["done"] = "0"
+        //                array[i]["mark"] = "0"
+        //                array[i]["wrong"] = "0"
+        //            }
+        //
+        //            var arrayToWrite = NSArray(array: array)
+        //
+        //            var everyResult = arrayToWrite.writeToFile(pathInSandbox, atomically: true)
+        //            result = result && everyResult
+        //        }
+        
+        //        for i in 1...9 {
+        //            let pathInSandbox = basePathInSandbox.stringByAppendingString("ku_ssd\(i).plist")
+        //            let pathInBundle = generatePathInBundle(i)
+        //
+        //
+        //        }
+        
+        let writeResult = movePlistsToSandbox()
+        
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
-            completionHandler(writeResult: result)
+            completionHandler(writeResult: writeResult)
         })
         
+    }
+    
+    func migrateDatabase() {
+        
+    }
+    
+    private func generatePathInBundle(bookNumber: Int)->String {
+        let path = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")!
+        return path
     }
     
 }
