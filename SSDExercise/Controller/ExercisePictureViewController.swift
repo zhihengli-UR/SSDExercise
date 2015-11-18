@@ -98,8 +98,12 @@ class ExercisePictureViewController: UITableViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let destinationViewController = segue.destinationViewController as! ExercisePicturePresentationViewController
         let cell = sender! as! ExercisePictureCell
+        let indexPath = tableView.indexPathForCell(cell)
+        tableView.deselectRowAtIndexPath(indexPath!, animated: false)
+        
+        let destinationViewController = segue.destinationViewController as! ExercisePicturePresentationViewController
+        
         destinationViewController.exerciseNumber = cell.exerciseNumberLabel.text
         
     }
