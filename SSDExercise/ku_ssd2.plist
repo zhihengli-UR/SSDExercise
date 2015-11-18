@@ -2010,7 +2010,7 @@ EIDE
 	</dict>
 	<dict>
 		<key>answer</key>
-		<string>
+		<string>b
 </string>
 		<key>done</key>
 		<string>0</string>
@@ -2033,7 +2033,7 @@ EIDE
 		<string> None  
 </string>
 		<key>question</key>
-		<string>b68. Which of the following is (are) true of USB computer connections? 
+		<string>68. Which of the following is (are) true of USB computer connections? 
 A USB hub can support up to 127 devices. 
 Typically, USB devices can be connected without restarting the computer. 
 </string>

@@ -39,9 +39,9 @@ class SSDPlistManager: NSObject {
     }
     
     func movePlistsToSandbox(bookNumber: Int)->Bool {
-        var pathInBundle = generatePathInBundle(bookNumber)
+        let pathInBundle = generatePathInBundle(bookNumber)
         
-        var array = NSArray(contentsOfFile: pathInBundle)
+        let array = NSArray(contentsOfFile: pathInBundle)
         return saveToSandBox(array!, bookNumber: bookNumber)
         
     }
