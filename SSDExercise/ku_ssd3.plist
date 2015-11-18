@@ -116,7 +116,7 @@
 		<string>4. Consider the following Java program segment. 
    int x = 5;
    int y = 2;
-   System.out.println(x + "1" + y);
+   System.out.println(x + &quot;1&quot; + y);
 Which of the following statements is true about the program segment? 
 </string>
 		<key>wrong</key>
@@ -209,10 +209,10 @@ Which of the following statements is true about the program segment?
 import java.io.*;
 public class SomeClass{
   public void x() {
-       throw new RuntimeException("Exception from x");
+       throw new RuntimeException(&quot;Exception from x&quot;);
   }
   public void y(){
-       throw new IOException("Exception from y");
+       throw new IOException(&quot;Exception from y&quot;);
   }
 }
 Which of the following is true concerning the definitions for the methods x and y? 
@@ -302,7 +302,7 @@ Which of the following is true concerning the definitions for the methods x and 
 		<string>	name, methods, and constants 
 </string>
 		<key>question</key>
-		<string>11. In a UML class diagram's representation of a class, the top, middle, and lower rectangular compartments respectively describe the _____ of the class. 
+		<string>11. In a UML class diagram&apos;s representation of a class, the top, middle, and lower rectangular compartments respectively describe the _____ of the class. 
 </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -331,7 +331,7 @@ Which of the following is true concerning the definitions for the methods x and 
 		<string> self-containing class  
 </string>
 		<key>question</key>
-		<string>13.Consider the following UML class diagram. 
+		<string>13.Consider the following UML class diagram. （题目图片见: 设置-&gt;题目图片）  
  
 The diagram describes a  
   </string>
@@ -362,7 +362,7 @@ The diagram describes a
 		<string>	II and III only 
 </string>
 		<key>question</key>
-		<string>14. Consider the following UML class diagram. 
+		<string>14. Consider the following UML class diagram. （题目图片见: 设置-&gt;题目图片） 
 According to the diagram, which of the following statements is (are) true? 
 I. ClassB is a specialization of ClassA. 
 II. ClassA is a generalization of ClassC. 
@@ -392,7 +392,7 @@ III. ClassC is involved in a self-containment loop.
 		<string> instances of one class that can be associated with an instance of the other class
  </string>
 		<key>optionD</key>
-		<string> times that one class's methods are called by the other class
+		<string> times that one class&apos;s methods are called by the other class
 </string>
 		<key>question</key>
 		<string>15. The multiplicity of an association between two classes indicates the number of 
@@ -423,7 +423,7 @@ III. ClassC is involved in a self-containment loop.
 		<key>optionD</key>
 		<string>	A, C  </string>
 		<key>question</key>
-		<string>16.Consider the following UML class diagram. 
+		<string>16.Consider the following UML class diagram. （题目图片见: 设置-&gt;题目图片） 
  
 According to the diagram, instances of the class named _____ have references to instances of the class named _____. 
 </string>
@@ -562,26 +562,26 @@ III	Relationships between classes
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string>	The line of text "default" followed by the line of text "non-default"
+		<string>	The line of text &quot;default&quot; followed by the line of text &quot;non-default&quot;
 </string>
 		<key>optionB</key>
-		<string>	The line of text "non-default" followed by the line of text "default"
+		<string>	The line of text &quot;non-default&quot; followed by the line of text &quot;default&quot;
 </string>
 		<key>optionC</key>
-		<string>	The line of text "default"
+		<string>	The line of text &quot;default&quot;
 </string>
 		<key>optionD</key>
-		<string>	The line of text "non-default"
+		<string>	The line of text &quot;non-default&quot;
 </string>
 		<key>question</key>
 		<string>21. Consider the following Java program segment.
 import java.io.*;
 public class Test {
     public Test( ) {
-        System.out.println("default");
+        System.out.println(&quot;default&quot;);
     }
     public Test( int i ) {
-        System.out.println("non-default");
+        System.out.println(&quot;non-default&quot;);
     }
     public static void main(String[] args) {
         Test t = new Test(2);
@@ -761,7 +761,7 @@ Which of the following will be output during execution of the program segment?
 		<string> hidden
 </string>
 		<key>question</key>
-		<string> 27. When a subclass defines an instance method with the same return type and signature as a method in its parent, the parent's method is said to be  
+		<string> 27. When a subclass defines an instance method with the same return type and signature as a method in its parent, the parent&apos;s method is said to be  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1494,7 +1494,7 @@ II	Interfaces may contain data fields.
 		<key>question</key>
 		<string>51. Consider the following Java program segment.
 PrintWriter fileOut = new PrintWriter(  
-        new FileWriter("output.txt"));
+        new FileWriter(&quot;output.txt&quot;));
 If the file output.txt already exists, which of the following events will occur when the program segment is executed?
   </string>
 		<key>wrong</key>
@@ -2285,7 +2285,7 @@ III.	It can be used to import multiple classes with a single statement.
 </string>
 		<key>question</key>
 		<string>77.Given the following code, what value will be output by the last statement? 
-StringTokenizer st = new StringTokenizer("this is,a,test of tokens", ",");
+StringTokenizer st = new StringTokenizer(&quot;this is,a,test of tokens&quot;, &quot;,&quot;);
 String s;
 int count = 0;
 while (st.hasMoreTokens())  {
@@ -2472,7 +2472,7 @@ III.	It can be used to import multiple classes with a single statement.
 </string>
 		<key>question</key>
 		<string>83.Given the following code, what value will be output by the last statement? 
-StringTokenizer st = new StringTokenizer("this is,a,test of tokens", ",");
+StringTokenizer st = new StringTokenizer(&quot;this is,a,test of tokens&quot;, &quot;,&quot;);
 String s;
 int count = 0;
 
@@ -2541,7 +2541,7 @@ III.	.h
 		<string> stack trace 
 </string>
 		<key>question</key>
-		<string>85.	A tool that allows programmers to execute lines of a program one line at a time in order to help locate the source of a program's errors is known as a(n)	
+		<string>85.	A tool that allows programmers to execute lines of a program one line at a time in order to help locate the source of a program&apos;s errors is known as a(n)	
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -2693,7 +2693,7 @@ III.	Resume execution of the halted program
 public class Object1 {
   
     protected String d(){
-        return "Hi";
+        return &quot;Hi&quot;;
     }
 }
 
@@ -2824,10 +2824,10 @@ III.	Method d returns equivalent results when executed from either class.
 </string>
 		<key>question</key>
 		<string>95.Consider the following Java program segment.
-String[] str = {"Three","Two","One"};
+String[] str = {&quot;Three&quot;,&quot;Two&quot;,&quot;One&quot;};
 
 for (int i = 0; i &lt; str.length; ++i)  {
-System.out.println(str[i]+"/");
+System.out.println(str[i]+&quot;/&quot;);
 }
 What will be output upon execution of the program segment?	
  </string>
@@ -3030,7 +3030,7 @@ III.	An object of class Vehicle
 		<string> a collection of Java classes that contain other Java classes
  </string>
 		<key>optionB</key>
-		<string> a collection of Java classes that "wrap" Java primitive types
+		<string> a collection of Java classes that &quot;wrap&quot; Java primitive types
  </string>
 		<key>optionC</key>
 		<string> the Java classes that contain at least two data fields
@@ -3067,9 +3067,9 @@ III.	An object of class Vehicle
 		<string> Elviswas here </string>
 		<key>question</key>
 		<string>103.What will be output caused by the execution of the following Java program segment? 
-String name = "Elvis";
+String name = &quot;Elvis&quot;;
 
-System.out.print(name + "was here");	
+System.out.print(name + &quot;was here&quot;);	
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -3086,7 +3086,7 @@ System.out.print(name + "was here");
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> only available through a typical debugger's step into feature
+		<string> only available through a typical debugger&apos;s step into feature
  </string>
 		<key>optionB</key>
 		<string> a sequence of method calls
@@ -3095,7 +3095,7 @@ System.out.print(name + "was here");
 		<string> a fatal error that causes a typical debugger to terminate
  </string>
 		<key>optionD</key>
-		<string> a list of variables allocated on a program's stack   
+		<string> a list of variables allocated on a program&apos;s stack   
 
 </string>
 		<key>question</key>

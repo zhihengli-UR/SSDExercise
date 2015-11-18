@@ -11,6 +11,8 @@
 		B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */; };
 		B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */; };
 		B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */; };
+		B44B8AAF1BE862EC00DAD752 /* ExercisePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */; };
+		B44B8AB11BE8641600DAD752 /* ExercisePicturePresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */; };
 		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
 		B45BC3D71AAF3689007C8436 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BC3D61AAF3689007C8436 /* AppDelegate.swift */; };
 		B45BC3DE1AAF3689007C8436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45BC3DC1AAF3689007C8436 /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatestExerciseNumberManager.swift; path = Model/LatestExerciseNumberManager.swift; sourceTree = "<group>"; };
 		B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = Controller/AboutMeViewController.swift; sourceTree = "<group>"; };
 		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisePictureViewController.swift; path = Controller/ExercisePictureViewController.swift; sourceTree = "<group>"; };
+		B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisePicturePresentationViewController.swift; path = Controller/ExercisePicturePresentationViewController.swift; sourceTree = "<group>"; };
 		B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectModeViewController.swift; path = Controller/SelectModeViewController.swift; sourceTree = "<group>"; };
 		B45BC3D11AAF3689007C8436 /* SSDExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45BC3D51AAF3689007C8436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				B4693F731B687F71000A8381 /* DefaultNavigationController.swift */,
 				B4693F771B68CA85000A8381 /* FontSizeViewController.swift */,
 				B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */,
+				B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */,
+				B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -388,6 +394,8 @@
 				B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */,
 				B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */,
 				B4B5F9F71B69E2DF0090715F /* SSDExercise.swift in Sources */,
+				B44B8AB11BE8641600DAD752 /* ExercisePicturePresentationViewController.swift in Sources */,
+				B44B8AAF1BE862EC00DAD752 /* ExercisePictureViewController.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
 				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,
 				B4E70E181ABE3E640064A625 /* DataViewController.swift in Sources */,

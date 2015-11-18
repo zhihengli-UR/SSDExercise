@@ -55,7 +55,7 @@
 		<string> When calculating the time it takes to point to a target, the size of the target is not important. 
 </string>
 		<key>question</key>
-		<string> 2. Which of the following is a description of Fitts's Law?  
+		<string> 2. Which of the following is a description of Fitts&apos;s Law?  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -72,10 +72,10 @@
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> It is important to design around the eye's blind spot, which makes it difficult to see parts of the screen.
+		<string> It is important to design around the eye&apos;s blind spot, which makes it difficult to see parts of the screen.
  </string>
 		<key>optionB</key>
-		<string> Be careful when using blinking text or animations because they naturally draw the user's attention.
+		<string> Be careful when using blinking text or animations because they naturally draw the user&apos;s attention.
  </string>
 		<key>optionC</key>
 		<string> Because the fovea encompasses only 2 degrees of visual angle, all text should be concentrated in a small area of the screen.
@@ -171,7 +171,7 @@
 		<string> aggressive marketing.
 </string>
 		<key>question</key>
-		<string> 6. Software companies often release so-called "beta" versions of software. A beta version of a program is usually given away to a selected group of users who agree to test and comment on the program before it is released to the wider market. A company that releases beta versions is thus engaging in  
+		<string> 6. Software companies often release so-called &quot;beta&quot; versions of software. A beta version of a program is usually given away to a selected group of users who agree to test and comment on the program before it is released to the wider market. A company that releases beta versions is thus engaging in  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -384,13 +384,13 @@ III.integer, long, or Boolean
 		<string> cmdExit.FlatStyle = FlatStyle.Flat
  </string>
 		<key>optionC</key>
-		<string> cmdExit.FlatStyle("Flat")
+		<string> cmdExit.FlatStyle(&quot;Flat&quot;)
  </string>
 		<key>optionD</key>
 		<string> cmdExit.FlatStyle = Flat 
 </string>
 		<key>question</key>
-		<string>13. At run time, you want to change the appearance of a Visual Basic control named "cmdExit" so that it appears "flat." "cmdExit" belongs to the form named "frmInput." Which of the following statements would you use?  
+		<string>13. At run time, you want to change the appearance of a Visual Basic control named &quot;cmdExit&quot; so that it appears &quot;flat.&quot; &quot;cmdExit&quot; belongs to the form named &quot;frmInput.&quot; Which of the following statements would you use?  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -419,7 +419,7 @@ III.integer, long, or Boolean
 		<string> to flag undeclared variables as errors at compile time.
 </string>
 		<key>question</key>
-		<string>14.An Option Explicit On statement in a form's General Declarations section causes Visual Basic  
+		<string>14.An Option Explicit On statement in a form&apos;s General Declarations section causes Visual Basic  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -510,9 +510,9 @@ III.Month_To_Datedbl
 </string>
 		<key>question</key>
 		<string>17. In Visual Basic, which of the following Val function statements will return a value equal to or less than 32? 
-I.Val("32,543,987")
-II.Val(".98")
-III.Val("thirty-seven")
+I.Val(&quot;32,543,987&quot;)
+II.Val(&quot;.98&quot;)
+III.Val(&quot;thirty-seven&quot;)
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -629,9 +629,9 @@ III.Val("thirty-seven")
 </string>
 		<key>question</key>
 		<string>21.The Visual Basic Properties window allows the developer to 
-I.change a Visual Basic object's appearance.
-II.change a Visual Basic object's behavior.
-III.change a Visual Basic object's name.
+I.change a Visual Basic object&apos;s appearance.
+II.change a Visual Basic object&apos;s behavior.
+III.change a Visual Basic object&apos;s name.
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -651,10 +651,10 @@ III.change a Visual Basic object's name.
 		<string> There is no similarity.
  </string>
 		<key>optionB</key>
-		<string> Both advocate ignoring the users' experiences with other software.
+		<string> Both advocate ignoring the users&apos; experiences with other software.
  </string>
 		<key>optionC</key>
-		<string> Both draw upon the users' prior knowledge and experience.
+		<string> Both draw upon the users&apos; prior knowledge and experience.
  </string>
 		<key>optionD</key>
 		<string> Both recognize the tendency of users to make errors.  
@@ -783,8 +783,8 @@ Which of the following heuristics are violated by the behavior of this email pro
 		<key>question</key>
 		<string>26.Which of the following are differences between the techniques of heuristic evaluation (HE) and think-aloud usability testing (TA)? 
 I.A heuristic evaluation can be carried out on a paper prototype, whereas a TA requires a functioning prototype.
-II.A heuristic evaluation can be conducted by an expert analyst working alone, whereas a TA requires the participation of people who are like the application's intended users.
-III.TAs require the developer to 'think like a user,' whereas HEs do not.
+II.A heuristic evaluation can be conducted by an expert analyst working alone, whereas a TA requires the participation of people who are like the application&apos;s intended users.
+III.TAs require the developer to &apos;think like a user,&apos; whereas HEs do not.
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -814,7 +814,7 @@ III.TAs require the developer to 'think like a user,' whereas HEs do not.
 </string>
 		<key>question</key>
 		<string>27.Which of the following, if any, accurately describe the relationship between the evidence and explanation sections of a usability aspect report? 
-I.Explanation is the author's interpretation of objective evidence.
+I.Explanation is the author&apos;s interpretation of objective evidence.
 II.Explanation explains a solution to the problem that the evidence section describes.
 III.Explanation links the problem described in the evidence section to instances of the problem discovered in the past.
  </string>
@@ -846,7 +846,7 @@ III.Explanation links the problem described in the evidence section to instances
 </string>
 		<key>question</key>
 		<string>28.In the context of writing a usability aspect report, what is meant by the statement: 
-"Always step back and try to see the bigger picture."  
+&quot;Always step back and try to see the bigger picture.&quot;  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -875,7 +875,7 @@ III.Explanation links the problem described in the evidence section to instances
 		<string> Explanation of the aspect 
 </string>
 		<key>question</key>
-		<string>29.Which section of a usability aspect report (UAR) can serve as the UAR's "name"?  
+		<string>29.Which section of a usability aspect report (UAR) can serve as the UAR&apos;s &quot;name&quot;?  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -936,7 +936,7 @@ III.The participants in a user study need to be able to read accounts of their s
 		<string> (Name)  
 </string>
 		<key>question</key>
-		<string>31.Which Visual Basic control property's value is used as the identifier for the control in the code?  
+		<string>31.Which Visual Basic control property&apos;s value is used as the identifier for the control in the code?  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -967,8 +967,8 @@ III.The participants in a user study need to be able to read accounts of their s
 		<key>question</key>
 		<string> 32.Which of the following approaches to user interface design follow the heuristic match between the system and the real world? 
    I,Use the same vocabulary the user would use to describe things. 
-   II,Find a metaphor that describes aptly a useful portion of the computer's behavior. 
-   III,Don't clutter the screen with blinking animations. 
+   II,Find a metaphor that describes aptly a useful portion of the computer&apos;s behavior. 
+   III,Don&apos;t clutter the screen with blinking animations. 
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1151,7 +1151,7 @@ III.The participants in a user study need to be able to read accounts of their s
 		<string> to require that Dim and Public statements have As data type clauses.
 </string>
 		<key>question</key>
-		<string> 38.An Option Explicit On statement in a form's General Declarations section causes Visual Basic  
+		<string> 38.An Option Explicit On statement in a form&apos;s General Declarations section causes Visual Basic  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1232,10 +1232,10 @@ III.The participants in a user study need to be able to read accounts of their s
 		<string> using a special Visual Basic method (a procedure that acts on an object) to assign a shortcut character to the button.
  </string>
 		<key>optionC</key>
-		<string> placing an "&amp;" (ampersand) in the button's caption immediately in front of the shortcut character.
+		<string> placing an &quot;&amp;&quot; (ampersand) in the button&apos;s caption immediately in front of the shortcut character.
  </string>
 		<key>optionD</key>
-		<string> placing an "_" (underline character) in the button's identifier in its Name property.  
+		<string> placing an &quot;_&quot; (underline character) in the button&apos;s identifier in its Name property.  
 </string>
 		<key>question</key>
 		<string>41.In Visual Basic, you can create a keyboard shortcut for a button by  
@@ -1439,10 +1439,10 @@ Information that is the same should appear to be the same (same words, icons, an
 		<string> be less predictable.
  </string>
 		<key>optionD</key>
-		<string> impair the user's natural ability to learn by doing
+		<string> impair the user&apos;s natural ability to learn by doing
 </string>
 		<key>question</key>
-		<string>48. An interface with no "Undo" would  
+		<string>48. An interface with no &quot;Undo&quot; would  
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1565,9 +1565,9 @@ Information that is the same should appear to be the same (same words, icons, an
 </string>
 		<key>question</key>
 		<string>52. A Visual Basic button will hold the focus when the interface is first presented to the user, if 
-   I,its Default property is set to "true". 
-   II,its TabStop property is set to "true" and its TabIndex property is set to "0". 
-   III,its TabIndex property is set to "0". 
+   I,its Default property is set to &quot;true&quot;. 
+   II,its TabStop property is set to &quot;true&quot; and its TabIndex property is set to &quot;0&quot;. 
+   III,its TabIndex property is set to &quot;0&quot;. 
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1782,7 +1782,7 @@ Information that is the same should appear to be the same (same words, icons, an
 		<string> lstDevice.Scroll 
 </string>
 		<key>question</key>
-		<string>59. Into which Visual Basic event handler would you insert code to record the fact that the user has selected "CrystalWare(TM) Playback" in this figure? 
+		<string>59. Into which Visual Basic event handler would you insert code to record the fact that the user has selected &quot;CrystalWare(TM) Playback&quot; in this figure? （题目图片见: 设置-&gt;题目图片） 
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1993,7 +1993,7 @@ Information that is the same should appear to be the same (same words, icons, an
 		<key>question</key>
 		<string>66.Which of the following are true of Visual Basic scrollbar controls? 
    I,They are not typically used for tasks where particular or exact values are needed. 
-   II,They can be manipulated in three ways: by clicking their arrow buttons, by clicking and dragging their "thumb," and by clicking anywhere on the bar between their "thumb" and arrow buttons. 
+   II,They can be manipulated in three ways: by clicking their arrow buttons, by clicking and dragging their &quot;thumb,&quot; and by clicking anywhere on the bar between their &quot;thumb&quot; and arrow buttons. 
    III,They are represented on the toolbox palette by two icons. 
  </string>
 		<key>wrong</key>
@@ -2023,9 +2023,9 @@ Information that is the same should appear to be the same (same words, icons, an
 		<string> II only 
 </string>
 		<key>question</key>
-		<string> 67.To determine if a Visual Basic control is actually in a container control and not merely "floating" over it, one can 
+		<string> 67.To determine if a Visual Basic control is actually in a container control and not merely &quot;floating&quot; over it, one can 
   I,move the container control to see if the control in question moves with it. 
-  II,check to see if the control in question's AutoBuddy property is set to the name of the container control. 
+  II,check to see if the control in question&apos;s AutoBuddy property is set to the name of the container control. 
   III,move the control in question to see if it is limited to staying within the borders of the container control. 
  </string>
 		<key>wrong</key>
@@ -2115,7 +2115,7 @@ Information that is the same should appear to be the same (same words, icons, an
 </string>
 		<key>question</key>
 		<string>70.Which of the following is a way to tell when a participant wants to stop a usability test? 
-  I.Expressions of negative emotions, such as "I'm so stupid I'll never be able to finish this." 
+  I.Expressions of negative emotions, such as &quot;I&apos;m so stupid I&apos;ll never be able to finish this.&quot; 
   II,Aggressive behavior towards the computer. 
   III,Expressions of enthusiasm that seem insincere. 
  
@@ -2164,7 +2164,7 @@ Information that is the same should appear to be the same (same words, icons, an
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> In a lab, a user's brain-wave patterns are recorded and analyzed while they perform a task.
+		<string> In a lab, a user&apos;s brain-wave patterns are recorded and analyzed while they perform a task.
  </string>
 		<key>optionB</key>
 		<string> The person conducting the test tells the user everything they are thinking as the user completes the task.
@@ -2199,7 +2199,7 @@ Information that is the same should appear to be the same (same words, icons, an
 		<string> the observer and the participant engage in an exchange about the system being tested.
  </string>
 		<key>optionC</key>
-		<string> the observer must form an opinion of the participant's intelligence.
+		<string> the observer must form an opinion of the participant&apos;s intelligence.
  </string>
 		<key>optionD</key>
 		<string> the participant may ask how to do something, but the observer must not answer. 
@@ -2510,7 +2510,7 @@ You should decide to abide by:
 		<string> 1560
 </string>
 		<key>question</key>
-		<string>83.The following Visual Basic form contains a Frame that contains a Button. The Button's Name property is set to Button1. If the left mouse button is pressed when the mouse is on the location shown, what would is value of Button1.Y? 
+		<string>83.The following Visual Basic form contains a Frame that contains a Button. The Button&apos;s Name property is set to Button1. If the left mouse button is pressed when the mouse is on the location shown, what would is value of Button1.Y? 
 </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -2540,7 +2540,7 @@ You should decide to abide by:
 
 </string>
 		<key>question</key>
-		<string>84.Consider the following nesting of Visual Basic objects Form
+		<string>84.Consider the following nesting of Visual Basic objects Form（题目图片见: 设置-&gt;题目图片） 
     Frame1
         Button11
     Frame2
@@ -2575,7 +2575,7 @@ If the x-coordinate of the center of Button21 is located at x in the Button21 co
 		<string> 1440
 </string>
 		<key>question</key>
-		<string>85.The following Visual Basic form contains a Frame that contains a Button. The Button's Name property is set to Button1. If the left mouse button is pressed when the mouse is on the location shown, what would is value of Button1.X? 
+		<string>85.The following Visual Basic form contains a Frame that contains a Button. The Button&apos;s Name property is set to Button1. If the left mouse button is pressed when the mouse is on the location shown, what would is value of Button1.X? （题目图片见: 设置-&gt;题目图片） 
 </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -2794,10 +2794,10 @@ If the x-coordinate of the center of Button21 is located at x in the Button21 co
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> choosing the order in which to redraw "damaged" objects
+		<string> choosing the order in which to redraw &quot;damaged&quot; objects
  </string>
 		<key>optionB</key>
-		<string> choosing the object "on top" when layers exist
+		<string> choosing the object &quot;on top&quot; when layers exist
  </string>
 		<key>optionC</key>
 		<string> choosing the object upon which an event occurred
@@ -2977,7 +2977,7 @@ If the x-coordinate of the center of Button21 is located at x in the Button21 co
 		<string> save variables that have changed and provide a way to restore the old values
  </string>
 		<key>optionD</key>
-		<string> save variables that haven't changed so as to map commonalities in program state
+		<string> save variables that haven&apos;t changed so as to map commonalities in program state
 </string>
 		<key>question</key>
 		<string> 99.Which of the following statements provides the best description of undo from the implementation point-of-view?  
