@@ -44,6 +44,17 @@ class SelectModeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("做题模式")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("做题模式")
+    }
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
         var index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
@@ -59,8 +70,9 @@ class SelectModeViewController: UIViewController {
     @IBAction func SelectModeButtonsOnClick(sender: UIButton) {
         tintWhiteColor()
         tintThemeColor(sender)
-        //globalMode = self.modeDict[sender.tag]
-        NSUserDefaults.standardUserDefaults().setObject(self.modeDict[sender.tag], forKey: "Mode")
+        let mode: String = self.modeDict[sender.tag]
+        NSUserDefaults.standardUserDefaults().setObject(mode, forKey: "Mode")
+        MobClick.event("ChangeExerciseMode", attributes: ["Mode": mode])
     }
     
     

@@ -88,13 +88,25 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("选课本")
+        self.latestBookNumber = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIdentifier()
+        collectionView?.reloadData()
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("选课本")
+    }
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
         //self.latestBookNumber = NSUserDefaults.standardUserDefaults().objectForKey("LastestNumber") as! [Int]
         
         //用于从做题界面返回刷新时
-        self.latestBookNumber = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIdentifier()
-        collectionView?.reloadData()
+//        self.latestBookNumber = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIdentifier()
+//        collectionView?.reloadData()
     }
     
     

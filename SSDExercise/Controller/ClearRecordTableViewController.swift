@@ -28,6 +28,16 @@ class ClearRecordTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("清除答题记录")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("清除答题记录")
+    }
+    
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
@@ -47,8 +57,10 @@ class ClearRecordTableViewController: UITableViewController {
                         self.showSuccessHUD()
                         NSUserDefaults.standardUserDefaults().setObject("sequence", forKey: "Mode")
                         LatestExerciseNumberManager.sharedLatestNumberManager.resetAll()
+                        MobClick.event("ClearExercisesRecordSuccess", attributes: ["BookNumber": "All"])
                     } else {
                         self.showErrorHUD()
+                        MobClick.event("ClearExercisesRecordFailed")
                     }
                 })
             })
@@ -58,8 +70,10 @@ class ClearRecordTableViewController: UITableViewController {
                     if writeResult {
                         self.showSuccessHUD()
                         LatestExerciseNumberManager.sharedLatestNumberManager.resetForBook(bookNumber: indexPath.row + 1)
+                        MobClick.event("ClearExercisesRecordSuccess", attributes: ["BookNumber": "SSD\(indexPath.row + 1)"])
                     } else {
                         self.showErrorHUD()
+                        MobClick.event("ClearExercisesRecordFailed")
                     }
                 })
             })

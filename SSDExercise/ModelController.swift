@@ -156,7 +156,6 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
             //确保不为空，但会丢失用户数据
             SSDPlistManager.sharedManager.movePlistsToSandbox()
             dictArrayWithRecord = SSDPlistManager.sharedManager.loadArray(self.bookNumber!, location: StorageLocation.bundle)
-            //println("重新导入沙盒，丢失用户数据")
         }
         
         var arrayWithRecord = generateExercisesArray(dictArrayWithRecord!)

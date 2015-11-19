@@ -24,6 +24,16 @@ class AboutMeViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("关于SSD刷题器")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("关于SSD刷题器")
+    }
+    
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if indexPath.row == 1 {
             self.presentViewController(UMFeedback.feedbackModalViewController(), animated: true, completion: nil)

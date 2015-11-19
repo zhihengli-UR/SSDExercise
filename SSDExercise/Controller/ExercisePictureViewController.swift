@@ -34,6 +34,16 @@ class ExercisePictureViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("题目图片")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("题目图片")
+    }
 
     // MARK: - Table view data source
 

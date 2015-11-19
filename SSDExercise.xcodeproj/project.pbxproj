@@ -12,6 +12,7 @@
 		B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */; };
 		B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */; };
 		B446A20E1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446A20D1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift */; };
+		B446A2101BFE3EF300C66A6B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446A20F1BFE3EF300C66A6B /* SettingsViewController.swift */; };
 		B44B8AAF1BE862EC00DAD752 /* ExercisePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */; };
 		B44B8AB11BE8641600DAD752 /* ExercisePicturePresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */; };
 		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
@@ -56,6 +57,7 @@
 		B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatestExerciseNumberManager.swift; path = Model/LatestExerciseNumberManager.swift; sourceTree = "<group>"; };
 		B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = Controller/AboutMeViewController.swift; sourceTree = "<group>"; };
 		B446A20D1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClearRecordTableViewController.swift; path = Controller/ClearRecordTableViewController.swift; sourceTree = "<group>"; };
+		B446A20F1BFE3EF300C66A6B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Controller/SettingsViewController.swift; sourceTree = "<group>"; };
 		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
 		B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisePictureViewController.swift; path = Controller/ExercisePictureViewController.swift; sourceTree = "<group>"; };
 		B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisePicturePresentationViewController.swift; path = Controller/ExercisePicturePresentationViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		B4337D1C1AAF435600B3A927 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B446A20F1BFE3EF300C66A6B /* SettingsViewController.swift */,
 				B446A20D1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift */,
 				B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */,
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
@@ -409,6 +412,7 @@
 				B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */,
 				B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */,
 				B4693F741B687F71000A8381 /* DefaultNavigationController.swift in Sources */,
+				B446A2101BFE3EF300C66A6B /* SettingsViewController.swift in Sources */,
 				B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */,
 				B4B5F9F71B69E2DF0090715F /* SSDExercise.swift in Sources */,
 				B44B8AB11BE8641600DAD752 /* ExercisePicturePresentationViewController.swift in Sources */,

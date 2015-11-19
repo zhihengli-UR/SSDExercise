@@ -37,7 +37,6 @@ class LatestExerciseNumberManager {
     }
     
     func requireLatestIdentifier()->[Int] {
-        println(latestIdentifierArray)
         return latestIdentifierArray
     }
     
@@ -48,7 +47,6 @@ class LatestExerciseNumberManager {
     
     func requireLatestIndex(#bookNumber: Int)->Int {
         //将要做下一题，所以 + 1
-        println(latestIndexArray)
         return latestIndexArray[bookNumber - 1] + 1
     }
     

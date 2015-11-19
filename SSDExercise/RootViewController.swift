@@ -56,6 +56,17 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("SSD\(selectedBookNumberFromRootViewController)-答题")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("SSD\(selectedBookNumberFromRootViewController)-答题")
+    }
 
     var modelController: ModelController {
         // Return the model controller object, creating it if necessary.

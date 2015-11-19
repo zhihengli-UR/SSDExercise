@@ -31,11 +31,16 @@ class FontSizeViewController: UITableViewController {
         var sliderValue = (fontSize - 11) / 2
         fontSlider.setValue(sliderValue, animated: false)
         
-
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("字号")
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(true)
+        MobClick.endLogPageView("字号")
         NSUserDefaults.standardUserDefaults().setFloat(self.fontSize, forKey: "fontSize")
     }
 

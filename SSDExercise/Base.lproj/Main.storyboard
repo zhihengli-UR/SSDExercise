@@ -247,7 +247,7 @@
         <!--设置-->
         <scene sceneID="dbM-zc-xwm">
             <objects>
-                <tableViewController id="jOm-P0-9pW" sceneMemberID="viewController">
+                <tableViewController id="jOm-P0-9pW" customClass="SettingsViewController" customModule="SSDExercise" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Wkc-hn-Eg5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
