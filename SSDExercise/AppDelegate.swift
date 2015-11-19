@@ -40,8 +40,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSUserDefaults.standardUserDefaults().setObject("everLaunched", forKey: "everLaunched")
         }
         
-        //设置做题模式全局变量
-//        globalMode = NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String
+        MobClick.startWithAppkey("564cb17e67e58e9465001aa8", reportPolicy: BATCH, channelId: nil);
+        let version = NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"] as! String
+        MobClick.setAppVersion(version)
+        MobClick.setEncryptEnabled(true)
+        
+        
+        UMFeedback.setAppkey("564cb17e67e58e9465001aa8")
+        
+        
+        
+        
+        
         
         return true
     }

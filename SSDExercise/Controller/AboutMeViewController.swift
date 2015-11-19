@@ -9,7 +9,7 @@
 import UIKit
 
 class AboutMeViewController: UITableViewController {
-
+    
     @IBOutlet weak var versionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,10 +18,17 @@ class AboutMeViewController: UITableViewController {
         self.versionLabel.text = "v\(version)(\(build))"
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.row == 1 {
+            self.presentViewController(UMFeedback.feedbackModalViewController(), animated: true, completion: nil)
+            
+        }
+    }
+    
 }

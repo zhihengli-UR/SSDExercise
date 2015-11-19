@@ -77,30 +77,6 @@ class SSDPlistManager: NSObject {
     //清除用户数据
     func clearUserData(completionHandler: (writeResult: Bool)->Void) {
         
-        //var result = true
-        
-        //        for i in 1...9 {
-        //            var pathInSandbox = path.stringByAppendingString("ku_ssd\(i).plist")
-        //            var array = NSArray(contentsOfFile: pathInSandbox) as! [[String : String]]
-        //
-        //            for var i = 0; i < array.count; i++ {
-        //                array[i]["done"] = "0"
-        //                array[i]["mark"] = "0"
-        //                array[i]["wrong"] = "0"
-        //            }
-        //
-        //            var arrayToWrite = NSArray(array: array)
-        //
-        //            var everyResult = arrayToWrite.writeToFile(pathInSandbox, atomically: true)
-        //            result = result && everyResult
-        //        }
-        
-        //        for i in 1...9 {
-        //            let pathInSandbox = basePathInSandbox.stringByAppendingString("ku_ssd\(i).plist")
-        //            let pathInBundle = generatePathInBundle(i)
-        //
-        //
-        //        }
         
         let writeResult = movePlistsToSandbox()
         
@@ -110,9 +86,15 @@ class SSDPlistManager: NSObject {
         
     }
     
-    func migrateDatabase() {
+    func clearUserData(bookNumber: Int, completionHandler: (writeResult: Bool)->Void) {
+        
+        let writeResult = movePlistsToSandbox(bookNumber)
+        dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            completionHandler(writeResult: writeResult)
+        })
         
     }
+    
     
     private func generatePathInBundle(bookNumber: Int)->String {
         let path = NSBundle.mainBundle().pathForResource("ku_ssd\(bookNumber)", ofType: "plist")!

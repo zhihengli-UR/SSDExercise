@@ -90,8 +90,8 @@ class SSDExercise: NSObject {
 //            latestNumberArray[self.bookNumber - 1] = self.identifier
 //            NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")            
             let manager = LatestExerciseNumberManager.sharedLatestNumberManager
-            manager.writeLatestIdentifier(bookNumber, identifier: identifier)
-            manager.writeLatestIndex(bookNumber, index: arrayIndex)
+            manager.writeLatestIdentifier(bookNumber: bookNumber, identifier: identifier)
+            manager.writeLatestIndex(bookNumber: bookNumber, index: arrayIndex)
         }
         
         //答错时

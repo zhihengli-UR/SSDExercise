@@ -3,3 +3,5 @@
 //
 
 #include "JGProgressHUD.h"
+#include "MobClick.h"
+#include "UMFeedback.h"

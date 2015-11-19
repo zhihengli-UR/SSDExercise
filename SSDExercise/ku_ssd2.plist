@@ -2010,8 +2010,7 @@ EIDE
 	</dict>
 	<dict>
 		<key>answer</key>
-		<string>b
-</string>
+		<string>b</string>
 		<key>done</key>
 		<string>0</string>
 		<key>id</key>

@@ -124,12 +124,13 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
 //                break
 //            }
 //        }
-        index = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIndex(bookNumber)
+        index = LatestExerciseNumberManager.sharedLatestNumberManager.requireLatestIndex(bookNumber: bookNumber)
         
         //防止数组越界
         if (index - 1) == pageData.count {
             index--
         }
+        
 
         return index
     }

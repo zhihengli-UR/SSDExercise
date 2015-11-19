@@ -11,6 +11,7 @@
 		B401858F1B6663D60003FBC6 /* SSDPlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */; };
 		B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */; };
 		B43D5FB11B6D30580092AD4C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */; };
+		B446A20E1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446A20D1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift */; };
 		B44B8AAF1BE862EC00DAD752 /* ExercisePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */; };
 		B44B8AB11BE8641600DAD752 /* ExercisePicturePresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */; };
 		B459D82F1ABDB4B100CE6652 /* SelectModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */; };
@@ -36,7 +37,6 @@
 		B4E70E181ABE3E640064A625 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E70E171ABE3E640064A625 /* DataViewController.swift */; };
 		B4EEA11F1B5B92E600CD4163 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */; };
 		B4EEA1211B5B92FC00CD4163 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEA1201B5B92FC00CD4163 /* ModelController.swift */; };
-		B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 		B401858E1B6663D60003FBC6 /* SSDPlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSDPlistManager.swift; path = Model/SSDPlistManager.swift; sourceTree = "<group>"; };
 		B43C88361B980B4A004668CF /* LatestExerciseNumberManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LatestExerciseNumberManager.swift; path = Model/LatestExerciseNumberManager.swift; sourceTree = "<group>"; };
 		B43D5FB01B6D30580092AD4C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = Controller/AboutMeViewController.swift; sourceTree = "<group>"; };
+		B446A20D1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClearRecordTableViewController.swift; path = Controller/ClearRecordTableViewController.swift; sourceTree = "<group>"; };
 		B4488DB41ABD0F3500417191 /* SSDExercise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDExercise-Bridging-Header.h"; sourceTree = "<group>"; };
 		B44B8AAE1BE862EC00DAD752 /* ExercisePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisePictureViewController.swift; path = Controller/ExercisePictureViewController.swift; sourceTree = "<group>"; };
 		B44B8AB01BE8641600DAD752 /* ExercisePicturePresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisePicturePresentationViewController.swift; path = Controller/ExercisePicturePresentationViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +86,6 @@
 		B4E70E171ABE3E640064A625 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = Controller/DataViewController.swift; sourceTree = "<group>"; };
 		B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B4EEA1201B5B92FC00CD4163 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Controller/SettingsViewController.swift; sourceTree = "<group>"; };
 		FD084E73BB1F079DA0D0D323 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,9 +120,9 @@
 		B4337D1C1AAF435600B3A927 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B446A20D1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift */,
 				B4EEA11E1B5B92E600CD4163 /* RootViewController.swift */,
 				B45BC4001AAF4156007C8436 /* SelectBookCollectionViewController.swift */,
-				B4FD1F3A1ABD732200BD320B /* SettingsViewController.swift */,
 				B459D82E1ABDB4B100CE6652 /* SelectModeViewController.swift */,
 				B4E70E171ABE3E640064A625 /* DataViewController.swift */,
 				B4693F731B687F71000A8381 /* DefaultNavigationController.swift */,
@@ -251,6 +251,7 @@
 				B45BC3CE1AAF3689007C8436 /* Frameworks */,
 				B45BC3CF1AAF3689007C8436 /* Resources */,
 				14DE871D5D767B006B91922F /* Copy Pods Resources */,
+				A35FDE303BF82EB6D0F0177A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +286,7 @@
 		B45BC3C91AAF3689007C8436 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "李 智恒";
 				TargetAttributes = {
@@ -363,6 +365,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A35FDE303BF82EB6D0F0177A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CFBBC6CAB92CAC2A7B3BAFF0 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,7 +414,7 @@
 				B44B8AB11BE8641600DAD752 /* ExercisePicturePresentationViewController.swift in Sources */,
 				B44B8AAF1BE862EC00DAD752 /* ExercisePictureViewController.swift in Sources */,
 				B45BC4011AAF4156007C8436 /* SelectBookCollectionViewController.swift in Sources */,
-				B4FD1F3B1ABD732200BD320B /* SettingsViewController.swift in Sources */,
+				B446A20E1BFE2B6F00C66A6B /* ClearRecordTableViewController.swift in Sources */,
 				B4E70E181ABE3E640064A625 /* DataViewController.swift in Sources */,
 				B43C88371B980B4A004668CF /* LatestExerciseNumberManager.swift in Sources */,
 			);
