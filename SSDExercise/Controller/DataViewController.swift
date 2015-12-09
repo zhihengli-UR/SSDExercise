@@ -58,7 +58,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
             
             if (NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String) == "sequence" {
                 //添加收藏按钮至rootViewController的NavigationBar中
-                var rootViewController = ((self.parentViewController as! UIPageViewController).delegate) as! RootViewController
+                let rootViewController = ((self.parentViewController as! UIPageViewController).delegate) as! RootViewController
                 rootViewController.navigationItem.rightBarButtonItem?.target = self
                 rootViewController.navigationItem.rightBarButtonItem?.action = "collectionButton:"
                 self.markButton = rootViewController.navigationItem.rightBarButtonItem
@@ -84,7 +84,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
             self.optionImageViews = [self.optionAImage, self.optionBImage, self.optionCImage, self.optionDImage]
             
             self.bookNumber = (((self.parentViewController as! UIPageViewController).delegate) as! RootViewController).selectedBookNumberFromRootViewController
-            var arrayIndex = ((self.parentViewController as! UIPageViewController).dataSource as! ModelController).indexOfViewController(self)
+            let arrayIndex = ((self.parentViewController as! UIPageViewController).dataSource as! ModelController).indexOfViewController(self)
             //加载题目状态
             self.dataObject?.setBookNumberArrayIndexAndDelegate(self.bookNumber!, index: arrayIndex, delegate: self)
             
@@ -102,6 +102,14 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
 //    }
     
     
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
+    
+    override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 44
+    }
+    
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if indexPath.section == 1 {
@@ -118,7 +126,7 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
         
         collectionButtonHighlight = !collectionButtonHighlight
         collectionButtonHighlight ? highlightMarkButton() : whitenMarkButton()
-        var rootViewController = ((self.parentViewController as! UIPageViewController).delegate) as! RootViewController
+//        var rootViewController = ((self.parentViewController as! UIPageViewController).delegate) as! RootViewController
         self.dataObject!.userDidMark(collectionButtonHighlight)
     }
     
@@ -131,8 +139,8 @@ class DataViewController: UITableViewController, UpdateTakeExerciseUI {
     }
     
     private func loadFontSize() {
-        var fontSize: Float = NSUserDefaults.standardUserDefaults().floatForKey("fontSize")
-        var userFont: UIFont = UIFont.systemFontOfSize(CGFloat(fontSize))
+        let fontSize: Float = NSUserDefaults.standardUserDefaults().floatForKey("fontSize")
+        let userFont: UIFont = UIFont.systemFontOfSize(CGFloat(fontSize))
         questionTextView.font = userFont
         optionALabel.font = userFont
         optionBLabel.font = userFont

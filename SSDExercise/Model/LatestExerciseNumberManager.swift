@@ -40,17 +40,17 @@ class LatestExerciseNumberManager {
         return latestIdentifierArray
     }
     
-    func writeLatestIdentifier(#bookNumber: Int, identifier: Int) {
+    func writeLatestIdentifier(bookNumber bookNumber: Int, identifier: Int) {
         latestIdentifierArray[bookNumber - 1] = identifier
         NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LastestIdentifer")
     }
     
-    func requireLatestIndex(#bookNumber: Int)->Int {
+    func requireLatestIndex(bookNumber bookNumber: Int)->Int {
         //将要做下一题，所以 + 1
         return latestIndexArray[bookNumber - 1] + 1
     }
     
-    func writeLatestIndex(#bookNumber: Int, index: Int) {
+    func writeLatestIndex(bookNumber bookNumber: Int, index: Int) {
         latestIndexArray[bookNumber - 1] = index
         NSUserDefaults.standardUserDefaults().setObject(latestIndexArray, forKey: "LatestIndex")
     }
@@ -62,7 +62,7 @@ class LatestExerciseNumberManager {
         NSUserDefaults.standardUserDefaults().setObject(latestIndexArray, forKey: "LatestIndex")
     }
     
-    func resetForBook(#bookNumber: Int) {
+    func resetForBook(bookNumber bookNumber: Int) {
         if bookNumber == 9 {
             latestIdentifierArray[bookNumber-1] = 2
         } else {

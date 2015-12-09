@@ -31,8 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //最新题目数
 //            var defaultLatestNumber = [1, 1, 1, 1, 1, 1, 1, 1, 1]
 //            NSUserDefaults.standardUserDefaults().setObject(defaultLatestNumber, forKey: "LastestNumber")
-            //初始化单例，设置默认最新做题数
-            let manager = LatestExerciseNumberManager.sharedLatestNumberManager
             //将题库中的plist文件导入沙盒中的Documents目录下
             SSDPlistManager.sharedManager.movePlistsToSandbox()
             

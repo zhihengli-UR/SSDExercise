@@ -98,7 +98,7 @@ class ClearRecordTableViewController: UITableViewController {
     }
     
     func prototypeHUD()->JGProgressHUD {
-        var HUD = JGProgressHUD(style: JGProgressHUDStyle.Dark)
+        let HUD = JGProgressHUD(style: JGProgressHUDStyle.Dark)
         HUD.interactionType = JGProgressHUDInteractionType.BlockNoTouches
         HUD.square = true
         HUD.backgroundColor = UIColor(white: 0, alpha: 0.4)
