@@ -934,32 +934,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnX-I0-sSD">
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnX-I0-sSD">
                                 <rect key="frame" x="16" y="72" width="568" height="476"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">终于，它上线了。
+                                <string key="text">Ziqiang Studio（旧名：自强学堂网站）是武汉大学里的一个专注于做产品的互联网团队。
 
-很久之前就有了SSD刷题器安卓版，据说是网络部两个学长期末备考时觉得无聊开发的= =
-感觉挺好用的（除了几个令人蛋疼的bug），在期末突击刷题时尤为方便。
 
-所以，iOS版的SSD刷题器便提上了日程。
-
-感谢吴枭同学这么信任我，把这项任务交给了我！
-
-但是...项目被我足足拖了有半年之久，导致让团队错过了参选国软的“软件文化节”的机会。
-
-趁着暑假，终于完工了。
-
-头一回写一个完整的应用，如有疏漏，还请批评指正。
-
-啊对了，团队介绍：
-
-产品：吴枭
-设计：孙子钧
-开发：李智恒
-
-以上。</string>
+我们致力于用最好的技术、最美的设计给您带来最优秀的用户体验。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
