@@ -35,6 +35,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
         
         let indexShouldShowFirst: Int = self.modelController.indexShouldShowFirst()
         let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(indexShouldShowFirst, storyboard: self.storyboard!)!
+
         let viewControllers = [startingViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: nil)
 

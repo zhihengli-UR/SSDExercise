@@ -657,7 +657,7 @@ must have, domain
 	</dict>
 	<dict>
 		<key>answer</key>
-		<string>2</string>
+		<string>b</string>
 		<key>done</key>
 		<string>0</string>
 		<key>id</key>
@@ -679,7 +679,7 @@ must have, domain
 		<string> add/modify/delete data in the database.  
 </string>
 		<key>question</key>
-		<string>3. DML is used to  
+		<string>23. DML is used to  
  </string>
 		<key>wrong</key>
 		<string>0</string>

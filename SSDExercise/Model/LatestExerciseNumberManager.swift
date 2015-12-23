@@ -18,6 +18,8 @@ class LatestExerciseNumberManager {
     //最新题目的ArrayIndex数组
     private var latestIndexArray: [Int]!
     
+    private let maximumIndexArray = [94, 302, 101, 100, 172, 255, 105, 173, 271]
+    
     var bookNumber: Int!
     
     private init() {
@@ -41,16 +43,25 @@ class LatestExerciseNumberManager {
     }
     
     func writeLatestIdentifier(bookNumber bookNumber: Int, identifier: Int) {
+        if latestIdentifierArray[bookNumber - 1] >= identifier {
+            return
+        }
         latestIdentifierArray[bookNumber - 1] = identifier
         NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LastestIdentifer")
     }
     
     func requireLatestIndex(bookNumber bookNumber: Int)->Int {
         //将要做下一题，所以 + 1
+        if latestIndexArray[bookNumber - 1] == maximumIndexArray[bookNumber - 1] {
+            return latestIndexArray[bookNumber - 1]
+        }
         return latestIndexArray[bookNumber - 1] + 1
     }
     
     func writeLatestIndex(bookNumber bookNumber: Int, index: Int) {
+        if latestIndexArray[bookNumber - 1] >= index {
+            return
+        }
         latestIndexArray[bookNumber - 1] = index
         NSUserDefaults.standardUserDefaults().setObject(latestIndexArray, forKey: "LatestIndex")
     }

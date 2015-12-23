@@ -46,9 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UMFeedback.setAppkey("564cb17e67e58e9465001aa8")
         
-        
-        
-        
+        SSDPlistManager.sharedManager.fixNo68ExerciseInSSD2()
         
         
         return true
