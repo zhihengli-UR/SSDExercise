@@ -27,15 +27,20 @@ class FontSizeViewController: UITableViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 44
         //初始化Slider的值
-        var fontSize: Float = NSUserDefaults.standardUserDefaults().floatForKey("fontSize")
-        var sliderValue = (fontSize - 11) / 2
+        let fontSize: Float = NSUserDefaults.standardUserDefaults().floatForKey("fontSize")
+        let sliderValue = (fontSize - 11) / 2
         fontSlider.setValue(sliderValue, animated: false)
         
-
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("字号")
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(true)
+        MobClick.endLogPageView("字号")
         NSUserDefaults.standardUserDefaults().setFloat(self.fontSize, forKey: "fontSize")
     }
 
@@ -46,9 +51,9 @@ class FontSizeViewController: UITableViewController {
 
     
     @IBAction func sliderValueChanged(sender: AnyObject) {
-        var index: Int = Int(fontSlider.value + 0.5)
+        let index: Int = Int(fontSlider.value + 0.5)
         fontSlider.setValue(Float(index), animated: false)
-        var fontSize: Float = fontNumbers[index]
+        let fontSize: Float = fontNumbers[index]
         demoLabel.font = UIFont.systemFontOfSize(CGFloat(fontSize))
         self.fontSize = fontSize
     }

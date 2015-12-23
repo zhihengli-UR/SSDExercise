@@ -4746,7 +4746,7 @@ Applets are complete, self-contained programs.
 	</dict>
 	<dict>
 		<key>answer</key>
-		<string> </string>
+		<string>a</string>
 		<key>done</key>
 		<string>0</string>
 		<key>id</key>
@@ -4768,7 +4768,7 @@ Applets are complete, self-contained programs.
 		<string> I, II, III, and IV  
 </string>
 		<key>question</key>
-		<string>a159. Security problems in mobile code are often dealt with by which of the following techniques: 
+		<string>159. Security problems in mobile code are often dealt with by which of the following techniques: 
 run-time checking 
 compile-time checking 
 precompile checking 

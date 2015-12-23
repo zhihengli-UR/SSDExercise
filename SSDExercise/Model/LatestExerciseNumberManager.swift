@@ -18,13 +18,15 @@ class LatestExerciseNumberManager {
     //最新题目的ArrayIndex数组
     private var latestIndexArray: [Int]!
     
+    private let maximumIndexArray = [94, 302, 101, 100, 172, 255, 105, 173, 271]
+    
     var bookNumber: Int!
     
     private init() {
         if let identifierArray = NSUserDefaults.standardUserDefaults().objectForKey("LastestIdentifer") as? [Int] {
             latestIdentifierArray = identifierArray
         } else {
-            latestIdentifierArray = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+            latestIdentifierArray = [1, 1, 1, 1, 1, 1, 1, 1, 2]
             NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LastestIdentifer")
         }
         
@@ -40,27 +42,46 @@ class LatestExerciseNumberManager {
         return latestIdentifierArray
     }
     
-    func writeLatestIdentifier(bookNumber: Int, identifier: Int) {
+    func writeLatestIdentifier(bookNumber bookNumber: Int, identifier: Int) {
+        if latestIdentifierArray[bookNumber - 1] >= identifier {
+            return
+        }
         latestIdentifierArray[bookNumber - 1] = identifier
         NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LastestIdentifer")
     }
     
-    func requireLatestIndex(bookNumber: Int)->Int {
+    func requireLatestIndex(bookNumber bookNumber: Int)->Int {
         //将要做下一题，所以 + 1
-        println(latestIndexArray)
+        if latestIndexArray[bookNumber - 1] == maximumIndexArray[bookNumber - 1] {
+            return latestIndexArray[bookNumber - 1]
+        }
         return latestIndexArray[bookNumber - 1] + 1
     }
     
-    func writeLatestIndex(bookNumber: Int, index: Int) {
+    func writeLatestIndex(bookNumber bookNumber: Int, index: Int) {
+        if latestIndexArray[bookNumber - 1] >= index {
+            return
+        }
         latestIndexArray[bookNumber - 1] = index
-        NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LatestIndex")
+        NSUserDefaults.standardUserDefaults().setObject(latestIndexArray, forKey: "LatestIndex")
     }
     
     func resetAll() {
-        latestIdentifierArray = [1, 1, 1, 1, 1, 1, 1, 1, 1]
+        latestIdentifierArray = [1, 1, 1, 1, 1, 1, 1, 1, 2]
         latestIndexArray = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
         NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LastestIdentifer")
-        NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LatestIndex")
+        NSUserDefaults.standardUserDefaults().setObject(latestIndexArray, forKey: "LatestIndex")
+    }
+    
+    func resetForBook(bookNumber bookNumber: Int) {
+        if bookNumber == 9 {
+            latestIdentifierArray[bookNumber-1] = 2
+        } else {
+            latestIdentifierArray[bookNumber-1] = 1
+        }
+        latestIndexArray[bookNumber-1] = -1
+        NSUserDefaults.standardUserDefaults().setObject(latestIdentifierArray, forKey: "LastestIdentifer")
+        NSUserDefaults.standardUserDefaults().setObject(latestIndexArray, forKey: "LatestIndex")
     }
     
     

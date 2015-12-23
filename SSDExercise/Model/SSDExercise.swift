@@ -51,7 +51,7 @@ class SSDExercise: NSObject {
         
         self.exerciseDict = exerciseDict
         
-        identifier = (exerciseDict["identifier"]!).toInt()
+        identifier = Int((exerciseDict["identifier"]!))
         
         answer = exerciseDict["answer"]
         optionA = exerciseDict["optionA"]
@@ -70,7 +70,7 @@ class SSDExercise: NSObject {
     func userDidSelect(userChoice: Int) {
         
         //是否正确
-        var correction: Bool = userChoice == answerToInt[answer!]
+        let correction: Bool = userChoice == answerToInt[answer!]
         
         //若已经做过
         if done {
@@ -90,8 +90,8 @@ class SSDExercise: NSObject {
 //            latestNumberArray[self.bookNumber - 1] = self.identifier
 //            NSUserDefaults.standardUserDefaults().setObject(latestNumberArray, forKey: "LastestNumber")            
             let manager = LatestExerciseNumberManager.sharedLatestNumberManager
-            manager.writeLatestIdentifier(bookNumber, identifier: identifier)
-            manager.writeLatestIndex(bookNumber, index: arrayIndex)
+            manager.writeLatestIdentifier(bookNumber: bookNumber, identifier: identifier)
+            manager.writeLatestIndex(bookNumber: bookNumber, index: arrayIndex)
         }
         
         //答错时
@@ -121,7 +121,7 @@ class SSDExercise: NSObject {
     }
     
     func generateDict()->[String: String] {
-        var dict: [String: String] = NSDictionary(dictionary: ["answer": self.answer, "identifier": "\(self.identifier)", "optionA": self.optionA, "optionB": self.optionB, "optionC": self.optionC, "optionD": self.optionD, "question": self.question, "wrong": self.wrongChoice, "mark": self.mark ? "1" : "0", "done": self.done ? "1" : "0"]) as! [String: String]
+        let dict: [String: String] = NSDictionary(dictionary: ["answer": self.answer, "identifier": "\(self.identifier)", "optionA": self.optionA, "optionB": self.optionB, "optionC": self.optionC, "optionD": self.optionD, "question": self.question, "wrong": self.wrongChoice, "mark": self.mark ? "1" : "0", "done": self.done ? "1" : "0"]) as! [String: String]
         
         
         return dict

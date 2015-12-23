@@ -34,6 +34,16 @@ class ExercisePictureViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("题目图片")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("题目图片")
+    }
 
     // MARK: - Table view data source
 
@@ -98,8 +108,12 @@ class ExercisePictureViewController: UITableViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let destinationViewController = segue.destinationViewController as! ExercisePicturePresentationViewController
         let cell = sender! as! ExercisePictureCell
+        let indexPath = tableView.indexPathForCell(cell)
+        tableView.deselectRowAtIndexPath(indexPath!, animated: false)
+        
+        let destinationViewController = segue.destinationViewController as! ExercisePicturePresentationViewController
+        
         destinationViewController.exerciseNumber = cell.exerciseNumberLabel.text
         
     }

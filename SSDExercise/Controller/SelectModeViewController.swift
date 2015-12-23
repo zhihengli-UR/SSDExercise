@@ -36,7 +36,7 @@ class SelectModeViewController: UIViewController {
         self.selectModeButtons = [button1, button2, button3, button4, button5]
         self.selectModeLabels = [label1, label2, label3, label4, label5]
         
-        var index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
+        let index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
         tintWhiteColor()
         tintThemeColor(selectModeButtons[index])
         
@@ -44,9 +44,20 @@ class SelectModeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        MobClick.beginLogPageView("做题模式")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        MobClick.endLogPageView("做题模式")
+    }
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
-        var index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
+        let index: Int = modeInt[NSUserDefaults.standardUserDefaults().objectForKey("Mode") as! String]!
         tintWhiteColor()
         tintThemeColor(selectModeButtons[index])
     }
@@ -59,8 +70,9 @@ class SelectModeViewController: UIViewController {
     @IBAction func SelectModeButtonsOnClick(sender: UIButton) {
         tintWhiteColor()
         tintThemeColor(sender)
-        //globalMode = self.modeDict[sender.tag]
-        NSUserDefaults.standardUserDefaults().setObject(self.modeDict[sender.tag], forKey: "Mode")
+        let mode: String = self.modeDict[sender.tag]
+        NSUserDefaults.standardUserDefaults().setObject(mode, forKey: "Mode")
+        MobClick.event("ChangeExerciseMode", attributes: ["Mode": mode])
     }
     
     
@@ -77,7 +89,7 @@ class SelectModeViewController: UIViewController {
     
     func tintThemeColor(button: UIButton) {
         button.setImage(UIImage(named: "icon_pre"), forState: UIControlState.Normal)
-        var labelSelect: UILabel = selectModeLabels[button.tag]
+        let labelSelect: UILabel = selectModeLabels[button.tag]
         labelSelect.textColor = themeColor
     }
     

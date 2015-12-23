@@ -200,7 +200,7 @@ int main (int argc, char *argv[]) {
 	</dict>
 	<dict>
 		<key>answer</key>
-		<string> </string>
+		<string>b</string>
 		<key>done</key>
 		<string>0</string>
 		<key>id</key>
@@ -222,7 +222,7 @@ int main (int argc, char *argv[]) {
 		<string> 4 
 </string>
 		<key>question</key>
-		<string>b7.What does the following program print? 
+		<string>7.What does the following program print? 
 void callee(int * count) {
     (*count)++;
 }
@@ -941,7 +941,7 @@ When it is executed with the argument 5, the variable n is allocated to
 		<string> The values of &amp;a and &amp;b are closer to each other than the values of &amp;c and &amp;d.
 </string>
 		<key>question</key>
-		<string>c 29.  Consider the following code fragment. 
+		<string>29.  Consider the following code fragment. 
 int a;
 int b;
 int main(int argc, char *argv[]) {
@@ -980,7 +980,7 @@ Which of the following must be true?
 		<string> II and III only
 </string>
 		<key>question</key>
-		<string>0. Which of the following is a good reason (are good reasons) to equip the CPU with small amounts of fast memory? 
+		<string>30. Which of the following is a good reason (are good reasons) to equip the CPU with small amounts of fast memory? 
    I.To make the design of the compiler simpler 
    II.To make some CPU instructions smaller 
    III.To make some CPU instructions faster 
