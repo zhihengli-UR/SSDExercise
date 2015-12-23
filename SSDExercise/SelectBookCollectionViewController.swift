@@ -41,7 +41,7 @@ class SSDBookCell : UICollectionViewCell {
 
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -49,7 +49,7 @@ class SSDBookCell : UICollectionViewCell {
 
 let reuseIdentifier = "Cell"
 
-class SelectBookCollectionViewController: UICollectionViewController, UICollectionViewDelegate, UICollectionViewDataSource, BookNumberTransmitDelegate, UITextViewDelegate, UICollectionViewDelegateFlowLayout {
+class SelectBookCollectionViewController: UICollectionViewController, BookNumberTransmitDelegate, UITextViewDelegate, UICollectionViewDelegateFlowLayout {
     
     var bookNumberArray : [String]!
     var bookNameArray : [String]!
@@ -70,7 +70,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         // Register cell classes
         self.collectionView!.registerClass(SSDBookCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         
-        var bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!)!)
+        let bookDictionaryFromPlist = NSDictionary(contentsOfURL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("BookName", ofType: "plist")!))
         self.bookNumberArray = bookDictionaryFromPlist?.objectForKey("BookNumber" as NSString) as! [String]
         self.bookNameArray = bookDictionaryFromPlist?.objectForKey("BookName" as NSString) as! [String]
         self.bookRatioArray = bookDictionaryFromPlist?.objectForKey("ExercisesCount" as NSString) as! [Int]
@@ -156,8 +156,8 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        var width = self.view.frame.width
-        var cellWidth = CGFloat(Int((width - 80)/3))
+        let width = self.view.frame.width
+        let cellWidth = CGFloat(Int((width - 80)/3))
         return CGSize(width: cellWidth, height: cellWidth * 1.3)
     }
     
@@ -174,7 +174,7 @@ class SelectBookCollectionViewController: UICollectionViewController, UICollecti
         
         self.selectedBookNumber = indexPath.section * 3 + indexPath.item + 1
         
-        var takeExerciseViewController: RootViewController = UIStoryboard(name: "TakeExercise", bundle: nil).instantiateViewControllerWithIdentifier("RootViewController") as! RootViewController
+        let takeExerciseViewController: RootViewController = UIStoryboard(name: "TakeExercise", bundle: nil).instantiateViewControllerWithIdentifier("RootViewController") as! RootViewController
         
         takeExerciseViewController.dataTransmitDelegate = self
         

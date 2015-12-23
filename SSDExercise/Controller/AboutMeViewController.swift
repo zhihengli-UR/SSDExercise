@@ -13,8 +13,8 @@ class AboutMeViewController: UITableViewController {
     @IBOutlet weak var versionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        var version = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
-        var build = NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String
+        let version = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
+        let build = NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String
         self.versionLabel.text = "v\(version)(\(build))"
         
     }

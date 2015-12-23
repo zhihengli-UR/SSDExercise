@@ -27,14 +27,15 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
         self.navigationItem.title = "SSD\(self.selectedBookNumberFromRootViewController)"   //设置NavigationBar的Title
         
         if (self.navigationController?.respondsToSelector("interactivePopGestureRecognizer") != nil){
-            self.navigationController?.interactivePopGestureRecognizer.enabled = false    //禁用滑动返回
+            self.navigationController?.interactivePopGestureRecognizer!.enabled = false    //禁用滑动返回
         }
         
         self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
         self.pageViewController!.delegate = self
         
-        var indexShouldShowFirst: Int = self.modelController.indexShouldShowFirst()
+        let indexShouldShowFirst: Int = self.modelController.indexShouldShowFirst()
         let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(indexShouldShowFirst, storyboard: self.storyboard!)!
+
         let viewControllers = [startingViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: nil)
 
@@ -44,7 +45,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
         self.view.addSubview(self.pageViewController!.view)
 
 
-        var pageViewFrame: CGRect = self.view.bounds
+        let pageViewFrame: CGRect = self.view.bounds
         self.pageViewController!.view.frame = pageViewFrame
         self.pageViewController!.didMoveToParentViewController(self)
 
@@ -83,7 +84,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
 
     func pageViewController(pageViewController: UIPageViewController, spineLocationForInterfaceOrientation orientation: UIInterfaceOrientation) -> UIPageViewControllerSpineLocation {
         // Set the spine position to "min" and the page view controller's view controllers array to contain just one view controller. Setting the spine position to 'UIPageViewControllerSpineLocationMid' in landscape orientation sets the doubleSided property to true, so set it to false here.
-        let currentViewController = self.pageViewController!.viewControllers[0] as! UIViewController
+        let currentViewController = self.pageViewController!.viewControllers![0] 
         let viewControllers = [currentViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: true, completion: {done in })
 
@@ -92,8 +93,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate, ModelC
     }
     
     func arrayIsEmpty() {
-        var alert = UIAlertController(title: "", message: "该做题模式下，SSD\(selectedBookNumberFromRootViewController)没有要做的题哟~", preferredStyle: UIAlertControllerStyle.Alert)
-        var action = UIAlertAction(title: "好的", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
+        let alert = UIAlertController(title: "", message: "该做题模式下，SSD\(selectedBookNumberFromRootViewController)没有要做的题哟~", preferredStyle: UIAlertControllerStyle.Alert)
+        let action = UIAlertAction(title: "好的", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
             self.navigationController?.popViewControllerAnimated(true)
         })
         alert.addAction(action)

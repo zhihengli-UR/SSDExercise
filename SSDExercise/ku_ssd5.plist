@@ -1729,7 +1729,7 @@ Which of the following is true about using this outline to implement a general c
 		<string> None  
 </string>
 		<key>question</key>
-		<string>58d58. Which of the following statements regarding the design of the Standard Template Library (STL) in C++ is (are) true? 
+		<string>58. Which of the following statements regarding the design of the Standard Template Library (STL) in C++ is (are) true? 
 Each STL algorithm is usable with one specific container. 
 The STL does not use templates and instead relies on polymorphism.
  </string>
@@ -1792,7 +1792,7 @@ Algorithms
 		<string> virtual functions  
 </string>
 		<key>question</key>
-		<string>60b60. In the STL, common algorithms are instantiated for multiple types of container classes by using _____ to provide a uniform interface between the algorithms and containers. 
+		<string>60. In the STL, common algorithms are instantiated for multiple types of container classes by using _____ to provide a uniform interface between the algorithms and containers. 
  </string>
 		<key>wrong</key>
 		<string>0</string>

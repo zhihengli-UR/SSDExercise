@@ -360,13 +360,13 @@ A computer that uses transistors would require more power than a computer that u
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> An Intelligent Agent is a program that collects information about a user&apos;s behavior, and customizes the content on a Web site accordingly.
+		<string> An Intelligent Agent is a program that collects information about a user's behavior, and customizes the content on a Web site accordingly.
  </string>
 		<key>optionB</key>
 		<string> An Intelligent Agent is a program that keeps track of the product database, work schedule, and budget of a project.
  </string>
 		<key>optionC</key>
-		<string> An Intelligent Agent is a database that gathers information about the customer base, marketing effectiveness, and market trends in order to learn more about customers&apos; behaviors.
+		<string> An Intelligent Agent is a database that gathers information about the customer base, marketing effectiveness, and market trends in order to learn more about customers' behaviors.
  </string>
 		<key>optionD</key>
 		<string> An Intelligent Agent enables customers to search a consumer Web site.  
@@ -1125,7 +1125,7 @@ Microprocessors typically contain millions of transistors.
 		<string> On the motherboard 
 </string>
 		<key>question</key>
-		<string>37. Where is a computer&apos;s CPU located?  
+		<string>37. Where is a computer's CPU located?  
    </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -1325,13 +1325,13 @@ The Arithmetic/Logic Unit
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> To execute only the operating system&apos;s instructions
+		<string> To execute only the operating system's instructions
  </string>
 		<key>optionB</key>
 		<string> To execute only the instructions within a user specified application
  </string>
 		<key>optionC</key>
-		<string> To execute any program&apos;s instructions stored in RAM
+		<string> To execute any program's instructions stored in RAM
  </string>
 		<key>optionD</key>
 		<string> To determine if a program functions correctly before using it
@@ -1443,7 +1443,7 @@ Store
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> To execute any program&apos;s instructions stored in RAM
+		<string> To execute any program's instructions stored in RAM
  </string>
 		<key>optionB</key>
 		<string> To determine if a program functions correctly before using it
@@ -1452,7 +1452,7 @@ Store
 		<string> To execute only the instructions within a user specified application
  </string>
 		<key>optionD</key>
-		<string> To execute only the operating system&apos;s instructions
+		<string> To execute only the operating system's instructions
 </string>
 		<key>question</key>
 		<string>48. Which of the following is the primary function of a CPU?  
@@ -2010,7 +2010,8 @@ EIDE
 	</dict>
 	<dict>
 		<key>answer</key>
-		<string>b</string>
+		<string>b
+</string>
 		<key>done</key>
 		<string>0</string>
 		<key>id</key>
@@ -2094,7 +2095,7 @@ Ink-jet printers are typically faster than laser printers.
 		<string> None
 </string>
 		<key>question</key>
-		<string>s70. Which of the following is (are) true of computer printers? 
+		<string>70. Which of the following is (are) true of computer printers? 
 Typically, ink-jet printers have a lower cost per page than laser printers. 
 Ink-jet printers are typically faster than laser printers. 
   </string>
@@ -3085,7 +3086,7 @@ CompactFlash and SmartMedia cards are examples of flash memory storage devices.
 		<string> II and III only
 </string>
 		<key>question</key>
-		<string>103. Which of the following areas of computer technology does Moore&apos;s Law impact in some way?
+		<string>103. Which of the following areas of computer technology does Moore's Law impact in some way?
 Cost of software 
 Processor speeds 
 Amount of RAM on a chip 
@@ -3117,7 +3118,7 @@ Amount of RAM on a chip
 		<string> 160 GB  
 </string>
 		<key>question</key>
-		<string>104. If Moore&apos;s Law holds true for disk capacities and if the largest disk currently available is 10GB, what is predicted to be the largest disk capacity six years from now, assuming an 18 month cycle to double capacity?  
+		<string>104. If Moore's Law holds true for disk capacities and if the largest disk currently available is 10GB, what is predicted to be the largest disk capacity six years from now, assuming an 18 month cycle to double capacity?  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -3207,7 +3208,7 @@ Bus transfers to network cards and video cards are too slow when compared to CPU
 		<string> Approximately three times the amount of money paid for the old computer 
 </string>
 		<key>question</key>
-		<string>107. Consumer demand for more powerful desktop computers continues to grow at a rapid pace, keeping up with the technological advances predicted by Moore&apos;s Law. 
+		<string>107. Consumer demand for more powerful desktop computers continues to grow at a rapid pace, keeping up with the technological advances predicted by Moore's Law. 
 If a user purchased a state-of-the-art computer 18 months ago, what should such a user expect to pay for a computer today that is twice as powerful as the computer that is now 18 months old?
   </string>
 		<key>wrong</key>
@@ -3237,7 +3238,7 @@ If a user purchased a state-of-the-art computer 18 months ago, what should such 
 		<string> results in decreased use of memory
 </string>
 		<key>question</key>
-		<string>108. According to Parkinson&apos;s Law of Data, additional memory  
+		<string>108. According to Parkinson's Law of Data, additional memory  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -3295,7 +3296,7 @@ If a user purchased a state-of-the-art computer 18 months ago, what should such 
 		<string> not limited and will continue on throughout the 21st century 
 </string>
 		<key>question</key>
-		<string>110. In the future, continued technological advances that follow Moore&apos;s Law are  
+		<string>110. In the future, continued technological advances that follow Moore's Law are  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -3341,7 +3342,7 @@ If a user purchased a state-of-the-art computer 18 months ago, what should such 
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> You cannot load and execute a program unless there is sufficient RAM to hold all of a program&apos;s CPU instructions.
+		<string> You cannot load and execute a program unless there is sufficient RAM to hold all of a program's CPU instructions.
  </string>
 		<key>optionB</key>
 		<string> Multitasking and large programs run slowly if there is insufficient RAM.
@@ -3750,7 +3751,7 @@ Which of the following lists the drives in the order, first-to-last, that the BI
 		<key>question</key>
 		<string>125. Which of the following are true about a context switch being performed by the operating system during multitasking?
 It occurs whenever the CPU is switched to execute the instructions of a different task. 
-It needs to save the CPU&apos;s registers for a process, so at a later time it can resume processing where it left off. 
+It needs to save the CPU's registers for a process, so at a later time it can resume processing where it left off. 
 In a system executing many tasks at once, it has little or no impact on system performance. 
   </string>
 		<key>wrong</key>
@@ -3864,13 +3865,13 @@ A task has been in control of the CPU for longer than some predetermined maximum
 		<string> The hardware interface may be proprietary to a vendor.
  </string>
 		<key>optionB</key>
-		<string> The hardware interface on one vendor&apos;s product may support more functionality.
+		<string> The hardware interface on one vendor's product may support more functionality.
  </string>
 		<key>optionC</key>
 		<string> The operating system was released prior to the hardware product becoming available.
  </string>
 		<key>optionD</key>
-		<string> The new driver corrects problems that were discovered in the application&apos;s interface to the device driver.
+		<string> The new driver corrects problems that were discovered in the application's interface to the device driver.
 </string>
 		<key>question</key>
 		<string>129. Which of the following is not a reason why similar hardware products typically include their own device drivers to be installed on the system?
@@ -3905,7 +3906,7 @@ A task has been in control of the CPU for longer than some predetermined maximum
 		<string>130. Which of the following options in the Windows operating system can be used to improve aesthetics and convenience?
 Using the Control Panel 
 Using the View menu options in My Computer or Explorer 
-Changing the settings used by BIOS that control the PC&apos;s hardware configuration 
+Changing the settings used by BIOS that control the PC's hardware configuration 
  </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -3965,7 +3966,7 @@ Changing the settings used by BIOS that control the PC&apos;s hardware configura
 		<key>question</key>
 		<string>132. Which of the following operations cause(s) a fault to occur?
 The hardware is asked to do something it cannot do. 
-The memory&apos;s error correction circuitry detects an uncorrectable error. 
+The memory's error correction circuitry detects an uncorrectable error. 
 The program contains an illegal machine instruction. 
  </string>
 		<key>wrong</key>
@@ -5106,7 +5107,7 @@ It performs a set of commands after hours that do not require user input.
 		<string> I only  
 </string>
 		<key>question</key>
-		<string>172. Which of the following is (are) true regarding the use of Standard Input and Standard Output logical device facilities provided through an operating system&apos;s command line interface?
+		<string>172. Which of the following is (are) true regarding the use of Standard Input and Standard Output logical device facilities provided through an operating system's command line interface?
 Use &gt; abc.txt to change the Standard Output logical device to be the file abc.txt. 
 Use &lt;&lt; abc.txt the change the Standard Input logical device to be the file abc.txt. 
 Use the | character between two commands, allowing the output of the first to be used as input for the second. 
@@ -5460,7 +5461,7 @@ A database consolidates flat files into a single collection of diverse informati
 		<string> High-level 
 </string>
 		<key>question</key>
-		<string>184. What type of language allows a programmer to use instructions that are more like human language, such as the BASIC command PRINT &quot;Please wait...&quot;?
+		<string>184. What type of language allows a programmer to use instructions that are more like human language, such as the BASIC command PRINT "Please wait..."?
    </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -5699,7 +5700,7 @@ They allow programs to be written in less time.
 </string>
 		<key>question</key>
 		<string>192. Which of the following are likely to be determined because of teams of designers evaluating systems that are currently released and installed at customer sites?
-New features required to extend the systems&apos; functionality 
+New features required to extend the systems' functionality 
 Existing features that need to be enhanced with additional functionality 
 Improvements that can be made to the user interfaces 
   </string>
@@ -5872,10 +5873,10 @@ Improvements that can be made to the user interfaces
 		<string> The HTML program file in the text folder should be used to interpret this file.
  </string>
 		<key>optionD</key>
-		<string> The file should be saved to the client&apos;s disk using the name &quot;text/html&quot;
+		<string> The file should be saved to the client's disk using the name "text/html"
 </string>
 		<key>question</key>
-		<string>198. If a MIME designation in a file attached to an email has the name &quot;text/html&quot;, then the client&apos;s email reader interprets this to mean which of the following?  
+		<string>198. If a MIME designation in a file attached to an email has the name "text/html", then the client's email reader interprets this to mean which of the following?  
    </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -5921,19 +5922,19 @@ Improvements that can be made to the user interfaces
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> The computer name of the recipient&apos;s computer
+		<string> The computer name of the recipient's computer
  </string>
 		<key>optionB</key>
 		<string> The Web server of the recipient
  </string>
 		<key>optionC</key>
-		<string> The IP address of the recipient&apos;s computer
+		<string> The IP address of the recipient's computer
  </string>
 		<key>optionD</key>
 		<string> The email server name on which the recipient has an account
 </string>
 		<key>question</key>
-		<string>200. Which of the following correctly characterizes the part of the email address after the @ (the &quot;at&quot; sign)?  
+		<string>200. Which of the following correctly characterizes the part of the email address after the @ (the "at" sign)?  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -6336,16 +6337,16 @@ Servers do not normally run user programs, so they are more likely to be reliabl
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> the sender&apos;s email client
+		<string> the sender's email client
  </string>
 		<key>optionB</key>
-		<string> the recipient&apos;s email server
+		<string> the recipient's email server
  </string>
 		<key>optionC</key>
-		<string> the sender&apos;s email server
+		<string> the sender's email server
  </string>
 		<key>optionD</key>
-		<string> the recipient&apos;s computer 
+		<string> the recipient's computer 
 </string>
 		<key>question</key>
 		<string>214. When you send an email to someone, it is sent to  
@@ -6470,7 +6471,7 @@ A handheld computer is a typical example of a thin client.
 		<string> parity  
 </string>
 		<key>question</key>
-		<string>218.Effective communication depends on the efficiency of the coding process and the channel&apos;s resistance to electrical interference called  
+		<string>218.Effective communication depends on the efficiency of the coding process and the channel's resistance to electrical interference called  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -7002,7 +7003,7 @@ FTP
 		<string> domain name to which the computer belongs
  </string>
 		<key>optionB</key>
-		<string> name of the computer within the company&apos;s network of computers
+		<string> name of the computer within the company's network of computers
  </string>
 		<key>optionC</key>
 		<string> name of the company to which the Web server belongs
@@ -7156,7 +7157,7 @@ FTP
 		<string> The number of routers involved in relaying the message to the destination computer
 s</string>
 		<key>question</key>
-		<string>241. When messages are sent between computers on the Internet, the term &quot;hop count&quot; indicates which of the following?  
+		<string>241. When messages are sent between computers on the Internet, the term "hop count" indicates which of the following?  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -7214,7 +7215,7 @@ s</string>
 		<string> domain where the Web server resides  
 </string>
 		<key>question</key>
-		<string>243. When a fully explicit URL such as http://www.icarnegie.com is provided to an Internet browser, &quot;http&quot; refers to the name of the  
+		<string>243. When a fully explicit URL such as http://www.icarnegie.com is provided to an Internet browser, "http" refers to the name of the  
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -7245,8 +7246,8 @@ s</string>
 		<key>question</key>
 		<string>244.Which of the following services may be provided by an ISP?
 A temporary IP address 
-An account on the ISP&apos;s email server 
-Web hosting of the customer&apos;s Web page 
+An account on the ISP's email server 
+Web hosting of the customer's Web page 
   </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -7306,7 +7307,7 @@ Web hosting of the customer&apos;s Web page
 		<key>question</key>
 		<string>246.Which of the following is (are) true about the names of Internet resources?
 A domain name must be registered at InterNIC along with its IP address. 
-Every specific computer&apos;s name that can be accessed via the Internet is registered at InterNIC. 
+Every specific computer's name that can be accessed via the Internet is registered at InterNIC. 
 Computers can be referred to by their fully-qualified domain name only and not by their IP address. 
    </string>
 		<key>wrong</key>
@@ -7648,7 +7649,7 @@ There is low computer memory on disks.
 		<key>question</key>
 		<string>257.Which of the following are common behaviors of computer viruses?
 Self-replication 
-Infliction of physical damage to the computer&apos;s hardware 
+Infliction of physical damage to the computer's hardware 
 Unwarranted file removal 
    </string>
 		<key>wrong</key>
@@ -7857,7 +7858,7 @@ Limiting physical access to network connections
 		<string> The document could have contained a macro that contained a virus. 
 </string>
 		<key>question</key>
-		<string>264.After loading a word processor document from a floppy, a user&apos;s computer begins to show symptoms of being infected by a virus. 
+		<string>264.After loading a word processor document from a floppy, a user's computer begins to show symptoms of being infected by a virus. 
 Which of the following is true concerning this situation?
    </string>
 		<key>wrong</key>
@@ -7950,7 +7951,7 @@ A network connectivity attack can be achieved by generating excessive amount of 
 		<string> I and III only 
 </string>
 		<key>question</key>
-		<string>267.Which of the following conditions on a user&apos;s computer might indicate the presence of a computer virus?
+		<string>267.Which of the following conditions on a user's computer might indicate the presence of a computer virus?
 Certain files of the user are no longer present on the disk. 
 The system no longer boots. 
 Annoying messages appear on the display, and then disappear. 
@@ -8192,7 +8193,7 @@ Monitor network usage and investigate suspicious activities
 		<string> I and III only
 </string>
 		<key>question</key>
-		<string>275.Which of the following conditions on a user&apos;s computer might indicate the presence of a computer virus?
+		<string>275.Which of the following conditions on a user's computer might indicate the presence of a computer virus?
 Certain files of the user are no longer present on the disk. 
 The system no longer boots. 
 Annoying messages appear on the display, and then disappear. 
@@ -8344,7 +8345,7 @@ You did not answer this question.
 		<string> I and III only  
 </string>
 		<key>question</key>
-		<string>280.Which of the following reasons is (are) valid for why &quot;iCarnegie&quot; is a bad password? 
+		<string>280.Which of the following reasons is (are) valid for why "iCarnegie" is a bad password? 
 It is a word from the dictionary. 
 It does not contain numbers and symbols. 
 It is the name of an institution. 
@@ -8494,7 +8495,7 @@ They can encrypt data.
 		<string> Customers should never provide charge card information when asked to complete an electronic commerce transaction.
  </string>
 		<key>optionD</key>
-		<string> Transactions are relatively secure between the consumer and a company&apos;s Web site if the data is encrypted.  
+		<string> Transactions are relatively secure between the consumer and a company's Web site if the data is encrypted.  
 </string>
 		<key>question</key>
 		<string>285. Which of the following is correct with respect to customers providing highly personal information across the Internet through electronic commerce transactions?  
@@ -8514,16 +8515,16 @@ They can encrypt data.
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> Encrypt the message using the receiver&apos;s private key.
+		<string> Encrypt the message using the receiver's private key.
  </string>
 		<key>optionB</key>
-		<string> Encrypt the message using the sender&apos;s private key.
+		<string> Encrypt the message using the sender's private key.
  </string>
 		<key>optionC</key>
-		<string> Encrypt the message using the receiver&apos;s public key.
+		<string> Encrypt the message using the receiver's public key.
  </string>
 		<key>optionD</key>
-		<string> Encrypt the message using the sender&apos;s public key. 
+		<string> Encrypt the message using the sender's public key. 
 </string>
 		<key>question</key>
 		<string>286.To encrypt a message using public-key encryption scheme, which of the following must be done? 
@@ -8662,7 +8663,7 @@ In public key encryption, the sender and the receiver of encrypted data both use
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> It is not a very secure method of encryption, because every computer is aware of a recipient&apos;s public key value and can decrypt the data.
+		<string> It is not a very secure method of encryption, because every computer is aware of a recipient's public key value and can decrypt the data.
  </string>
 		<key>optionB</key>
 		<string> It is used by client computers when transferring encrypted data from that particular server.
@@ -8674,7 +8675,7 @@ In public key encryption, the sender and the receiver of encrypted data both use
 		<string> It is used by the server to decrypt information sent by a client.
 </string>
 		<key>question</key>
-		<string>291.With respect to public key encryption, which of the following is true of a server&apos;s public key when transferring data across the Internet to a client computer?  
+		<string>291.With respect to public key encryption, which of the following is true of a server's public key when transferring data across the Internet to a client computer?  
    </string>
 		<key>wrong</key>
 		<string>0</string>
@@ -9031,7 +9032,7 @@ Keep your backup media close to your computer so that you can access it quickly.
 		<key>mark</key>
 		<string>0</string>
 		<key>optionA</key>
-		<string> The computer&apos;s least used disk drive
+		<string> The computer's least used disk drive
  </string>
 		<key>optionB</key>
 		<string> A disk drive located on a file server
